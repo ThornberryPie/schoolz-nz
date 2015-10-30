@@ -1,0 +1,123 @@
+@import 'vars';
+html, body, .map-wrap{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+body{
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 100%;
+	color: $dark;
+}
+h1, h2, h3, h4{
+	margin: 0;
+	padding: 0;
+}
+h2, strong{
+	text-shadow: 1px 1px 1px #ccc;
+	color: black;
+	font-weight: normal;
+}
+div{
+	font-family: Arial, sans-serif;
+}
+#map_main{
+	width: 100% !important;
+	height: 100% !important;
+	display: none;
+	position: relative;
+	z-index: 1;
+}
+#map_search{
+	width: 87%;
+	position: absolute;
+	top: 10px;
+	left: 110px;
+	background: #fff;
+	z-index: 9;
+	display: block;
+	border: 1px solid #979899;
+	box-sizing: border-box;
+	padding: 4px 7px 6px;
+	font-size: 14px;
+	-moz-box-shadow: 1px 1px 2px #666;
+	-webkit-box-shadow: 1px 1px 2px #666;
+	box-shadow: 1px 1px 2px #666;
+}
+
+.block{
+	padding-top: 10px;
+	font-size: 1.1em;
+	&.website{
+		font-size: 0.9em;
+	}
+}
+.decile1{
+	h2, strong, a{
+		color: $decile1;
+	}
+}
+.decile2{
+	h2, strong, a{
+		color: $decile2;
+	}
+}
+.decile3{
+	h2, strong, a{
+		color: $decile3;
+	}
+}
+.decile4{
+	h2, strong, a{
+		color: $decile4;
+	}
+}
+.decile5{
+	h2, strong, a{
+		color: $decile5;
+	}
+}
+.decile6{
+	h2, strong, a{
+		color: $decile6;
+	}
+}
+.decile7{
+	h2, strong, a{
+		color: $decile7;
+	}
+}
+.decile8{
+	h2, strong, a{
+		color: $decile8;
+	}
+}
+.decile9{
+	h2, strong, a{
+		color: $decile9;
+	}
+}
+.decile10{
+	h2, strong, a{
+		color: $decile10;
+	}
+}
+
+@media screen and (max-width:980px){
+	#map_search{
+		width: 84%;
+	}
+}
+
+@media screen and (max-width:768px){
+	#map_search{
+		width: 74%;
+	}
+}
+
+@media screen and (max-width:480px){
+	#map_search{
+		width: 64%;
+	}
+}
