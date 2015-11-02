@@ -20,6 +20,10 @@ h2, strong {
 
 div {
   font-family: Arial, sans-serif; }
+  article div {
+    font-size: 0.9em; }
+    article div strong {
+      font-size: 1em; }
 
 #map_main {
   width: 100% !important;
@@ -29,10 +33,10 @@ div {
   z-index: 1; }
 
 #map_search {
-  width: 86%;
+  width: 87%;
   position: absolute;
   top: 10px;
-  left: 115px;
+  left: 110px;
   background: #fff;
   z-index: 9;
   display: block;
@@ -45,8 +49,7 @@ div {
   box-shadow: 1px 1px 2px #666; }
 
 .block {
-  padding-top: 10px;
-  font-size: 1.1em; }
+  padding-top: 10px; }
   .block.website {
     font-size: 0.9em; }
 
@@ -82,13 +85,12 @@ div {
 
 @media screen and (max-width: 980px) {
   #map_search {
-    width: 82%; } }
-
+    width: 84%; } }
 @media screen and (max-width: 768px) {
   #map_search {
-    width: 72%; } }
-
+    width: 74%; } }
 @media screen and (max-width: 480px) {
   #map_search {
-    left: 120px;
-    width: 60%; } }
+    width: 64%; } }
+
+/*# sourceMappingURL=style.css.map */

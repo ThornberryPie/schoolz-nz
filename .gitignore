@@ -1,0 +1,10 @@
+_Reference
+
+# SASS cache files
+css/sass/.sass-cache
+css/style.css.map
+
+# OS generated files
+ehthumbs.db
+Thumbs.db
+.DS_Store

@@ -21,6 +21,12 @@ h2, strong{
 }
 div{
 	font-family: Arial, sans-serif;
+	article &{
+		font-size: 0.9em;
+		strong{
+			font-size: 1em;
+		}
+	}
 }
 #map_main{
 	width: 100% !important;
@@ -48,7 +54,6 @@ div{
 
 .block{
 	padding-top: 10px;
-	font-size: 1.1em;
 	&.website{
 		font-size: 0.9em;
 	}
