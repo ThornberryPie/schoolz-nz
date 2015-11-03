@@ -1,1 +1,1 @@
-# Just open index.html in a browser and you're good to go.
+# Open index.html in a web browser to start the app.
