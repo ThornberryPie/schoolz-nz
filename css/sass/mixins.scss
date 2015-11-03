@@ -5,13 +5,14 @@
 	border-radius: $r;
 }
 @mixin box-shadow(){
-	-webkit-box-shadow: 1px 1px 2px $shadow;
-	-moz-box-shadow: 1px 1px 2px $shadow;
-	box-shadow: 1px 1px 2px $shadow;
+	-webkit-box-shadow: $box-shadow;
+	-moz-box-shadow: $box-shadow;
+	box-shadow: $box-shadow;
 }
 @mixin panel() {   
-	@include border-radius(3px);
+	@include border-radius(2px);
 	@include box-shadow();
-	border: 1px solid $border-color;
+	//border: 1px solid $border-color;
+	border: 0;
 	box-sizing: border-box;
 }
