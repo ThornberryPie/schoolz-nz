@@ -54,7 +54,7 @@
     <div class="map-wrap">
       <map id="map_main" zoom="{{zoom}}" center="{{address}}"></map>
     </div>
-    <input id="map_search" ng-model="address" placeholder="Find a School" list="schoolList" ng-keyup="searchKeyUp($event)" ng-change="searchChange()">
+    <input id="map_search" ng-model="address" placeholder="Find a School in NZ" list="schoolList" ng-keyup="searchKeyUp($event)" ng-change="searchChange()">
     <datalist id="schoolList">
       <option ng-repeat="school in schoolz">{{school.FIELD2}}, {{school.FIELD23}}</option>
     </datalist>
