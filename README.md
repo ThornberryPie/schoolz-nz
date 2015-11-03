@@ -1,1 +1,1 @@
-# Just open the index.html in a browser and you're good to go.
+# Just open index.html in a browser and you're good to go.
