@@ -5,6 +5,7 @@
     lang="en" dir="ltr">
 <head>
 <title>Schools in New Zealand</title>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 <meta name="description" content="View NZ school information on Google Maps, compare deciles and demographics." />
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 <meta property="og:title" content="View New Zealand schools on Google Maps" />
@@ -25,8 +26,12 @@
 <script src="services/navigator_geolocation.js"></script>
 <script src="services/attr2_options.js"></script>
 <script src="data/schoolz.js"></script>
+<script src="data/pylonz.js"></script>
+<script src="data/busz.js"></script>
+<script src="data/substationz.js"></script>
 <script src="scripts/markerclusterer_packed.js"></script>
 <script src="scripts/gt_school.js"></script>
+<script src="scripts/gt_substation.js"></script>
 <script src="scripts/gt_mapControl.js"></script>
 
 <link rel="stylesheet" type="text/css" href="css/style.css?v=1">
@@ -54,7 +59,18 @@
     <div class="map-wrap">
       <map id="map_main" zoom="{{zoom}}" center="{{address}}"></map>
     </div>
-    <input id="map_search" ng-model="address" placeholder="Find a School in NZ" list="schoolList" ng-keyup="searchKeyUp($event)" ng-change="searchChange()">
+    <header id="map-header">
+      <div id="search-wrap">
+        <label id="search-label">Search:&nbsp;</label>
+        <input id="map_search" ng-model="address" placeholder="Find a School in NZ" list="schoolList" ng-keyup="searchKeyUp($event)" ng-change="searchChange()">
+      </div>
+
+      <div id="map_legend" open="open">
+        <p><span class="red line">------</span><small>Power&nbsp;Grid</small></p>
+        <p><span class="blue line">------</span><small>Bus&nbsp;Routz</small></p>
+      </div>
+    </header>
+
     <datalist id="schoolList">
       <option ng-repeat="school in schoolz">{{school.FIELD2}}, {{school.FIELD23}}</option>
     </datalist>
@@ -64,7 +80,7 @@
             <span class="bigtext">Graeme&nbsp;Thornber</span>
             <span class="smalltext">GT</span>
         </a>
-        <span class="copy">&copy;&nbsp;2015</span>
+        <span class="copy">&copy;&nbsp;2016</span>
         </div>
         <div id="map_social">
             <div class="fb-share-button" data-href="http://schools.graemethornber.com/" data-layout="button_count"></div>

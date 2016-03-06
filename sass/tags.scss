@@ -1,0 +1,30 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+body{
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 100%;
+	color: $dark;
+}
+h1, h2, h3, h4, h5, h6, p{
+	margin: 0;
+	padding: 0;
+}
+h2, strong{
+	text-shadow: 1px 1px 1px #efefef;
+	color: black;
+	font-weight: normal;
+}
+div{
+	font-family: Arial, sans-serif;
+}
+a{
+	color: $green;
+	text-decoration: none;
+}
+article{
+	font-size: 1.2em;
+}

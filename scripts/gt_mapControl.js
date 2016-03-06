@@ -5,11 +5,15 @@ app.controller('mapControl', function($scope, $http, $interval) {
 
   //Get the database from schoolz.js
   $scope.schoolz = schoolz;
+  $scope.substationz = substationz;
+  $scope.pylonz = pylonz;
+  $scope.busz = busz;
 
-  $scope.defaultAddress = 'new zealand';
+  $scope.defaultAddress = 'Auckland, New Zealand';
   $scope.address = $scope.defaultAddress;
 
-  $scope.zoomDefault = 5;
+  //$scope.zoomDefault = 5;
+  $scope.zoomDefault = 12;
   $scope.zoom = $scope.zoomDefault;
 
   $scope.clusterIcon = 'images/cluster.png';
@@ -19,12 +23,70 @@ app.controller('mapControl', function($scope, $http, $interval) {
   $scope.dynMarkers = [];
   $scope.windows = [];
   $scope.schoolhtml = [];
+  $scope.substationhtml = [];
+  $scope.lines = [];
+  $scope.routz = [];
 
   //Init function
   $scope.$on('mapInitialized', function(event, evtMap) {
 
     map = evtMap;
+    var red = '#ec2933';
+    var green = '#23d84f';
+    var blue = '#40b1fa';
+    var pts = [];
 
+    //Add power lines
+    for(var i=0; i < $scope.pylonz.length; i++){
+        var line = $scope.pylonz[i];
+        //var name =  line.getAttribute("label");
+        //console.log(name);
+        for(var j in line){
+            //console.log(line[j]);
+            $scope.lines[j] = new google.maps.Polyline({
+              map: map,
+              path: line[j],
+              geodesic: true,
+              strokeColor: red,
+              strokeOpacity: 1.0,
+              strokeWeight: 2
+          });
+        }
+    }
+
+    //Add bus routz
+    for(var i=0; i < $scope.busz.length; i++){
+        var bus = $scope.busz[i];
+        //console.log(bus.name);
+        $scope.routz[i] = new google.maps.Polyline({
+          map: map,
+          path: bus.coords,
+          geodesic: true,
+          strokeColor: blue,
+          strokeOpacity: 1.0,
+          strokeWeight: 2
+        });
+    }
+
+    //Add substations
+    for (var i=0; i < $scope.substationz.length; i++) {
+
+      var s = new Substation(i);
+
+      var latLng = new google.maps.LatLng(s.lat, s.lng);
+
+      //Add markers
+      var marker = new google.maps.Marker({
+        position: latLng,
+        title: s.address+', '+s.suburb,
+        icon: 'images/substation.png'
+      });
+
+      $scope.dynMarkers[s.id] = marker;
+
+    }
+
+    //Add schools
     for (var i=0; i < $scope.schoolz.length; i++) {
 
       var s = new School(i);
@@ -101,7 +163,7 @@ app.controller('mapControl', function($scope, $http, $interval) {
 
     //Keep map in NZ
     $scope.allowedBounds = new google.maps.LatLngBounds(
-         new google.maps.LatLng(-47.567955, 166.168009), 
+         new google.maps.LatLng(-47.567955, 166.168009),
          new google.maps.LatLng(-33.164021, -173.855656)
     );
 

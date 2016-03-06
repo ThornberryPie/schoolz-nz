@@ -1,1 +1,1 @@
-# Open index.html in a web browser to start the app.
+HTML5, Angular.js, SASS and Google Maps with JSON data
