@@ -11,30 +11,23 @@
 <meta property="og:title" content="View New Zealand schools on Google Maps" />
 <meta property="og:site_name" content="NZ SchoolZ"/>
 <meta property="og:url" content="schools.graemethornber.com" />
-<meta property="og:description" content="When searching for a place to live or somewhere for your kids to go to schools it helps to have a visual overview of the different areas. With NZ SchoolZ you can view decile ratings, demographics and find contact information for New Zealand schools directly on Google Maps." />
+<meta property="og:description" content="View decile ratings, demographics and find contact information for New Zealand schools directly on Google Maps." />
 <meta property="og:image" content="http://www.graemethornber.com/images/schools.screenshot.png" />
 <meta property="fb:app_id" content="404678913061528" />
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6bKLodwj4Ia-MxJrtGkmAMH8-zDvjme8&callback=angular.noop" type="text/javascript"></script>
-<script src="scripts/angular-1.2.5.min.js"></script>
-<!--
-<script src="../build/scripts/ng-map.min.js"></script>
--->
-<script src="app.js"></script>
-<script src="directives/map_controller.js"></script>
-<script src="directives/map.js"></script>
-<script src="services/geo_coder.js"></script>
-<script src="services/navigator_geolocation.js"></script>
-<script src="services/attr2_options.js"></script>
+
+<script src="dist/main.min.js"></script>
 <script src="data/schoolz.js"></script>
 <script src="data/pylonz.js"></script>
 <script src="data/busz.js"></script>
 <script src="data/substationz.js"></script>
+<script src="data/playcentrez.js"></script>
 <script src="scripts/markerclusterer_packed.js"></script>
 <script src="scripts/gt_school.js"></script>
 <script src="scripts/gt_substation.js"></script>
 <script src="scripts/gt_mapControl.js"></script>
 
-<link rel="stylesheet" type="text/css" href="css/style.css?v=1">
+<link rel="stylesheet" type="text/css" href="dist/style.min.css">
 </head>
 
 <body ng-controller="mapControl">

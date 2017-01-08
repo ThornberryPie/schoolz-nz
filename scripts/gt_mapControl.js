@@ -8,8 +8,9 @@ app.controller('mapControl', function($scope, $http, $interval) {
   $scope.substationz = substationz;
   $scope.pylonz = pylonz;
   $scope.busz = busz;
+  $scope.playcentrez = playcentrez;
 
-  $scope.defaultAddress = 'Auckland, New Zealand';
+  $scope.defaultAddress = 'Whangarei, New Zealand';
   $scope.address = $scope.defaultAddress;
 
   //$scope.zoomDefault = 5;
@@ -26,6 +27,7 @@ app.controller('mapControl', function($scope, $http, $interval) {
   $scope.substationhtml = [];
   $scope.lines = [];
   $scope.routz = [];
+  $scope.playcentrehtml = [];
 
   //Init function
   $scope.$on('mapInitialized', function(event, evtMap) {
@@ -106,6 +108,29 @@ app.controller('mapControl', function($scope, $http, $interval) {
       s.setInfowindow(marker, s.schoolhtml, s.id, map);
 
     }
+
+    //Add playcentres
+    /*for (var i=0; i < $scope.schoolz.length; i++) {
+
+      var s = new School(i);
+
+      var latLng = new google.maps.LatLng(s.lat, s.lng);
+
+      //Add markers
+      var marker = new google.maps.Marker({
+        position: latLng,
+        title: s.markerTitle,
+        icon: 'images/school.png'
+      });
+
+      $scope.dynMarkers[s.schoolID] = marker;
+
+      //Set infowindow in a function or it won't work properly
+      s.setInfowindow(marker, s.schoolhtml, s.id, map);
+
+    }*/
+
+
     //Style clusterers
     var clusterStyles = [
       {
@@ -178,6 +203,11 @@ app.controller('mapControl', function($scope, $http, $interval) {
 
         map.setCenter(lastCenter);
     });
+
+    //Clear search field if set to default value
+    if(document.getElementById('map_search').value == $scope.defaultAddress){
+      document.getElementById('map_search').value = '';
+    }
 
   });//end $scope.$on('mapInitialized'
 
