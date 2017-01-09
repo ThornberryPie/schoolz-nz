@@ -20,13 +20,23 @@ var Playcentre = function(i){
 		return hours;
 	};
 
+	this.getHoursHTML = function(){
+		var hours = '';
+		if(this.mon !== '') hours += "<br>Mon: "+this.mon;
+		if(this.tue !== '') hours += "<br>Tue: "+this.tue;
+		if(this.wed !== '') hours += "<br>Wed: "+this.wed;
+		if(this.thu !== '') hours += "<br>Thu: "+this.thu;
+		if(this.fri !== '') hours += "<br>Fri: "+this.fri;
+		return hours;
+	};
+
 	this.setHTML = function(){
 		var html = '<div class="playcentre">';
 		html += '<header><h2 class="name">'+this.name+'</h2></header>';
 		html += '<div class="block"><strong>Address:</strong><br>'+this.address+'</div>';
 		html += '<div class="block"><strong>Phone:</strong><br>'+this.phone+'</div>';
 		html += '<div class="block"><strong>Email:</strong><br>'+this.email+'</div>';
-		html += '<div class="block"><strong>Course Times:</strong><br>'+this.getHours()+'</div>';
+		html += '<div class="block"><strong>Course Times:</strong>'+this.getHoursHTML()+'</div>';
 		html += '</div>';
 		return html;
 	};
