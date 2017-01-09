@@ -180,5 +180,57 @@ var playcentrez = [
     "fri":"",
     "lat":"-35.821995",
     "lng":"174.515963"
-  }
+  },
+  {
+    "name":"Waipu Playcentre",
+    "address":"28 St Mary's Rd, Waipu, New Zealand",
+    "phone":"027 4500 647",
+    "email":"waipu@Playcentre.org.nz",
+    "mon":"",
+    "tue":"9.30am - 12.30pm",
+    "wed":"",
+    "thu":"9.30am - 12.30pm",
+    "fri":"9.00am - 1.00pm",
+    "lat":"-35.986472",
+    "lng":"174.441801"
+  },
+  {
+    "name":"Marsden Playcentre",
+    "address":"228 McEwan Road, One Tree Point, Ruakaka, New Zealand",
+    "phone":"022 371 5265",
+    "email":"marsden@Playcentre.org.nz",
+    "mon":"10.00am - 1.00pm",
+    "tue":"",
+    "wed":"",
+    "thu":"10.00am - 1.00pm",
+    "fri":"10.00am - 1.00pm",
+    "lat":"-35.849251",
+    "lng":"174.462542"
+  },
+  {
+    "name":"Kaiwaka Playcentre",
+    "address":"17 Hastie Lane, Kaiwaka, 0542, New Zealand",
+    "phone":"09 431 2286",
+    "email":"kaiwaka@Playcentre.org.nz",
+    "mon":"9.00am - 12.00pm",
+    "tue":"",
+    "wed":"",
+    "thu":"9.00am - 12.00pm",
+    "fri":"9.00am - 12.00pm",
+    "lat":"-36.170642",
+    "lng":"174.445376"
+  }/*,
+  {
+    "name":"",
+    "address":"",
+    "phone":"",
+    "email":"",
+    "mon":"",
+    "tue":"",
+    "wed":"",
+    "thu":"",
+    "fri":"",
+    "lat":"",
+    "lng":""
+  }*/
 ]

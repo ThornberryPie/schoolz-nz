@@ -110,25 +110,25 @@ app.controller('mapControl', function($scope, $http, $interval) {
     }
 
     //Add playcentres
-    /*for (var i=0; i < $scope.schoolz.length; i++) {
+    for (var i=0; i < $scope.playcentrez.length; i++) {
 
-      var s = new School(i);
+      var p = new Playcentre(i);
 
-      var latLng = new google.maps.LatLng(s.lat, s.lng);
+      var latLng = new google.maps.LatLng(p.lat, p.lng);
 
       //Add markers
       var marker = new google.maps.Marker({
         position: latLng,
-        title: s.markerTitle,
-        icon: 'images/school.png'
+        title: p.markerTitle,
+        icon: 'images/playcentre.png'
       });
 
-      $scope.dynMarkers[s.schoolID] = marker;
+      $scope.dynMarkers[p.name] = marker;
 
       //Set infowindow in a function or it won't work properly
-      s.setInfowindow(marker, s.schoolhtml, s.id, map);
+      s.setInfowindow(marker, p.playcentrehtml, p.name, map);
 
-    }*/
+    }
 
 
     //Style clusterers
