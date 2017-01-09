@@ -35,6 +35,7 @@ gulp.task('sass', function() {
 gulp.task('watch', function() {
   // Watch .js files
   gulp.watch('scripts/*.js', ['scripts']);
+  gulp.watch('data/*.js', ['scripts']);
   // Watch .scss files
   gulp.watch('sass/*.scss', ['sass']);
   //Add image optimisation
