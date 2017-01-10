@@ -7,7 +7,7 @@ var Playcentre = function(i){
         "\n"+this.address+
         "\n"+this.phone+
 				"\n"+this.email+
-				"\n\nCourse Times:"+this.getHours();
+				"\n\nHours:"+this.getHours();
 	};
 
 	this.getHours = function(){
@@ -22,21 +22,26 @@ var Playcentre = function(i){
 
 	this.getHoursHTML = function(){
 		var hours = '';
-		if(this.mon !== '') hours += "<br>Mon: "+this.mon;
-		if(this.tue !== '') hours += "<br>Tue: "+this.tue;
-		if(this.wed !== '') hours += "<br>Wed: "+this.wed;
-		if(this.thu !== '') hours += "<br>Thu: "+this.thu;
-		if(this.fri !== '') hours += "<br>Fri: "+this.fri;
+		if(this.mon !== '') hours += '<br><span class="day">Mon: </span>'+this.mon;
+		if(this.tue !== '') hours += '<br><span class="day">Tue: </span>'+this.tue;
+		if(this.wed !== '') hours += '<br><span class="day">Wed: </span>'+this.wed;
+		if(this.thu !== '') hours += '<br><span class="day">Thu: </span>'+this.thu;
+		if(this.fri !== '') hours += '<br><span class="day">Fri: </span>'+this.fri;
 		return hours;
 	};
 
 	this.setHTML = function(){
+		var hours = this.getHoursHTML();
 		var html = '<div class="playcentre">';
 		html += '<header><h2 class="name">'+this.name+'</h2></header>';
 		html += '<div class="block"><strong>Address:</strong><br>'+this.address+'</div>';
-		html += '<div class="block"><strong>Phone:</strong><br>'+this.phone+'</div>';
+		if(this.phone !== ''){
+			html += '<div class="block"><strong>Phone:</strong><br>'+this.phone+'</div>';
+		}
 		html += '<div class="block"><strong>Email:</strong><br>'+this.email+'</div>';
-		html += '<div class="block"><strong>Course Times:</strong>'+this.getHoursHTML()+'</div>';
+		if(hours !== ''){
+			html += '<div class="block"><strong>Hours:</strong>'+hours+'</div>';
+		}
 		html += '</div>';
 		return html;
 	};
