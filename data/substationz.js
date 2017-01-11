@@ -34,14 +34,14 @@ var substationz = [
         'lat':'-36.970984',
         'lng':'174.827017'
     },
-    /*{
+    {
         'id':'8805',
         'address':'140R­-142 Boundary Road',
         'suburb':'Clover Park',
         'concealed':'yes',
         'lat':'-36.984308',
         'lng':'174.900627'
-    },*/
+    },
     {
         'id':'8806',
         'address':'39 Whitford Road',
@@ -307,15 +307,16 @@ var substationz = [
         'id':'8844',
         'address':'135 McLeod Road',
         'suburb':'Te Atatu South',
-        'lat':'',
-        'lng':''
+        'lat':'-36.876535',
+        'lng':'174.649896'
     },
     {
         'id':'8845',
         'address':'8 Woodford Avenue',
         'suburb':'Henderson',
-        'lat':'',
-        'lng':''
+				'concealed':'true',
+        'lat':'-36.866573',
+        'lng':'174.629769'
     },
     {
         'id':'8846',
@@ -330,8 +331,7 @@ var substationz = [
         'address':'6 Clinker Place',
         'suburb':'New Lynn',
         'lat':'-36.913765',
-        'lng':'174.686624',
-        'exposed':'true'
+        'lng':'174.686624'
     },
     {
         'id':'8848',
@@ -344,15 +344,16 @@ var substationz = [
         'id':'8849',
         'address':'140­-142 Henderson Valley Road',
         'suburb':'Henderson',
-        'lat':'',
-        'lng':''
+        'lat':'-36.893257',
+        'lng':'174.621556',
+				'exposed':'true'
     },
     {
         'id':'8850',
         'address':'45­-49 Keeling Road',
         'suburb':'Henderson',
-        'lat':'',
-        'lng':''
+        'lat':'-36.884584',
+        'lng':'174.622663'
     },
     {
         'id':'8851',
@@ -365,15 +366,15 @@ var substationz = [
         'id':'8852',
         'address':'647 West Coast Road',
         'suburb':'Oratia',
-        'lat':'',
-        'lng':''
+        'lat':'-36.918860',
+        'lng':'174.611725'
     },
     {
         'id':'8853',
         'address':'37 Don Buck Road',
         'suburb':'Massey',
-        'lat':'',
-        'lng':''
+        'lat':'-36.857946',
+        'lng':'174.609863'
     },
     {
         'id':'8854',
@@ -382,34 +383,35 @@ var substationz = [
         'lat':'-36.898836',
         'lng':'174.657703',
         'exposed':'true'
-    },
+    }/*,
     {
         'id':'8855',
         'address':'28 Royal View Road',
         'suburb':'Te Atatu',
         'lat':'',
         'lng':''
-    },
+    }*/,
     {
         'id':'8856',
         'address':'1 Trig Road',
         'suburb':'Whenuapai',
-        'lat':'',
-        'lng':''
+        'lat':'-36.815070',
+        'lng':'174.625200',
+				'exposed':'true'
     },
     {
         'id':'8857',
         'address':'606 Swanson Road',
         'suburb':'Swanson',
-        'lat':'',
-        'lng':''
+        'lat':'-36.864210',
+        'lng':'174.590332'
     },
     {
         'id':'8858',
         'address':'173-­183 Triangle Road',
         'suburb':'Massey',
-        'lat':'',
-        'lng':''
+        'lat':'-36.841648',
+        'lng':'174.617533'
     },
     {
         'id':'8859',
@@ -423,43 +425,46 @@ var substationz = [
         'id':'8860',
         'address':'171 Simpson Road',
         'suburb':'Henderson',
-        'lat':'',
-        'lng':''
+        'lat':'-36.884314',
+        'lng':'174.595300'
     },
     {
         'id':'8861',
         'address':'449 Huia Road',
         'suburb':'Laingholm',
-        'lat':'',
-        'lng':''
+        'lat':'-36.956966',
+        'lng':'174.624074'
     },
     {
         'id':'8862',
         'address':'496 Airfield Road',
         'suburb':'Ardmore',
-        'lat':'',
-        'lng':''
+        'lat':'-37.025953',
+        'lng':'174.973288',
+				'concealed':'true'
     },
     {
         'id':'8863',
         'address':'6 Smiths Avenue',
         'suburb':'Papakura',
-        'lat':'',
-        'lng':''
+        'lat':'-37.067471',
+        'lng':'174.953970'
     },
     {
         'id':'8864',
         'address':'32A Red Beach Road',
         'suburb':'Red Beach',
-        'lat':'',
-        'lng':''
+        'lat':'-36.604530',
+        'lng':'174.697183',
+				'concealed':'true'
     },
     {
         'id':'8865',
         'address':'1 Wyn Close',
         'suburb':'Kaukapakapa',
-        'lat':'',
-        'lng':''
+        'lat':'-36.625896',
+        'lng':'174.503307',
+				'concealed':'true'
     },
     {
         'id':'8866',
@@ -545,8 +550,8 @@ var substationz = [
         'id':'8877',
         'address':'220 Kyle Road',
         'suburb':'Greenhithe',
-        'lat':'',
-        'lng':''
+        'lat':'-36.770576',
+        'lng':'174.685105'
     },
     {
         'id':'8878',
@@ -583,14 +588,14 @@ var substationz = [
         'lat':'-36.752340',
         'lng':'174.728962',
         'exposed':'true'
-    },
+    }/*,
     {
         'id':'8883',
         'address':'33 and 35 Northcote Road',
         'suburb':'Northcote',
         'lat':'',
         'lng':''
-    },
+    }*/,
     {
         'id':'8884',
         'address':'40A Glenvar Road',
@@ -645,15 +650,16 @@ var substationz = [
         'id':'8891',
         'address':'Leigh Road (adjoins No. 937)',
         'suburb':'Big Omaha',
-        'lat':'',
-        'lng':''
+        'lat':'-36.322929',
+        'lng':'174.731966',
+				'concealed':'true'
     },
     {
         'id':'8892',
         'address':'Matakana Road (near Golf Road)',
         'suburb':'Warkworth',
-        'lat':'',
-        'lng':''
+        'lat':'-36.375649',
+        'lng':'174.672871'
     },
     {
         'id':'8893',
@@ -666,64 +672,64 @@ var substationz = [
         'id':'8894',
         'address':'140 West Hoe Road',
         'suburb':'Orewa',
-        'lat':'',
-        'lng':''
+        'lat':'-36.580312',
+        'lng':'174.679944'
     },
     {
         'id':'8895',
         'address':'East Coast Road (near Spur Road)',
         'suburb':'Silverdale',
-        'lat':'',
-        'lng':''
+        'lat':'-36.640420',
+        'lng':'174.669371'
     },
     {
         'id':'8896',
         'address':'42­-44 Homestead Road',
         'suburb':'Whangaparaoa',
-        'lat':'',
-        'lng':''
+        'lat':'-36.635760',
+        'lng':'174.752866'
     },
     {
         'id':'8897',
         'address':'91 Gulf Harbour Drive',
         'suburb':'Hobbs Bay',
-        'lat':'',
-        'lng':''
-    },
+        'lat':'-36.614180',
+        'lng':'174.792935'
+    }/*,
     {
         'id':'8898',
-        'address':'52­56 Awaroa and 139­143 Rautawhiri Roads',
+        'address':'52-56 Awaroa and 139­-143 Rautawhiri Roads',
         'suburb':'Helensville',
         'lat':'',
         'lng':''
-    },
+    }*/,
     {
         'id':'8899',
         'address':'Horseshoe Bush Road (adjoins No. 223)',
         'suburb':'Dairy Flat',
-        'lat':'',
-        'lng':''
+        'lat':'-36.657825',
+        'lng':'174.619491'
     },
     {
         'id':'8900',
         'address':'Glenmore Road (nears State Highway 17 Coatesville Riverhead Highway)',
         'suburb':'Coatesville',
-        'lat':'',
-        'lng':''
+        'lat':'-36.718025',
+        'lng':'174.639782'
     },
     {
         'id':'8901',
         'address':'1 Factory Road',
         'suburb':'Waimauku',
-        'lat':'',
-        'lng':''
+        'lat':'-36.767053',
+        'lng':'174.495522'
     },
     {
         'id':'8902',
         'address':'Riverhead Road (adjoins No. 301)',
         'suburb':'Riverhead',
-        'lat':'',
-        'lng':''
+        'lat':'-36.761297',
+        'lng':'174.582369'
     },
     {
         'id':'8903',
@@ -731,12 +737,19 @@ var substationz = [
         'suburb':'Ponsonby',
         'lat':'-36.854551',
         'lng':'174.739235'
-    },
+    }/*,
     {
         'id':'8904',
         'address':'505 and 509A State Highway 17 Dairy Flat Highway',
         'suburb':'Lucas Heights',
         'lat':'',
         'lng':''
-    }
+    }*//*,
+    {
+        'id':'DNP',
+        'address':'',
+        'suburb':'',
+        'lat':'',
+        'lng':''
+    }*/
 ]
