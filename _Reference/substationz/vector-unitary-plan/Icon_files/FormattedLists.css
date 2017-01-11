@@ -1,0 +1,263 @@
+body {background-color:transparent !important;}
+form {background-color:transparent !important;}
+#docf {background-color:transparent !important;}
+#bd {background-color:transparent !important;}
+.RadEditor .Default {background-color:transparent !important;}
+
+.result ul li{
+	list-style-type: none;
+}
+
+.result ul li:before{
+	list-style-type: none;
+	/*content:"-"!important; */
+	position:relative; 
+	left:-1em;
+	margin-left: 0px !important;
+	list-style-type:circle
+}
+
+.result ul li {
+	margin-left: 15px; /* RdeL: to bring the alignment to being under the first letter of the text before */
+	list-style-type: disc;
+}
+.result  li {
+	/*margin-left: 15px;  RdeL: to bring the alignment to being under the first letter of the text before 
+	padding-left: 10px;*/
+	padding-left: 6px;
+	line-height: 19px;
+}
+
+.result ul ul{
+	margin-left: 20px; /* RdeL: to bring the alignment to being under the first letter of the text before */
+	padding-left: 5px;
+}
+
+
+.result ul li ul{
+	margin-left: -5px; /* RdeL: to bring the alignment to being under the first letter of the text before */
+	padding-left: 5px;
+}
+
+ol.customListTypeX, ol.customListTypeX ol, ol.list_1aiI_DB, ol.list_1aiI_DB ol, ol.list_1111_FS, ol.list_1111_FS ol, ol.list_1aiI_Mix1, ol.list_1aiI_Mix1 ol
+{
+	/*list-style: none!important;
+	counter-reset: li;  !important; reset counter for ol (li is just arbitrary identifier) */
+	padding-top:2px;
+}
+
+ol.customListTypeX li, ol.customListTypeX ol li, ol.list_1aiI_DB li, ol.list_1aiI_DB ol li, ol.list_1111_FS li, ol.list_1111_FS ol li, ol.list_1aiI_Mix1 li, ol.list_1aiI_Mix1 ol li
+{   
+    /*list-style: none outside none!important;*/
+	position:relative;
+	margin-bottom: 1px; /* bottom spacing between lis */
+	padding-bottom: 2px;
+	padding-top: 2px;
+	padding-left: 10px;
+	padding-right: 1px;
+}
+
+ol.customListTypeX li:before, ol.list_1aiI_DB li:before, ol.list_1111_FS li:before, ol.list_1aiI_Mix1 li:before{
+	counter-increment:li!important;
+	/*text-align: left;*/
+	text-align: right;
+	position:absolute;
+	display:block;
+	width: 2.5em;
+	height: 1em;
+	line-height: 1em;
+	font-weight: normal;
+	top: 0.35em;
+	/*left: -2.9em;*/
+	left: -4.7em;
+	color: black;
+	z-index: 10000;
+}
+
+ol.boldListType > li:before
+{
+	font-weight: bold;
+}
+
+ol.list_1aiI_DB > li:before /* 1st level custom counter specific style */
+{ 
+    content: '(' counter(li, decimal) ')'!important;             
+}
+
+ol.list_1aiI_DB ol > li:before /* 2nd level custom counter specific style */
+{ 
+    content: '(' counter(li, lower-alpha) ')'!important;             
+}
+
+ol.list_1aiI_DB ol ol > li:before /* 3rd level custom counter specific style */
+{
+    content: '(' counter(li, lower-roman) ')'!important;                
+}
+
+ol.list_1aiI_DB ol ol ol > li:before /* 4th level custom counter specific style */
+{
+    content: '(' counter(li, upper-alpha) ')'!important;
+}
+
+
+
+ol.list_1111_FS > li:before /* 1st level custom counter specific style */
+{ 
+    content: counter(li, decimal) '.'!important;            
+}
+
+ol.list_1111_FS ol > li:before /* 2nd level custom counter specific style */
+{ 
+    content: counter(li, decimal) '.'!important;           
+}
+
+ol.list_1111_FS ol ol > li:before /* 3rd level custom counter specific style */
+{
+    content: counter(li, decimal) '.'!important;
+}
+
+ol.list_1111_FS ol ol ol > li:before /* 4th level custom counter specific style */
+{
+    content: counter(li, decimal) '.'!important;
+}
+
+
+
+ol.list_1aiI_Mix1 > li:before /* 1st level custom counter specific style */
+{ 
+   /* content: counter(li, decimal) '.'!important; */
+	padding-left: 25px!important;	
+}
+
+ol.list_1aiI_Mix1 ol > li:before /* 2nd level custom counter specific style */
+{ 
+   /* content: counter(li, lower-alpha) '.'!important;     */
+	padding-left: 25px!important;	
+}
+
+ol.list_1aiI_Mix1 ol ol > li:before /* 3rd level custom counter specific style */
+{
+   /* content:  counter(li, lower-roman)  '.'!important;*/
+	padding-left: 25px!important;
+}
+
+ol.list_1aiI_Mix1 ol ol ol > li:before /* 4th level custom counter specific style */
+{
+   /* content: counter(li, disc)!important;*/
+	padding-left: 25px!important;
+}
+
+ol.list_1aiI_Mix1 ol ol ol ol > li:before /* 5th level custom counter specific style */
+{
+   /* content: counter(li, none) '-'!important;*/
+	padding-left: 25px!important;
+}
+
+ol.decimal_DB > li:before
+{
+	content: '(' counter(li, decimal) ')' !important;
+}
+
+ol.lower-alpha_DB > li:before
+{
+	content: '(' counter(li, lower-alpha) ')' !important;
+}
+
+ol.lower-roman_DB > li:before
+{
+	content: '(' counter(li, lower-roman) ')' !important;
+}
+
+ol.upper-alpha_DB > li:before
+{
+	content: '(' counter(li, upper-alpha) ')' !important;
+}
+
+ol.upper-roman_DB > li:before
+{
+	content: '(' counter(li, upper-roman) ')' !important;
+}
+
+ol.decimal_FS > li:before
+{
+	content: counter(li, decimal) '.' !important;
+}
+
+ol.lower-alpha_FS > li:before
+{
+	content: counter(li, lower-alpha) '.' !important;
+}
+
+ol.lower-roman_FS > li:before
+{
+	content: counter(li, lower-roman) '.' !important;
+}
+
+ol.upper-alpha_FS > li:before
+{
+	content: counter(li, upper-alpha) '.' !important;
+}
+
+ol.upper-roman_FS > li:before
+{
+	content: counter(li, upper-roman) '.' !important;
+}
+
+ol.decimal_SBX > li:before
+{
+	content: counter(li, decimal) ')' !important;
+}
+
+ol.lower-alpha_SBX > li:before
+{
+	/*content: counter(li, lower-alpha) ')' !important;*/
+	list-style: lower-alpha !important;
+}
+
+ol.lower-roman_SBX > li:before
+{
+	content: counter(li, lower-roman) ')' !important;
+}
+
+ol.upper-alpha_SBX > li:before
+{
+	content: counter(li, upper-alpha) ')' !important;
+}
+
+ol.upper-roman_SB > li:before
+{
+	content: counter(li, upper-roman) ')' !important;
+} 
+ol.UpRoman {list-style-type:upper-roman;}
+ol.LowerAlpha {list-style-type:lower-alpha;}
+   
+   
+
+blockquote.listBlock{
+	margin: 0 0 10px 20px;
+	padding: 0 0 0 30px;
+	}
+
+span.listNumber{
+	width:30px;
+	display:inline-block;
+	text-align:right;
+	margin:0 0 0 -50px;
+	padding:0 0 0 0;
+	float: left;
+}
+
+
+font.listNumber{
+	width:30px;
+	display:inline-block;
+	text-align:right;
+	margin:0 0 0 -50px;
+	padding:0 0 0 0;
+	float: left;
+}
+
+blockquote blockquote.listBlock{
+	margin-left: 30px; /* margin-bottom must be inherited */
+	padding: 0 0 0 0;
+	} /* Allows for the first level to display correctly */

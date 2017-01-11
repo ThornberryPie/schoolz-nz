@@ -1,0 +1,181 @@
+/* User Styles */
+html,body {
+	background-image:none;
+	font-size:10pt;
+	font-family: arial, Calibri, helvetic, clean sans-serif;
+}
+
+div#bd {
+	padding:0px;
+}
+
+a.ibutton,a.ibutton:link,a.ibutton:visited,a.ibutton:active,a.ibutton:hover {
+	border:solid 1px transparent; 
+	margin:0px; 
+	display:inline; 
+	text-align:left; 
+	padding:3px 1px 1px 1px; 
+	color:#000; 
+	text-decoration:none; 
+	font-weight:normal;-moz-border-radius:2px; -webkit-border-radius:2px;
+}
+
+a.ibutton:hover,a.ibutton:active {
+	border:solid 1px #999; 
+	padding:3px 1px 1px 1px; margin:0px;
+}
+
+.reTool .SetListType
+{   
+    background-image: url('../../Common/Common/Image.aspx?rid=text_uppercase.png');
+}
+
+.reTool .RestartList
+{   
+    background-image: url('../../Common/Common/Image.aspx?rid=text_lowercase.png');
+}
+
+.reTool .InsertOrderedListSet
+{   
+    background-image: url('../../Common/Common/Image.aspx?rid=text_list_numbers.png');
+}
+
+.reTool .SetListBold
+{   
+    background-image: url('../../Common/Common/Image.aspx?rid=text_bold.png');
+}
+/* Track Changes */
+.trackDelete0 {text-decoration:none; color:#000; background-color:#FFBDBD;}
+.trackInsert0 {text-decoration:none; color:#000; background-color:#C7F6CC;}
+.trackDelete1 {text-decoration:line-through; color:Red}
+.trackInsert1 {color:Blue; background-color:#FF9;}
+
+/* Assess events stats */
+
+table.ast {width:600px; table-layout:fixed;}
+td.ast {width:200px;}
+td.bold {font-weight:bold;}
+
+/*h1 {font-weight:bold; font-size:220%; line-height:2em;}
+h2 {font-weight:bold; font-size:180%; line-height:1.80em}
+h3 {font-weight:bold; font-size:160%; line-height:1.60em;}
+h4 {font-weight:bold; font-size:140%; line-height:1.4em;}
+h5 {font-weight:bold; font-size:100%; font-style:italic;  line-height:1.0em;}
+h6 {font-weight:bold; font-size:100%; padding-bottom:10px;}
+h7 {font-weight:bold; font-size:108%; color:#d9d9d9; border-bottom:solid 2px #64696d;  line-height:1.08em;}*/
+h1 {
+font-weight:bold; 
+color: #1594C9; 
+font-size:24px !important; 
+line-height:normal;
+margin-bottom:20px !important;
+}
+
+h2 {
+font-weight:bold; 
+color: #1594C9; 
+font-size:20px !important; 
+line-height:normal;
+margin-bottom:15px !important;
+}
+
+h3 {
+font-weight:bold; 
+color: #1594C9; 
+font-size:16px !important; 
+line-height:normal;
+margin-bottom:10px !important;
+}
+
+h4, h5, h6, h7, h8 {
+font-weight:bold; 
+color: #1594C9; 
+font-size:14px !important; 
+line-height:normal;
+margin-bottom:10px !important;
+}
+
+/*h5 {
+font-weight:bold; 
+color: #1594C9; 
+font-size:14px !important; 
+line-height:normal;
+margin-bottom:10px !important;
+}
+
+h6 {
+font-weight:bold; 
+font-size:14px !important; 
+padding-bottom:10px;
+margin-bottom:10px !important;
+}
+
+h7, h8 {
+font-weight:bold; 
+font-size:14px !important; 
+color:#d9d9d9; 
+border-bottom:solid 2px #64696d;  
+line-height:1.08em;
+margin-bottom:10px !important;
+}*/
+
+/* SNAG #569 - Additional Menu */
+h9, h10 {
+font-weight:bold; 
+font-size:10px !important;
+}
+
+#bd #ctl00_ctMain1_main{
+	padding: 10px!important;
+}
+
+
+ol{
+	margin: 0.25em 0 0.5em 0;
+}
+
+ol li  
+{
+    list-style-type:decimal; 
+    padding-left: 1.5em;
+    margin: 0 0 0 1.4em;  
+}
+
+ol li ol {
+    margin-top: -0.1em;
+}
+
+ol li ol li  
+{
+    list-style-type: lower-alpha; 
+    margin: 0.35em 0 0.35em 1.45em;
+}
+ol li ol li ol li  
+{
+    list-style-type: lower-roman; 
+    padding-left: 1.5em;
+    margin-left: 1.5em; 
+}
+
+ol li ol li ol li ol li{
+    list-style-type: disc;
+    margin-left: 1.5em;
+    padding-left: 1.5em;
+}
+
+.stats {width:16px; display:inline-block;}
+
+.PlanTag {
+border-left-color: #555555; 
+border-left-width: 3px; 
+border-left-style: solid; 
+padding-left: 8px; 
+margin-left: -10px;
+}
+
+.TextTag {
+font-size: 11px; 
+font-weight: bold;
+margin-left: -7px;
+}
+/* END */
