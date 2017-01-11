@@ -752,4 +752,62 @@ var substationz = [
         'lat':'',
         'lng':''
     }*/
+    ,
+    {
+        'id':'DNP1',
+        'address':'28 Mount Pleasant Road',
+        'suburb':'Raumanga',
+        'area':'Whangarei',
+        'lat':'-35.745602',
+        'lng':'174.309447'
+    }
+    ,
+    {
+        'id':'DNP2',
+        'address':'183 Morningside Road',
+        'suburb':'Morningside',
+        'area':'Whangarei',
+        'lat':'-35.738909',
+        'lng':'174.322918'
+    }
+    ,
+    {
+        'id':'DNP',
+        'address':'104 Cartwright Road',
+        'suburb':'Onerahi',
+        'lat':'-35.746482',
+        'lng':'174.372675'
+    }
+    /*,
+    {
+        'id':'DNP',
+        'address':'',
+        'suburb':'',
+        'lat':'',
+        'lng':''
+    }
+    ,
+    {
+        'id':'DNP',
+        'address':'',
+        'suburb':'',
+        'lat':'',
+        'lng':''
+    }
+    ,
+    {
+        'id':'DNP',
+        'address':'',
+        'suburb':'',
+        'lat':'',
+        'lng':''
+    }
+    ,
+    {
+        'id':'DNP',
+        'address':'',
+        'suburb':'',
+        'lat':'',
+        'lng':''
+    }*/
 ]
