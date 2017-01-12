@@ -772,7 +772,7 @@ var substationz = [
     }
     ,
     {
-        'id':'DNP',
+        'id':'DNP3',
         'address':'104 Cartwright Road',
         'suburb':'Onerahi',
         'lat':'-35.746482',
@@ -809,5 +809,12 @@ var substationz = [
         'suburb':'',
         'lat':'',
         'lng':''
-    }*/
+    }*/,
+		{
+			'id':'T1',
+			'address':'Cloten Road',
+			'suburb':'Stratford',
+			'lat':'-39.341796',
+			'lng':'174.287876'
+		}
 ]
