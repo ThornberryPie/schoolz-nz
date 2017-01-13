@@ -760,8 +760,7 @@ var substationz = [
         'area':'Whangarei',
         'lat':'-35.745602',
         'lng':'174.309447'
-    }
-    ,
+    },
     {
         'id':'DNP2',
         'address':'183 Morningside Road',
@@ -769,26 +768,25 @@ var substationz = [
         'area':'Whangarei',
         'lat':'-35.738909',
         'lng':'174.322918'
-    }
-    ,
+    },
     {
         'id':'DNP3',
         'address':'104 Cartwright Road',
         'suburb':'Onerahi',
         'lat':'-35.746482',
         'lng':'174.372675'
-    }
-    /*,
-    {
-        'id':'DNP',
-        'address':'',
-        'suburb':'',
-        'lat':'',
-        'lng':''
-    }
+    }//DNP4 is voltage regulator in between Parua Bay School and Manaia Kindergarten
     ,
     {
-        'id':'DNP',
+        'id':'DNP5',
+        'address':'3 Pipiwai Road',
+        'suburb':'Kamo',
+        'lat':'-35.675338',
+        'lng':'174.296983'
+    }/*
+    ,
+    {
+        'id':'DNP6',
         'address':'',
         'suburb':'',
         'lat':'',
