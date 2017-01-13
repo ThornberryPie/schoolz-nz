@@ -775,32 +775,28 @@ var substationz = [
         'suburb':'Onerahi',
         'lat':'-35.746482',
         'lng':'174.372675'
-    }//DNP4 is voltage regulator in between Parua Bay School and Manaia Kindergarten
-    ,
+    },  //DNP4 is voltage regulator in between Parua Bay School and Manaia Kindergarten
     {
         'id':'DNP5',
         'address':'3 Pipiwai Road',
         'suburb':'Kamo',
         'lat':'-35.675338',
         'lng':'174.296983'
-    }/*
-    ,
+    },
     {
         'id':'DNP6',
-        'address':'',
-        'suburb':'',
-        'lat':'',
-        'lng':''
-    }
-    ,
+        'address':'90 Waiotoi Road',
+        'suburb':'Ngunguru',
+        'lat':'-35.620338',
+        'lng':'174.503932'
+    }/*,
     {
         'id':'DNP',
         'address':'',
         'suburb':'',
         'lat':'',
         'lng':''
-    }
-    ,
+    },
     {
         'id':'DNP',
         'address':'',
