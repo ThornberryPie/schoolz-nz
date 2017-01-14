@@ -789,7 +789,56 @@ var substationz = [
         'suburb':'Ngunguru',
         'lat':'-35.620338',
         'lng':'174.503932'
+    },
+    {
+        'id':'DNP7',
+        'address':'4 Substation Lane',
+        'suburb':'Hikurangi',
+        'lat':'-35.593687',
+        'lng':'174.283070'
+    },
+    {
+        'id':'DNP8',
+        'address':'37 Waiatawa Rd',
+        'suburb':'Tikipunga',
+        'lat':'-35.699360',
+        'lng':'174.323875'
+    },
+    {
+        'id':'DNP9',
+        'address':'47-55 Union East St',
+        'suburb':'Port Whangarei',
+        'lat':'-35.744073',
+        'lng':'174.338488'
+    },
+    {
+        'id':'DNP10',
+        'address':'Camellia Avenue',
+        'suburb':'Ruakaka',
+        'lat':'-35.908018',
+        'lng':'174.450038'
+    },
+    {
+        'id':'DNP11',
+        'address':'87 Sime Road',
+        'suburb':'Ruakaka',
+        'lat':'-35.875674',
+        'lng':'174.466850'
     }/*,
+    {
+        'id':'DNP',
+        'address':'',
+        'suburb':'',
+        'lat':'',
+        'lng':''
+    },
+    {
+        'id':'DNP',
+        'address':'',
+        'suburb':'',
+        'lat':'',
+        'lng':''
+    },
     {
         'id':'DNP',
         'address':'',
