@@ -824,13 +824,29 @@ var substationz = [
         'suburb':'Ruakaka',
         'lat':'-35.875674',
         'lng':'174.466850'
-    }/*,
+    },
     {
-        'id':'DNP',
+        'id':'DNP12',
         'address':'',
-        'suburb':'',
+        'suburb':'Poroti',
         'lat':'',
         'lng':''
+    },
+    {
+        'id':'DNP13',
+        'address':'39 Pukeatua Road',
+        'suburb':'Maungatapere',
+        'lat':'-35.766415',
+        'lng':'174.207299'
+    }/*
+http://nz.pentalocal.com/ntl/whangarei-district/electricity-substations/
+    ,
+    {
+        'id':'DNP14',
+        'address':'1434 Kokopu Road',
+        'suburb':'Poroti',
+        'lat':'-35.730864',
+        'lng':'174.097726'
     },
     {
         'id':'DNP',
@@ -838,21 +854,9 @@ var substationz = [
         'suburb':'',
         'lat':'',
         'lng':''
-    },
-    {
-        'id':'DNP',
-        'address':'',
-        'suburb':'',
-        'lat':'',
-        'lng':''
-    },
-    {
-        'id':'DNP',
-        'address':'',
-        'suburb':'',
-        'lat':'',
-        'lng':''
-    }*/,
+    }
+    http://nz.pentalocal.com/search/?q=substation
+    */,
 		{
 			'id':'T1',
 			'address':'Cloten Road',
