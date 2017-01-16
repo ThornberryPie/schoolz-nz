@@ -737,22 +737,7 @@ var substationz = [
         'suburb':'Ponsonby',
         'lat':'-36.854551',
         'lng':'174.739235'
-    }/*,
-    {
-        'id':'8904',
-        'address':'505 and 509A State Highway 17 Dairy Flat Highway',
-        'suburb':'Lucas Heights',
-        'lat':'',
-        'lng':''
-    }*//*,
-    {
-        'id':'DNP',
-        'address':'',
-        'suburb':'',
-        'lat':'',
-        'lng':''
-    }*/
-    ,
+    },
     {
         'id':'DNP1',
         'address':'28 Mount Pleasant Road',
@@ -775,7 +760,14 @@ var substationz = [
         'suburb':'Onerahi',
         'lat':'-35.746482',
         'lng':'174.372675'
-    },  //DNP4 is voltage regulator in between Parua Bay School and Manaia Kindergarten
+    },
+    {
+        'id':'DNP4',
+        'address':'1406-1408 Whangarei Heads Road',
+        'suburb':'Parua Bay',
+        'lat':'-35.769487',
+        'lng':'174.483698'
+    },
     {
         'id':'DNP5',
         'address':'3 Pipiwai Road',
@@ -827,10 +819,10 @@ var substationz = [
     },
     {
         'id':'DNP12',
-        'address':'',
+        'address':'1434 Kokopu Road',
         'suburb':'Poroti',
-        'lat':'',
-        'lng':''
+				'lat':'-35.730864',
+        'lng':'174.097726'
     },
     {
         'id':'DNP13',
@@ -838,15 +830,377 @@ var substationz = [
         'suburb':'Maungatapere',
         'lat':'-35.766415',
         'lng':'174.207299'
-    }/*
-http://nz.pentalocal.com/ntl/whangarei-district/electricity-substations/
-    ,
+    },//Not able to find DNP14 (Wairua, Mangakahia rd?)
     {
-        'id':'DNP14',
-        'address':'1434 Kokopu Road',
-        'suburb':'Poroti',
-        'lat':'-35.730864',
-        'lng':'174.097726'
+        'id':'DNP15',
+        'address':'11 Alexander Street',
+        'suburb':'Whangarei Central',
+        'lat':'-35.722454',
+        'lng':'174.317754'
+    },
+    {
+        'id':'DNP16',
+        'address':'51 Pompallier Estate Drive',
+        'suburb':'Maunu',
+        'lat':'-35.748785',
+        'lng':'174.278686'
+    },
+    {
+        'id':'DNP17',
+        'address':'177 Millington Road',
+        'suburb':'Maungatapere',
+        'lat':'-35.739023',
+        'lng':'174.230655'
+    },
+    {
+        'id':'DNP18',
+        'address':'Artillery Road',
+        'suburb':'Brynderwyn',
+        'lat':'-36.082231',
+        'lng':'174.455835'
+    },
+    {
+        'id':'DNP19',
+        'address':'46 Western Hills Drive',
+        'suburb':'Kensington',
+        'lat':'-35.702877',
+        'lng':'174.311365'
+    },
+    {
+        'id':'NorthlandSub1',
+        'address':'Portland Quarry Road',
+        'suburb':'Portland',
+        'lat':'-35.800501',
+        'lng':'174.314660'
+    },
+    {
+        'id':'NorthlandSub2',
+        'address':'17 Rama Road',
+        'suburb':'Marsden Point',
+        'lat':'-35.848832',
+        'lng':'174.480016'
+    },
+    {
+        'id':'NorthlandSub3',
+        'address':'3a Wairere Road',
+        'suburb':'Paparoa',
+        'lat':'-36.070775',
+        'lng':'174.266239'
+    },
+    {
+        'id':'NorthlandSub4',
+        'address':'121 Gordon Street',
+        'suburb':'Dargaville',
+        'lat':'-35.932979',
+        'lng':'173.878783'
+    },
+    {
+        'id':'NorthlandSub5',
+        'address':'Gorge Road',
+        'suburb':'Maungaturoto',
+        'lat':'-36.086450',
+        'lng':'174.358822'
+    },
+    {
+        'id':'NorthlandSub6',
+        'address':'333D Black Bridge Road',
+        'suburb':'Haruru',
+        'lat':'-35.282829',
+        'lng':'174.053947'
+    },
+    {
+        'id':'NorthlandSub7',
+        'address':'41 Kaiwaka-Mangawhai Road',
+        'suburb':'Kaiwaka',
+        'lat':'-36.159215',
+        'lng':'174.447824'
+    },
+    {
+        'id':'NorthlandSub8',
+        'address':'Waipapa Loop Road',
+        'suburb':'Waipapa',
+        'lat':'-35.206734',
+        'lng':'173.915769'
+    },
+    {
+        'id':'NorthlandSub9',
+        'address':'7162 State Highway 1',
+        'suburb':'Kaitaia',
+        'lat':'-35.120945',
+        'lng':'173.336082'
+    },
+    {
+        'id':'NorthlandSub10',
+        'address':'133 Okahu Road',
+        'suburb':'Kaitaia',
+        'lat':'-35.127612',
+        'lng':'173.268934'
+    },
+    {
+        'id':'NorthlandSub11',
+        'address':'121 Lamb Road',
+        'suburb':'Pukenui',
+        'lat':'-34.821029',
+        'lng':'173.109381'
+    },
+    {
+        'id':'WaikatoSub1',
+        'address':'401 Burke Street',
+        'suburb':'Thames',
+        'lat':'-37.129807',
+        'lng':'175.533431'
+    },
+    {
+        'id':'WaikatoSub2',
+        'address':'138 Warahoe Road',
+        'suburb':'Matatoki',
+        'lat':'-37.191602',
+        'lng':'175.601438'
+    },
+    {
+        'id':'WaikatoSub3',
+        'address':'32 Warahoe Road',
+        'suburb':'Matatoki',
+        'lat':'-37.197932',
+        'lng':'175.594454'
+    },
+    {
+        'id':'WaikatoSub4',
+        'address':'48 Whangapoua Road',
+        'suburb':'Coromandel',
+        'lat':'-36.761385',
+        'lng':'175.505665'
+    },
+    {
+        'id':'WaikatoSub5',
+        'address':'40 Wells Place',
+        'suburb':'Cambridge',
+        'lat':'-37.870684',
+        'lng':'175.483901'
+    },
+    {
+        'id':'WaikatoSub6',
+        'address':'Cnr Hetherington & Te Ohaki Road',
+        'suburb':'Huntly',
+        'lat':'-37.544008',
+        'lng':'175.149380'
+    },
+    {
+        'id':'WaikatoSub7',
+        'address':'E Mine Road',
+        'suburb':'Huntly',
+        'lat':'-37.540982',
+        'lng':'175.178065'
+    },
+    {
+        'id':'WaikatoSub8',
+        'address':'13 Glasgow Street',
+        'suburb':'Huntly',
+        'lat':'-37.556837',
+        'lng':'175.162388'
+    },
+    {
+        'id':'WaikatoSub9',
+        'address':'42 Rotowaro Road',
+        'suburb':'Huntly',
+        'lat':'-37.566502',
+        'lng':'175.147504'
+    },
+    {
+        'id':'WaikatoSub10',
+        'address':'82 Whakamaru Road',
+        'suburb':'Whakamaru',
+        'lat':'-38.419098',
+        'lng':'175.800024'
+    },
+    {
+        'id':'WaikatoSub11',
+        'address':'State Highway 5',
+        'suburb':'Wairakei',
+        'lat':'-38.625869',
+        'lng':'176.105173'
+    },
+    {
+        'id':'WaikatoSub12',
+        'address':'155 Rapids Road',
+        'suburb':'Rotokawa',
+        'lat':'-38.615842',
+        'lng':'176.143012'
+    },
+    {
+        'id':'WaikatoSub13',
+        'address':'Nga Awa Purua Road',
+        'suburb':'Rotokawa',
+        'lat':'-38.614116',
+        'lng':'176.184439'
+    },
+    {
+        'id':'WaikatoSub14',
+        'address':'100 Rakaunui Road',
+        'suburb':'Rotokawa',
+        'lat':'-38.664672',
+        'lng':'176.117825'
+    },
+    {
+        'id':'WaikatoSub15',
+        'address':'47 Waikato Street',
+        'suburb':'Taupo',
+        'lat':'-38.681616',
+        'lng':'176.073894'
+    },
+    {
+        'id':'WaikatoSub16',
+        'address':'81 Marshall Ave',
+        'suburb':'Taupo',
+        'lat':'-38.718935',
+        'lng':'176.093477'
+    },
+    {
+        'id':'WaikatoSub17',
+        'address':'2 Substation Lane',
+        'suburb':'Waikino',
+        'lat':'-37.415806',
+        'lng':'175.774648'
+    },
+    {
+        'id':'WaikatoSub18',
+        'address':'Substation Road',
+        'suburb':'Ruakura',
+        'lat':'-37.779921',
+        'lng':'175.304812'
+    },
+    {
+        'id':'WaikatoSub19',
+        'address':'Hydro Road',
+        'suburb':'Karapiro',
+        'lat':'-37.924315',
+        'lng':'175.537474'
+    },
+    {
+        'id':'WaikatoSub20',
+        'address':'379 Ohakuri Road',
+        'suburb':'Ohakuri',
+        'lat':'-38.408003',
+        'lng':'176.086012'
+    },
+    {
+        'id':'WaikatoSub21',
+        'address':'Gordon Road',
+        'suburb':'Ohaaki',
+        'lat':'-38.527738',
+        'lng':'176.292661'
+    },
+    {
+        'id':'WaikatoSub22',
+        'address':'35 Wood Road',
+        'suburb':'Lichfield',
+        'lat':'-38.133723',
+        'lng':'175.824134'
+    },
+    {
+        'id':'WaikatoSub23',
+        'address':'5 Lake Road',
+        'suburb':'Okoroire',
+        'lat':'-37.919736',
+        'lng':'175.765520'
+    },
+    {
+        'id':'WaikatoSub24',
+        'address':'Forestry Road',
+        'suburb':'Kaingaora',
+        'lat':'-38.633654',
+        'lng':'176.578096'
+    },
+    {
+        'id':'WaikatoSub25',
+        'address':'140 Racecourse Road',
+        'suburb':'Te Awamutu',
+        'lat':'-38.002273',
+        'lng':'175.320093'
+    },
+    {
+        'id':'WaikatoSub26',
+        'address':'1320 Gordonton Road',
+        'suburb':'Taupiri',
+        'lat':'-37.651053',
+        'lng':'175.287348'
+    },
+    {
+        'id':'WaikatoSub27',
+        'address':'124 Tasman Road',
+        'suburb':'Burbush',
+        'lat':'-37.747127',
+        'lng':'175.227785'
+    },
+    {
+        'id':'WaikatoSub28',
+        'address':'Wairere Road',
+        'suburb':'Huntington',
+        'lat':'-37.744976',
+        'lng':'175.276961'
+    },
+    {
+        'id':'WaikatoSub29',
+        'address':'57 Sandwich Road',
+        'suburb':'St Andrews',
+        'lat':'-37.753326',
+        'lng':'175.255507'
+    },
+    {
+        'id':'WaikatoSub30',
+        'address':'158 Avalon Drive',
+        'suburb':'Nawton',
+        'lat':'-37.768500',
+        'lng':'175.238827'
+    },
+    {
+        'id':'WaikatoSub',
+        'address':'94 Bryce Street',
+        'suburb':'Hamilton',
+        'lat':'-37.787576',
+        'lng':'175.276017'
+    },
+    {
+        'id':'WaikatoSub',
+        'address':'9 Kent Street',
+        'suburb':'Hamilton',
+        'lat':'-37.789191',
+        'lng':'175.265206'
+    },
+    {
+        'id':'WaikatoSub',
+        'address':'75 Anglesea Street',
+        'suburb':'Hamilton',
+        'lat':'-37.794251',
+        'lng':'175.285369'
+    },
+    {
+        'id':'WaikatoSub',
+        'address':'99 Peacockes Road',
+        'suburb':'Fitzroy',
+        'lat':'-37.810295',
+        'lng':'175.304523'
+    },
+    {
+        'id':'BOPSub',
+        'address':'State Highway 1',
+        'suburb':'Atiamuri',
+        'lat':'-38.392976',
+        'lng':'176.022729'
+    },
+		{
+			'id':'TaranakiSub1',
+			'address':'Cloten Road',
+			'suburb':'Stratford',
+			'lat':'-39.341796',
+			'lng':'174.287876'
+		}/*,
+    {
+        'id':'WaikatoSub',
+        'address':'',
+        'suburb':'',
+        'lat':'',
+        'lng':''
     },
     {
         'id':'DNP',
@@ -856,12 +1210,5 @@ http://nz.pentalocal.com/ntl/whangarei-district/electricity-substations/
         'lng':''
     }
     http://nz.pentalocal.com/search/?q=substation
-    */,
-		{
-			'id':'T1',
-			'address':'Cloten Road',
-			'suburb':'Stratford',
-			'lat':'-39.341796',
-			'lng':'174.287876'
-		}
+    */
 ]
