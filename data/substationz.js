@@ -1154,49 +1154,231 @@ var substationz = [
         'lng':'175.238827'
     },
     {
-        'id':'WaikatoSub',
+        'id':'WaikatoSub31',
         'address':'94 Bryce Street',
         'suburb':'Hamilton',
         'lat':'-37.787576',
         'lng':'175.276017'
     },
     {
-        'id':'WaikatoSub',
+        'id':'WaikatoSub32',
         'address':'9 Kent Street',
         'suburb':'Hamilton',
         'lat':'-37.789191',
         'lng':'175.265206'
     },
     {
-        'id':'WaikatoSub',
+        'id':'WaikatoSub33',
         'address':'75 Anglesea Street',
         'suburb':'Hamilton',
         'lat':'-37.794251',
         'lng':'175.285369'
     },
     {
-        'id':'WaikatoSub',
+        'id':'WaikatoSub34',
         'address':'99 Peacockes Road',
         'suburb':'Fitzroy',
         'lat':'-37.810295',
         'lng':'175.304523'
     },
     {
-        'id':'BOPSub',
+        'id':'WaikatoSub35',
+        'address':'732 Grey Street',
+        'suburb':'Hamilton East',
+        'lat':'-37.781668',
+        'lng':'175.289342'
+    },
+    {
+        'id':'WaikatoSub36',
+        'address':'339 Borman Road',
+        'suburb':'Flagstaff',
+        'lat':'-37.723405',
+        'lng':'175.253162'
+    },
+    {
+        'id':'WaikatoSub37',
+        'address':'82-126 Waitomo Caves Road',
+        'suburb':'Hangatiki',
+        'lat':'-38.251461',
+        'lng':'175.177934'
+    },
+    {
+        'id':'WaikatoSub38',
+        'address':'28 Horotiu Road',
+        'suburb':'Horotiu',
+        'lat':'-37.700552',
+        'lng':'175.192841'
+    },
+    {
+        'id':'WaikatoSub39',
+        'address':'93 Kerepehi Town Road',
+        'suburb':'Kerepehi',
+        'lat':'-37.298304',
+        'lng':'175.552896'
+    },
+    {
+        'id':'WaikatoSub40',
+        'address':'2685 State Highway 3',
+        'suburb':'Mahoenui',
+        'lat':'-38.601840',
+        'lng':'174.788504'
+    },
+    {
+        'id':'WaikatoSub41',
+        'address':'207 Finlayson Road',
+        'suburb':'Kopuku',
+        'lat':'-37.279041',
+        'lng':'175.193114'
+    },
+    {
+        'id':'WaikatoSub42',
+        'address':'30 Tower Road',
+        'suburb':'Matamata',
+        'lat':'-37.811085',
+        'lng':'175.785256'
+    },
+    {
+        'id':'WaikatoSub43',
+        'address':'77 Roache Road',
+        'suburb':'Morrinsville',
+        'lat':'-37.650699',
+        'lng':'175.560707'
+    },
+    {
+        'id':'WaikatoSub44',
+        'address':'188a Ngaruawahia',
+        'suburb':'Ngaruawahia',
+        'lat':'-37.687977',
+        'lng':'175.150043'
+    },
+    {
+        'id':'WaikatoSub45',
+        'address':'53 Rotokohu Road',
+        'suburb':'Paeroa',
+        'lat':'-37.389263',
+        'lng':'175.674243'
+    },
+    {
+        'id':'WaikatoSub46',
+        'address':'Morrinsville-Tahuna Road',
+        'suburb':'Tahuna',
+        'lat':'-37.502323',
+        'lng':'175.495268'
+    },
+    {
+        'id':'WaikatoSub47',
+        'address':'602 Storey Road',
+        'suburb':'Waiterimu',
+        'lat':'-37.478115',
+        'lng':'175.296481'
+    },
+    {
+        'id':'WaikatoSub48',
+        'address':'32 Wayside Road',
+        'suburb':'Te Kauwhata',
+        'lat':'-37.412529',
+        'lng':'175.127109'
+    },
+    {
+        'id':'WaikatoSub49',
+        'address':'32 Gadsby Road',
+        'suburb':'Te Kuiti',
+        'lat':'-38.322867',
+        'lng':'175.148629'
+    },
+    {
+        'id':'WaikatoSub50',
+        'address':'25 Okoroire Road',
+        'suburb':'Tirau',
+        'lat':'-37.974561',
+        'lng':'175.761885'
+    },
+    {
+        'id':'WaikatoSub51',
+        'address':'3198 Old Taupo Road',
+        'suburb':'Kinleith',
+        'lat':'-38.272073',
+        'lng':'175.883095'
+    },
+    {
+        'id':'WaikatoSub52',
+        'address':'11 Dunlop Road',
+        'suburb':'Waharoa',
+        'lat':'-37.756302',
+        'lng':'175.749276'
+    },
+    {
+        'id':'WaikatoSub53',
+        'address':'9438 Tauranga Road',
+        'suburb':'Waihi',
+        'lat':'-37.400135',
+        'lng':'175.852896'
+    },
+    {
+        'id':'WaikatoSub54',
+        'address':'40 Mikkelsen Road',
+        'suburb':'Waihou',
+        'lat':'-37.569140',
+        'lng':'175.683180'
+    },
+    {
+        'id':'BOPSub1',
         'address':'State Highway 1',
         'suburb':'Atiamuri',
         'lat':'-38.392976',
         'lng':'176.022729'
     },
+    {
+        'id':'BOPSub2',
+        'address':'749 E Bank Road',
+        'suburb':'Edgecumbe',
+        'lat':'-37.978312',
+        'lng':'176.834641'
+    },
+    {
+        'id':'BOPSub3',
+        'address':'106 Hydro Road',
+        'suburb':'Edgecumbe',
+        'lat':'-37.986796',
+        'lng':'176.829457'
+    },
+    {
+        'id':'BOPSub4',
+        'address':'493 Katikati North Road',
+        'suburb':'Katikati',
+        'lat':'-37.513681',
+        'lng':'175.918884'
+    },
+    {
+        'id':'BOPSub5',
+        'address':'318 Tamarangi Drive',
+        'suburb':'Kawerau',
+        'lat':'-38.076542',
+        'lng':'176.722986'
+    },
+    {
+        'id':'BOPSub6',
+        'address':'100 Maraetotara Road',
+        'suburb':'Ohope',
+        'lat':'-37.978190',
+        'lng':'177.049755'
+    },
+    {
+        'id':'BOPSub7',
+        'address':'3494 Thermal Explorer Highway',
+        'suburb':'Reporoa',
+        'lat':'-38.422165',
+        'lng':'176.316971'
+    },//Up to Rotorua
 		{
-			'id':'TaranakiSub1',
-			'address':'Cloten Road',
-			'suburb':'Stratford',
-			'lat':'-39.341796',
-			'lng':'174.287876'
+				'id':'TaranakiSub1',
+				'address':'Cloten Road',
+				'suburb':'Stratford',
+				'lat':'-39.341796',
+				'lng':'174.287876'
 		}/*,
     {
-        'id':'WaikatoSub',
+        'id':'BOPSub',
         'address':'',
         'suburb':'',
         'lat':'',
