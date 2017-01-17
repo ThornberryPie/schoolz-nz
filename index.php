@@ -1,37 +1,33 @@
+<?php include_once('includes/settings.php'); ?>
 <!DOCTYPE html>
 <html ng-app="schoolzApp" xmlns:fb="http://www.facebook.com/2008/fbml"
     xmlns:og="http://opengraphprotocol.org/schema/"
     xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
     lang="en" dir="ltr">
 <head>
-<title>Schools in New Zealand</title>
-<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-<meta name="description" content="View NZ school information on Google Maps, compare deciles and demographics." />
-<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-<meta property="og:title" content="View New Zealand schools on Google Maps" />
-<meta property="og:site_name" content="NZ SchoolZ"/>
-<meta property="og:url" content="schools.graemethornber.com" />
-<meta property="og:description" content="View decile ratings, demographics and find contact information for New Zealand schools directly on Google Maps." />
-<meta property="og:image" content="http://www.graemethornber.com/images/schools.screenshot.png" />
-<meta property="fb:app_id" content="404678913061528" />
-<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6bKLodwj4Ia-MxJrtGkmAMH8-zDvjme8&callback=angular.noop" type="text/javascript"></script>
-
-
-
-<link rel="stylesheet" type="text/css" href="dist/style.min.css">
+	<title><?php echo SITE_TITLE ?></title>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<meta name="description" content="<?php echo SITE_DESC ?>" />
+	<meta property="og:title" content="<?php echo SITE_TITLE ?>" />
+	<meta property="og:site_name" content="<?php echo SITE_NAME ?>"/>
+	<meta property="og:url" content="<?php echo SITE_URL ?>" />
+	<meta property="og:description" content="<?php echo SITE_DESC ?>" />
+	<meta property="og:image" content="<?php echo SITE_IMG ?>" />
+	<meta property="fb:app_id" content="<?php echo FB_APP_ID ?>" />
+	<script defer src="https://maps.googleapis.com/maps/api/js?key=<?php echo GMAPS_API_KEY ?>&callback=angular.noop" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="dist/style.min.css">
 </head>
-
 <body ng-controller="mapControl">
     <div id="fb-root"></div>
     <script>
       window.fbAsyncInit = function() {
         FB.init({
-          appId      : '404678913061528',
+          appId      : '<?php echo FB_APP_ID ?>',
           xfbml      : true,
           version    : 'v2.5'
         });
       };
-
       (function(d, s, id){
          var js, fjs = d.getElementsByTagName(s)[0];
          if (d.getElementById(id)) {return;}
@@ -60,23 +56,24 @@
     </datalist>
     <div id="map_footer">
         <div class="copyright">
-        <a href="http://www.graemethornber.com">
+        <a href="//<?php echo GT_SITE ?>">
             <span class="bigtext">Graeme&nbsp;Thornber</span>
             <span class="smalltext">GT</span>
         </a>
         <span class="copy">&copy;&nbsp;2016</span>
         </div>
         <div id="map_social">
-            <div class="fb-share-button" data-href="http://schools.graemethornber.com/" data-layout="button_count"></div>
+            <div class="fb-share-button" data-href="http://<?php echo SITE_URL ?>/" data-layout="button_count"></div>
         </div>
     </div>
     <script src="dist/main.min.js"></script>
+
     <script src="data/schoolz.js"></script>
     <script src="data/pylonz.js"></script>
     <script src="data/busz.js"></script>
     <script src="data/substationz.js"></script>
     <script src="data/playcentrez.js"></script>
-    <script src="scripts/markerclusterer_packed.js"></script>
+
     <script src="scripts/gt_school.js"></script>
     <script src="scripts/gt_substation.js"></script>
     <script src="scripts/gt_playcentre.js"></script>
@@ -86,7 +83,7 @@
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', 'UA-41497075-1', 'schools.graemethornber.com');
+        ga('create', '<?php echo GA_ID ?>', '<?php echo SITE_URL ?>');
         ga('send', 'pageview');
     </script>
 </body>

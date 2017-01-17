@@ -16,7 +16,8 @@ gulp.task('scripts', function() {
         'directives/map.js',
         'services/geo_coder.js',
         'services/navigator_geolocation.js',
-        'services/attr2_options.js'
+        'services/attr2_options.js',
+				'scripts/markerclusterer_packed.js'
     ])
     .pipe(concat('main.js'))
     .pipe(rename({suffix: '.min'}))
