@@ -1,4 +1,4 @@
-[
+var schoolz = [
   {
     "School ID": "1",
     "Name": "Te Kao School",
