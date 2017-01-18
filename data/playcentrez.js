@@ -1,6 +1,7 @@
 var playcentrez = [
   {
-    "name":"Alicetown Playcentre",
+		"id":"playcentre1",
+		"name":"Alicetown Playcentre",
     "address":"105-107 Victoria Street, Alicetown, Lower Hutt , 5010, New Zealand",
     "phone":"04 589 9078",
     "email":"alicetown@Playcentre.org.nz",
@@ -13,6 +14,7 @@ var playcentrez = [
     "lng":"174.894449"
   },
   {
+		"id":"playcentre2",
     "name":"Aotea Island Playcentre",
     "address":"Kaitoke Lane, RD 1, Kaitoke, Great Barrier Island, Great Barrier Island, New Zealand",
     "phone":"09 429 0600",
@@ -26,6 +28,7 @@ var playcentrez = [
     "lng":"175.473905"
   },
   {
+		"id":"playcentre3",
     "name":"Apiti Playcentre",
     "address":"11 Bryce Street, RD 1, Apiti , 4771, New Zealand",
     "phone":"06 323 7221",
@@ -39,6 +42,7 @@ var playcentrez = [
     "lng":"175.873690"
   },
   {
+		"id":"playcentre4",
     "name":"Aramoho Playcentre",
     "address":"Burmah Street, Wanganui / Whanganui, New Zealan",
     "phone":"06 344 7119",
@@ -52,6 +56,7 @@ var playcentrez = [
     "lng":"175.083550"
   },
   {
+		"id":"playcentre5",
     "name":"Aria Playcentre",
     "address":"Barclay Road, RD , Aria, New Zealand",
     "phone":"07 873 7737",
@@ -65,6 +70,7 @@ var playcentrez = [
     "lng":"174.985875"
   },
   {
+		"id":"playcentre6",
     "name":"Arohena Playcentre",
     "address":"16 Pukewhau Road, RD7, (next to the hall), Te Awamutu, New Zealand",
     "phone":"07 872 4363",
@@ -78,6 +84,7 @@ var playcentrez = [
     "lng":"175.612269"
   },
   {
+		"id":"playcentre7",
     "name":"Ashhurst Playcentre",
     "address":"118 Stanford Street, Ashhurst , 4810, New Zealand",
     "phone":"06 326 9270",
@@ -91,6 +98,7 @@ var playcentrez = [
     "lng":"175.757348"
   },
   {
+		"id":"playcentre8",
     "name":"Ashridge Road Playcentre",
     "address":"15 Ashridge Road, Napier, New Zealand",
     "phone":"06 835 4507",
@@ -104,6 +112,7 @@ var playcentrez = [
     "lng":"176.913715"
   },
   {
+		"id":"playcentre9",
     "name":"Ashurst Park Playcentre",
     "address":"61 Ashurst Avenue, Hamilton , 3200, New Zealand",
     "phone":"027 285 3330",
@@ -117,6 +126,7 @@ var playcentrez = [
     "lng":"175.236176"
   },
   {
+		"id":"playcentre10",
     "name":"Atiamuri Playcentre",
     "address":"2603 State Highway 30, RD 1, Atiamuri, New Zealand",
     "phone":"07 343 6444",
@@ -130,6 +140,7 @@ var playcentrez = [
     "lng":"176.068575"
   },
   {
+		"id":"playcentre11",
     "name":"Awakeri Playcentre",
     "address":"Awakeri School, State Highway 30, Awakeri, New Zealand",
     "phone":"07 304 8132",
@@ -143,6 +154,7 @@ var playcentrez = [
     "lng":"176.897435"
   },
   {
+		"id":"playcentre12",
     "name":"Awanui Playcentre",
     "address":"Main Road [Awanui Primary], Awanui, New Zealand",
     "phone":"09 408 0237",
@@ -156,6 +168,7 @@ var playcentrez = [
     "lng":"173.253978"
   },
   {
+		"id":"playcentre13",
     "name":"Awatuna And Districts Playcentre",
     "address":"2230 Eltham Road, Kaponga , 4679, New Zealand",
     "phone":"06 274 5073",
@@ -169,6 +182,7 @@ var playcentrez = [
     "lng":"174.032368"
   },
   {
+		"id":"playcentre14",
     "name":"Belmont Playcentre",
     "address":"39 Norfolk Street, Belmont, Lower Hutt , 5010, New Zealand",
     "phone":"04 565 0004",
@@ -182,6 +196,7 @@ var playcentrez = [
     "lng":"174.931950"
   },
   {
+		"id":"playcentre15",
     "name":"Bombay Playcentre",
     "address":"33 Paparata Road, Bombay, 2675, New Zealand",
     "phone":"09 236 0741",
@@ -195,6 +210,7 @@ var playcentrez = [
     "lng":"174.994822"
   },
   {
+		"id":"playcentre16",
     "name":"Brooklyn Playcentre",
     "address":"22 Harrison Street, Brooklyn, Wellington , 6021, New Zealand",
     "phone":"04 385 6531",
@@ -208,6 +224,7 @@ var playcentrez = [
     "lng":"174.764991"
   },
   {
+		"id":"playcentre17",
     "name":"Cambridge Playcentre",
     "address":"26 Vogel Street, Cambridge , 3434, New Zealand",
     "phone":"07 827 4529",
@@ -221,6 +238,7 @@ var playcentrez = [
     "lng":"175.456034"
   },
   {
+		"id":"playcentre18",
     "name":"Carterton Playcentre",
     "address":"Howard Booth Park, Belvedere Road, Carterton , 5731, New Zealand",
     "phone":"06 379 7875",
@@ -234,6 +252,7 @@ var playcentrez = [
     "lng":"175.523869"
   },
   {
+		"id":"playcentre19",
     "name":"Coatesville Playcentre",
     "address":"12 Maohenui Valley Road, Coatesville, RD3, Albany, Albany , 793, New Zealand",
     "phone":"09 415 8547",
@@ -247,6 +266,7 @@ var playcentrez = [
     "lng":"174.643826"
   },
   {
+		"id":"playcentre20",
     "name":"Community Playcentre",
     "address":"42 North Street, Feilding, 4702, New Zealand",
     "phone":"",
@@ -260,6 +280,7 @@ var playcentrez = [
     "lng":"175.565461"
   },
   {
+		"id":"playcentre21",
     "name":"Cornwall Park Playcentre",
     "address":"Roberts Street, Hastings, New Zealand",
     "phone":"06 876 2923",
@@ -273,6 +294,7 @@ var playcentrez = [
     "lng":"176.848765"
   },
   {
+		"id":"playcentre22",
     "name":"Coromandel Playcentre",
     "address":"80 Woollams Avenue, Coromandel , 3506, New Zealand",
     "phone":"07 863 5767",
@@ -286,6 +308,7 @@ var playcentrez = [
     "lng":"175.499472"
   },
   {
+		"id":"playcentre23",
     "name":"Dargaville Playcentre",
     "address":"7 Ranfurly Street, Dargaville, New Zealand",
     "phone":"022 018 4823",
@@ -299,6 +322,7 @@ var playcentrez = [
     "lng":"173.911520"
   },
   {
+		"id":"playcentre24",
     "name":"Days Bay Playcentre",
     "address":"2 Pitoitoi Road, Days Bay, Lower Hutt , 5013, New Zealand",
     "phone":"022 395 9781",
@@ -312,6 +336,7 @@ var playcentrez = [
     "lng":"174.907868"
   },
   {
+		"id":"playcentre25",
     "name":"Deanwell Playcentre",
     "address":"49 Deanwell Avenue, Hamilton , 3206, New Zealand",
     "phone":"07 843 4561",
@@ -325,6 +350,7 @@ var playcentrez = [
     "lng":"175.274757"
   },
   {
+		"id":"playcentre26",
     "name":"Dinsdale Playcentre",
     "address":"43a Frederick Drive, Dinsdale, Hamilton , 3204, New Zealand",
     "phone":"07 846 6547",
@@ -338,6 +364,7 @@ var playcentrez = [
     "lng":"175.250198"
   },
   {
+		"id":"playcentre27",
     "name":"Drury Playcentre",
     "address":"Young Crescent, Drury , Auckland, 2113, New Zealand",
     "phone":"09 294 8094",
@@ -351,6 +378,7 @@ var playcentrez = [
     "lng":"174.949758"
   },
   {
+		"id":"playcentre28",
     "name":"Eastside Playcentre",
     "address":"10 Matarawa Street, Wanganui / Whanganui, New Zealand",
     "phone":"025 266 5180",
@@ -364,6 +392,7 @@ var playcentrez = [
     "lng":"175.066919"
   },
   {
+		"id":"playcentre29",
     "name":"Edgecumbe Playcentre",
     "address":"179 College Road, Edgecumbe , 3120, New Zealand",
     "phone":"07 304 8322",
@@ -377,6 +406,7 @@ var playcentrez = [
     "lng":"176.834444"
   },
   {
+		"id":"playcentre30",
     "name":"Feilding Playcentre",
     "address":"254a Kimbolton Road, Feilding , 4702, New Zealand",
     "phone":"06 323 6100",
@@ -390,6 +420,7 @@ var playcentrez = [
     "lng":"175.579180"
   },
   {
+		"id":"playcentre31",
     "name":"Foxton Playcentre",
     "address":"16 Hall Street, Foxton , 4814, New Zealand",
     "phone":"06 363 8362",
@@ -403,6 +434,7 @@ var playcentrez = [
     "lng":"175.283087"
   },
   {
+		"id":"playcentre32",
     "name":"Galatea Playcentre",
     "address":"Cnr Galatea Road & Centennial Drive, Murupara , 3079, New Zealand",
     "phone":"07 366 4092",
@@ -416,6 +448,7 @@ var playcentrez = [
     "lng":"176.738663"
   },
   {
+		"id":"playcentre33",
     "name":"Greenpark Playcentre",
     "address":"19 Sinclair Street, Greerton, Tauranga , 3112, New Zealand",
     "phone":"07 541 0031",
@@ -429,6 +462,7 @@ var playcentrez = [
     "lng":"176.128135"
   },
   {
+		"id":"playcentre34",
     "name":"Halcombe Playcentre",
     "address":"77 Willoughby Street, RD 9, Halcolmbe, 4779, New Zealand",
     "phone":"06 328 8693",
@@ -442,6 +476,7 @@ var playcentrez = [
     "lng":"175.493834"
   },
   {
+		"id":"playcentre35",
     "name":"Hamilton East Playcentre",
     "address":"46 Graham Street, Hamilton , 3216, New Zealand",
     "phone":"07 856 1514",
@@ -455,6 +490,7 @@ var playcentrez = [
     "lng":"175.296457"
   },
   {
+		"id":"playcentre36",
     "name":"Hamurana Playcentre",
     "address":"38 Tauranga Direct Road, RD 2, Rotorua, New Zealand",
     "phone":"07 332 2110",
@@ -468,6 +504,7 @@ var playcentrez = [
     "lng":"176.221356"
   },
   {
+		"id":"playcentre37",
     "name":"Hataitai Playcentre",
     "address":"72a Hamilton Road, Hataitai, Wellington , 6021, New Zealand",
     "phone":"04 386 2560",
@@ -481,6 +518,7 @@ var playcentrez = [
     "lng":"174.793675"
   },
   {
+		"id":"playcentre38",
     "name":"Haumoana Playcentre",
     "address":"15 Holden Avenue, Haumoana, New Zealand",
     "phone":"027 426 7900",
@@ -494,6 +532,7 @@ var playcentrez = [
     "lng":"176.944127"
   },
   {
+		"id":"playcentre39",
     "name":"Havelock North Playcentre",
     "address":"13 Porter Drive, Havelock North, New Zealand",
     "phone":"06 870 1661",
@@ -507,6 +546,7 @@ var playcentrez = [
     "lng":"176.876328"
   },
   {
+		"id":"playcentre40",
     "name":"Hawera Playcentre",
     "address":"89 Fairfield Road, Hawera, New Zealand",
     "phone":"027 714 2795",
@@ -520,6 +560,7 @@ var playcentrez = [
     "lng":"174.278613"
   },
   {
+		"id":"playcentre41",
     "name":"Helensville Playcentre",
     "address":"7 Stewart Street, Helensville , Auckland , 0800, New Zealand",
     "phone":"09 420 9199",
@@ -533,6 +574,7 @@ var playcentrez = [
     "lng":"174.452216"
   },
   {
+		"id":"playcentre42",
     "name":"Herekino Playcentre",
     "address":"2525 Kaitaia-Awaroa Road, Herekino, Northland, 0481, New Zealand",
     "phone":"09 409 5550",
@@ -546,6 +588,7 @@ var playcentrez = [
     "lng":"173.210409"
   },
   {
+		"id":"playcentre43",
     "name":"Hinuera Playcentre",
     "address":"612 Hinuera Road, RD2, Matamata, 3472, New Zealand",
     "phone":"07 883 1373",
@@ -559,6 +602,7 @@ var playcentrez = [
     "lng":"175.757972"
   },
   {
+		"id":"playcentre44",
     "name":"Hora Hora Playcentre",
     "address":"1798 Maungatautari Rd, RD 2, Cambridge , 3494, New Zealand",
     "phone":"07 827 2783",
@@ -572,6 +616,7 @@ var playcentrez = [
     "lng":"175.625364"
   },
   {
+		"id":"playcentre45",
     "name":"Hora Hora Playcentre",
     "address":"22 Te Mai Road, Hora Hora, Whangarei, New Zealand",
     "phone":"09 438 3839",
@@ -585,6 +630,7 @@ var playcentrez = [
     "lng":"174.308169"
   },
   {
+		"id":"playcentre46",
     "name":"Horeke Playcentre",
     "address":"2230 Motukiore Road, Horeke, New Zealand",
     "phone":"09 401 9720",
@@ -598,6 +644,7 @@ var playcentrez = [
     "lng":"173.579167"
   },
   {
+		"id":"playcentre47",
     "name":"Horotiu Playcentre",
     "address":"89B Horotiu Bridge Rd, RD8, Hamilton, 3288, New Zealand",
     "phone":"07 829 9312",
@@ -611,6 +658,7 @@ var playcentrez = [
     "lng":"175.203144"
   },
   {
+		"id":"playcentre48",
     "name":"Houghton Valley Playcentre",
     "address":"84 Houghton Bay Road, Houghton Valley, Wellington , 6022, New Zealand",
     "phone":"04 387 7614",
@@ -624,6 +672,7 @@ var playcentrez = [
     "lng":"174.788138"
   },
   {
+		"id":"playcentre49",
     "name":"Huimai Playcentre",
     "address":"32 Seifert Road, RD 5, Morrinsville , 3375, New Zealand",
     "phone":"07 887 6622",
@@ -637,6 +686,7 @@ var playcentrez = [
     "lng":"175.363476"
   },
   {
+		"id":"playcentre50",
     "name":"Hukerenui Playcentre",
     "address":"9 Crows Nest Road, RD 2, Hikurangi, Whangarei, 0182, New Zealand",
     "phone":"09 438 2155",
@@ -650,6 +700,7 @@ var playcentrez = [
     "lng":"174.197494"
   },
   {
+		"id":"playcentre51",
     "name":"Hunterville Playcentre",
     "address":"17 Bruce Street, Hunterville , 4730, New Zealand",
     "phone":"027 756 4223",
@@ -663,6 +714,7 @@ var playcentrez = [
     "lng":"175.567473"
   },
   {
+		"id":"playcentre52",
     "name":"Inglewood Playcentre",
     "address":"21 Brown Street, Inglewood, New Zealand",
     "phone":"06 756 7570",
@@ -676,6 +728,7 @@ var playcentrez = [
     "lng":"174.204676"
   },
   {
+		"id":"playcentre53",
     "name":"Island Bay Playcentre",
     "address":"158 The Parade, Island Bay, Wellington , 6023, New Zealand",
     "phone":"04 934 8670",
@@ -689,6 +742,7 @@ var playcentrez = [
     "lng":"174.772870"
   },
   {
+		"id":"playcentre54",
     "name":"Johnsonville Playcentre",
     "address":"26 Ironside Road, Johnsonville, Wellington , 6037, New Zealand",
     "phone":"04 478 3904",
@@ -702,6 +756,7 @@ var playcentrez = [
     "lng":"174.804429"
   },
   {
+		"id":"playcentre55",
     "name":"Kaeo Playcentre",
     "address":"Main Road, Kaeo, New Zealand",
     "phone":"09 405 1288",
@@ -715,6 +770,7 @@ var playcentrez = [
     "lng":"173.789135"
   },
   {
+		"id":"playcentre56",
     "name":"Kaikohe Playcentre",
     "address":"30 Hongi Street, Kaikohe , 0405, New Zealand",
     "phone":"09 401 0368",
@@ -728,6 +784,7 @@ var playcentrez = [
     "lng":"173.803280"
   },
   {
+		"id":"playcentre57",
     "name":"Kaitaia Playcentre",
     "address":"60A North Road, Matthews Park Entrance, Kaitaia, New Zealand",
     "phone":"09 408 0237",
@@ -741,6 +798,7 @@ var playcentrez = [
     "lng":"173.259666"
   },
   {
+		"id":"playcentre58",
     "name":"Kaiti Playcentre",
     "address":"230 Rutene Road, Kaiti , 4010, New Zealand",
     "phone":"06 867 5353",
@@ -754,6 +812,7 @@ var playcentrez = [
     "lng":"178.044013"
   },
   {
+		"id":"playcentre59",
     "name":"Kaiwaka Playcentre",
     "address":"17 Hastie Lane, Kaiwaka, 0542, New Zealand",
     "phone":"09 431 2286",
@@ -767,6 +826,7 @@ var playcentrez = [
     "lng":"174.445376"
   },
   {
+		"id":"playcentre60",
     "name":"Kaponga Playcentre",
     "address":"34 Egmont Street, Kaponga, New Zealand",
     "phone":"06 756 7570",
@@ -780,6 +840,7 @@ var playcentrez = [
     "lng":"174.149575"
   },
   {
+		"id":"playcentre61",
     "name":"Karatia Playcentre",
     "address":"Omanaia School Road, Omanaia, New Zealand",
     "phone":"09 405 7404",
@@ -793,6 +854,7 @@ var playcentrez = [
     "lng":"173.524248"
   },
   {
+		"id":"playcentre62",
     "name":"Karori Playcentre",
     "address":"64 Campbell Street, Karori, Wellington , 6012, New Zealand",
     "phone":"04 476 8652",
@@ -806,6 +868,7 @@ var playcentrez = [
     "lng":"174.740824"
   },
   {
+		"id":"playcentre63",
     "name":"Katikati Playcentre",
     "address":"6 Binnie Road, Katikati , 3129, New Zealand",
     "phone":"07 549 0211 ",
@@ -819,6 +882,7 @@ var playcentrez = [
     "lng":"175.924524"
   },
   {
+		"id":"playcentre64",
     "name":"Kaukapakapa Playcentre",
     "address":"Sinclair Park, Macky Road, Kaukapakapa , 0873, New Zealand",
     "phone":"09 420 5308",
@@ -832,6 +896,7 @@ var playcentrez = [
     "lng":"174.499331"
   },
   {
+		"id":"playcentre65",
     "name":"Kawakawa Playcentre",
     "address":"26 Albert Street, Kawakawa , 0243, New Zealand",
     "phone":"09 404 0114",
@@ -845,6 +910,7 @@ var playcentrez = [
     "lng":"174.065597"
   },
   {
+		"id":"playcentre66",
     "name":"Kelburn Playcentre",
     "address":"17 Kowhai Road, Kelburn, Wellington , 6012, New Zealand",
     "phone":"04 939 8140",
@@ -858,6 +924,7 @@ var playcentrez = [
     "lng":"174.762276"
   },
   {
+		"id":"playcentre67",
     "name":"Kerikeri Playcentre",
     "address":"32 Landing Road, Kerikeri, New Zealand",
     "phone":"09 407 9502",
@@ -871,6 +938,7 @@ var playcentrez = [
     "lng":"173.962405"
   },
   {
+		"id":"playcentre68",
     "name":"Kohukohu Playcentre",
     "address":"Beach Road, Kohukohu, New Zealand",
     "phone":"09 408 0237",
@@ -884,6 +952,7 @@ var playcentrez = [
     "lng":"173.544410"
   },
   {
+		"id":"playcentre69",
     "name":"Korokoro Playcentre",
     "address":"38 Singers Road, Korokoro, Lower Hutt 5012, 5012, New Zealand",
     "phone":"04 586 3783",
@@ -897,6 +966,7 @@ var playcentrez = [
     "lng":"174.868337"
   },
   {
+		"id":"playcentre70",
     "name":"Koutu Playcentre",
     "address":"35 Taharangi Street, Rotorua , 3010, New Zealand",
     "phone":"07 346 1702",
@@ -910,6 +980,7 @@ var playcentrez = [
     "lng":"176.237057"
   },
   {
+		"id":"playcentre71",
     "name":"Kumeu Playcentre",
     "address":"18 Oraha Road, Huapai, Auckland, New Zealand",
     "phone":"09 412 8199",
@@ -923,6 +994,7 @@ var playcentrez = [
     "lng":"174.547612"
   },
   {
+		"id":"playcentre72",
     "name":"Laingholm Playcentre",
     "address":"4 Lookout Drive, Titirangi, Waitakere City, 0604, New Zealand",
     "phone":"09 817 3489",
@@ -936,6 +1008,7 @@ var playcentrez = [
     "lng":"174.627726"
   },
   {
+		"id":"playcentre73",
     "name":"Lake Tarawera Playcentre",
     "address":"10 Alexander Road, Lake Tarawera, RD 5, Rotorua, Rotorua , 3076, New Zealand",
     "phone":"07 362 8055",
@@ -949,6 +1022,7 @@ var playcentrez = [
     "lng":"176.391400"
   },
   {
+		"id":"playcentre74",
     "name":"Leamington Playcentre",
     "address":"35 Thompson Street, Leamington, Cambridge, 3432, New Zealand",
     "phone":"07 827 9575",
@@ -962,6 +1036,7 @@ var playcentrez = [
     "lng":"175.471473"
   },
   {
+		"id":"playcentre75",
     "name":"Lepperton Playcentre",
     "address":"Cnr Richmond & Whitcombe, Lepperton School, Lepperton, New Zealand",
     "phone":"06 756 7570",
@@ -975,6 +1050,7 @@ var playcentrez = [
     "lng":"174.209249"
   },
   {
+		"id":"playcentre76",
     "name":"Levin Playcentre",
     "address":"13A Paisley Street, Levin , 5510, New Zealand",
     "phone":"06 368 2050",
@@ -988,6 +1064,7 @@ var playcentrez = [
     "lng":"175.290565"
   },
   {
+		"id":"playcentre77",
     "name":"Lower Hutt Playcentre",
     "address":"14 Glen Iris Grove, Woburn, Lower Hutt , 5010, New Zealand",
     "phone":"04 566 5289",
@@ -1001,6 +1078,7 @@ var playcentrez = [
     "lng":"174.899414"
   },
   {
+		"id":"playcentre78",
     "name":"Lynmore Playcentre",
     "address":"3A Lynbert Road, Lynmore, Rotorua , 3010, New Zealand",
     "phone":"07 345 5815",
@@ -1014,6 +1092,7 @@ var playcentrez = [
     "lng":"176.284009"
   },
   {
+		"id":"playcentre79",
     "name":"Maihiihi Playcentre",
     "address":"748 Maihihi Road, Otorohanga, New Zealand",
     "phone":"07 873 2947",
@@ -1027,6 +1106,7 @@ var playcentrez = [
     "lng":"175.384442"
   },
   {
+		"id":"playcentre80",
     "name":"Mamaku Playcentre",
     "address":"1 Karamu Street, Mamaku , 3020, New Zealand",
     "phone":"07 332 5919",
@@ -1040,6 +1120,7 @@ var playcentrez = [
     "lng":"176.075700"
   },
   {
+		"id":"playcentre81",
     "name":"Mamaranui Playcentre",
     "address":"2938 Waihue Road, Mamaranui, Dargaville, 0373, New Zealand",
     "phone":"022 328 1908",
@@ -1053,6 +1134,7 @@ var playcentrez = [
     "lng":"173.753878"
   },
   {
+		"id":"playcentre82",
     "name":"Mananui Playcentre",
     "address":"71 Riverside Drive, Whakatane , 3120, New Zealand",
     "phone":"07 308 0273",
@@ -1066,6 +1148,7 @@ var playcentrez = [
     "lng":"176.961078"
   },
   {
+		"id":"playcentre83",
     "name":"Manawaru Playcentre",
     "address":"405B Manawaru Road, Manawaru, Te Aroha , 3391, New Zealand",
     "phone":"027 213 8313",
@@ -1079,6 +1162,7 @@ var playcentrez = [
     "lng":"175.762613"
   },
   {
+		"id":"playcentre84",
     "name":"Mangakino Playcentre",
     "address":"Cnr Karamu & College St's, Mangakino , 3421, New Zealand",
     "phone":"07 882 8811",
@@ -1092,6 +1176,7 @@ var playcentrez = [
     "lng":"175.772298"
   },
   {
+		"id":"playcentre85",
     "name":"Mangapai Playcentre",
     "address":"8 McAlister Road, RD 8, Whangarei , 0178, New Zealand",
     "phone":"09 432 2481",
@@ -1105,6 +1190,7 @@ var playcentrez = [
     "lng":"174.288276"
   },
   {
+		"id":"playcentre86",
     "name":"Mangapapa Playcentre",
     "address":"351b Ormond Road, Gisborne, New Zealand",
     "phone":"06 867 0010",
@@ -1118,6 +1204,7 @@ var playcentrez = [
     "lng":"178.010467"
   },
   {
+		"id":"playcentre87",
     "name":"Mangatangi & Districts Playcentre",
     "address":"2053 Miranda Road, Mangatangi, 2473, New Zealand",
     "phone":"021 962 213",
@@ -1131,6 +1218,7 @@ var playcentrez = [
     "lng":"175.204249"
   },
   {
+		"id":"playcentre88",
     "name":"Mangaweka Playcentre",
     "address":"4 Broadway, Mangaweka , 4702, New Zealand",
     "phone":"022 328 5649",
@@ -1144,6 +1232,7 @@ var playcentrez = [
     "lng":"175.787887"
   },
   {
+		"id":"playcentre89",
     "name":"Manukau Peninsula Playcentre",
     "address":"2610 Awhitu Road, Matakawau, Awhitu , 2684, New Zealand",
     "phone":"09 235 1075",
@@ -1157,6 +1246,7 @@ var playcentrez = [
     "lng":"174.615101"
   },
   {
+		"id":"playcentre90",
     "name":"Manunui Playgroup",
     "address":"161 Miro Street, Manunui, New Zealand",
     "phone":"07 343 6444",
@@ -1170,6 +1260,7 @@ var playcentrez = [
     "lng":"175.322744"
   },
   {
+		"id":"playcentre91",
     "name":"Manutuke Playcentre",
     "address":"2 Taurau Valley Road, Manutuke, Gisborne, New Zealand",
     "phone":"021 115 0115",
@@ -1183,6 +1274,7 @@ var playcentrez = [
     "lng":"177.900079"
   },
   {
+		"id":"playcentre92",
     "name":"Maramarua Kopuku Playcentre",
     "address":"Maramarua School, 2200 State Highway 2, Maramarua , 2471, New Zealand",
     "phone":"021 169 0961",
@@ -1196,6 +1288,7 @@ var playcentrez = [
     "lng":"175.228326"
   },
   {
+		"id":"playcentre93",
     "name":"Marsden Playcentre",
     "address":"228 McEwan Road, One Tree Point, Ruakaka, New Zealand",
     "phone":"022 371 5265",
@@ -1209,6 +1302,7 @@ var playcentrez = [
     "lng":"174.462542"
   },
   {
+		"id":"playcentre94",
     "name":"Martinborough Playcentre",
     "address":"38 Venice Street, Martinborough , 5711, New Zealand",
     "phone":"06 306 9068",
@@ -1222,6 +1316,7 @@ var playcentrez = [
     "lng":"175.456088"
   },
   {
+		"id":"playcentre95",
     "name":"Matakana Playcentre",
     "address":"3 Torea Road, Matakana, 0948, New Zealand",
     "phone":"09 422 9070",
@@ -1235,6 +1330,7 @@ var playcentrez = [
     "lng":"174.716428"
   },
   {
+		"id":"playcentre96",
     "name":"Matamata Playcentre",
     "address":"37 Farmers Road, Matamata , 3400, New Zealand",
     "phone":"07 888 5785",
@@ -1248,6 +1344,7 @@ var playcentrez = [
     "lng":"175.767252"
   },
   {
+		"id":"playcentre97",
     "name":"Matawai Playcentre",
     "address":"29a Raumati Street, Matawai, New Zealand",
     "phone":"06 867 0010",
@@ -1261,6 +1358,7 @@ var playcentrez = [
     "lng":"177.534201"
   },
   {
+		"id":"playcentre98",
     "name":"Matiere Playgroup",
     "address":"10 Cemetery Rd, RD1, Matiere, 3995, New Zealand",
     "phone":"07 343 6444",
@@ -1274,6 +1372,7 @@ var playcentrez = [
     "lng":"175.102029"
   },
   {
+		"id":"playcentre99",
     "name":"Maungakaramea Playcentre",
     "address":"8 Tauraroa Road, Maungakaramea, Whangarei, New Zealand",
     "phone":"027 420 4301",
@@ -1287,6 +1386,7 @@ var playcentrez = [
     "lng":"174.204696"
   },
   {
+		"id":"playcentre100",
     "name":"Maungaraki Playcentre",
     "address":"11 Cedar Street, Maungaraki, Lower Hutt, 5010, New Zealand",
     "phone":"04 589 8710",
@@ -1300,6 +1400,7 @@ var playcentrez = [
     "lng":"174.879545"
   },
   {
+		"id":"playcentre101",
     "name":"Maungatapere Playcentre",
     "address":"25 Mangakahia Road, Maungatapere, Whangarei, New Zealand",
     "phone":"09 434 6451",
@@ -1313,6 +1414,7 @@ var playcentrez = [
     "lng":"174.205126"
   },
   {
+		"id":"playcentre102",
     "name":"Maungaturoto Playcentre",
     "address":"Hurndal Street, Maungatoroto, New Zealand",
     "phone":"09 431 8517",
@@ -1326,6 +1428,7 @@ var playcentrez = [
     "lng":"174.353888"
   },
   {
+		"id":"playcentre103",
     "name":"Milson Playcentre",
     "address":"1A Seaforth Avenue, Milson, Palmerston North , 4414, New Zealand",
     "phone":"06 356 9824",
@@ -1339,6 +1442,7 @@ var playcentrez = [
     "lng":"175.616527"
   },
   {
+		"id":"playcentre104",
     "name":"Miramar Playcentre",
     "address":"23 Crawford Green, Miramar, Wellington , 6022, New Zealand",
     "phone":"04 388 1498",
@@ -1352,6 +1456,7 @@ var playcentrez = [
     "lng":"174.815964"
   },
   {
+		"id":"playcentre105",
     "name":"Morrinsville Playcentre",
     "address":"55 Lorne Street, Morrinsville, 3300, New Zealand",
     "phone":"027 789 0925",
@@ -1365,6 +1470,7 @@ var playcentrez = [
     "lng":"175.525050"
   },
   {
+		"id":"playcentre106",
     "name":"Mt Maunganui Playcentre",
     "address":"52 Miro Street, Mount Maunganui, New Zealand",
     "phone":"07 575 0043",
@@ -1378,6 +1484,7 @@ var playcentrez = [
     "lng":"176.190020"
   },
   {
+		"id":"playcentre107",
     "name":"Naenae Playcentre",
     "address":"73 Rata Street, Naenae, Lower Hutt , 5010, New Zealand",
     "phone":"04 920 5716",
@@ -1391,6 +1498,7 @@ var playcentrez = [
     "lng":"174.955727"
   },
   {
+		"id":"playcentre108",
     "name":"National Park Playgroup",
     "address":"45 Carroll Street, National Park, Rotorua, 3948, New Zealand",
     "phone":"07 343 6444",
@@ -1404,6 +1512,7 @@ var playcentrez = [
     "lng":"175.396210"
   },
   {
+		"id":"playcentre109",
     "name":"Nawton Playcentre",
     "address":"82 Dominion Road, Hamilton 3200, New Zealand",
     "phone":"",
@@ -1417,6 +1526,7 @@ var playcentrez = [
     "lng":"175.233239"
   },
   {
+		"id":"playcentre110",
     "name":"New Plymouth Playcentre",
     "address":"15 Hori Street, New Plymouth, New Zealand",
     "phone":"06 753 3661",
@@ -1430,6 +1540,7 @@ var playcentrez = [
     "lng":"174.081640"
   },
   {
+		"id":"playcentre111",
     "name":"Newlands - Tamariki Playcentre",
     "address":"134 Newlands Road, Newlands, Wellington , 6037, New Zealand",
     "phone":"04 970 5381",
@@ -1443,6 +1554,7 @@ var playcentrez = [
     "lng":"174.819609"
   },
   {
+		"id":"playcentre112",
     "name":"Newtown Playcentre",
     "address":"3 Harper Street, Newtown, Wellington , 6021, New Zealand",
     "phone":"04 389 3475",
@@ -1456,6 +1568,7 @@ var playcentrez = [
     "lng":"174.783436"
   },
   {
+		"id":"playcentre113",
     "name":"Ngaio Playcentre",
     "address":"50 Silverstream Road, Crofton Downs, Wellington , 6035, New Zealand",
     "phone":"04 479 7312",
@@ -1469,6 +1582,7 @@ var playcentrez = [
     "lng":"174.762150"
   },
   {
+		"id":"playcentre114",
     "name":"Ngakuru Playcentre",
     "address":"923 Whirinaki Valley Road, Ngakuru, RD1, Rotorua, 3077, New Zealand",
     "phone":"07 343 6444",
@@ -1482,6 +1596,7 @@ var playcentrez = [
     "lng":"176.192320"
   },
   {
+		"id":"playcentre115",
     "name":"Ngatea Playcentre",
     "address":"McMillan Street, Ngatea , 3503, New Zealand",
     "phone":"027 327 5536 ",
@@ -1495,6 +1610,7 @@ var playcentrez = [
     "lng":"175.493589"
   },
   {
+		"id":"playcentre116",
     "name":"Normanby Playcentre",
     "address":"11 Chute Street, Normanby, New Zealand",
     "phone":"06 272 8562",
@@ -1508,6 +1624,7 @@ var playcentrez = [
     "lng":"174.271963"
   },
   {
+		"id":"playcentre117",
     "name":"Normandale Playcentre",
     "address":"165 Normandale Road, Normandale, Lower Hutt , 5010, New Zealand",
     "phone":"04 589 1227",
@@ -1521,6 +1638,7 @@ var playcentrez = [
     "lng":"174.891504"
   },
   {
+		"id":"playcentre118",
     "name":"Nuhaka Playcentre",
     "address":"14 Tamakahu Street, Nuhaka, 4165, New Zealand",
     "phone":"06 867 0010",
@@ -1534,6 +1652,7 @@ var playcentrez = [
     "lng":"177.738761"
   },
   {
+		"id":"playcentre119",
     "name":"Oakura Playcentre",
     "address":"14 Donelley Street, Oakura , 4314, New Zealand",
     "phone":"06 756 7570",
@@ -1547,6 +1666,7 @@ var playcentrez = [
     "lng":"173.957337"
   },
   {
+		"id":"playcentre120",
     "name":"Ohaeawai Playcentre",
     "address":"Hobson Street, Ohaeawai, New Zealand",
     "phone":"09 405 9319",
@@ -1560,6 +1680,7 @@ var playcentrez = [
     "lng":"173.884153"
   },
   {
+		"id":"playcentre121",
     "name":"Ohau Playcentre",
     "address":"Muhunoa East Road, Ohau, Levin , 5570, New Zealand",
     "phone":"06 367 5915",
@@ -1573,6 +1694,7 @@ var playcentrez = [
     "lng":"175.251144"
   },
   {
+		"id":"playcentre122",
     "name":"Ohaupo Playcentre",
     "address":"17 Forkert Road, Ohaupo , 3803, New Zealand",
     "phone":"07 823 8111",
@@ -1586,6 +1708,7 @@ var playcentrez = [
     "lng":"175.303596"
   },
   {
+		"id":"playcentre123",
     "name":"Okaihau Playcentre",
     "address":"Michie Street, Okaihau, New Zealand",
     "phone":"09 401 9918",
@@ -1599,6 +1722,7 @@ var playcentrez = [
     "lng":"173.769988"
   },
   {
+		"id":"playcentre124",
     "name":"Okato Playcentre",
     "address":"7575 Main South Road, State Highway 45, Okato, New Zealand",
     "phone":"027 326 5479",
@@ -1612,6 +1736,7 @@ var playcentrez = [
     "lng":"173.880314"
   },
   {
+		"id":"playcentre125",
     "name":"Omakere Playcentre",
     "address":"Omakere Hall, 2105 Pourerere Road, Waipawa, 4271, New Zealand",
     "phone":"06 857 3858",
@@ -1625,6 +1750,7 @@ var playcentrez = [
     "lng":"176.751859"
   },
   {
+		"id":"playcentre126",
     "name":"Omapere Playcentre",
     "address":"State Highway 12, Omapere, New Zealand",
     "phone":"09 405 8187",
@@ -1638,6 +1764,7 @@ var playcentrez = [
     "lng":"173.390556"
   },
   {
+		"id":"playcentre127",
     "name":"Omokoroa Playcentre",
     "address":"334 Omokoroa Road, RD 2, Tauranga , 3172, New Zealand",
     "phone":"07 548 1343",
@@ -1651,6 +1778,7 @@ var playcentrez = [
     "lng":"176.025679"
   },
   {
+		"id":"playcentre128",
     "name":"Onerahi Playcentre",
     "address":"1b Church Street, Onerahi, Whangarei, New Zealand",
     "phone":"09 436 1001",
@@ -1664,6 +1792,7 @@ var playcentrez = [
     "lng":"174.368580"
   },
   {
+		"id":"playcentre129",
     "name":"Onga Onga Playcentre",
     "address":"32 Bridge Street, Onga Onga , 4278, New Zealand",
     "phone":"06 856 6521",
@@ -1677,6 +1806,7 @@ var playcentrez = [
     "lng":"176.420762"
   },
   {
+		"id":"playcentre130",
     "name":"Opotiki Playcentre",
     "address":"48 Goring Street, Opotiki , 3122, New Zealand",
     "phone":"07 315 8637",
@@ -1690,6 +1820,7 @@ var playcentrez = [
     "lng":"177.289884"
   },
   {
+		"id":"playcentre131",
     "name":"Opunake Playcentre",
     "address":"24 Allison Street, Opunake, New Zealand",
     "phone":"06 761 8596",
@@ -1703,6 +1834,7 @@ var playcentrez = [
     "lng":"173.856646"
   },
   {
+		"id":"playcentre132",
     "name":"Otaki Playcentre",
     "address":"169 Mill Road, Otaki, Wellington , 5512, New Zealand",
     "phone":"06 364 5787",
@@ -1716,6 +1848,7 @@ var playcentrez = [
     "lng":"175.147121"
   },
   {
+		"id":"playcentre133",
     "name":"Otakiri Playcentre",
     "address":"583 Otakiri Road, Whakatane , 3193, New Zealand",
     "phone":"07 304 9700",
@@ -1729,6 +1862,7 @@ var playcentrez = [
     "lng":"176.761740"
   },
   {
+		"id":"playcentre134",
     "name":"Otamauri Playcentre",
     "address":"Taihape Road, RD 9, Hastings, New Zealand",
     "phone":"06 870 1661",
@@ -1742,6 +1876,7 @@ var playcentrez = [
     "lng":"176.499222"
   },
   {
+		"id":"playcentre135",
     "name":"Otane Playgroup",
     "address":"12 Hickey Street, Otane , 4202, New Zealand",
     "phone":"06 856 8494",
@@ -1755,6 +1890,7 @@ var playcentrez = [
     "lng":"176.626527"
   },
   {
+		"id":"playcentre136",
     "name":"Otaua Aka Aka Playcentre",
     "address":"32 Factory Road, Otaua , 2682, New Zealand",
     "phone":"09 235 2845",
@@ -1768,6 +1904,7 @@ var playcentrez = [
     "lng":"174.743010"
   },
   {
+		"id":"playcentre137",
     "name":"Otorohanga Playcentre",
     "address":"40 Te Kawa Street, Otorohanga, New Zealand",
     "phone":"07 873 7930",
@@ -1781,6 +1918,7 @@ var playcentrez = [
     "lng":"175.205565"
   },
   {
+		"id":"playcentre138",
     "name":"Otumoetai Playcentre",
     "address":"75 Windsor Road, Bellevue, Tauranga , 3145, New Zealand",
     "phone":"07 576 1178",
@@ -1794,6 +1932,7 @@ var playcentrez = [
     "lng":"176.129648"
   },
   {
+		"id":"playcentre139",
     "name":"Paekakariki Playcentre",
     "address":"22 Wellington Road, Paekakariki, 5034, New Zealand",
     "phone":"04 905 8820",
@@ -1807,6 +1946,7 @@ var playcentrez = [
     "lng":"174.952717"
   },
   {
+		"id":"playcentre140",
     "name":"Paeroa Playcentre",
     "address":"58 Aorangi Road, Paeroa , 3600, New Zealand",
     "phone":"022 639 0673",
@@ -1820,6 +1960,7 @@ var playcentrez = [
     "lng":"175.684778"
   },
   {
+		"id":"playcentre141",
     "name":"Pamapuria Playcentre",
     "address":"6964 State Highway 1, RD 2, (next to Pamapuria School), Kaitaia, New Zealand",
     "phone":"027 343 2252",
@@ -1833,6 +1974,7 @@ var playcentrez = [
     "lng":"173.351421"
   },
   {
+		"id":"playcentre142",
     "name":"Papamoa Playcentre",
     "address":"301 Dickson Road, Papamoa, New Zealand",
     "phone":"07 542 1349",
@@ -1846,6 +1988,7 @@ var playcentrez = [
     "lng":"176.313658"
   },
   {
+		"id":"playcentre143",
     "name":"Paparoa Playcentre",
     "address":"18b Franklin Road, Paparoa, New Zealand",
     "phone":"09 431 6653",
@@ -1859,6 +2002,7 @@ var playcentrez = [
     "lng":"174.233441"
   },
   {
+		"id":"playcentre144",
     "name":"Paraparaumu Playcentre",
     "address":"10 Hinemoa Street, Paraparaumu, 5034, New Zealand",
     "phone":"04 902 5885",
@@ -1872,6 +2016,7 @@ var playcentrez = [
     "lng":"175.008681"
   },
   {
+		"id":"playcentre145",
     "name":"Paremata Playcentre",
     "address":"Ngatitoa Domain, Mana, Porirua City, New Zealand",
     "phone":"04 233 9633",
@@ -1885,6 +2030,7 @@ var playcentrez = [
     "lng":"174.867645"
   },
   {
+		"id":"playcentre146",
     "name":"Park Road Playcentre",
     "address":"Huia Street Extension, Palmerston North, New Zealand",
     "phone":"06 357 0791",
@@ -1898,6 +2044,7 @@ var playcentrez = [
     "lng":"175.616744"
   },
   {
+		"id":"playcentre147",
     "name":"Parklands Kamo Playcentre",
     "address":"26 Tait Street, Kamo, Whangarei , New Zealand",
     "phone":"09 435 0965",
@@ -1911,6 +2058,7 @@ var playcentrez = [
     "lng":"174.309243"
   },
   {
+		"id":"playcentre148",
     "name":"Parua Bay Playcentre",
     "address":"1394 Whangarei Heads Road, Parua Bay, Whangarei, New Zealand",
     "phone":"027 436 5224",
@@ -1924,6 +2072,7 @@ var playcentrez = [
     "lng":"174.479075"
   },
   {
+		"id":"playcentre149",
     "name":"Paterson Street Playcentre",
     "address":"40 Paterson Street, Hamilton, 3204, New Zealand",
     "phone":"07 846 6484",
@@ -1937,6 +2086,7 @@ var playcentrez = [
     "lng":"175.249325"
   },
   {
+		"id":"playcentre150",
     "name":"Patumahoe Mauku Playcentre",
     "address":"Cnr Mareretu Avenue & Patamahoe Road, Patumahoe , 2679, New Zealand",
     "phone":"09 236 3902",
@@ -1950,6 +2100,7 @@ var playcentrez = [
     "lng":"174.832138"
   },
   {
+		"id":"playcentre151",
     "name":"Patutahi Playgroup",
     "address":"Onslow Road, Patutahi, Gisborne , 4045, New Zealand",
     "phone":"06 867 0010",
@@ -1963,6 +2114,7 @@ var playcentrez = [
     "lng":"177.889335"
   },
   {
+		"id":"playcentre152",
     "name":"Peachgrove Playcentre",
     "address":"80 Peachgrove Road, Hamilton , 3216, New Zealand",
     "phone":"07 855 0850",
@@ -1976,6 +2128,7 @@ var playcentrez = [
     "lng":"175.299570"
   },
   {
+		"id":"playcentre153",
     "name":"Peria Playcentre",
     "address":"Peria School, Oruru Road , RD 2, Kaitaia, Kaitaia, New Zealand",
     "phone":"027 343 2252",
@@ -1989,6 +2142,7 @@ var playcentrez = [
     "lng":"173.487564"
   },
   {
+		"id":"playcentre154",
     "name":"Pinehaven Playcentre",
     "address":"Forest Road, Pinehaven, Upper Hutt , 5019, New Zealand",
     "phone":"04 528 9181",
@@ -2002,6 +2156,7 @@ var playcentrez = [
     "lng":"175.015736"
   },
   {
+		"id":"playcentre155",
     "name":"Piopio Playcentre",
     "address":"14 Ruru Street, Pio Pio, New Zealand",
     "phone":"07 877 8902",
@@ -2015,6 +2170,7 @@ var playcentrez = [
     "lng":"175.015141"
   },
   {
+		"id":"playcentre156",
     "name":"Pirinoa Playgroup",
     "address":"Martinborough Lake Ferry Road, Pirinoa , 5772, New Zealand",
     "phone":"06 377 4098",
@@ -2028,6 +2184,7 @@ var playcentrez = [
     "lng":"175.204544"
   },
   {
+		"id":"playcentre157",
     "name":"Pirongia Playcentre",
     "address":"762 Franklin Street, Pirongia, New Zealand",
     "phone":"07 871 9669",
@@ -2041,6 +2198,7 @@ var playcentrez = [
     "lng":"175.200317"
   },
   {
+		"id":"playcentre158",
     "name":"Point Howard Playcentre",
     "address":"1A Ngaumatau Road, Point Howard, Lower Hutt , 5013, New Zealand",
     "phone":"022 079 5721",
@@ -2054,6 +2212,7 @@ var playcentrez = [
     "lng":"174.910372"
   },
   {
+		"id":"playcentre159",
     "name":"Pokeno Playcentre",
     "address":"Keppel Street, Porangahau , 4291, New Zealand",
     "phone":"09 233 6151",
@@ -2067,6 +2226,7 @@ var playcentrez = [
     "lng":"175.015098"
   },
   {
+		"id":"playcentre160",
     "name":"Pongakawa Playcentre",
     "address":"956 Old Coach Road, RD 6, Te Puke , 3186, New Zealand",
     "phone":"07 533 3250",
@@ -2080,6 +2240,7 @@ var playcentrez = [
     "lng":"176.477412"
   },
   {
+		"id":"playcentre161",
     "name":"Porangahau Playcentre",
     "address":"47 Keppel Street, Porangahau , 4291, New Zealand",
     "phone":"06 858 5452",
@@ -2093,6 +2254,7 @@ var playcentrez = [
     "lng":"176.616650"
   },
   {
+		"id":"playcentre162",
     "name":"Port Ahuriri Playcentre",
     "address":"32 Ossian Street, Napier, New Zealand",
     "phone":"06 834 0072",
@@ -2106,6 +2268,7 @@ var playcentrez = [
     "lng":"176.898300"
   },
   {
+		"id":"playcentre163",
     "name":"Port Ohope Playcentre",
     "address":"Harbour Road, Ohope , 3121, New Zealand",
     "phone":"07 312 5419",
@@ -2119,6 +2282,7 @@ var playcentrez = [
     "lng":"177.108200"
   },
   {
+		"id":"playcentre164",
     "name":"Puahue Playcentre",
     "address":"581 Puahue Road, RD 1, Te Awamutu, New Zealand",
     "phone":"07 873 7737",
@@ -2132,6 +2296,7 @@ var playcentrez = [
     "lng":"175.409069"
   },
   {
+		"id":"playcentre165",
     "name":"Pukeatua Playcentre",
     "address":"2112 Arapuni Road, Pukeatua, 3880, New Zealand",
     "phone":"07 883 5802",
@@ -2145,6 +2310,7 @@ var playcentrez = [
     "lng":"175.559217"
   },
   {
+		"id":"playcentre166",
     "name":"Pukekawa Playcentre",
     "address":"32 Clarke & Denize Road, Pukekawa, Auckland, New Zealand",
     "phone":"09 233 4181",
@@ -2158,6 +2324,7 @@ var playcentrez = [
     "lng":"174.991867"
   },
   {
+		"id":"playcentre167",
     "name":"Pukekohe East Playcentre",
     "address":"137 Runciman Road, Pukekohe , 2677, New Zealand",
     "phone":"020 4035 0988",
@@ -2171,6 +2338,7 @@ var playcentrez = [
     "lng":"174.944856"
   },
   {
+		"id":"playcentre168",
     "name":"Pukekohe Playcentre",
     "address":"177 Victoria Street West, Pukekohe , Auckland, 2120, New Zealand",
     "phone":"09 238 5561",
@@ -2184,6 +2352,7 @@ var playcentrez = [
     "lng":"174.889017"
   },
   {
+		"id":"playcentre169",
     "name":"Putaruru Playcentre",
     "address":"Kennedy Drive, Putaruru, New Zealand",
     "phone":"07 883 6822",
@@ -2197,6 +2366,7 @@ var playcentrez = [
     "lng":"175.779172"
   },
   {
+		"id":"playcentre170",
     "name":"Pyes Pa Playcentre",
     "address":"Pyes Pa Road, RD 3, Tauranga , 3173, New Zealand",
     "phone":"027 338 7408",
@@ -2210,6 +2380,7 @@ var playcentrez = [
     "lng":"176.125055"
   },
   {
+		"id":"playcentre171",
     "name":"Raglan Playgroup",
     "address":"Scout Hall, Cliff Street, Raglan , 3225, New Zealand",
     "phone":"07 825 0336",
@@ -2223,6 +2394,7 @@ var playcentrez = [
     "lng":"174.870306"
   },
   {
+		"id":"playcentre172",
     "name":"Rahotu Playcentre",
     "address":"5825 Surf Highway 45, Rahotu, New Zealand",
     "phone":"06 763 8658",
@@ -2236,6 +2408,7 @@ var playcentrez = [
     "lng":"173.802832"
   },
   {
+		"id":"playcentre173",
     "name":"Rapanui-Brunswick Playcentre",
     "address":"823 Rapanui Road, Wanganui / Whanganui, New Zealand",
     "phone":"06 342 9857",
@@ -2249,6 +2422,7 @@ var playcentrez = [
     "lng":"174.919975"
   },
   {
+		"id":"playcentre174",
     "name":"Rawene Playcentre",
     "address":"Marmon Street, Rawene, New Zealand",
     "phone":"09 405 7838",
@@ -2262,6 +2436,7 @@ var playcentrez = [
     "lng":"173.504845"
   },
   {
+		"id":"playcentre175",
     "name":"Red Beach Playcentre",
     "address":"3 Bay Vista Drive, Red Beach, Auckland , 932, New Zealand",
     "phone":"09 426 5376",
@@ -2275,6 +2450,7 @@ var playcentrez = [
     "lng":"174.701374"
   },
   {
+		"id":"playcentre176",
     "name":"Reporoa Playcentre",
     "address":"20 Massey Road, Reporoa, 3060, New Zealand",
     "phone":"07 333 8195",
@@ -2288,6 +2464,7 @@ var playcentrez = [
     "lng":"176.343914"
   },
   {
+		"id":"playcentre177",
     "name":"Rerewhakaaitu Playcentre",
     "address":"14 Ash Pit Road, Lake Rerewhakaaitu, RD3, Rotorua, 3073, New Zealand",
     "phone":"07 366 6705",
@@ -2301,6 +2478,7 @@ var playcentrez = [
     "lng":"176.495343"
   },
   {
+		"id":"playcentre178",
     "name":"River Downs Playcentre",
     "address":"5 Endeavour Avenue, Flagstaff, Hamilton , 3210, New Zealand",
     "phone":"07 854 3606",
@@ -2314,6 +2492,7 @@ var playcentrez = [
     "lng":"175.255455"
   },
   {
+		"id":"playcentre179",
     "name":"Ruatangata Playcentre",
     "address":"1190 Pipiwai Road, RD 6, Whangarei, New Zealand",
     "phone":"09 438 3947",
@@ -2327,6 +2506,7 @@ var playcentrez = [
     "lng":"174.181112"
   },
   {
+		"id":"playcentre180",
     "name":"Ruawaro Playcentre",
     "address":"Ruawaro School, 76 Bain Road, RD 2, Huntly, Huntly, 3772, New Zealand",
     "phone":"07 824 1739",
@@ -2340,6 +2520,7 @@ var playcentrez = [
     "lng":"175.041260"
   },
   {
+		"id":"playcentre181",
     "name":"Russell Playcentre",
     "address":"14 Church Street, Russell, 0202, New Zealand",
     "phone":"09 403 7636",
@@ -2353,6 +2534,7 @@ var playcentrez = [
     "lng":"174.122249"
   },
   {
+		"id":"playcentre182",
     "name":"Sanson Playcentre",
     "address":"2 Philips Street, Sanson, 4817, New Zealand",
     "phone":"06 329 6034",
@@ -2366,6 +2548,7 @@ var playcentrez = [
     "lng":"175.417475"
   },
   {
+		"id":"playcentre183",
     "name":"Shannon And Districts Playcentre",
     "address":"49 Grey Street, Shannon , 4821, New Zealand",
     "phone":"06 362 7069",
@@ -2379,6 +2562,7 @@ var playcentrez = [
     "lng":"175.419092"
   },
   {
+		"id":"playcentre184",
     "name":"Silverdale Playcentre",
     "address":"19 Wainui Road, Silverdale , Auckland, 0944, New Zealand",
     "phone":"09 426 3282",
@@ -2392,6 +2576,7 @@ var playcentrez = [
     "lng":"174.678196"
   },
   {
+		"id":"playcentre185",
     "name":"South City Playcentre",
     "address":"904 Freyberg St, Hastings, New Zealand",
     "phone":"06 878 5612",
@@ -2405,6 +2590,7 @@ var playcentrez = [
     "lng":"176.829838"
   },
   {
+		"id":"playcentre186",
     "name":"Springvale Playcentre",
     "address":"39 Fox Road, Springvale, Wanganui / Whanganui, New Zealand",
     "phone":"06 344 7119",
@@ -2418,6 +2604,7 @@ var playcentrez = [
     "lng":"175.016439"
   },
   {
+		"id":"playcentre187",
     "name":"St Andrews Playcentre",
     "address":"34 Heath Street, Hamilton 3200, New Zealand",
     "phone":"",
@@ -2431,6 +2618,7 @@ var playcentrez = [
     "lng":"175.256111"
   },
   {
+		"id":"playcentre188",
     "name":"Stokes Valley Playcentre",
     "address":"155 Stokes Valley Road, Stokes Valley, Lower Hutt , 5019, New Zealand",
     "phone":"04 920 5644",
@@ -2444,6 +2632,7 @@ var playcentrez = [
     "lng":"174.983704"
   },
   {
+		"id":"playcentre189",
     "name":"Stratford Playcentre",
     "address":"Cloten Road, Stratford, New Zealand",
     "phone":"06 756 7570",
@@ -2457,6 +2646,7 @@ var playcentrez = [
     "lng":"174.287915"
   },
   {
+		"id":"playcentre190",
     "name":"Swanson Playcentre",
     "address":"5 Christian Road, Swanson, Waitakere, New Zealand",
     "phone":"09 833 9238",
@@ -2470,6 +2660,7 @@ var playcentrez = [
     "lng":"174.574702"
   },
   {
+		"id":"playcentre191",
     "name":"Tahuna Playcentre",
     "address":"Tahuna School , Tahuna-Ohinewai Road, Tahuna , 3373, New Zealand",
     "phone":"021 061 1260",
@@ -2483,6 +2674,7 @@ var playcentrez = [
     "lng":"175.489195"
   },
   {
+		"id":"playcentre192",
     "name":"Taihape Playcentre",
     "address":"15 Kokako Street, Taihape, 4720, New Zealand",
     "phone":"06 388 1905",
@@ -2496,6 +2688,7 @@ var playcentrez = [
     "lng":"175.801165"
   },
   {
+		"id":"playcentre193",
     "name":"Tairua Playcentre",
     "address":"124 Main Road, Tairua , 3508, New Zealand",
     "phone":"022 108 8067",
@@ -2509,6 +2702,7 @@ var playcentrez = [
     "lng":"175.847921"
   },
   {
+		"id":"playcentre194",
     "name":"Takapau Playcentre",
     "address":"Meta Street, Takapau , 4203, New Zealand",
     "phone":"06 858 5452",
@@ -2522,6 +2716,7 @@ var playcentrez = [
     "lng":"176.350755"
   },
   {
+		"id":"playcentre195",
     "name":"Tamahere Playcentre",
     "address":"57 Devine Road, Tamahere , Hamilton, 3283, New Zealand",
     "phone":"07 856 6603",
@@ -2535,6 +2730,7 @@ var playcentrez = [
     "lng":"175.352139"
   },
   {
+		"id":"playcentre196",
     "name":"Tamatea Playcentre",
     "address":"23 Ranfurly Street, Tamatea, New Zealand",
     "phone":"06 844 4421",
@@ -2548,6 +2744,7 @@ var playcentrez = [
     "lng":"176.866956"
   },
   {
+		"id":"playcentre197",
     "name":"Taradale Playcentre",
     "address":"13 Peddie Street, Taradale, Napier, New Zealand",
     "phone":"06 844 7558",
@@ -2561,6 +2758,7 @@ var playcentrez = [
     "lng":"176.851515"
   },
   {
+		"id":"playcentre198",
     "name":"Taupiri Playcentre",
     "address":"Greenlane Road, Taupiri , 3721, New Zealand",
     "phone":"07 824 6012",
@@ -2574,6 +2772,7 @@ var playcentrez = [
     "lng":"175.187864"
   },
   {
+		"id":"playcentre199",
     "name":"Taupo Family Playcentre",
     "address":"133 Taharepa Road, Taupo, 3330, New Zealand",
     "phone":"07 377 2267",
@@ -2587,6 +2786,7 @@ var playcentrez = [
     "lng":"176.099242"
   },
   {
+		"id":"playcentre200",
     "name":"Tauriko Playcentre",
     "address":"7762L, State Highway 29, Tauriko, New Zealand",
     "phone":"07 543 1070",
@@ -2600,6 +2800,7 @@ var playcentrez = [
     "lng":"176.095006"
   },
   {
+		"id":"playcentre201",
     "name":"Tawa - Linden Playcentre",
     "address":"1 Ranui Terrace, Linden, Wellington , 5028, New Zealand",
     "phone":"04 232 4598",
@@ -2613,6 +2814,7 @@ var playcentrez = [
     "lng":"174.832877"
   },
   {
+		"id":"playcentre202",
     "name":"Te Akau & Districts Playcentre",
     "address":"953 Te Akau Road, RD 1, Ngaruawahia , 3793, New Zea",
     "phone":"07 825 4433",
@@ -2626,6 +2828,7 @@ var playcentrez = [
     "lng":"174.873490"
   },
   {
+		"id":"playcentre203",
     "name":"Te Aroha Playcentre",
     "address":"24 Terminus Street, Te Aroha , 3320, New Zealand",
     "phone":"07 884 8635",
@@ -2639,6 +2842,7 @@ var playcentrez = [
     "lng":"175.705410"
   },
   {
+		"id":"playcentre204",
     "name":"Te Awamutu Playcentre",
     "address":"99 Bond Road, Te Awamutu, New Zealand",
     "phone":"022 602 8476",
@@ -2652,6 +2856,7 @@ var playcentrez = [
     "lng":"175.329022"
   },
   {
+		"id":"playcentre205",
     "name":"Te Kauwhata Playcentre",
     "address":"40 Mahi Road, Te Kauwhata , 3741, New Zealand",
     "phone":"07 826 3109",
@@ -2665,6 +2870,7 @@ var playcentrez = [
     "lng":"175.148939"
   },
   {
+		"id":"playcentre206",
     "name":"Te Kawau Playcentre",
     "address":"16 Medway Street, Rongotea , 4862, New Zealand",
     "phone":"06 324 8246",
@@ -2678,6 +2884,7 @@ var playcentrez = [
     "lng":"175.424585"
   },
   {
+		"id":"playcentre207",
     "name":"Te Kopuru Playcentre",
     "address":"3 Norton Street, Te Kopuru, Dargaville, New Zealand",
     "phone":"09 439 0083",
@@ -2691,6 +2898,7 @@ var playcentrez = [
     "lng":"173.924382"
   },
   {
+		"id":"playcentre208",
     "name":"Te Kuiti Playcentre",
     "address":"16 Ward Street, Te Kuiti, New Zealand",
     "phone":"07 878 8817",
@@ -2704,6 +2912,7 @@ var playcentrez = [
     "lng":"175.160315"
   },
   {
+		"id":"playcentre209",
     "name":"Te Marua Playcentre",
     "address":"7 Emerald Hill Drive, Birchville, Upper Hutt, 5018, New Zealand",
     "phone":"04 526 4574",
@@ -2717,6 +2926,7 @@ var playcentrez = [
     "lng":"175.110326"
   },
   {
+		"id":"playcentre210",
     "name":"Te Pohue Playcentre",
     "address":"Richmond Road, Te Pohue School, Te Pohue, New Zealand",
     "phone":"06 839 1819",
@@ -2730,6 +2940,7 @@ var playcentrez = [
     "lng":"176.682599"
   },
   {
+		"id":"playcentre211",
     "name":"Te Poi Playcentre",
     "address":"5 Temm Rd, RD 3, Te Poi, Matamata , 3473, New Zealand",
     "phone":"07 888 9191",
@@ -2743,6 +2954,7 @@ var playcentrez = [
     "lng":"175.841012"
   },
   {
+		"id":"playcentre212",
     "name":"Te Puke Playcentre",
     "address":"Station Road, Te Puke, New Zealand",
     "phone":"07 573 7537",
@@ -2756,6 +2968,7 @@ var playcentrez = [
     "lng":"176.330620"
   },
   {
+		"id":"playcentre213",
     "name":"Te Puna Playcentre",
     "address":"225 Te Puna Road, RD6, Te Puna, Tauranga , 3176, New Zealand",
     "phone":"07 552 5153",
@@ -2769,6 +2982,7 @@ var playcentrez = [
     "lng":"176.076639"
   },
   {
+		"id":"playcentre214",
     "name":"Terrace End Playcentre",
     "address":"77 Ruamahanga Crescent, Palmerston North , 4410, New Zealand",
     "phone":"022 1400 610",
@@ -2782,6 +2996,7 @@ var playcentrez = [
     "lng":"175.648606"
   },
   {
+		"id":"playcentre215",
     "name":"Thames Parawai Playcentre",
     "address":"331 Parawai Road, Thames , 3500, New Zealand",
     "phone":"07 868 8355",
@@ -2795,6 +3010,7 @@ var playcentrez = [
     "lng":"175.557063"
   },
   {
+		"id":"playcentre216",
     "name":"Tikipunga Playcentre",
     "address":"12 Cobham Place, Tikipunga, Whangarei, New Zealand",
     "phone":"09 437 5187",
@@ -2808,6 +3024,7 @@ var playcentrez = [
     "lng":"174.326568"
   },
   {
+		"id":"playcentre217",
     "name":"Tikitiki Playgroup",
     "address":"33 Rangitukia Road, Tikitiki, New Zealand",
     "phone":"06 867 0010",
@@ -2821,6 +3038,7 @@ var playcentrez = [
     "lng":"178.413188"
   },
   {
+		"id":"playcentre218",
     "name":"Tikokino Playcentre",
     "address":"Owen Street (Tikokino Hall), State Highway 50, Tikokino , 4273, New Zealand",
     "phone":"06 856 5539",
@@ -2834,6 +3052,7 @@ var playcentrez = [
     "lng":"176.453027"
   },
   {
+		"id":"playcentre219",
     "name":"Tikorangi Playcentre",
     "address":"Tikorangi School, Ngatimaru Road, RD 43, Waitara, Waitara, 4383, New Zealand",
     "phone":"06 754 7011",
@@ -2847,6 +3066,7 @@ var playcentrez = [
     "lng":"174.279089"
   },
   {
+		"id":"playcentre220",
     "name":"Tirau Playcentre",
     "address":"9 Goodwin Street, Tirau, 3410, New Zealand",
     "phone":"07 883 1399",
@@ -2860,6 +3080,7 @@ var playcentrez = [
     "lng":"175.756682"
   },
   {
+		"id":"playcentre221",
     "name":"Titahi Bay Playcentre",
     "address":"Titahi Bay School, 6 Kura Street, Titahi Bay, Porirua City , 5022, New Zealand",
     "phone":"04 236 8522",
@@ -2873,6 +3094,7 @@ var playcentrez = [
     "lng":"174.839991"
   },
   {
+		"id":"playcentre222",
     "name":"Titirangi Playcentre",
     "address":"Memorial Square, 500 South Titirangi Road, Waitakere City, New Zealand",
     "phone":"09 817 3003",
@@ -2886,6 +3108,7 @@ var playcentrez = [
     "lng":"174.655778"
   },
   {
+		"id":"playcentre223",
     "name":"Titoki Playcentre",
     "address":"1473 Mangakahia Road, RD 9, Whangarei , 0179, New Zealand",
     "phone":"09 433 1702",
@@ -2899,6 +3122,7 @@ var playcentrez = [
     "lng":"174.059417"
   },
   {
+		"id":"playcentre224",
     "name":"Toko Playcentre",
     "address":"Station Road, RD 22, Stratford, New Zealand",
     "phone":"025 605 9763",
@@ -2912,6 +3136,7 @@ var playcentrez = [
     "lng":"174.408416"
   },
   {
+		"id":"playcentre225",
     "name":"Tokoroa Playcentre",
     "address":"140 Balmoral Drive, Tokoroa , 3420, New Zealand",
     "phone":"07 886 8305",
@@ -2925,6 +3150,7 @@ var playcentrez = [
     "lng":"175.868103"
   },
   {
+		"id":"playcentre226",
     "name":"Tolaga Bay Playgroup",
     "address":"Resolution Street, Tolaga Bay, New Zealand",
     "phone":"06 867 0010",
@@ -2938,6 +3164,7 @@ var playcentrez = [
     "lng":"178.300409"
   },
   {
+		"id":"playcentre227",
     "name":"Tomarata Playcentre",
     "address":"619 School Road, RD 4, Wellsford , 0974, New Zealand",
     "phone":"09 423 9074",
@@ -2951,6 +3178,7 @@ var playcentrez = [
     "lng":"174.638493"
   },
   {
+		"id":"playcentre228",
     "name":"Totara Grove Playcentre",
     "address":"38 Corks Road, Tikipunga, Whangarei, New Zealand",
     "phone":"09 435 1058",
@@ -2964,6 +3192,7 @@ var playcentrez = [
     "lng":"174.315753"
   },
   {
+		"id":"playcentre229",
     "name":"Totara Park Playcentre",
     "address":"128 California Drive, Totara Park, Upper Hutt , 5018, New Zealand",
     "phone":"04 526 4538",
@@ -2977,6 +3206,7 @@ var playcentrez = [
     "lng":"175.088943"
   },
   {
+		"id":"playcentre230",
     "name":"Tuakau Playcentre",
     "address":"Jellicoe Avenue, Tuakau , 2121, New Zealand",
     "phone":"09 236 8536",
@@ -2990,6 +3220,7 @@ var playcentrez = [
     "lng":"174.944816"
   },
   {
+		"id":"playcentre231",
     "name":"Turua Playcentre",
     "address":"12 Raratuna Street, Turua , 3574, New Zealand",
     "phone":"027 669 6800",
@@ -3003,6 +3234,7 @@ var playcentrez = [
     "lng":""
   },
   {
+		"id":"playcentre232",
     "name":"Tutukaka Coast Playcentre",
     "address":"2 Waiotoi Road, Ngunguru, Whangarei, New Zealand",
     "phone":"09 434 3492",
@@ -3016,6 +3248,7 @@ var playcentrez = [
     "lng":"174.507019"
   },
   {
+		"id":"playcentre233",
     "name":"Urenui Playcentre",
     "address":"15b Takiroa Street, Urenui , 4349, New Zealand",
     "phone":"06 752 6971",
@@ -3029,6 +3262,7 @@ var playcentrez = [
     "lng":"174.388862"
   },
   {
+		"id":"playcentre234",
     "name":"Waiatarua Playcentre",
     "address":"911 West Coast Road, Waiatarua, 0604, New Zealand",
     "phone":"09 814 8835",
@@ -3042,6 +3276,7 @@ var playcentrez = [
     "lng":"174.580217"
   },
   {
+		"id":"playcentre235",
     "name":"Waiheke Island Playcentre",
     "address":"5a Albert Crescent, Ostend, Waiheke Island , 1081, New Zealand",
     "phone":"09 372 9480",
@@ -3055,6 +3290,7 @@ var playcentrez = [
     "lng":"175.044241"
   },
   {
+		"id":"playcentre236",
     "name":"Waihi Beach Playcentre",
     "address":"100 Beach Road, Waihi Beach , 3611, New Zealand",
     "phone":"021 149 8946",
@@ -3068,6 +3304,7 @@ var playcentrez = [
     "lng":"175.938923"
   },
   {
+		"id":"playcentre237",
     "name":"Waihi Playcentre",
     "address":"Cnr Consols & Victoria Streets, Waihi, 3641, New Zealand",
     "phone":"027 464 2667",
@@ -3081,6 +3318,7 @@ var playcentrez = [
     "lng":"175.835515"
   },
   {
+		"id":"playcentre238",
     "name":"Waikanae Playcentre",
     "address":"2 Hira Street, Waikanae, 5036, New Zealand",
     "phone":"04 905 3483",
@@ -3094,6 +3332,7 @@ var playcentrez = [
     "lng":"175.071465"
   },
   {
+		"id":"playcentre239",
     "name":"Waimamaku Playcentre",
     "address":"State Highway 12, Waimamaku, New Zealand",
     "phone":"09 405 4566",
@@ -3107,6 +3346,7 @@ var playcentrez = [
     "lng":"173.474017"
   },
   {
+		"id":"playcentre240",
     "name":"Wainui Playcentre",
     "address":"56 Wairere Road, Wainui, Gisborne, New Zealand",
     "phone":"06 867 0010",
@@ -3120,6 +3360,7 @@ var playcentrez = [
     "lng":"178.074876"
   },
   {
+		"id":"playcentre241",
     "name":"Wainuiomata Playcentre",
     "address":"Fernlea School, 25A Lees Grove, Wainuiomata , 5014, New Zealand",
     "phone":"04 564 3140",
@@ -3133,6 +3374,7 @@ var playcentrez = [
     "lng":"174.937863"
   },
   {
+		"id":"playcentre242",
     "name":"Waipu Playcentre",
     "address":"28 St Mary's Rd, Waipu, New Zealand",
     "phone":"027 4500 647",
@@ -3146,6 +3388,7 @@ var playcentrez = [
     "lng":"174.441801"
   },
   {
+		"id":"playcentre243",
     "name":"Wairaka Playcentre",
     "address":"21 Harvey Street, Whakatane, 3120, New Zealand",
     "phone":"07 308 0255",
@@ -3159,6 +3402,7 @@ var playcentrez = [
     "lng":"177.004854"
   },
   {
+		"id":"playcentre244",
     "name":"Wairakei Playcentre",
     "address":"2 Kauri Drive, Wairakei Village, Taupo, 3332, New Zealand",
     "phone":"07 343 6444",
@@ -3172,6 +3416,7 @@ var playcentrez = [
     "lng":"176.102010"
   },
   {
+		"id":"playcentre245",
     "name":"Wairoa Playcentre",
     "address":"22 Lahore Street, Wairoa, New Zealand",
     "phone":"06 838 7711",
@@ -3185,6 +3430,7 @@ var playcentrez = [
     "lng":"177.419639"
   },
   {
+		"id":"playcentre246",
     "name":"Waitara Playcentre",
     "address":"Carey Street, Waitara, New Zealand",
     "phone":"06 756 7570",
@@ -3198,6 +3444,7 @@ var playcentrez = [
     "lng":"174.242190"
   },
   {
+		"id":"playcentre247",
     "name":"Waituna West Playcentre",
     "address":"Waituna Valley Road, Feilding , 4779, New Zealand",
     "phone":"06 328 6805",
@@ -3211,6 +3458,7 @@ var playcentrez = [
     "lng":"175.642877"
   },
   {
+		"id":"playcentre248",
     "name":"Wallaceville Playcentre",
     "address":"52 Ward Street, Wallaceville, Upper Hutt, 5018, New Zealand",
     "phone":"04 528 7624",
@@ -3224,6 +3472,7 @@ var playcentrez = [
     "lng":"175.056496"
   },
   {
+		"id":"playcentre249",
     "name":"Walton Playcentre",
     "address":"Walton School, RD 1, Walton , 3475, New Zealand",
     "phone":"07 883 3284",
@@ -3237,6 +3486,7 @@ var playcentrez = [
     "lng":"175.697068"
   },
   {
+		"id":"playcentre250",
     "name":"Waotu Puketurua Playcentre",
     "address":"Te Waotu Memorial Park, 1262 Waotu Rd, Putaruru , 3481, New Zealand",
     "phone":"07 883 2733",
@@ -3250,6 +3500,7 @@ var playcentrez = [
     "lng":"175.688849"
   },
   {
+		"id":"playcentre251",
     "name":"Warkworth Playcentre",
     "address":"Church Hill, Warkworth , 0910, New Zealand",
     "phone":"09 425 8331",
@@ -3263,6 +3514,7 @@ var playcentrez = [
     "lng":"174.663738"
   },
   {
+		"id":"playcentre252",
     "name":"Waterloo Playcentre",
     "address":"103 Trafalgar Street, Waterloo, Lower Hutt, 5010, New Zealand",
     "phone":"04 939 8702",
@@ -3276,6 +3528,7 @@ var playcentrez = [
     "lng":"174.923513"
   },
   {
+		"id":"playcentre253",
     "name":"Waverley Playcentre",
     "address":"28 Gloag Street, Waverley, 4510, New Zealand",
     "phone":"027 384 8177",
@@ -3289,6 +3542,7 @@ var playcentrez = [
     "lng":"174.630332"
   },
   {
+		"id":"playcentre254",
     "name":"Welcome Bay Playcentre",
     "address":"333 Welcome Bay Road, Welcome Bay, Tauranga , 3112, New Zealand",
     "phone":"07 544 6406",
@@ -3302,6 +3556,7 @@ var playcentrez = [
     "lng":"176.196526"
   },
   {
+		"id":"playcentre255",
     "name":"West Harbour Playcentre",
     "address":"1/74 Oreil Avenue, West Harbour, New Zealand",
     "phone":"09 416 4136",
@@ -3315,6 +3570,7 @@ var playcentrez = [
     "lng":"174.622926"
   },
   {
+		"id":"playcentre256",
     "name":"Westside Playcentre",
     "address":"165 Renall Street, Masterton , 5810, New Zealand",
     "phone":"06 378 2224",
@@ -3328,6 +3584,7 @@ var playcentrez = [
     "lng":"175.637369"
   },
   {
+		"id":"playcentre257",
     "name":"Whakamaru Playcentre",
     "address":"Whakamaru Settlers Hall, Cnr Arataki Rd & Tihoi Rd, Whakamaru , 3492, New Zealand",
     "phone":"07 372 8833",
@@ -3341,6 +3598,7 @@ var playcentrez = [
     "lng":"175.779061"
   },
   {
+		"id":"playcentre258",
     "name":"Whangaehu-Turakina",
     "address":"St George's Church, 21 State Highway 3, Turakina, Wanganui / Whanganui, New Zealand",
     "phone":"06 344 7119",
@@ -3354,6 +3612,7 @@ var playcentrez = [
     "lng":"175.213012"
   },
   {
+		"id":"playcentre259",
     "name":"Whangamata Playcentre",
     "address":"99 Achillies Avenue, Whangamata , 3620, New Zealand",
     "phone":"021 466 771",
@@ -3367,6 +3626,7 @@ var playcentrez = [
     "lng":"175.866668"
   },
   {
+		"id":"playcentre260",
     "name":"Whangarei Heads Playcentre",
     "address":"18 Whangarei Heads School Rd, RD 4, Whangarei , 0174, New Zealand",
     "phone":"09 438 2155",
@@ -3380,6 +3640,7 @@ var playcentrez = [
     "lng":"174.515963"
   },
   {
+		"id":"playcentre261",
     "name":"Wharepuhunga Playcentre",
     "address":"743 Wharepuhunga Road, R D 3, Te Awamutu, New Zealand",
     "phone":"07 872 2540",
@@ -3393,6 +3654,7 @@ var playcentrez = [
     "lng":"175.408429"
   },
   {
+		"id":"playcentre262",
     "name":"Whataupoko Playcentre",
     "address":"7 Central Street, Gisborne, 4010, New Zealand",
     "phone":"06 867 5073",
@@ -3406,6 +3668,7 @@ var playcentrez = [
     "lng":"178.030548"
   },
   {
+		"id":"playcentre263",
     "name":"Whitianga Playcentre",
     "address":"1D White Street, Whitianga , 3510, New Zealand",
     "phone":"020 285 9016",
@@ -3419,6 +3682,7 @@ var playcentrez = [
     "lng":"175.701995"
   },
   {
+		"id":"playcentre264",
     "name":"Wilton Playcentre",
     "address":"3A Gloucester Street, Wilton, Wellington , 6012, New Zealand",
     "phone":"04 475 8361",
@@ -3432,6 +3696,7 @@ var playcentrez = [
     "lng":"174.758977"
   },
   {
+		"id":"playcentre265",
     "name":"Wood Hatton Playcentre",
     "address":"64 Wood Street, Wainuiomata , 5014, New Zealand",
     "phone":"04 972 0734",
@@ -3445,6 +3710,7 @@ var playcentrez = [
     "lng":"174.948798"
   },
   {
+		"id":"playcentre266",
     "name":"Woodville Playcentre",
     "address":"45 Ross Street, Woodville , 4920, New Zealand",
     "phone":"06 323 7221",

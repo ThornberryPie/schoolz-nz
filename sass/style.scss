@@ -62,53 +62,50 @@
 	}
 }
 
-#map_legend{
+.map-legend{
 	position: absolute;
 	display: block;
-	width: 133px;
+	width: 160px;
 	right: 0;
-	top: 40px;
+	top: 52px;
 	z-index: 9;
-	line-height: 18px;
-	font-size: 0.9em;
+	padding: 0 $padding $padding;
 	@include panel;
-	.togglebox{
-		display: block;
-		img{
-			width: 15px;
-			height: 15px;
-			position: relative;
-			top: 3px;
-		}
-		.line{
-			padding-right: 5px;
+	.legend-section{
+		border-top: 1px dashed $dark;
+		margin-top: $padding;
+		padding-top: $padding;
+		&:first-child{
+			border: 0;
+			margin: 0;
 		}
 	}
-	/*p{
-		background: $white;
-		border-right: 1px solid $border-color;
-		padding: 3px 6px;
-		text-align: right;
-		border-bottom: 1px solid $off-white;
-		@include border-radius(6px 0 0 6px);
-		&:first-child{
-			@include border-radius(6px 0 0);
+	.togglerow{
+		display: block;
+		clear: both;
+		padding: $padding;
+		line-height: 17px;
+		.togglebox, img, .text{
+			float: left;
+			display: block;
 		}
-		&:last-child{
-			@include border-radius(0 0 0 6px);
+		.togglebox{
+			margin: 0;
+			width: $legend-icon-size;
+			height: $legend-icon-size;
 		}
-		span{
-			letter-spacing: -2px;
-			font-size: 2em;
-			float: right;
-			&.line{
-				float: left;
-			}
+		img{
+			width: $legend-icon-size;
+			height: $legend-icon-size;
+			margin: 0 0 0 $padding;
 		}
-		small{
-			line-height: 22px;
+		.text{
+			padding: 0 0 0 $padding;
 		}
-	}*/
+		.line{
+			padding-right: $padding;
+		}
+	}
 }
 #map_footer{
 	position: absolute;
@@ -144,6 +141,15 @@
 		padding-right: 6px;
 		text-align: right;
 	}
+}
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
 }
 
 @media screen and (max-width:768px){
