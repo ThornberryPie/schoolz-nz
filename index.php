@@ -67,7 +67,7 @@
 			</section>
 			<section class="legend-section">
 				<label for="toggleClustering" class="togglerow clearfix">
-					<input id="toggleClustering" class="togglebox" type="checkbox" ng-model="clusterActive" ng-change="reloadPage()">
+					<input id="toggleClustering" class="togglebox" type="checkbox" ng-model="clusterActive" ng-change="toggleClustering()">
 					<img src="images/cluster.png" alt="cluster">
 					<span class="text">Clustering</span>
 				</label>

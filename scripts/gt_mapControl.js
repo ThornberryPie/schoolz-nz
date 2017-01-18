@@ -3,6 +3,29 @@ var app = angular.module('schoolzApp', ['ngMap']);
 app.controller('mapControl', function($scope, $http, $interval) {
   var map;
 
+	$scope.setCookie = function(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires="+d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	};
+
+	$scope.getCookie = function(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+	};
+
   //Get the database from schoolz.js
   $scope.schoolz = schoolz;
   $scope.substationz = substationz;
@@ -20,7 +43,19 @@ app.controller('mapControl', function($scope, $http, $interval) {
   $scope.clusterIcon = 'images/cluster.png';
   $scope.clusterIconTextColor = 'white';
   $scope.clusterIconSize = 50;
-	$scope.clusterActive = true;
+
+
+	if($scope.getCookie('clustering')){
+		//Set clustering based on user's cookie
+		if($scope.getCookie('clustering') == 'on'){
+			$scope.clusterActive = true;
+		}else{
+			$scope.clusterActive = false;
+		}
+	}else{
+		//Set default clustering when no cookie is present
+		$scope.clusterActive = true;
+	}
 
   $scope.dynMarkers = [];
   $scope.windows = [];
@@ -34,6 +69,8 @@ app.controller('mapControl', function($scope, $http, $interval) {
 	$scope.checkedPlaycentres = false;
 	$scope.checkedSubstations = false;
 	$scope.checkedPylons = true;
+
+	$scope.cookeExpiryDays = 30;
 
   //Init function
   $scope.$on('mapInitialized', function(event, evtMap) {
@@ -266,6 +303,18 @@ app.controller('mapControl', function($scope, $http, $interval) {
 		}
 
 		//google.maps.event.trigger(map,'resize');
+
+	};
+
+	$scope.toggleClustering = function(){
+		var cookieVal = 'off';
+		if($scope.clusterActive){
+			cookieVal = 'on';
+		}
+		$scope.setCookie('clustering', cookieVal, $scope.cookeExpiryDays);
+	};
+
+	$scope.reloadPage = function(){
 
 	};
 
