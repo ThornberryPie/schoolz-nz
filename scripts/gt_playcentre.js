@@ -32,7 +32,7 @@ var Playcentre = function(i){
 
 	this.setHTML = function(){
 		var hours = this.getHoursHTML();
-		var html = '<div class="playcentre">';
+		var html = '<article class="window window--playcentre">';
 		html += '<header><h2 class="name">'+this.name+'</h2></header>';
 		html += '<div class="block"><strong>Address:</strong><br>'+this.address+'</div>';
 		if(this.phone !== ''){
@@ -42,7 +42,7 @@ var Playcentre = function(i){
 		if(hours !== ''){
 			html += '<div class="block"><strong>Hours:</strong>'+hours+'</div>';
 		}
-		html += '</div>';
+		html += '</article>';
 		return html;
 	};
 

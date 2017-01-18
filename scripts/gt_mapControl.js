@@ -7,7 +7,7 @@ app.controller('mapControl', function($scope, $http, $interval) {
   $scope.schoolz = schoolz;
   $scope.substationz = substationz;
   $scope.pylonz = pylonz;
-  $scope.busz = busz;
+  //$scope.busz = busz;
   $scope.playcentrez = playcentrez;
 
   $scope.defaultAddress = 'Whangarei, New Zealand';
@@ -28,6 +28,8 @@ app.controller('mapControl', function($scope, $http, $interval) {
   $scope.lines = [];
   $scope.routz = [];
   $scope.playcentrehtml = [];
+
+	$scope.checkedSubstations = true;
 
   //Init function
   $scope.$on('mapInitialized', function(event, evtMap) {
@@ -57,7 +59,7 @@ app.controller('mapControl', function($scope, $http, $interval) {
     }
 
     //Add bus routz
-    for(var i=0; i < $scope.busz.length; i++){
+    /*for(var i=0; i < $scope.busz.length; i++){
         var bus = $scope.busz[i];
         //console.log(bus.name);
         $scope.routz[i] = new google.maps.Polyline({
@@ -68,7 +70,7 @@ app.controller('mapControl', function($scope, $http, $interval) {
           strokeOpacity: 1.0,
           strokeWeight: 2
         });
-    }
+    }*/
 
     //Add substations
     for (var i=0; i < $scope.substationz.length; i++) {
@@ -180,7 +182,7 @@ app.controller('mapControl', function($scope, $http, $interval) {
       }
       if(isSchool){
         //Set zoom if school is found
-        $scope.zoom = $scope.zoomDefault * 3;
+        $scope.zoom = 18;
         //Open school's infowindow
         google.maps.event.trigger($scope.dynMarkers[$scope.address], 'click');
       }
@@ -210,5 +212,20 @@ app.controller('mapControl', function($scope, $http, $interval) {
     }
 
   });//end $scope.$on('mapInitialized'
+
+	$scope.toggleMarkerType = function(type){
+		switch(type){
+			case 'substations':
+				var markerArray = $scope.substationz;
+				var boxModel = $scope.checkedSubstations;
+			break;
+		}
+		var showMarkers = (boxModel) ? true : false;
+		//Loop through all items in selected array and show/hide markers
+		for (var i=0; i < markerArray.length; i++) {
+			var id = markerArray[i].id;
+			$scope.dynMarkers[id].setVisible(showMarkers);
+		}
+	};
 
 });//end app.controller
