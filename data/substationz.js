@@ -1369,23 +1369,261 @@ var substationz = [
         'suburb':'Reporoa',
         'lat':'-38.422165',
         'lng':'176.316971'
-    },//Up to Rotorua
+    },
+    {
+        'id':'BOPSub8',
+        'address':'272 Malfroy Road',
+        'suburb':'Fordlands',
+        'lat':'-38.148396',
+        'lng':'176.227034'
+    },
+    {
+        'id':'BOPSub9',
+        'address':'159 Totara Street',
+        'suburb':'Mount Maunganui',
+        'lat':'-37.657554',
+        'lng':'176.187502'
+    },
+    {
+        'id':'BOPSub10',
+        'address':'20 Orleander Lane',
+        'suburb':'Mount Maunganui',
+        'lat':'-37.677798',
+        'lng':'176.214268'
+    },
+    {
+        'id':'BOPSub11',
+        'address':'Tauranga East Road',
+        'suburb':'Papamoa',
+        'lat':'-37.716252',
+        'lng':'176.284175'
+    },
+    {
+        'id':'BOPSub12',
+        'address':'3a Brookfield Terrace',
+        'suburb':'Brookfield',
+        'lat':'-37.683692',
+        'lng':'176.135247'
+    },
+    {
+        'id':'BOPSub13',
+        'address':'Takitimu Drive',
+        'suburb':'Tauranga',
+        'lat':'-37.696222',
+        'lng':'176.155337'
+    },
+    {
+        'id':'BOPSub14',
+        'address':'40 Alach Street',
+        'suburb':'Gate Pa',
+        'lat':'-37.723696',
+        'lng':'176.123640'
+    },
+    {
+        'id':'BOPSub15',
+        'address':'Wade Place',
+        'suburb':'Welcome Bay',
+        'lat':'-37.739427',
+        'lng':'176.169009'
+    },
+    {
+        'id':'BOPSub16',
+        'address':'113 Kaitemako Road',
+        'suburb':'Welcome Bay',
+        'lat':'-37.735932',
+        'lng':'176.175195'
+    },
+    {
+        'id':'BOPSub17',
+        'address':'Copenhagen Road',
+        'suburb':'Te Kaha',
+        'lat':'-37.742742',
+        'lng':'177.685623'
+    },
+    {
+        'id':'BOPSub18',
+        'address':'864 Galatea Road',
+        'suburb':'Lake Matahina',
+        'lat':'-38.113339',
+        'lng':'176.814408'
+    },
+    {
+        'id':'BOPSub19',
+        'address':'25 No 3 Road',
+        'suburb':'Te Puke',
+        'lat':'-37.779679',
+        'lng':'176.305597'
+    },
+    {
+        'id':'BOPSub20',
+        'address':'26 Lenihan Drive',
+        'suburb':'Te Puke',
+        'lat':'-37.796674',
+        'lng':'176.323541'
+    },
+    {
+        'id':'BOPSub21',
+        'address':'289 Te Matai Road',
+        'suburb':'Te Puke',
+        'lat':'-37.816678',
+        'lng':'176.339366'
+    },
+    {
+        'id':'BOPSub22',
+        'address':'Waihi Beach Road',
+        'suburb':'Waihi Beach',
+        'lat':'-37.408832',
+        'lng':'175.931900'
+    },
+    {
+        'id':'BOPSub23',
+        'address':'175 State Highway 38',
+        'suburb':'Waimangu',
+        'lat':'-38.307724',
+        'lng':'176.397676'
+    },
+    {
+        'id':'BOPSub24',
+        'address':'2106 Galatea Road',
+        'suburb':'Waiohau',
+        'lat':'-38.190638',
+        'lng':'176.840497'
+    },
 		{
 				'id':'TaranakiSub1',
 				'address':'Cloten Road',
 				'suburb':'Stratford',
 				'lat':'-39.341796',
 				'lng':'174.287876'
-		}/*,
+		},
     {
-        'id':'BOPSub',
-        'address':'',
-        'suburb':'',
-        'lat':'',
-        'lng':''
+        'id':'TaranakiSub2',
+        'address':'49 Templer Street',
+        'suburb':'Eltham',
+        'lat':'-39.415660',
+        'lng':'174.289408'
     },
     {
-        'id':'DNP',
+        'id':'TaranakiSub3',
+        'address':'10 King Edward Street',
+        'suburb':'Eltham',
+        'lat':'-39.429578',
+        'lng':'174.309143'
+    },
+    {
+        'id':'TaranakiSub4',
+        'address':'9 Ararata Street',
+        'suburb':'Hawera',
+        'lat':'-39.566432',
+        'lng':'174.309852'
+    },
+    {
+        'id':'TaranakiSub5',
+        'address':'116 Whareroa Street',
+        'suburb':'Hawera',
+        'lat':'-39.610294',
+        'lng':'174.298956'
+    },
+    {
+        'id':'TaranakiSub6',
+        'address':'101 Dudley Road Lower',
+        'suburb':'Inglewood',
+        'lat':'-39.159693',
+        'lng':'174.220798'
+    },
+    {
+        'id':'TaranakiSub7',
+        'address':'24a Tarahua Road',
+        'suburb':'Vogeltown',
+        'lat':'-39.081092',
+        'lng':'174.087436'
+    },
+    {
+        'id':'TaranakiSub8',
+        'address':'197 Tasman Street',
+        'suburb':'Opunake',
+        'lat':'-39.448353',
+        'lng':'173.846830'
+    },
+    {
+        'id':'TaranakiSub9',
+        'address':'2 Layard Street',
+        'suburb':'Opunake',
+        'lat':'-39.458591',
+        'lng':'173.859453'
+    },
+    {
+        'id':'TaranakiSub10',
+        'address':'75 Livingstone Lane',
+        'suburb':'Patea',
+        'lat':'-39.739471',
+        'lng':'174.469166'
+    },
+    {
+        'id':'TaranakiSub11',
+        'address':'189 East Road',
+        'suburb':'Stratford',
+        'lat':'-39.333850',
+        'lng':'174.319692'
+    },
+    {
+        'id':'TaranakiSub12',
+        'address':'20 Brewer Road',
+        'suburb':'Strathmore',
+        'lat':'-39.274710',
+        'lng':'174.567343'
+    },
+    {
+        'id':'TaranakiSub13',
+        'address':'171 Kohete Road',
+        'suburb':'Kaimata',
+        'lat':'-39.170158',
+        'lng':'174.339123'
+    },
+    {
+        'id':'TaranakiSub14',
+        'address':'354 East Road',
+        'suburb':'Stratford',
+        'lat':'-39.335917',
+        'lng':'174.342486'
+    },
+    {
+        'id':'TaranakiSub15',
+        'address':'443 Main N Road',
+        'suburb':'Motunui',
+        'lat':'-38.993892',
+        'lng':'174.288203'
+    },
+    {
+        'id':'TaranakiSub16',
+        'address':'1 Ngatimaru Road',
+        'suburb':'Waitara',
+        'lat':'-39.008570',
+        'lng':'174.257107'
+    },
+    {
+        'id':'TaranakiSub17',
+        'address':'Mamaku Road',
+        'suburb':'Brixton',
+        'lat':'-39.032807',
+        'lng':'174.250307'
+    },
+    {
+        'id':'TaranakiSub18',
+        'address':'347 Waitara Road',
+        'suburb':'Huirangi',
+        'lat':'-39.043341',
+        'lng':'174.236646'
+    },
+    {
+        'id':'TaranakiSub19',
+        'address':'36 Mangatangi Road',
+        'suburb':'Waverley',
+        'lat':'-39.754101',
+        'lng':'174.635330'
+    }/*,
+    {
+        'id':'TaranakiSub',
         'address':'',
         'suburb':'',
         'lat':'',
