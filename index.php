@@ -46,12 +46,20 @@
       </div>
 
       <div id="map_legend" open="open">
-        <p><span class="red line">------</span><small>Power&nbsp;Grid</small></p>
-        <!--<p><span class="blue line">------</span><small>Bus&nbsp;Routes</small></p>-->
-				<label for="toggleSubstations">
-					<input id="toggleSubstations" type="checkbox" ng-model="checkedSubstations" ng-change="toggleMarkerType('substations')">
-					Substations
+        <!--<p><span class="red line">------</span><small>Power&nbsp;Grid</small></p>
+        <p><span class="blue line">------</span><small>Bus&nbsp;Routes</small></p>-->
+				<label for="toggleSchools" class="togglebox">
+					<input id="toggleSchools" type="checkbox" ng-model="checkedSchools" ng-change="toggleMarkerType('schools')">
+					<img src="images/school.png" alt="schools">&nbsp;Schools
 				</label>
+				<label for="toggleSubstations" class="togglebox">
+					<input id="toggleSubstations" type="checkbox" ng-model="checkedSubstations" ng-change="toggleMarkerType('substations')">
+					<img src="images/substation.png" alt="substations">&nbsp;Substations
+				</label>
+				<?php /*<label for="togglePylons" class="togglebox">
+					<input id="togglePylons" type="checkbox" ng-model="checkedPylons" ng-change="toggleMarkerType('pylons')">
+					<span class="line red">---</span>Power Lines
+				</label>*/ ?>
       </div>
     </header>
 

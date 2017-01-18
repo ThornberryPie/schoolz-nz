@@ -1,6 +1,6 @@
 var schoolz = [
   {
-    "FIELD1":"3700",
+    "id":"3700",
     "FIELD2":"Abbotsford School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -47,7 +47,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1680",
+    "id":"1680",
     "FIELD2":"Aberdeen School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -94,7 +94,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2330",
+    "id":"2330",
     "FIELD2":"Aberfeldy School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -141,7 +141,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3271",
+    "id":"3271",
     "FIELD2":"Addington School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -188,7 +188,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"1195",
+    "id":"1195",
     "FIELD2":"Adventure School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -235,7 +235,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1000",
+    "id":"1000",
     "FIELD2":"Ahipara School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -282,7 +282,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2150",
+    "id":"2150",
     "FIELD2":"Ahititi School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -329,7 +329,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1200",
+    "id":"1200",
     "FIELD2":"Ahuroa School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -376,7 +376,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"82",
+    "id":"82",
     "FIELD2":"Aidanfield Christian School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -423,7 +423,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"1201",
+    "id":"1201",
     "FIELD2":"Aka Aka School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -470,7 +470,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"350",
+    "id":"350",
     "FIELD2":"Akaroa Area School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -517,7 +517,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"6948",
+    "id":"6948",
     "FIELD2":"Albany Junior High School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -564,7 +564,7 @@ var schoolz = [
     "FIELD45":"36"
   },
   {
-    "FIELD1":"1202",
+    "id":"1202",
     "FIELD2":"Albany School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -611,7 +611,7 @@ var schoolz = [
     "FIELD45":"20"
   },
   {
-    "FIELD1":"563",
+    "id":"563",
     "FIELD2":"Albany Senior High School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -658,7 +658,7 @@ var schoolz = [
     "FIELD45":"13"
   },
   {
-    "FIELD1":"3273",
+    "id":"3273",
     "FIELD2":"Albury School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -705,7 +705,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3701",
+    "id":"3701",
     "FIELD2":"Alexandra School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -752,7 +752,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2801",
+    "id":"2801",
     "FIELD2":"Alfredton School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -799,7 +799,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"6929",
+    "id":"6929",
     "FIELD2":"Alfriston College",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -846,7 +846,7 @@ var schoolz = [
     "FIELD45":"6"
   },
   {
-    "FIELD1":"1203",
+    "id":"1203",
     "FIELD2":"Alfriston School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -893,7 +893,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1681",
+    "id":"1681",
     "FIELD2":"Allandale School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -940,7 +940,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3274",
+    "id":"3274",
     "FIELD2":"Allenton School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -987,7 +987,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3275",
+    "id":"3275",
     "FIELD2":"Allenvale Special School and Res Centre",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -1034,7 +1034,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"544",
+    "id":"544",
     "FIELD2":"Al-Madinah School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -1081,7 +1081,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"3276",
+    "id":"3276",
     "FIELD2":"Amberley School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -1128,7 +1128,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"614",
+    "id":"614",
     "FIELD2":"Amesbury School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -1175,7 +1175,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1682",
+    "id":"1682",
     "FIELD2":"Amisfield School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -1222,7 +1222,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"308",
+    "id":"308",
     "FIELD2":"Amuri Area School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -1269,7 +1269,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1204",
+    "id":"1204",
     "FIELD2":"Anchorage Park School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -1316,7 +1316,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3703",
+    "id":"3703",
     "FIELD2":"Andersons Bay School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -1363,7 +1363,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"683",
+    "id":"683",
     "FIELD2":"Ao Tawhiti Unlimited Discovery",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -1410,7 +1410,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2332",
+    "id":"2332",
     "FIELD2":"Aokautere School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -1457,7 +1457,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3442",
+    "id":"3442",
     "FIELD2":"Aoraki Mount Cook School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -1504,7 +1504,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1683",
+    "id":"1683",
     "FIELD2":"Aorangi School (Rotorua)",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -1551,7 +1551,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"96",
+    "id":"96",
     "FIELD2":"Aorere College",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -1598,7 +1598,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"253",
+    "id":"253",
     "FIELD2":"Aotea College",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -1645,7 +1645,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"1684",
+    "id":"1684",
     "FIELD2":"Apanui School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -1692,7 +1692,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"409",
+    "id":"409",
     "FIELD2":"Aparima College",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -1739,7 +1739,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2333",
+    "id":"2333",
     "FIELD2":"Apiti School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -1786,7 +1786,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3180",
+    "id":"3180",
     "FIELD2":"Appleby School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -1833,7 +1833,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"482",
+    "id":"482",
     "FIELD2":"Aquinas College",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -1880,7 +1880,7 @@ var schoolz = [
     "FIELD45":"14"
   },
   {
-    "FIELD1":"1206",
+    "id":"1206",
     "FIELD2":"Arahoe School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -1927,7 +1927,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"2334",
+    "id":"2334",
     "FIELD2":"Arahunga School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -1974,7 +1974,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2802",
+    "id":"2802",
     "FIELD2":"Arakura School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -2021,7 +2021,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2335",
+    "id":"2335",
     "FIELD2":"Aramoho School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -2068,7 +2068,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1001",
+    "id":"1001",
     "FIELD2":"Aranga School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -2115,7 +2115,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"323",
+    "id":"323",
     "FIELD2":"Aranui High School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -2162,7 +2162,7 @@ var schoolz = [
     "FIELD45":"8"
   },
   {
-    "FIELD1":"3279",
+    "id":"3279",
     "FIELD2":"Aranui School (Christchurch)",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -2209,7 +2209,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2336",
+    "id":"2336",
     "FIELD2":"Aranui School (Wanganui)",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -2256,7 +2256,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1002",
+    "id":"1002",
     "FIELD2":"Arapohue School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -2303,7 +2303,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1207",
+    "id":"1207",
     "FIELD2":"Ararimu School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -2350,7 +2350,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1686",
+    "id":"1686",
     "FIELD2":"Arataki School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -2397,7 +2397,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3704",
+    "id":"3704",
     "FIELD2":"Ardgowan School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -2444,7 +2444,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1208",
+    "id":"1208",
     "FIELD2":"Ardmore School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -2491,7 +2491,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2542",
+    "id":"2542",
     "FIELD2":"Argyll East School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -2538,7 +2538,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1687",
+    "id":"1687",
     "FIELD2":"Aria School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -2585,7 +2585,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1209",
+    "id":"1209",
     "FIELD2":"Arohanui Special School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -2632,7 +2632,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1688",
+    "id":"1688",
     "FIELD2":"Arohena School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -2679,7 +2679,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3280",
+    "id":"3280",
     "FIELD2":"Arowhenua Maori School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -2726,7 +2726,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3930",
+    "id":"3930",
     "FIELD2":"Arrowtown School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -2773,7 +2773,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2543",
+    "id":"2543",
     "FIELD2":"Arthur Miller School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -2820,7 +2820,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3706",
+    "id":"3706",
     "FIELD2":"Arthur Street School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -2867,7 +2867,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"1625",
+    "id":"1625",
     "FIELD2":"Ascot Community School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -2914,7 +2914,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1689",
+    "id":"1689",
     "FIELD2":"Ashbrook School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -2961,7 +2961,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3281",
+    "id":"3281",
     "FIELD2":"Ashburton Borough School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -3008,7 +3008,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"608",
+    "id":"608",
     "FIELD2":"Ashburton Christian School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -3055,7 +3055,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"351",
+    "id":"351",
     "FIELD2":"Ashburton College",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -3102,7 +3102,7 @@ var schoolz = [
     "FIELD45":"15"
   },
   {
-    "FIELD1":"3282",
+    "id":"3282",
     "FIELD2":"Ashburton Intermediate",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -3149,7 +3149,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3283",
+    "id":"3283",
     "FIELD2":"Ashburton Netherby School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -3196,7 +3196,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3284",
+    "id":"3284",
     "FIELD2":"Ashgrove School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -3243,7 +3243,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2337",
+    "id":"2337",
     "FIELD2":"Ashhurst School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -3290,7 +3290,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3285",
+    "id":"3285",
     "FIELD2":"Ashley School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -3337,7 +3337,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"53",
+    "id":"53",
     "FIELD2":"Auckland Girls' Grammar School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -3384,7 +3384,7 @@ var schoolz = [
     "FIELD45":"29"
   },
   {
-    "FIELD1":"54",
+    "id":"54",
     "FIELD2":"Auckland Grammar",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -3431,7 +3431,7 @@ var schoolz = [
     "FIELD45":"131"
   },
   {
-    "FIELD1":"1211",
+    "id":"1211",
     "FIELD2":"Auckland Normal Intermediate",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -3478,7 +3478,7 @@ var schoolz = [
     "FIELD45":"27"
   },
   {
-    "FIELD1":"3181",
+    "id":"3181",
     "FIELD2":"Auckland Point School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -3525,7 +3525,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"93",
+    "id":"93",
     "FIELD2":"Auckland Seventh-Day Adventist H S",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -3572,7 +3572,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2152",
+    "id":"2152",
     "FIELD2":"Auroa School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -3619,7 +3619,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"548",
+    "id":"548",
     "FIELD2":"Aurora College",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -3666,7 +3666,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3031",
+    "id":"3031",
     "FIELD2":"Avalon Intermediate",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -3713,7 +3713,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2803",
+    "id":"2803",
     "FIELD2":"Avalon School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -3760,7 +3760,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2153",
+    "id":"2153",
     "FIELD2":"Avon School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -3807,7 +3807,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"78",
+    "id":"78",
     "FIELD2":"Avondale College",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -3854,7 +3854,7 @@ var schoolz = [
     "FIELD45":"175"
   },
   {
-    "FIELD1":"1212",
+    "id":"1212",
     "FIELD2":"Avondale Intermediate",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -3901,7 +3901,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1213",
+    "id":"1213",
     "FIELD2":"Avondale Primary School (Auckland)",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -3948,7 +3948,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3286",
+    "id":"3286",
     "FIELD2":"Avondale School (Christchurch)",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -3995,7 +3995,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3287",
+    "id":"3287",
     "FIELD2":"Avonhead School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -4042,7 +4042,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"324",
+    "id":"324",
     "FIELD2":"Avonside Girls' High School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -4089,7 +4089,7 @@ var schoolz = [
     "FIELD45":"12"
   },
   {
-    "FIELD1":"2105",
+    "id":"2105",
     "FIELD2":"Awahono School - Grey Valley",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -4136,7 +4136,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2338",
+    "id":"2338",
     "FIELD2":"Awahou School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -4183,7 +4183,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1691",
+    "id":"1691",
     "FIELD2":"Awakeri School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -4230,7 +4230,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1004",
+    "id":"1004",
     "FIELD2":"Awanui School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -4277,7 +4277,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2544",
+    "id":"2544",
     "FIELD2":"Awapuni School (Gisborne)",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -4324,7 +4324,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2339",
+    "id":"2339",
     "FIELD2":"Awapuni School (P.North)",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -4371,7 +4371,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"198",
+    "id":"198",
     "FIELD2":"Awatapu College",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -4418,7 +4418,7 @@ var schoolz = [
     "FIELD45":"25"
   },
   {
-    "FIELD1":"1214",
+    "id":"1214",
     "FIELD2":"Awhitu District School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -4465,7 +4465,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1216",
+    "id":"1216",
     "FIELD2":"Bailey Road School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -4512,7 +4512,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2341",
+    "id":"2341",
     "FIELD2":"Bainesse School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -4559,7 +4559,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1218",
+    "id":"1218",
     "FIELD2":"Bairds Mainfreight Primary School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -4606,7 +4606,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3709",
+    "id":"3709",
     "FIELD2":"Balaclava School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -4653,7 +4653,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3710",
+    "id":"3710",
     "FIELD2":"Balclutha School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -4700,7 +4700,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3932",
+    "id":"3932",
     "FIELD2":"Balfour School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -4747,7 +4747,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2805",
+    "id":"2805",
     "FIELD2":"Ballance School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -4794,7 +4794,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3711",
+    "id":"3711",
     "FIELD2":"Balmacewen Intermediate",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -4841,7 +4841,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4100",
+    "id":"4100",
     "FIELD2":"Balmoral S D A School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -4888,7 +4888,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1219",
+    "id":"1219",
     "FIELD2":"Balmoral School (Auckland)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -4935,7 +4935,7 @@ var schoolz = [
     "FIELD45":"10"
   },
   {
-    "FIELD1":"3288",
+    "id":"3288",
     "FIELD2":"Bamford School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -4982,7 +4982,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3289",
+    "id":"3289",
     "FIELD2":"Banks Avenue School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -5029,7 +5029,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1693",
+    "id":"1693",
     "FIELD2":"Bankwood School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -5076,7 +5076,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"61",
+    "id":"61",
     "FIELD2":"Baradene College",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -5123,7 +5123,7 @@ var schoolz = [
     "FIELD45":"52"
   },
   {
-    "FIELD1":"3290",
+    "id":"3290",
     "FIELD2":"Barrytown School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -5170,7 +5170,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2112",
+    "id":"2112",
     "FIELD2":"Barton Rural School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -5217,7 +5217,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"647",
+    "id":"647",
     "FIELD2":"Bathgate Park School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -5264,7 +5264,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"6960",
+    "id":"6960",
     "FIELD2":"Baverstock Oaks School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -5311,7 +5311,7 @@ var schoolz = [
     "FIELD45":"5"
   },
   {
-    "FIELD1":"8",
+    "id":"8",
     "FIELD2":"Bay of Islands College",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -5358,7 +5358,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1112",
+    "id":"1112",
     "FIELD2":"Bay of Islands International Academy",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -5405,7 +5405,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"382",
+    "id":"382",
     "FIELD2":"Bayfield High School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -5452,7 +5452,7 @@ var schoolz = [
     "FIELD45":"50"
   },
   {
-    "FIELD1":"1220",
+    "id":"1220",
     "FIELD2":"Bayfield School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -5499,7 +5499,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1221",
+    "id":"1221",
     "FIELD2":"Bayswater School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -5546,7 +5546,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"1222",
+    "id":"1222",
     "FIELD2":"Bayview School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -5593,7 +5593,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1223",
+    "id":"1223",
     "FIELD2":"Beach Haven School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -5640,7 +5640,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1224",
+    "id":"1224",
     "FIELD2":"Beachlands School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -5687,7 +5687,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2114",
+    "id":"2114",
     "FIELD2":"Beaconsfield School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -5734,7 +5734,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3291",
+    "id":"3291",
     "FIELD2":"Beckenham School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -5781,7 +5781,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3292",
+    "id":"3292",
     "FIELD2":"Belfast School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -5828,7 +5828,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2157",
+    "id":"2157",
     "FIELD2":"Bell Block School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -5875,7 +5875,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2806",
+    "id":"2806",
     "FIELD2":"Bellevue School (Newlands)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -5922,7 +5922,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1694",
+    "id":"1694",
     "FIELD2":"Bellevue School (Tauranga)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -5969,7 +5969,7 @@ var schoolz = [
     "FIELD45":"5"
   },
   {
-    "FIELD1":"1225",
+    "id":"1225",
     "FIELD2":"Belmont Intermediate",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -6016,7 +6016,7 @@ var schoolz = [
     "FIELD45":"13"
   },
   {
-    "FIELD1":"1226",
+    "id":"1226",
     "FIELD2":"Belmont School (Auckland)",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -6063,7 +6063,7 @@ var schoolz = [
     "FIELD45":"10"
   },
   {
-    "FIELD1":"2807",
+    "id":"2807",
     "FIELD2":"Belmont School (Lower Hutt)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -6110,7 +6110,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"161",
+    "id":"161",
     "FIELD2":"Benneydale School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -6157,7 +6157,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2808",
+    "id":"2808",
     "FIELD2":"Berhampore School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -6204,7 +6204,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1695",
+    "id":"1695",
     "FIELD2":"Berkley Normal Middle School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -6251,7 +6251,7 @@ var schoolz = [
     "FIELD45":"8"
   },
   {
-    "FIELD1":"77",
+    "id":"77",
     "FIELD2":"Bethlehem College",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -6298,7 +6298,7 @@ var schoolz = [
     "FIELD45":"77"
   },
   {
-    "FIELD1":"1697",
+    "id":"1697",
     "FIELD2":"Bethlehem School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -6345,7 +6345,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"607",
+    "id":"607",
     "FIELD2":"Big Rock Primary School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -6392,7 +6392,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2810",
+    "id":"2810",
     "FIELD2":"Birchville School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -6439,7 +6439,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3182",
+    "id":"3182",
     "FIELD2":"Birchwood School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -6486,7 +6486,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1227",
+    "id":"1227",
     "FIELD2":"Birdwood School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -6533,7 +6533,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1228",
+    "id":"1228",
     "FIELD2":"Birkdale Intermediate",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -6580,7 +6580,7 @@ var schoolz = [
     "FIELD45":"7"
   },
   {
-    "FIELD1":"1229",
+    "id":"1229",
     "FIELD2":"Birkdale North School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -6627,7 +6627,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1230",
+    "id":"1230",
     "FIELD2":"Birkdale Primary School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -6674,7 +6674,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"31",
+    "id":"31",
     "FIELD2":"Birkenhead College",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -6721,7 +6721,7 @@ var schoolz = [
     "FIELD45":"50"
   },
   {
-    "FIELD1":"1231",
+    "id":"1231",
     "FIELD2":"Birkenhead School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -6768,7 +6768,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"1607",
+    "id":"1607",
     "FIELD2":"Bishop Edward Gaines Catholic School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -6815,7 +6815,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"256",
+    "id":"256",
     "FIELD2":"Bishop Viard College",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -6862,7 +6862,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3293",
+    "id":"3293",
     "FIELD2":"Bishopdale School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -6909,7 +6909,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"3295",
+    "id":"3295",
     "FIELD2":"Blaketown School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -6956,7 +6956,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2546",
+    "id":"2546",
     "FIELD2":"Bledisloe School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -7003,7 +7003,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2811",
+    "id":"2811",
     "FIELD2":"Blenheim School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -7050,7 +7050,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4156",
+    "id":"4156",
     "FIELD2":"Blind and Low Vision Education Network NZ",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -7097,7 +7097,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1232",
+    "id":"1232",
     "FIELD2":"Blockhouse Bay Intermediate",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -7144,7 +7144,7 @@ var schoolz = [
     "FIELD45":"15"
   },
   {
-    "FIELD1":"1233",
+    "id":"1233",
     "FIELD2":"Blockhouse Bay School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -7191,7 +7191,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"1007",
+    "id":"1007",
     "FIELD2":"Blomfield Special School and Resource Ctre",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -7238,7 +7238,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"391",
+    "id":"391",
     "FIELD2":"Blue Mountain College",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -7285,7 +7285,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"2113",
+    "id":"2113",
     "FIELD2":"Bluestone School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -7332,7 +7332,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2120",
+    "id":"2120",
     "FIELD2":"Bluff School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -7379,7 +7379,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2812",
+    "id":"2812",
     "FIELD2":"Bohally Intermediate",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -7426,7 +7426,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1234",
+    "id":"1234",
     "FIELD2":"Bombay School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -7473,7 +7473,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1235",
+    "id":"1235",
     "FIELD2":"Botany Downs School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -7520,7 +7520,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"6930",
+    "id":"6930",
     "FIELD2":"Botany Downs Secondary College",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -7567,7 +7567,7 @@ var schoolz = [
     "FIELD45":"144"
   },
   {
-    "FIELD1":"2813",
+    "id":"2813",
     "FIELD2":"Boulcott School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -7614,7 +7614,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3716",
+    "id":"3716",
     "FIELD2":"Bradford School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -7661,7 +7661,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2814",
+    "id":"2814",
     "FIELD2":"Brandon Intermediate",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -7708,7 +7708,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"20",
+    "id":"20",
     "FIELD2":"Bream Bay College",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -7755,7 +7755,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"3299",
+    "id":"3299",
     "FIELD2":"Breens Intermediate",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -7802,7 +7802,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"2547",
+    "id":"2547",
     "FIELD2":"Bridge Pa School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -7849,7 +7849,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3183",
+    "id":"3183",
     "FIELD2":"Brightwater School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -7896,7 +7896,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3718",
+    "id":"3718",
     "FIELD2":"Broad Bay School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -7943,7 +7943,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3301",
+    "id":"3301",
     "FIELD2":"Broadfield School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -7990,7 +7990,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3184",
+    "id":"3184",
     "FIELD2":"Broadgreen Intermediate",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -8037,7 +8037,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"1698",
+    "id":"1698",
     "FIELD2":"Broadlands School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -8084,7 +8084,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"6",
+    "id":"6",
     "FIELD2":"Broadwood Area School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -8131,7 +8131,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3719",
+    "id":"3719",
     "FIELD2":"Brockville School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -8178,7 +8178,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3302",
+    "id":"3302",
     "FIELD2":"Bromley School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -8225,7 +8225,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1236",
+    "id":"1236",
     "FIELD2":"Brookby School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -8272,7 +8272,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1699",
+    "id":"1699",
     "FIELD2":"Brookfield School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -8319,7 +8319,7 @@ var schoolz = [
     "FIELD45":"5"
   },
   {
-    "FIELD1":"3185",
+    "id":"3185",
     "FIELD2":"Brooklyn School (Motueka)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -8366,7 +8366,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2816",
+    "id":"2816",
     "FIELD2":"Brooklyn School (Wellington)",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -8413,7 +8413,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3303",
+    "id":"3303",
     "FIELD2":"Broomfield School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -8460,7 +8460,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1237",
+    "id":"1237",
     "FIELD2":"Browns Bay School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -8507,7 +8507,7 @@ var schoolz = [
     "FIELD45":"13"
   },
   {
-    "FIELD1":"1238",
+    "id":"1238",
     "FIELD2":"Bruce McLaren Intermediate",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -8554,7 +8554,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2342",
+    "id":"2342",
     "FIELD2":"Brunswick School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -8601,7 +8601,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1239",
+    "id":"1239",
     "FIELD2":"Buckland School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -8648,7 +8648,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1240",
+    "id":"1240",
     "FIELD2":"Bucklands Beach Intermediate",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -8695,7 +8695,7 @@ var schoolz = [
     "FIELD45":"23"
   },
   {
-    "FIELD1":"1241",
+    "id":"1241",
     "FIELD2":"Bucklands Beach Primary School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -8742,7 +8742,7 @@ var schoolz = [
     "FIELD45":"4"
   },
   {
-    "FIELD1":"301",
+    "id":"301",
     "FIELD2":"Buller High School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -8789,7 +8789,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2343",
+    "id":"2343",
     "FIELD2":"Bulls School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -8836,7 +8836,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2344",
+    "id":"2344",
     "FIELD2":"Bunnythorpe School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -8883,7 +8883,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3304",
+    "id":"3304",
     "FIELD2":"Burnham School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -8930,7 +8930,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"319",
+    "id":"319",
     "FIELD2":"Burnside High School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -8977,7 +8977,7 @@ var schoolz = [
     "FIELD45":"135"
   },
   {
-    "FIELD1":"3305",
+    "id":"3305",
     "FIELD2":"Burnside Primary School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -9024,7 +9024,7 @@ var schoolz = [
     "FIELD45":"6"
   },
   {
-    "FIELD1":"2548",
+    "id":"2548",
     "FIELD2":"Camberley School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -9071,7 +9071,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1700",
+    "id":"1700",
     "FIELD2":"Cambridge East School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -9118,7 +9118,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"142",
+    "id":"142",
     "FIELD2":"Cambridge High School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -9165,7 +9165,7 @@ var schoolz = [
     "FIELD45":"51"
   },
   {
-    "FIELD1":"1701",
+    "id":"1701",
     "FIELD2":"Cambridge Middle School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -9212,7 +9212,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"1702",
+    "id":"1702",
     "FIELD2":"Cambridge School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -9259,7 +9259,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"1242",
+    "id":"1242",
     "FIELD2":"Campbells Bay School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -9306,7 +9306,7 @@ var schoolz = [
     "FIELD45":"31"
   },
   {
-    "FIELD1":"211",
+    "id":"211",
     "FIELD2":"Campion College",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -9353,7 +9353,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3307",
+    "id":"3307",
     "FIELD2":"Cannington School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -9400,7 +9400,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2818",
+    "id":"2818",
     "FIELD2":"Cannons Creek School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -9447,7 +9447,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3186",
+    "id":"3186",
     "FIELD2":"Canvastown School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -9494,7 +9494,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2819",
+    "id":"2819",
     "FIELD2":"Cardinal McKeefry School (Wilton)",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -9541,7 +9541,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3308",
+    "id":"3308",
     "FIELD2":"Carew Peel Forest School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -9588,7 +9588,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1704",
+    "id":"1704",
     "FIELD2":"Cargill Open Plan School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -9635,7 +9635,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"648",
+    "id":"648",
     "FIELD2":"Carisbrook School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -9682,7 +9682,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"523",
+    "id":"523",
     "FIELD2":"Carlson School (Cerebral Palsy)",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -9729,7 +9729,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2345",
+    "id":"2345",
     "FIELD2":"Carlton School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -9776,7 +9776,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"35",
+    "id":"35",
     "FIELD2":"Carmel College",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -9823,7 +9823,7 @@ var schoolz = [
     "FIELD45":"49"
   },
   {
-    "FIELD1":"2820",
+    "id":"2820",
     "FIELD2":"Carterton School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -9870,7 +9870,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3309",
+    "id":"3309",
     "FIELD2":"Casebrook Intermediate",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -9917,7 +9917,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2821",
+    "id":"2821",
     "FIELD2":"Cashmere Avenue School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -9964,7 +9964,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"340",
+    "id":"340",
     "FIELD2":"Cashmere High School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -10011,7 +10011,7 @@ var schoolz = [
     "FIELD45":"52"
   },
   {
-    "FIELD1":"3310",
+    "id":"3310",
     "FIELD2":"Cashmere Primary School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -10058,7 +10058,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"2346",
+    "id":"2346",
     "FIELD2":"Castlecliff School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -10105,7 +10105,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"531",
+    "id":"531",
     "FIELD2":"Catholic Cathedral College",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -10152,7 +10152,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1705",
+    "id":"1705",
     "FIELD2":"Centennial Park School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -10199,7 +10199,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"233",
+    "id":"233",
     "FIELD2":"Central Hawkes Bay College",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -10246,7 +10246,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"2418",
+    "id":"2418",
     "FIELD2":"Central Normal School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -10293,7 +10293,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2160",
+    "id":"2160",
     "FIELD2":"Central School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -10340,7 +10340,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"399",
+    "id":"399",
     "FIELD2":"Central Southland College",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -10387,7 +10387,7 @@ var schoolz = [
     "FIELD45":"5"
   },
   {
-    "FIELD1":"3225",
+    "id":"3225",
     "FIELD2":"Central Takaka School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -10434,7 +10434,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"244",
+    "id":"244",
     "FIELD2":"Chanel College",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -10481,7 +10481,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"1581",
+    "id":"1581",
     "FIELD2":"Chapel Downs School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -10528,7 +10528,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1243",
+    "id":"1243",
     "FIELD2":"Chaucer School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -10575,7 +10575,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1244",
+    "id":"1244",
     "FIELD2":"Chelsea School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -10622,7 +10622,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"2347",
+    "id":"2347",
     "FIELD2":"Cheltenham School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -10669,7 +10669,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3313",
+    "id":"3313",
     "FIELD2":"Chertsey School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -10716,7 +10716,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"309",
+    "id":"309",
     "FIELD2":"Cheviot Area School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -10763,7 +10763,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3314",
+    "id":"3314",
     "FIELD2":"Chisnallwood Intermediate",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -10810,7 +10810,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"1245",
+    "id":"1245",
     "FIELD2":"Christ the King Catholic School (Owairaka)",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -10857,7 +10857,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3316",
+    "id":"3316",
     "FIELD2":"Christ The King School (Burnside)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -10904,7 +10904,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"317",
+    "id":"317",
     "FIELD2":"Christchurch Adventist School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -10951,7 +10951,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"327",
+    "id":"327",
     "FIELD2":"Christchurch Boys' High School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -10998,7 +10998,7 @@ var schoolz = [
     "FIELD45":"40"
   },
   {
-    "FIELD1":"3317",
+    "id":"3317",
     "FIELD2":"Christchurch East School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -11045,7 +11045,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"328",
+    "id":"328",
     "FIELD2":"Christchurch Girls' High School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -11092,7 +11092,7 @@ var schoolz = [
     "FIELD45":"#N/A"
   },
   {
-    "FIELD1":"3318",
+    "id":"3318",
     "FIELD2":"Christchurch South Intermediate",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -11139,7 +11139,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"1138",
+    "id":"1138",
     "FIELD2":"Christian Renewal School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -11186,7 +11186,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1246",
+    "id":"1246",
     "FIELD2":"Churchill Park School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -11233,7 +11233,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2824",
+    "id":"2824",
     "FIELD2":"Churton Park School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -11280,7 +11280,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2348",
+    "id":"2348",
     "FIELD2":"Churton School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -11327,7 +11327,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3321",
+    "id":"3321",
     "FIELD2":"Clarkville School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -11374,7 +11374,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1247",
+    "id":"1247",
     "FIELD2":"Clayton Park School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -11421,7 +11421,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"6980",
+    "id":"6980",
     "FIELD2":"Clearview Primary",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -11468,7 +11468,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1248",
+    "id":"1248",
     "FIELD2":"Clendon Park School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -11515,7 +11515,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1249",
+    "id":"1249",
     "FIELD2":"Clevedon School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -11562,7 +11562,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"2349",
+    "id":"2349",
     "FIELD2":"Clifton School (Bulls)",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -11609,7 +11609,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2826",
+    "id":"2826",
     "FIELD2":"Clifton Terrace Model School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -11656,7 +11656,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3187",
+    "id":"3187",
     "FIELD2":"Clifton Terrace School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -11703,7 +11703,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3723",
+    "id":"3723",
     "FIELD2":"Clinton School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -11750,7 +11750,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2549",
+    "id":"2549",
     "FIELD2":"Clive School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -11797,7 +11797,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2350",
+    "id":"2350",
     "FIELD2":"Cloverlea School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -11844,7 +11844,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3724",
+    "id":"3724",
     "FIELD2":"Clutha Valley School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -11891,7 +11891,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2827",
+    "id":"2827",
     "FIELD2":"Clyde Quay School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -11938,7 +11938,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3725",
+    "id":"3725",
     "FIELD2":"Clyde School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -11985,7 +11985,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"551",
+    "id":"551",
     "FIELD2":"Coastal Taranaki School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -12032,7 +12032,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1252",
+    "id":"1252",
     "FIELD2":"Coatesville School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -12079,7 +12079,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"3322",
+    "id":"3322",
     "FIELD2":"Cobden School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -12126,7 +12126,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3323",
+    "id":"3323",
     "FIELD2":"Cobham Intermediate",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -12173,7 +12173,7 @@ var schoolz = [
     "FIELD45":"6"
   },
   {
-    "FIELD1":"2550",
+    "id":"2550",
     "FIELD2":"Cobham School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -12220,7 +12220,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1253",
+    "id":"1253",
     "FIELD2":"Cockle Bay School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -12267,7 +12267,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"2352",
+    "id":"2352",
     "FIELD2":"Coley Street School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -12314,7 +12314,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2353",
+    "id":"2353",
     "FIELD2":"College Street Normal School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -12361,7 +12361,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"290",
+    "id":"290",
     "FIELD2":"Collingwood Area School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -12408,7 +12408,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"386",
+    "id":"386",
     "FIELD2":"Columba College",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -12455,7 +12455,7 @@ var schoolz = [
     "FIELD45":"27"
   },
   {
-    "FIELD1":"1706",
+    "id":"1706",
     "FIELD2":"Colville School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -12502,7 +12502,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1254",
+    "id":"1254",
     "FIELD2":"Colwill School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -12549,7 +12549,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2354",
+    "id":"2354",
     "FIELD2":"Colyton School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -12596,7 +12596,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3727",
+    "id":"3727",
     "FIELD2":"Concord School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -12643,7 +12643,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1255",
+    "id":"1255",
     "FIELD2":"Conifer Grove School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -12690,7 +12690,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2828",
+    "id":"2828",
     "FIELD2":"Corinna School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -12737,7 +12737,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1172",
+    "id":"1172",
     "FIELD2":"Cornerstone Christian School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -12784,7 +12784,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1256",
+    "id":"1256",
     "FIELD2":"Cornwall Park District School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -12831,7 +12831,7 @@ var schoolz = [
     "FIELD45":"11"
   },
   {
-    "FIELD1":"1707",
+    "id":"1707",
     "FIELD2":"Coroglen School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -12878,7 +12878,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"109",
+    "id":"109",
     "FIELD2":"Coromandel Area School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -12925,7 +12925,7 @@ var schoolz = [
     "FIELD45":"4"
   },
   {
-    "FIELD1":"1257",
+    "id":"1257",
     "FIELD2":"Cosgrove School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -12972,7 +12972,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3324",
+    "id":"3324",
     "FIELD2":"Cotswold School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -13019,7 +13019,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"357",
+    "id":"357",
     "FIELD2":"Craighead Diocesan School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -13066,7 +13066,7 @@ var schoolz = [
     "FIELD45":"13"
   },
   {
-    "FIELD1":"2096",
+    "id":"2096",
     "FIELD2":"Crawshaw School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -13113,7 +13113,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2823",
+    "id":"2823",
     "FIELD2":"Crofton Downs Primary School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -13160,7 +13160,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"373",
+    "id":"373",
     "FIELD2":"Cromwell College",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -13207,7 +13207,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"3729",
+    "id":"3729",
     "FIELD2":"Cromwell Primary School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -13254,7 +13254,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"190",
+    "id":"190",
     "FIELD2":"Cullinane College",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -13301,7 +13301,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"3325",
+    "id":"3325",
     "FIELD2":"Cust School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -13348,7 +13348,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1258",
+    "id":"1258",
     "FIELD2":"Dairy Flat School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -13395,7 +13395,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2831",
+    "id":"2831",
     "FIELD2":"Dalefield School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -13442,7 +13442,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"234",
+    "id":"234",
     "FIELD2":"Dannevirke High School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -13489,7 +13489,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"2553",
+    "id":"2553",
     "FIELD2":"Dannevirke South School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -13536,7 +13536,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"346",
+    "id":"346",
     "FIELD2":"Darfield High School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -13583,7 +13583,7 @@ var schoolz = [
     "FIELD45":"25"
   },
   {
-    "FIELD1":"3326",
+    "id":"3326",
     "FIELD2":"Darfield School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -13630,7 +13630,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"19",
+    "id":"19",
     "FIELD2":"Dargaville High School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -13677,7 +13677,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1008",
+    "id":"1008",
     "FIELD2":"Dargaville Intermediate",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -13724,7 +13724,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1009",
+    "id":"1009",
     "FIELD2":"Dargaville Primary School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -13771,7 +13771,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1708",
+    "id":"1708",
     "FIELD2":"David Henry School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -13818,7 +13818,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1709",
+    "id":"1709",
     "FIELD2":"David Street School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -13865,7 +13865,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1259",
+    "id":"1259",
     "FIELD2":"Dawson School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -13912,7 +13912,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"94",
+    "id":"94",
     "FIELD2":"De La Salle College",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -13959,7 +13959,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1710",
+    "id":"1710",
     "FIELD2":"Deanwell School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -14006,7 +14006,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2161",
+    "id":"2161",
     "FIELD2":"Devon Intermediate",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -14053,7 +14053,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1260",
+    "id":"1260",
     "FIELD2":"Devonport School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -14100,7 +14100,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3327",
+    "id":"3327",
     "FIELD2":"Diamond Harbour School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -14147,7 +14147,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3943",
+    "id":"3943",
     "FIELD2":"Dipton School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -14194,7 +14194,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2832",
+    "id":"2832",
     "FIELD2":"Discovery School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -14241,7 +14241,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1261",
+    "id":"1261",
     "FIELD2":"Dominion Road School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -14288,7 +14288,7 @@ var schoolz = [
     "FIELD45":"4"
   },
   {
-    "FIELD1":"1262",
+    "id":"1262",
     "FIELD2":"Don Buck School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -14335,7 +14335,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2119",
+    "id":"2119",
     "FIELD2":"Donovan Primary School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -14382,7 +14382,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3329",
+    "id":"3329",
     "FIELD2":"Dorie School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -14429,7 +14429,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1661",
+    "id":"1661",
     "FIELD2":"Douglas Park School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -14476,7 +14476,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3188",
+    "id":"3188",
     "FIELD2":"Dovedale School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -14523,7 +14523,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1650",
+    "id":"1650",
     "FIELD2":"Drummond Primary School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -14570,7 +14570,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1263",
+    "id":"1263",
     "FIELD2":"Drury School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -14617,7 +14617,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3731",
+    "id":"3731",
     "FIELD2":"Dunedin North Intermediate",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -14664,7 +14664,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1192",
+    "id":"1192",
     "FIELD2":"Dunedin Rudolf Steiner School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -14711,7 +14711,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3331",
+    "id":"3331",
     "FIELD2":"Dunsandel School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -14758,7 +14758,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"372",
+    "id":"372",
     "FIELD2":"Dunstan High School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -14805,7 +14805,7 @@ var schoolz = [
     "FIELD45":"9"
   },
   {
-    "FIELD1":"3732",
+    "id":"3732",
     "FIELD2":"Duntroon School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -14852,7 +14852,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2355",
+    "id":"2355",
     "FIELD2":"Durie Hill School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -14899,7 +14899,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3332",
+    "id":"3332",
     "FIELD2":"Duvauchelle School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -14946,7 +14946,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2833",
+    "id":"2833",
     "FIELD2":"Dyer Street School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -14993,7 +14993,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3946",
+    "id":"3946",
     "FIELD2":"East Gore School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -15040,7 +15040,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"371",
+    "id":"371",
     "FIELD2":"East Otago High School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -15087,7 +15087,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"3733",
+    "id":"3733",
     "FIELD2":"East Taieri School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -15134,7 +15134,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1264",
+    "id":"1264",
     "FIELD2":"East Tamaki School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -15181,7 +15181,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2834",
+    "id":"2834",
     "FIELD2":"Eastern Hutt School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -15228,7 +15228,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2554",
+    "id":"2554",
     "FIELD2":"Ebbett Park School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -15275,7 +15275,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1265",
+    "id":"1265",
     "FIELD2":"Edendale School (Auckland)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -15322,7 +15322,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3947",
+    "id":"3947",
     "FIELD2":"Edendale School (Southland)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -15369,7 +15369,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"145",
+    "id":"145",
     "FIELD2":"Edgecumbe College",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -15416,7 +15416,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1711",
+    "id":"1711",
     "FIELD2":"Edgecumbe School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -15463,7 +15463,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"79",
+    "id":"79",
     "FIELD2":"Edgewater College",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -15510,7 +15510,7 @@ var schoolz = [
     "FIELD45":"33"
   },
   {
-    "FIELD1":"1266",
+    "id":"1266",
     "FIELD2":"Edmonton School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -15557,7 +15557,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1267",
+    "id":"1267",
     "FIELD2":"Edmund Hillary School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -15604,7 +15604,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2164",
+    "id":"2164",
     "FIELD2":"Egmont Village School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -15651,7 +15651,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2835",
+    "id":"2835",
     "FIELD2":"Eketahuna School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -15698,7 +15698,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2555",
+    "id":"2555",
     "FIELD2":"Elgin School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -15745,7 +15745,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1190",
+    "id":"1190",
     "FIELD2":"Elim Christian College",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -15792,7 +15792,7 @@ var schoolz = [
     "FIELD45":"33"
   },
   {
-    "FIELD1":"1268",
+    "id":"1268",
     "FIELD2":"Ellerslie School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -15839,7 +15839,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"349",
+    "id":"349",
     "FIELD2":"Ellesmere College",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -15886,7 +15886,7 @@ var schoolz = [
     "FIELD45":"9"
   },
   {
-    "FIELD1":"1269",
+    "id":"1269",
     "FIELD2":"Elm Park School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -15933,7 +15933,7 @@ var schoolz = [
     "FIELD45":"4"
   },
   {
-    "FIELD1":"3778",
+    "id":"3778",
     "FIELD2":"Elmgrove School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -15980,7 +15980,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3334",
+    "id":"3334",
     "FIELD2":"Elmwood Normal School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -16027,7 +16027,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2556",
+    "id":"2556",
     "FIELD2":"Elsthorpe School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -16074,7 +16074,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1713",
+    "id":"1713",
     "FIELD2":"Elstow-Waihou Combined School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -16121,7 +16121,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2165",
+    "id":"2165",
     "FIELD2":"Eltham School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -16168,7 +16168,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1168",
+    "id":"1168",
     "FIELD2":"Emmanuel Christian School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -16215,7 +16215,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3189",
+    "id":"3189",
     "FIELD2":"Enner Glynn School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -16262,7 +16262,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"64",
+    "id":"64",
     "FIELD2":"Epsom Girls Grammar School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -16309,7 +16309,7 @@ var schoolz = [
     "FIELD45":"130"
   },
   {
-    "FIELD1":"1270",
+    "id":"1270",
     "FIELD2":"Epsom Normal School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -16356,7 +16356,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2836",
+    "id":"2836",
     "FIELD2":"Epuni School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -16403,7 +16403,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2557",
+    "id":"2557",
     "FIELD2":"Eskdale School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -16450,7 +16450,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2837",
+    "id":"2837",
     "FIELD2":"Evans Bay Intermediate",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -16497,7 +16497,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1164",
+    "id":"1164",
     "FIELD2":"Everglade School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -16544,7 +16544,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"429",
+    "id":"429",
     "FIELD2":"Excellere College",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -16591,7 +16591,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"1271",
+    "id":"1271",
     "FIELD2":"Fairburn School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -16638,7 +16638,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"129",
+    "id":"129",
     "FIELD2":"Fairfield College",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -16685,7 +16685,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1715",
+    "id":"1715",
     "FIELD2":"Fairfield Intermediate",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -16732,7 +16732,7 @@ var schoolz = [
     "FIELD45":"5"
   },
   {
-    "FIELD1":"1716",
+    "id":"1716",
     "FIELD2":"Fairfield Primary School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -16779,7 +16779,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3736",
+    "id":"3736",
     "FIELD2":"Fairfield School (Dunedin)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -16826,7 +16826,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2838",
+    "id":"2838",
     "FIELD2":"Fairfield School (Levin)",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -16873,7 +16873,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2839",
+    "id":"2839",
     "FIELD2":"Fairhall School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -16920,7 +16920,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1717",
+    "id":"1717",
     "FIELD2":"Fairhaven School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -16967,7 +16967,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2558",
+    "id":"2558",
     "FIELD2":"Fairhaven School (Napier)",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -17014,7 +17014,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3335",
+    "id":"3335",
     "FIELD2":"Fairlie School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -17061,7 +17061,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3336",
+    "id":"3336",
     "FIELD2":"Fairton School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -17108,7 +17108,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"422",
+    "id":"422",
     "FIELD2":"Faith City School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -17155,7 +17155,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1272",
+    "id":"1272",
     "FIELD2":"Farm Cove Intermediate",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -17202,7 +17202,7 @@ var schoolz = [
     "FIELD45":"20"
   },
   {
-    "FIELD1":"1273",
+    "id":"1273",
     "FIELD2":"Favona School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -17249,7 +17249,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2840",
+    "id":"2840",
     "FIELD2":"Featherston School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -17296,7 +17296,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"197",
+    "id":"197",
     "FIELD2":"Feilding High School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -17343,7 +17343,7 @@ var schoolz = [
     "FIELD45":"7"
   },
   {
-    "FIELD1":"2356",
+    "id":"2356",
     "FIELD2":"Feilding Intermediate",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -17390,7 +17390,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3338",
+    "id":"3338",
     "FIELD2":"Fendalton Open Air School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -17437,7 +17437,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"3707",
+    "id":"3707",
     "FIELD2":"Fenwick School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -17484,7 +17484,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1274",
+    "id":"1274",
     "FIELD2":"Ferguson Intermediate (Otara)",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -17531,7 +17531,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2841",
+    "id":"2841",
     "FIELD2":"Fergusson Intermediate (Trentham)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -17578,7 +17578,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3339",
+    "id":"3339",
     "FIELD2":"Ferndale School (Christchurch)",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -17625,7 +17625,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2842",
+    "id":"2842",
     "FIELD2":"Fernlea School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -17672,7 +17672,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2843",
+    "id":"2843",
     "FIELD2":"Fernridge School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -17719,7 +17719,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3340",
+    "id":"3340",
     "FIELD2":"Fernside School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -17766,7 +17766,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2117",
+    "id":"2117",
     "FIELD2":"Fernworth Primary School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -17813,7 +17813,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1275",
+    "id":"1275",
     "FIELD2":"Finlayson Park School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -17860,7 +17860,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"400",
+    "id":"400",
     "FIELD2":"Fiordland College",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -17907,7 +17907,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"1719",
+    "id":"1719",
     "FIELD2":"Firth School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -17954,7 +17954,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2167",
+    "id":"2167",
     "FIELD2":"Fitzroy School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -18001,7 +18001,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3738",
+    "id":"3738",
     "FIELD2":"Five Forks School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -18048,7 +18048,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3739",
+    "id":"3739",
     "FIELD2":"Flagswamp School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -18095,7 +18095,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1276",
+    "id":"1276",
     "FIELD2":"Flanshaw Road School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -18142,7 +18142,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"1277",
+    "id":"1277",
     "FIELD2":"Flat Bush School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -18189,7 +18189,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"134",
+    "id":"134",
     "FIELD2":"Flaxmere College",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -18236,7 +18236,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2560",
+    "id":"2560",
     "FIELD2":"Flaxmere Primary School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -18283,7 +18283,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2561",
+    "id":"2561",
     "FIELD2":"Flemington School (Waipukurau)",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -18330,7 +18330,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2357",
+    "id":"2357",
     "FIELD2":"Fordell School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -18377,7 +18377,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1720",
+    "id":"1720",
     "FIELD2":"Forest Lake School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -18424,7 +18424,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"159",
+    "id":"159",
     "FIELD2":"Forest View High School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -18471,7 +18471,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"1278",
+    "id":"1278",
     "FIELD2":"Forrest Hill School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -18518,7 +18518,7 @@ var schoolz = [
     "FIELD45":"6"
   },
   {
-    "FIELD1":"3342",
+    "id":"3342",
     "FIELD2":"Fox Glacier School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -18565,7 +18565,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2358",
+    "id":"2358",
     "FIELD2":"Foxton Beach School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -18612,7 +18612,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2359",
+    "id":"2359",
     "FIELD2":"Foxton School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -18659,7 +18659,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"175",
+    "id":"175",
     "FIELD2":"Francis Douglas Memorial College",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -18706,7 +18706,7 @@ var schoolz = [
     "FIELD45":"8"
   },
   {
-    "FIELD1":"2168",
+    "id":"2168",
     "FIELD2":"Frankley School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -18753,7 +18753,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1721",
+    "id":"1721",
     "FIELD2":"Frankton School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -18800,7 +18800,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3343",
+    "id":"3343",
     "FIELD2":"Franz Josef Glacier School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -18847,7 +18847,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2844",
+    "id":"2844",
     "FIELD2":"Fraser Crescent School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -18894,7 +18894,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"135",
+    "id":"135",
     "FIELD2":"Fraser High School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -18941,7 +18941,7 @@ var schoolz = [
     "FIELD45":"9"
   },
   {
-    "FIELD1":"2562",
+    "id":"2562",
     "FIELD2":"Frasertown School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -18988,7 +18988,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1279",
+    "id":"1279",
     "FIELD2":"Freemans Bay School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -19035,7 +19035,7 @@ var schoolz = [
     "FIELD45":"22"
   },
   {
-    "FIELD1":"1280",
+    "id":"1280",
     "FIELD2":"Freyberg Community School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -19082,7 +19082,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"200",
+    "id":"200",
     "FIELD2":"Freyberg High School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -19129,7 +19129,7 @@ var schoolz = [
     "FIELD45":"55"
   },
   {
-    "FIELD1":"2563",
+    "id":"2563",
     "FIELD2":"Frimley School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -19176,7 +19176,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1281",
+    "id":"1281",
     "FIELD2":"Fruitvale Road School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -19223,7 +19223,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1722",
+    "id":"1722",
     "FIELD2":"Galatea School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -19270,7 +19270,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"6975",
+    "id":"6975",
     "FIELD2":"Garin College",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -19317,7 +19317,7 @@ var schoolz = [
     "FIELD45":"25"
   },
   {
-    "FIELD1":"3953",
+    "id":"3953",
     "FIELD2":"Garston School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -19364,7 +19364,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1992",
+    "id":"1992",
     "FIELD2":"Gate Pa School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -19411,7 +19411,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"3740",
+    "id":"3740",
     "FIELD2":"George Street Normal School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -19458,7 +19458,7 @@ var schoolz = [
     "FIELD45":"8"
   },
   {
-    "FIELD1":"352",
+    "id":"352",
     "FIELD2":"Geraldine High School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -19505,7 +19505,7 @@ var schoolz = [
     "FIELD45":"7"
   },
   {
-    "FIELD1":"2107",
+    "id":"2107",
     "FIELD2":"Geraldine Primary School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -19552,7 +19552,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3346",
+    "id":"3346",
     "FIELD2":"Gilberthorpe School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -19599,7 +19599,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"209",
+    "id":"209",
     "FIELD2":"Gisborne Boys' High School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -19646,7 +19646,7 @@ var schoolz = [
     "FIELD45":"17"
   },
   {
-    "FIELD1":"2564",
+    "id":"2564",
     "FIELD2":"Gisborne Central School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -19693,7 +19693,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"210",
+    "id":"210",
     "FIELD2":"Gisborne Girls' High School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -19740,7 +19740,7 @@ var schoolz = [
     "FIELD45":"5"
   },
   {
-    "FIELD1":"2566",
+    "id":"2566",
     "FIELD2":"Gisborne Intermediate",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -19787,7 +19787,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1282",
+    "id":"1282",
     "FIELD2":"Gladstone School (Auckland)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -19834,7 +19834,7 @@ var schoolz = [
     "FIELD45":"7"
   },
   {
-    "FIELD1":"2845",
+    "id":"2845",
     "FIELD2":"Gladstone School (Masterton)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -19881,7 +19881,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1283",
+    "id":"1283",
     "FIELD2":"Glamorgan School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -19928,7 +19928,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"1284",
+    "id":"1284",
     "FIELD2":"Glen Eden Intermediate",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -19975,7 +19975,7 @@ var schoolz = [
     "FIELD45":"11"
   },
   {
-    "FIELD1":"1285",
+    "id":"1285",
     "FIELD2":"Glen Eden School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -20022,7 +20022,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1287",
+    "id":"1287",
     "FIELD2":"Glen Innes School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -20069,7 +20069,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1723",
+    "id":"1723",
     "FIELD2":"Glen Massey School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -20116,7 +20116,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2360",
+    "id":"2360",
     "FIELD2":"Glen Oroua School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -20163,7 +20163,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1289",
+    "id":"1289",
     "FIELD2":"Glen Taylor School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -20210,7 +20210,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1290",
+    "id":"1290",
     "FIELD2":"Glenavon School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -20257,7 +20257,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3348",
+    "id":"3348",
     "FIELD2":"Glenavy School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -20304,7 +20304,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1011",
+    "id":"1011",
     "FIELD2":"Glenbervie School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -20351,7 +20351,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1291",
+    "id":"1291",
     "FIELD2":"Glenbrae Primary School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -20398,7 +20398,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1292",
+    "id":"1292",
     "FIELD2":"Glenbrook School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -20445,7 +20445,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1293",
+    "id":"1293",
     "FIELD2":"Glendene School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -20492,7 +20492,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"65",
+    "id":"65",
     "FIELD2":"Glendowie College",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -20539,7 +20539,7 @@ var schoolz = [
     "FIELD45":"82"
   },
   {
-    "FIELD1":"1294",
+    "id":"1294",
     "FIELD2":"Glendowie School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -20586,7 +20586,7 @@ var schoolz = [
     "FIELD45":"33"
   },
   {
-    "FIELD1":"30",
+    "id":"30",
     "FIELD2":"Glenfield College",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -20633,7 +20633,7 @@ var schoolz = [
     "FIELD45":"42"
   },
   {
-    "FIELD1":"1295",
+    "id":"1295",
     "FIELD2":"Glenfield Intermediate",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -20680,7 +20680,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"1296",
+    "id":"1296",
     "FIELD2":"Glenfield Primary School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -20727,7 +20727,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"3954",
+    "id":"3954",
     "FIELD2":"Glenham School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -20774,7 +20774,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1724",
+    "id":"1724",
     "FIELD2":"Glenholme School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -20821,7 +20821,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3347",
+    "id":"3347",
     "FIELD2":"Gleniti School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -20868,7 +20868,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"3955",
+    "id":"3955",
     "FIELD2":"Glenorchy School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -20915,7 +20915,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3352",
+    "id":"3352",
     "FIELD2":"Glentunnel School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -20962,7 +20962,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1725",
+    "id":"1725",
     "FIELD2":"Glenview School (Hamilton)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -21009,7 +21009,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2847",
+    "id":"2847",
     "FIELD2":"Glenview School (Porirua East)",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -21056,7 +21056,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"292",
+    "id":"292",
     "FIELD2":"Golden Bay High School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -21103,7 +21103,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"6070",
+    "id":"6070",
     "FIELD2":"Golden Sands School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -21150,7 +21150,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3741",
+    "id":"3741",
     "FIELD2":"Goldfields School (Cromwell)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -21197,7 +21197,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1726",
+    "id":"1726",
     "FIELD2":"Goldfields School (Paeroa)",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -21244,7 +21244,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2361",
+    "id":"2361",
     "FIELD2":"Gonville School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -21291,7 +21291,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1297",
+    "id":"1297",
     "FIELD2":"Good Shepherd School (Balmoral)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -21338,7 +21338,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1727",
+    "id":"1727",
     "FIELD2":"Goodwood School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -21385,7 +21385,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1728",
+    "id":"1728",
     "FIELD2":"Gordonton School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -21432,7 +21432,7 @@ var schoolz = [
     "FIELD45":"5"
   },
   {
-    "FIELD1":"396",
+    "id":"396",
     "FIELD2":"Gore High School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -21479,7 +21479,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3956",
+    "id":"3956",
     "FIELD2":"Gore Main School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -21526,7 +21526,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3957",
+    "id":"3957",
     "FIELD2":"Gorge Road School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -21573,7 +21573,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3354",
+    "id":"3354",
     "FIELD2":"Governors Bay School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -21620,7 +21620,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2848",
+    "id":"2848",
     "FIELD2":"Gracefield School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -21667,7 +21667,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3192",
+    "id":"3192",
     "FIELD2":"Granity School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -21714,7 +21714,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2111",
+    "id":"2111",
     "FIELD2":"Grantlea Downs School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -21761,7 +21761,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"3742",
+    "id":"3742",
     "FIELD2":"Grants Braes School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -21808,7 +21808,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"42",
+    "id":"42",
     "FIELD2":"Green Bay High School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -21855,7 +21855,7 @@ var schoolz = [
     "FIELD45":"27"
   },
   {
-    "FIELD1":"1298",
+    "id":"1298",
     "FIELD2":"Green Bay Primary School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -21902,7 +21902,7 @@ var schoolz = [
     "FIELD45":"8"
   },
   {
-    "FIELD1":"3743",
+    "id":"3743",
     "FIELD2":"Green Island School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -21949,7 +21949,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2849",
+    "id":"2849",
     "FIELD2":"Greenacres School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -21996,7 +21996,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3357",
+    "id":"3357",
     "FIELD2":"Greendale School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -22043,7 +22043,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1299",
+    "id":"1299",
     "FIELD2":"Greenhithe School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -22090,7 +22090,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"1300",
+    "id":"1300",
     "FIELD2":"Greenmeadows Intermediate",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -22137,7 +22137,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2567",
+    "id":"2567",
     "FIELD2":"Greenmeadows School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -22184,7 +22184,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1729",
+    "id":"1729",
     "FIELD2":"Greenpark School (Tauranga)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -22231,7 +22231,7 @@ var schoolz = [
     "FIELD45":"22"
   },
   {
-    "FIELD1":"1730",
+    "id":"1730",
     "FIELD2":"Greerton Village School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -22278,7 +22278,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3359",
+    "id":"3359",
     "FIELD2":"Greta Valley School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -22325,7 +22325,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1301",
+    "id":"1301",
     "FIELD2":"Grey Lynn School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -22372,7 +22372,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"303",
+    "id":"303",
     "FIELD2":"Greymouth High School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -22419,7 +22419,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3361",
+    "id":"3361",
     "FIELD2":"Greymouth Main School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -22466,7 +22466,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2850",
+    "id":"2850",
     "FIELD2":"Greytown School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -22513,7 +22513,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2851",
+    "id":"2851",
     "FIELD2":"Grovetown School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -22560,7 +22560,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"6920",
+    "id":"6920",
     "FIELD2":"Gulf Harbour School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -22607,7 +22607,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"3363",
+    "id":"3363",
     "FIELD2":"Haast School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -22654,7 +22654,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4104",
+    "id":"4104",
     "FIELD2":"Hadlow Preparatory School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -22701,7 +22701,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"336",
+    "id":"336",
     "FIELD2":"Hagley Community College",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -22748,7 +22748,7 @@ var schoolz = [
     "FIELD45":"6"
   },
   {
-    "FIELD1":"2362",
+    "id":"2362",
     "FIELD2":"Halcombe Primary School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -22795,7 +22795,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3961",
+    "id":"3961",
     "FIELD2":"Halfmoon Bay School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -22842,7 +22842,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3745",
+    "id":"3745",
     "FIELD2":"Halfway Bush School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -22889,7 +22889,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1302",
+    "id":"1302",
     "FIELD2":"Halsey Drive School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -22936,7 +22936,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"522",
+    "id":"522",
     "FIELD2":"Halswell Residential College",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -22983,7 +22983,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3366",
+    "id":"3366",
     "FIELD2":"Halswell School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -23030,7 +23030,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"131",
+    "id":"131",
     "FIELD2":"Hamilton Boys' High School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -23077,7 +23077,7 @@ var schoolz = [
     "FIELD45":"59"
   },
   {
-    "FIELD1":"1731",
+    "id":"1731",
     "FIELD2":"Hamilton East School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -23124,7 +23124,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"132",
+    "id":"132",
     "FIELD2":"Hamilton Girls' High School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -23171,7 +23171,7 @@ var schoolz = [
     "FIELD45":"19"
   },
   {
-    "FIELD1":"1942",
+    "id":"1942",
     "FIELD2":"Hamilton Junior High School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -23218,7 +23218,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"1732",
+    "id":"1732",
     "FIELD2":"Hamilton North School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -23265,7 +23265,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4105",
+    "id":"4105",
     "FIELD2":"Hamilton Seventh-Day Adventist School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -23312,7 +23312,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1733",
+    "id":"1733",
     "FIELD2":"Hamilton West School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -23359,7 +23359,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3746",
+    "id":"3746",
     "FIELD2":"Hampden School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -23406,7 +23406,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3193",
+    "id":"3193",
     "FIELD2":"Hampden Street School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -23453,7 +23453,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3367",
+    "id":"3367",
     "FIELD2":"Hampstead School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -23500,7 +23500,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2852",
+    "id":"2852",
     "FIELD2":"Hampton Hill School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -23547,7 +23547,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3368",
+    "id":"3368",
     "FIELD2":"Hanmer Springs School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -23594,7 +23594,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3369",
+    "id":"3369",
     "FIELD2":"Hapuku School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -23641,7 +23641,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4204",
+    "id":"4204",
     "FIELD2":"Hare Krishna School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -23688,7 +23688,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3370",
+    "id":"3370",
     "FIELD2":"Harewood School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -23735,7 +23735,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1303",
+    "id":"1303",
     "FIELD2":"Harrisville School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -23782,7 +23782,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"227",
+    "id":"227",
     "FIELD2":"Hastings Boys' High School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -23829,7 +23829,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"2569",
+    "id":"2569",
     "FIELD2":"Hastings Central School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -23876,7 +23876,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"443",
+    "id":"443",
     "FIELD2":"Hastings Christian School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -23923,7 +23923,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"228",
+    "id":"228",
     "FIELD2":"Hastings Girls' High School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -23970,7 +23970,7 @@ var schoolz = [
     "FIELD45":"11"
   },
   {
-    "FIELD1":"2570",
+    "id":"2570",
     "FIELD2":"Hastings Intermediate",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -24017,7 +24017,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2854",
+    "id":"2854",
     "FIELD2":"Hataitai School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -24064,7 +24064,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2706",
+    "id":"2706",
     "FIELD2":"Hatea-A-Rangi",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -24111,7 +24111,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"199",
+    "id":"199",
     "FIELD2":"Hato Paora College",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -24158,7 +24158,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"33",
+    "id":"33",
     "FIELD2":"Hato Petera College",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -24205,7 +24205,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2571",
+    "id":"2571",
     "FIELD2":"Haumoana School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -24252,7 +24252,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"112",
+    "id":"112",
     "FIELD2":"Hauraki Plains College",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -24299,7 +24299,7 @@ var schoolz = [
     "FIELD45":"7"
   },
   {
-    "FIELD1":"1304",
+    "id":"1304",
     "FIELD2":"Hauraki School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -24346,7 +24346,7 @@ var schoolz = [
     "FIELD45":"5"
   },
   {
-    "FIELD1":"3938",
+    "id":"3938",
     "FIELD2":"Hauroko Valley Primary School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -24393,7 +24393,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1735",
+    "id":"1735",
     "FIELD2":"Hautapu School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -24440,7 +24440,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1736",
+    "id":"1736",
     "FIELD2":"Hauturu School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -24487,7 +24487,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"223",
+    "id":"223",
     "FIELD2":"Havelock North High School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -24534,7 +24534,7 @@ var schoolz = [
     "FIELD45":"20"
   },
   {
-    "FIELD1":"2572",
+    "id":"2572",
     "FIELD2":"Havelock North Intermediate",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -24581,7 +24581,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2573",
+    "id":"2573",
     "FIELD2":"Havelock North Primary School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -24628,7 +24628,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2855",
+    "id":"2855",
     "FIELD2":"Havelock School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -24675,7 +24675,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3747",
+    "id":"3747",
     "FIELD2":"Hawea Flat School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -24722,7 +24722,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1184",
+    "id":"1184",
     "FIELD2":"Hawera Christian School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -24769,7 +24769,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"182",
+    "id":"182",
     "FIELD2":"Hawera High School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -24816,7 +24816,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2170",
+    "id":"2170",
     "FIELD2":"Hawera Intermediate",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -24863,7 +24863,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2171",
+    "id":"2171",
     "FIELD2":"Hawera Primary School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -24910,7 +24910,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1305",
+    "id":"1305",
     "FIELD2":"Hay Park School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -24957,7 +24957,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3371",
+    "id":"3371",
     "FIELD2":"Heathcote Valley School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -25004,7 +25004,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3372",
+    "id":"3372",
     "FIELD2":"Heaton Normal Intermediate",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -25051,7 +25051,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"3963",
+    "id":"3963",
     "FIELD2":"Heddon Bush School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -25098,7 +25098,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3964",
+    "id":"3964",
     "FIELD2":"Hedgehope School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -25145,7 +25145,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1306",
+    "id":"1306",
     "FIELD2":"Helensville School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -25192,7 +25192,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"45",
+    "id":"45",
     "FIELD2":"Henderson High School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -25239,7 +25239,7 @@ var schoolz = [
     "FIELD45":"11"
   },
   {
-    "FIELD1":"1307",
+    "id":"1307",
     "FIELD2":"Henderson Intermediate",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -25286,7 +25286,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1308",
+    "id":"1308",
     "FIELD2":"Henderson North School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -25333,7 +25333,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1309",
+    "id":"1309",
     "FIELD2":"Henderson School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -25380,7 +25380,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1310",
+    "id":"1310",
     "FIELD2":"Henderson South School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -25427,7 +25427,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1311",
+    "id":"1311",
     "FIELD2":"Henderson Valley School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -25474,7 +25474,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3194",
+    "id":"3194",
     "FIELD2":"Henley School (Nelson)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -25521,7 +25521,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2574",
+    "id":"2574",
     "FIELD2":"Henry Hill School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -25568,7 +25568,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1013",
+    "id":"1013",
     "FIELD2":"Herekino School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -25615,7 +25615,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"251",
+    "id":"251",
     "FIELD2":"Heretaunga College",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -25662,7 +25662,7 @@ var schoolz = [
     "FIELD45":"29"
   },
   {
-    "FIELD1":"2575",
+    "id":"2575",
     "FIELD2":"Heretaunga Intermediate",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -25709,7 +25709,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3749",
+    "id":"3749",
     "FIELD2":"Heriot School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -25756,7 +25756,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3373",
+    "id":"3373",
     "FIELD2":"Highfield School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -25803,7 +25803,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2172",
+    "id":"2172",
     "FIELD2":"Highlands Intermediate",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -25850,7 +25850,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"1737",
+    "id":"1737",
     "FIELD2":"Hikuai School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -25897,7 +25897,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1014",
+    "id":"1014",
     "FIELD2":"Hikurangi School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -25944,7 +25944,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1738",
+    "id":"1738",
     "FIELD2":"Hikutaia School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -25991,7 +25991,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"138",
+    "id":"138",
     "FIELD2":"Hillcrest High School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -26038,7 +26038,7 @@ var schoolz = [
     "FIELD45":"46"
   },
   {
-    "FIELD1":"1739",
+    "id":"1739",
     "FIELD2":"Hillcrest Normal School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -26085,7 +26085,7 @@ var schoolz = [
     "FIELD45":"8"
   },
   {
-    "FIELD1":"2856",
+    "id":"2856",
     "FIELD2":"Hillcrest School (Pahiatua)",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -26132,7 +26132,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"339",
+    "id":"339",
     "FIELD2":"Hillmorton High School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -26179,7 +26179,7 @@ var schoolz = [
     "FIELD45":"21"
   },
   {
-    "FIELD1":"1312",
+    "id":"1312",
     "FIELD2":"Hillpark School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -26226,7 +26226,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1313",
+    "id":"1313",
     "FIELD2":"Hillsborough School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -26273,7 +26273,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3935",
+    "id":"3935",
     "FIELD2":"Hillside Primary School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -26320,7 +26320,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1740",
+    "id":"1740",
     "FIELD2":"Hilltop School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -26367,7 +26367,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"341",
+    "id":"341",
     "FIELD2":"Hillview Christian School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -26414,7 +26414,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3375",
+    "id":"3375",
     "FIELD2":"Hinds School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -26461,7 +26461,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"588",
+    "id":"588",
     "FIELD2":"Hingaia Peninsula School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -26508,7 +26508,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1741",
+    "id":"1741",
     "FIELD2":"Hinuera School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -26555,7 +26555,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3195",
+    "id":"3195",
     "FIELD2":"Hira School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -26602,7 +26602,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2578",
+    "id":"2578",
     "FIELD2":"Hiruharama School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -26649,7 +26649,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2364",
+    "id":"2364",
     "FIELD2":"Hiwinui School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -26696,7 +26696,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"6788",
+    "id":"6788",
     "FIELD2":"Hobsonville Point Primary School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -26743,7 +26743,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"6977",
+    "id":"6977",
     "FIELD2":"Hobsonville Point Secondary School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -26790,7 +26790,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1314",
+    "id":"1314",
     "FIELD2":"Hobsonville School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -26837,7 +26837,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"3376",
+    "id":"3376",
     "FIELD2":"Hokitika School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -26884,7 +26884,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2365",
+    "id":"2365",
     "FIELD2":"Hokowhitu School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -26931,7 +26931,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"1316",
+    "id":"1316",
     "FIELD2":"Holy Cross Catholic School (Henderson)",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -26978,7 +26978,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2904",
+    "id":"2904",
     "FIELD2":"Holy Cross School (Miramar)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -27025,7 +27025,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1315",
+    "id":"1315",
     "FIELD2":"Holy Cross School (Papatoetoe)",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -27072,7 +27072,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2859",
+    "id":"2859",
     "FIELD2":"Holy Family School (Porirua)",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -27119,7 +27119,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"557",
+    "id":"557",
     "FIELD2":"Holy Family School (Wanaka)",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -27166,7 +27166,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1317",
+    "id":"1317",
     "FIELD2":"Homai School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -27213,7 +27213,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3379",
+    "id":"3379",
     "FIELD2":"Hoon Hay School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -27260,7 +27260,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3196",
+    "id":"3196",
     "FIELD2":"Hope School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -27307,7 +27307,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1015",
+    "id":"1015",
     "FIELD2":"Hora Hora School (Te Mai)",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -27354,7 +27354,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1744",
+    "id":"1744",
     "FIELD2":"Horahora School (Cambridge)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -27401,7 +27401,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1016",
+    "id":"1016",
     "FIELD2":"Horeke School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -27448,7 +27448,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"338",
+    "id":"338",
     "FIELD2":"Hornby High School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -27495,7 +27495,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"3380",
+    "id":"3380",
     "FIELD2":"Hornby Primary School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -27542,7 +27542,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1745",
+    "id":"1745",
     "FIELD2":"Horohoro School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -27589,7 +27589,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3381",
+    "id":"3381",
     "FIELD2":"Hororata School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -27636,7 +27636,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1746",
+    "id":"1746",
     "FIELD2":"Horotiu School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -27683,7 +27683,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"236",
+    "id":"236",
     "FIELD2":"Horowhenua College",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -27730,7 +27730,7 @@ var schoolz = [
     "FIELD45":"6"
   },
   {
-    "FIELD1":"1747",
+    "id":"1747",
     "FIELD2":"Horsham Downs School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -27777,7 +27777,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2861",
+    "id":"2861",
     "FIELD2":"Houghton Valley School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -27824,7 +27824,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"87",
+    "id":"87",
     "FIELD2":"Howick College",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -27871,7 +27871,7 @@ var schoolz = [
     "FIELD45":"80"
   },
   {
-    "FIELD1":"1318",
+    "id":"1318",
     "FIELD2":"Howick Intermediate",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -27918,7 +27918,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"1319",
+    "id":"1319",
     "FIELD2":"Howick Primary School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -27965,7 +27965,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"1320",
+    "id":"1320",
     "FIELD2":"Huapai District School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -28012,7 +28012,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"1662",
+    "id":"1662",
     "FIELD2":"Huia Range School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -28059,7 +28059,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2173",
+    "id":"2173",
     "FIELD2":"Huiakama School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -28106,7 +28106,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2175",
+    "id":"2175",
     "FIELD2":"Huirangi School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -28153,7 +28153,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1749",
+    "id":"1749",
     "FIELD2":"Hukanui School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -28200,7 +28200,7 @@ var schoolz = [
     "FIELD45":"8"
   },
   {
-    "FIELD1":"435",
+    "id":"435",
     "FIELD2":"Hukarere College",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -28247,7 +28247,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1017",
+    "id":"1017",
     "FIELD2":"Hukerenui School Years 1-8",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -28294,7 +28294,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2366",
+    "id":"2366",
     "FIELD2":"Hunterville Consolidated School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -28341,7 +28341,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"119",
+    "id":"119",
     "FIELD2":"Huntly College",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -28388,7 +28388,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1751",
+    "id":"1751",
     "FIELD2":"Huntly School (Waikato)",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -28435,7 +28435,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1752",
+    "id":"1752",
     "FIELD2":"Huntly West School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -28482,7 +28482,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1321",
+    "id":"1321",
     "FIELD2":"Hunua School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -28529,7 +28529,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2367",
+    "id":"2367",
     "FIELD2":"Hurleyville School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -28576,7 +28576,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"311",
+    "id":"311",
     "FIELD2":"Hurunui College",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -28623,7 +28623,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1018",
+    "id":"1018",
     "FIELD2":"Hurupaki School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -28670,7 +28670,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2862",
+    "id":"2862",
     "FIELD2":"Hutt Central School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -28717,7 +28717,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2863",
+    "id":"2863",
     "FIELD2":"Hutt Intermediate",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -28764,7 +28764,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4158",
+    "id":"4158",
     "FIELD2":"Hutt International Boys' School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -28811,7 +28811,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"261",
+    "id":"261",
     "FIELD2":"Hutt Valley High School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -28858,7 +28858,7 @@ var schoolz = [
     "FIELD45":"45"
   },
   {
-    "FIELD1":"3384",
+    "id":"3384",
     "FIELD2":"Ilam School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -28905,7 +28905,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"2581",
+    "id":"2581",
     "FIELD2":"Ilminster Intermediate",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -28952,7 +28952,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3198",
+    "id":"3198",
     "FIELD2":"Inangahua Junction School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -28999,7 +28999,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"177",
+    "id":"177",
     "FIELD2":"Inglewood High School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -29046,7 +29046,7 @@ var schoolz = [
     "FIELD45":"6"
   },
   {
-    "FIELD1":"2177",
+    "id":"2177",
     "FIELD2":"Inglewood School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -29093,7 +29093,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1753",
+    "id":"1753",
     "FIELD2":"Insoll Avenue School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -29140,7 +29140,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3966",
+    "id":"3966",
     "FIELD2":"Invercargill Middle School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -29187,7 +29187,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"224",
+    "id":"224",
     "FIELD2":"Iona College",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -29234,7 +29234,7 @@ var schoolz = [
     "FIELD45":"9"
   },
   {
-    "FIELD1":"2582",
+    "id":"2582",
     "FIELD2":"Irongate School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -29281,7 +29281,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3969",
+    "id":"3969",
     "FIELD2":"Isla Bank School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -29328,7 +29328,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2865",
+    "id":"2865",
     "FIELD2":"Island Bay School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -29375,7 +29375,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3385",
+    "id":"3385",
     "FIELD2":"Isleworth School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -29422,7 +29422,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"100",
+    "id":"100",
     "FIELD2":"James Cook High School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -29469,7 +29469,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2368",
+    "id":"2368",
     "FIELD2":"James Cook School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -29516,7 +29516,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"552",
+    "id":"552",
     "FIELD2":"James Hargest College",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -29563,7 +29563,7 @@ var schoolz = [
     "FIELD45":"36"
   },
   {
-    "FIELD1":"1755",
+    "id":"1755",
     "FIELD2":"James Street School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -29610,7 +29610,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1322",
+    "id":"1322",
     "FIELD2":"Jean Batten School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -29657,7 +29657,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"387",
+    "id":"387",
     "FIELD2":"John McGlashan College",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -29704,7 +29704,7 @@ var schoolz = [
     "FIELD45":"27"
   },
   {
-    "FIELD1":"532",
+    "id":"532",
     "FIELD2":"John Paul College",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -29751,7 +29751,7 @@ var schoolz = [
     "FIELD45":"29"
   },
   {
-    "FIELD1":"304",
+    "id":"304",
     "FIELD2":"John Paul II High School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -29798,7 +29798,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2866",
+    "id":"2866",
     "FIELD2":"Johnsonville School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -29845,7 +29845,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"453",
+    "id":"453",
     "FIELD2":"Kadimah School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -29892,7 +29892,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1019",
+    "id":"1019",
     "FIELD2":"Kaeo School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -29939,7 +29939,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1756",
+    "id":"1756",
     "FIELD2":"Kaharoa School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -29986,7 +29986,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"660",
+    "id":"660",
     "FIELD2":"Kahurangi School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -30033,7 +30033,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2868",
+    "id":"2868",
     "FIELD2":"Kahutara School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -30080,7 +30080,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2369",
+    "id":"2369",
     "FIELD2":"Kai Iwi School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -30127,7 +30127,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3388",
+    "id":"3388",
     "FIELD2":"Kaiapoi Borough School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -30174,7 +30174,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"314",
+    "id":"314",
     "FIELD2":"Kaiapoi High School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -30221,7 +30221,7 @@ var schoolz = [
     "FIELD45":"25"
   },
   {
-    "FIELD1":"3389",
+    "id":"3389",
     "FIELD2":"Kaiapoi North School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -30268,7 +30268,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"1323",
+    "id":"1323",
     "FIELD2":"Kaiaua School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -30315,7 +30315,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1757",
+    "id":"1757",
     "FIELD2":"Kaihere School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -30362,7 +30362,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1020",
+    "id":"1020",
     "FIELD2":"Kaihu Valley School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -30409,7 +30409,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1175",
+    "id":"1175",
     "FIELD2":"Kaikohe Christian School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -30456,7 +30456,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1021",
+    "id":"1021",
     "FIELD2":"Kaikohe East School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -30503,7 +30503,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1022",
+    "id":"1022",
     "FIELD2":"Kaikohe Intermediate",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -30550,7 +30550,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1023",
+    "id":"1023",
     "FIELD2":"Kaikohe West School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -30597,7 +30597,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3753",
+    "id":"3753",
     "FIELD2":"Kaikorai School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -30644,7 +30644,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"381",
+    "id":"381",
     "FIELD2":"Kaikorai Valley College",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -30691,7 +30691,7 @@ var schoolz = [
     "FIELD45":"44"
   },
   {
-    "FIELD1":"307",
+    "id":"307",
     "FIELD2":"Kaikoura High School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -30738,7 +30738,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"3391",
+    "id":"3391",
     "FIELD2":"Kaikoura Primary School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -30785,7 +30785,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3392",
+    "id":"3392",
     "FIELD2":"Kaikoura Suburban School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -30832,7 +30832,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1758",
+    "id":"1758",
     "FIELD2":"Kaimai School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -30879,7 +30879,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2178",
+    "id":"2178",
     "FIELD2":"Kaimata School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -30926,7 +30926,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1759",
+    "id":"1759",
     "FIELD2":"Kaingaroa Forest School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -30973,7 +30973,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3387",
+    "id":"3387",
     "FIELD2":"Kaingaroa School (Chatham Islands)",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -31020,7 +31020,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1024",
+    "id":"1024",
     "FIELD2":"Kaingaroa School (Kaitaia)",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -31067,7 +31067,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1760",
+    "id":"1760",
     "FIELD2":"Kaipaki School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -31114,7 +31114,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"26",
+    "id":"26",
     "FIELD2":"Kaipara College",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -31161,7 +31161,7 @@ var schoolz = [
     "FIELD45":"6"
   },
   {
-    "FIELD1":"1324",
+    "id":"1324",
     "FIELD2":"Kaipara Flats School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -31208,7 +31208,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2370",
+    "id":"2370",
     "FIELD2":"Kairanga School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -31255,7 +31255,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"238",
+    "id":"238",
     "FIELD2":"Kaitaia Abundant Life School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -31302,7 +31302,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3",
+    "id":"3",
     "FIELD2":"Kaitaia College",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -31349,7 +31349,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1025",
+    "id":"1025",
     "FIELD2":"Kaitaia Intermediate",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -31396,7 +31396,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1026",
+    "id":"1026",
     "FIELD2":"Kaitaia School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -31443,7 +31443,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3754",
+    "id":"3754",
     "FIELD2":"Kaitangata School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -31490,7 +31490,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1761",
+    "id":"1761",
     "FIELD2":"Kaitao Intermediate",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -31537,7 +31537,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2584",
+    "id":"2584",
     "FIELD2":"Kaiti School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -31584,7 +31584,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2371",
+    "id":"2371",
     "FIELD2":"Kaitieke School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -31631,7 +31631,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1593",
+    "id":"1593",
     "FIELD2":"Kaitoke School (Claris)",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -31678,7 +31678,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2372",
+    "id":"2372",
     "FIELD2":"Kaitoke School (Wanganui)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -31725,7 +31725,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1027",
+    "id":"1027",
     "FIELD2":"Kaiwaka School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -31772,7 +31772,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1762",
+    "id":"1762",
     "FIELD2":"Kaka Street Special School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -31819,7 +31819,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2373",
+    "id":"2373",
     "FIELD2":"Kakahi School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -31866,7 +31866,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3755",
+    "id":"3755",
     "FIELD2":"Kakanui School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -31913,7 +31913,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2374",
+    "id":"2374",
     "FIELD2":"Kakaramea School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -31960,7 +31960,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2375",
+    "id":"2375",
     "FIELD2":"Kakatahi School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -32007,7 +32007,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"13",
+    "id":"13",
     "FIELD2":"Kamo High School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -32054,7 +32054,7 @@ var schoolz = [
     "FIELD45":"13"
   },
   {
-    "FIELD1":"1029",
+    "id":"1029",
     "FIELD2":"Kamo Intermediate",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -32101,7 +32101,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1030",
+    "id":"1030",
     "FIELD2":"Kamo School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -32148,7 +32148,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3393",
+    "id":"3393",
     "FIELD2":"Kaniere School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -32195,7 +32195,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2871",
+    "id":"2871",
     "FIELD2":"Kapanui School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -32242,7 +32242,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"247",
+    "id":"247",
     "FIELD2":"Kapiti College",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -32289,7 +32289,7 @@ var schoolz = [
     "FIELD45":"79"
   },
   {
-    "FIELD1":"2873",
+    "id":"2873",
     "FIELD2":"Kapiti School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -32336,7 +32336,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2095",
+    "id":"2095",
     "FIELD2":"Kaponga School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -32383,7 +32383,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1325",
+    "id":"1325",
     "FIELD2":"Karaka School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -32430,7 +32430,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"300",
+    "id":"300",
     "FIELD2":"Karamea Area School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -32477,7 +32477,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"229",
+    "id":"229",
     "FIELD2":"Karamu High School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -32524,7 +32524,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1763",
+    "id":"1763",
     "FIELD2":"Karangahake School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -32571,7 +32571,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1764",
+    "id":"1764",
     "FIELD2":"Karapiro School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -32618,7 +32618,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1031",
+    "id":"1031",
     "FIELD2":"Karetu School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -32665,7 +32665,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3756",
+    "id":"3756",
     "FIELD2":"Karitane School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -32712,7 +32712,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2874",
+    "id":"2874",
     "FIELD2":"Karori Normal School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -32759,7 +32759,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2875",
+    "id":"2875",
     "FIELD2":"Karori West Normal School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -32806,7 +32806,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"3394",
+    "id":"3394",
     "FIELD2":"Karoro School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -32853,7 +32853,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"117",
+    "id":"117",
     "FIELD2":"Katikati College",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -32900,7 +32900,7 @@ var schoolz = [
     "FIELD45":"19"
   },
   {
-    "FIELD1":"1765",
+    "id":"1765",
     "FIELD2":"Katikati Primary School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -32947,7 +32947,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1326",
+    "id":"1326",
     "FIELD2":"Kaukapakapa School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -32994,7 +32994,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1327",
+    "id":"1327",
     "FIELD2":"Kauri Park School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -33041,7 +33041,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"1032",
+    "id":"1032",
     "FIELD2":"Kaurihohore School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -33088,7 +33088,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1328",
+    "id":"1328",
     "FIELD2":"Kaurilands School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -33135,7 +33135,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"536",
+    "id":"536",
     "FIELD2":"Kavanagh College",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -33182,7 +33182,7 @@ var schoolz = [
     "FIELD45":"34"
   },
   {
-    "FIELD1":"1766",
+    "id":"1766",
     "FIELD2":"Kawaha Point School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -33229,7 +33229,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"1033",
+    "id":"1033",
     "FIELD2":"Kawakawa Primary School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -33276,7 +33276,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"655",
+    "id":"655",
     "FIELD2":"Kawerau Putauaki School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -33323,7 +33323,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1770",
+    "id":"1770",
     "FIELD2":"Kawerau South School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -33370,7 +33370,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1771",
+    "id":"1771",
     "FIELD2":"Kawhia School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -33417,7 +33417,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1772",
+    "id":"1772",
     "FIELD2":"Kea Street Specialist School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -33464,7 +33464,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1329",
+    "id":"1329",
     "FIELD2":"Kedgley Intermediate",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -33511,7 +33511,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2378",
+    "id":"2378",
     "FIELD2":"Keith Street School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -33558,7 +33558,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2876",
+    "id":"2876",
     "FIELD2":"Kelburn Normal School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -33605,7 +33605,7 @@ var schoolz = [
     "FIELD45":"5"
   },
   {
-    "FIELD1":"2877",
+    "id":"2877",
     "FIELD2":"Kelson School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -33652,7 +33652,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"83",
+    "id":"83",
     "FIELD2":"Kelston Boys' High School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -33699,7 +33699,7 @@ var schoolz = [
     "FIELD45":"26"
   },
   {
-    "FIELD1":"503",
+    "id":"503",
     "FIELD2":"Kelston Deaf Education Centre",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -33746,7 +33746,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"84",
+    "id":"84",
     "FIELD2":"Kelston Girls' College",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -33793,7 +33793,7 @@ var schoolz = [
     "FIELD45":"5"
   },
   {
-    "FIELD1":"1330",
+    "id":"1330",
     "FIELD2":"Kelston Intermediate",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -33840,7 +33840,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1331",
+    "id":"1331",
     "FIELD2":"Kelston School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -33887,7 +33887,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1332",
+    "id":"1332",
     "FIELD2":"Kelvin Road School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -33934,7 +33934,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2878",
+    "id":"2878",
     "FIELD2":"Kenakena School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -33981,7 +33981,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"1775",
+    "id":"1775",
     "FIELD2":"Kerepehi School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -34028,7 +34028,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1424",
+    "id":"1424",
     "FIELD2":"Kereru Park Campus",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -34075,7 +34075,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2585",
+    "id":"2585",
     "FIELD2":"Kereru School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -34122,7 +34122,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"5",
+    "id":"5",
     "FIELD2":"Kerikeri High School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -34169,7 +34169,7 @@ var schoolz = [
     "FIELD45":"42"
   },
   {
-    "FIELD1":"1034",
+    "id":"1034",
     "FIELD2":"Kerikeri Primary School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -34216,7 +34216,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2879",
+    "id":"2879",
     "FIELD2":"Khandallah School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -34263,7 +34263,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"631",
+    "id":"631",
     "FIELD2":"Kia Aroha College",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -34310,7 +34310,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1776",
+    "id":"1776",
     "FIELD2":"Kihikihi School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -34357,7 +34357,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2880",
+    "id":"2880",
     "FIELD2":"Kilbirnie School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -34404,7 +34404,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2379",
+    "id":"2379",
     "FIELD2":"Kimbolton School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -34451,7 +34451,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2746",
+    "id":"2746",
     "FIELD2":"Kimi Ora Community School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -34498,7 +34498,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"514",
+    "id":"514",
     "FIELD2":"Kimi Ora School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -34545,7 +34545,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1777",
+    "id":"1777",
     "FIELD2":"Kimihia School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -34592,7 +34592,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"383",
+    "id":"383",
     "FIELD2":"Kings High School (Dunedin)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -34639,7 +34639,7 @@ var schoolz = [
     "FIELD45":"23"
   },
   {
-    "FIELD1":"1333",
+    "id":"1333",
     "FIELD2":"Kingsford School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -34686,7 +34686,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"603",
+    "id":"603",
     "FIELD2":"KingsGate School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -34733,7 +34733,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"633",
+    "id":"633",
     "FIELD2":"Kingsview School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -34780,7 +34780,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"432",
+    "id":"432",
     "FIELD2":"Kingsway School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -34827,7 +34827,7 @@ var schoolz = [
     "FIELD45":"40"
   },
   {
-    "FIELD1":"1778",
+    "id":"1778",
     "FIELD2":"Kinohaku School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -34874,7 +34874,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1779",
+    "id":"1779",
     "FIELD2":"Kio Kio School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -34921,7 +34921,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3396",
+    "id":"3396",
     "FIELD2":"Kirkwood Intermediate",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -34968,7 +34968,7 @@ var schoolz = [
     "FIELD45":"7"
   },
   {
-    "FIELD1":"3397",
+    "id":"3397",
     "FIELD2":"Kirwee Model School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -35015,7 +35015,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1780",
+    "id":"1780",
     "FIELD2":"Kiwitahi School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -35062,7 +35062,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2382",
+    "id":"2382",
     "FIELD2":"Kiwitea School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -35109,7 +35109,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3973",
+    "id":"3973",
     "FIELD2":"Knapdale School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -35156,7 +35156,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1781",
+    "id":"1781",
     "FIELD2":"Knighton Normal School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -35203,7 +35203,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"6939",
+    "id":"6939",
     "FIELD2":"Kohia Terrace School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -35250,7 +35250,7 @@ var schoolz = [
     "FIELD45":"9"
   },
   {
-    "FIELD1":"1334",
+    "id":"1334",
     "FIELD2":"Kohimarama School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -35297,7 +35297,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1035",
+    "id":"1035",
     "FIELD2":"Kohukohu School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -35344,7 +35344,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3398",
+    "id":"3398",
     "FIELD2":"Kokatahi-Kowhitirangi School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -35391,7 +35391,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1036",
+    "id":"1036",
     "FIELD2":"Kokopu School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -35438,7 +35438,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1647",
+    "id":"1647",
     "FIELD2":"Konini Primary School (Wainuiomata)",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -35485,7 +35485,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1335",
+    "id":"1335",
     "FIELD2":"Konini School (Auckland)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -35532,7 +35532,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2385",
+    "id":"2385",
     "FIELD2":"Kopane School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -35579,7 +35579,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1782",
+    "id":"1782",
     "FIELD2":"Kopuarahi School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -35626,7 +35626,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2882",
+    "id":"2882",
     "FIELD2":"Koputaroa School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -35673,7 +35673,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1783",
+    "id":"1783",
     "FIELD2":"Korakonui School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -35720,7 +35720,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2100",
+    "id":"2100",
     "FIELD2":"Koraunui School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -35767,7 +35767,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2883",
+    "id":"2883",
     "FIELD2":"Korokoro School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -35814,7 +35814,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1784",
+    "id":"1784",
     "FIELD2":"Koromatua School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -35861,7 +35861,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1336",
+    "id":"1336",
     "FIELD2":"Koru School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -35908,7 +35908,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2587",
+    "id":"2587",
     "FIELD2":"Kotemaori School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -35955,7 +35955,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1337",
+    "id":"1337",
     "FIELD2":"Kowhai Intermediate",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -36002,7 +36002,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2588",
+    "id":"2588",
     "FIELD2":"Kowhai School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -36049,7 +36049,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3401",
+    "id":"3401",
     "FIELD2":"Kumara School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -36096,7 +36096,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"601",
+    "id":"601",
     "FIELD2":"Kumeroa-Hopelands School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -36143,7 +36143,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"249",
+    "id":"249",
     "FIELD2":"Kuranui College",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -36190,7 +36190,7 @@ var schoolz = [
     "FIELD45":"5"
   },
   {
-    "FIELD1":"1858",
+    "id":"1858",
     "FIELD2":"Kuranui Primary School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -36237,7 +36237,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1785",
+    "id":"1785",
     "FIELD2":"Kuratau School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -36284,7 +36284,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1786",
+    "id":"1786",
     "FIELD2":"Kutarere School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -36331,7 +36331,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3402",
+    "id":"3402",
     "FIELD2":"Ladbrooks School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -36378,7 +36378,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1338",
+    "id":"1338",
     "FIELD2":"Laingholm School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -36425,7 +36425,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2123",
+    "id":"2123",
     "FIELD2":"Lake Brunner School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -36472,7 +36472,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1787",
+    "id":"1787",
     "FIELD2":"Lake Rerewhakaaitu School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -36519,7 +36519,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3199",
+    "id":"3199",
     "FIELD2":"Lake Rotoiti School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -36566,7 +36566,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1788",
+    "id":"1788",
     "FIELD2":"Lake Rotoma School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -36613,7 +36613,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1139",
+    "id":"1139",
     "FIELD2":"Lake Taupo Christian School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -36660,7 +36660,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3406",
+    "id":"3406",
     "FIELD2":"Lake Tekapo School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -36707,7 +36707,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1659",
+    "id":"1659",
     "FIELD2":"Lakeview School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -36754,7 +36754,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3407",
+    "id":"3407",
     "FIELD2":"Lauriston School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -36801,7 +36801,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"390",
+    "id":"390",
     "FIELD2":"Lawrence Area School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -36848,7 +36848,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1339",
+    "id":"1339",
     "FIELD2":"Leabank School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -36895,7 +36895,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1789",
+    "id":"1789",
     "FIELD2":"Leamington School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -36942,7 +36942,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"3761",
+    "id":"3761",
     "FIELD2":"Lee Stream School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -36989,7 +36989,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3410",
+    "id":"3410",
     "FIELD2":"Leeston School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -37036,7 +37036,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1340",
+    "id":"1340",
     "FIELD2":"Leigh School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -37083,7 +37083,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3411",
+    "id":"3411",
     "FIELD2":"Leithfield School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -37130,7 +37130,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2182",
+    "id":"2182",
     "FIELD2":"Lepperton School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -37177,7 +37177,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2886",
+    "id":"2886",
     "FIELD2":"Levin East School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -37224,7 +37224,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2887",
+    "id":"2887",
     "FIELD2":"Levin Intermediate",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -37271,7 +37271,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2888",
+    "id":"2888",
     "FIELD2":"Levin North School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -37318,7 +37318,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2889",
+    "id":"2889",
     "FIELD2":"Levin School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -37365,7 +37365,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4117",
+    "id":"4117",
     "FIELD2":"Liberton Christian School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -37412,7 +37412,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1790",
+    "id":"1790",
     "FIELD2":"Lichfield School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -37459,7 +37459,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3975",
+    "id":"3975",
     "FIELD2":"Limehills School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -37506,7 +37506,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1341",
+    "id":"1341",
     "FIELD2":"Lincoln Heights School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -37553,7 +37553,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"347",
+    "id":"347",
     "FIELD2":"Lincoln High School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -37600,7 +37600,7 @@ var schoolz = [
     "FIELD45":"57"
   },
   {
-    "FIELD1":"3412",
+    "id":"3412",
     "FIELD2":"Lincoln Primary School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -37647,7 +37647,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"2890",
+    "id":"2890",
     "FIELD2":"Linden School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -37694,7 +37694,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"230",
+    "id":"230",
     "FIELD2":"Lindisfarne College",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -37741,7 +37741,7 @@ var schoolz = [
     "FIELD45":"19"
   },
   {
-    "FIELD1":"2891",
+    "id":"2891",
     "FIELD2":"Linkwater School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -37788,7 +37788,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2386",
+    "id":"2386",
     "FIELD2":"Linton Camp School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -37835,7 +37835,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2387",
+    "id":"2387",
     "FIELD2":"Linton Country School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -37882,7 +37882,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3413",
+    "id":"3413",
     "FIELD2":"Linwood Avenue School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -37929,7 +37929,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"337",
+    "id":"337",
     "FIELD2":"Linwood College",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -37976,7 +37976,7 @@ var schoolz = [
     "FIELD45":"6"
   },
   {
-    "FIELD1":"3415",
+    "id":"3415",
     "FIELD2":"Linwood North School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -38023,7 +38023,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"46",
+    "id":"46",
     "FIELD2":"Liston College",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -38070,7 +38070,7 @@ var schoolz = [
     "FIELD45":"41"
   },
   {
-    "FIELD1":"3418",
+    "id":"3418",
     "FIELD2":"Little River School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -38117,7 +38117,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3419",
+    "id":"3419",
     "FIELD2":"Loburn School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -38164,7 +38164,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3977",
+    "id":"3977",
     "FIELD2":"Lochiel School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -38211,7 +38211,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"376",
+    "id":"376",
     "FIELD2":"Logan Park High School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -38258,7 +38258,7 @@ var schoolz = [
     "FIELD45":"27"
   },
   {
-    "FIELD1":"27",
+    "id":"27",
     "FIELD2":"Long Bay College",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -38305,7 +38305,7 @@ var schoolz = [
     "FIELD45":"150"
   },
   {
-    "FIELD1":"1342",
+    "id":"1342",
     "FIELD2":"Long Bay School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -38352,7 +38352,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"3594",
+    "id":"3594",
     "FIELD2":"Longbeach School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -38399,7 +38399,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"191",
+    "id":"191",
     "FIELD2":"Longburn Adventist College",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -38446,7 +38446,7 @@ var schoolz = [
     "FIELD45":"22"
   },
   {
-    "FIELD1":"2388",
+    "id":"2388",
     "FIELD2":"Longburn School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -38493,7 +38493,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3979",
+    "id":"3979",
     "FIELD2":"Longford Intermediate",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -38540,7 +38540,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3200",
+    "id":"3200",
     "FIELD2":"Lower Moutere School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -38587,7 +38587,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2590",
+    "id":"2590",
     "FIELD2":"Lucknow School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -38634,7 +38634,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3980",
+    "id":"3980",
     "FIELD2":"Lumsden School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -38681,7 +38681,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2892",
+    "id":"2892",
     "FIELD2":"Lyall Bay School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -38728,7 +38728,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"75",
+    "id":"75",
     "FIELD2":"Lynfield College",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -38775,7 +38775,7 @@ var schoolz = [
     "FIELD45":"92"
   },
   {
-    "FIELD1":"1791",
+    "id":"1791",
     "FIELD2":"Lynmore Primary School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -38822,7 +38822,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3422",
+    "id":"3422",
     "FIELD2":"Lynton Downs School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -38869,7 +38869,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"686",
+    "id":"686",
     "FIELD2":"Lyttelton Primary School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -38916,7 +38916,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"208",
+    "id":"208",
     "FIELD2":"Lytton High School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -38963,7 +38963,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2389",
+    "id":"2389",
     "FIELD2":"Lytton Street School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -39010,7 +39010,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3762",
+    "id":"3762",
     "FIELD2":"Macandrew Bay School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -39057,7 +39057,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"353",
+    "id":"353",
     "FIELD2":"Mackenzie College",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -39104,7 +39104,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"41",
+    "id":"41",
     "FIELD2":"Macleans College",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -39151,7 +39151,7 @@ var schoolz = [
     "FIELD45":"321"
   },
   {
-    "FIELD1":"1388",
+    "id":"1388",
     "FIELD2":"Macleans Primary School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -39198,7 +39198,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3764",
+    "id":"3764",
     "FIELD2":"Macraes Moonlight School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -39245,7 +39245,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1792",
+    "id":"1792",
     "FIELD2":"Maeroa Intermediate",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -39292,7 +39292,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3201",
+    "id":"3201",
     "FIELD2":"Mahana School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -39339,7 +39339,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3765",
+    "id":"3765",
     "FIELD2":"Maheno School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -39386,7 +39386,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2872",
+    "id":"2872",
     "FIELD2":"Mahinawa Specialist School and Resource Centre",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -39433,7 +39433,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2592",
+    "id":"2592",
     "FIELD2":"Mahora School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -39480,7 +39480,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1156",
+    "id":"1156",
     "FIELD2":"Mahurangi Christian School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -39527,7 +39527,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"24",
+    "id":"24",
     "FIELD2":"Mahurangi College",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -39574,7 +39574,7 @@ var schoolz = [
     "FIELD45":"23"
   },
   {
-    "FIELD1":"2893",
+    "id":"2893",
     "FIELD2":"Maidstone Intermediate",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -39621,7 +39621,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1793",
+    "id":"1793",
     "FIELD2":"Maihiihi School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -39668,7 +39668,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1343",
+    "id":"1343",
     "FIELD2":"Mairangi Bay School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -39715,7 +39715,7 @@ var schoolz = [
     "FIELD45":"16"
   },
   {
-    "FIELD1":"320",
+    "id":"320",
     "FIELD2":"Mairehau High School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -39762,7 +39762,7 @@ var schoolz = [
     "FIELD45":"10"
   },
   {
-    "FIELD1":"3425",
+    "id":"3425",
     "FIELD2":"Mairehau School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -39809,7 +39809,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3202",
+    "id":"3202",
     "FIELD2":"Maitai School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -39856,7 +39856,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2185",
+    "id":"2185",
     "FIELD2":"Makahu School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -39903,7 +39903,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2894",
+    "id":"2894",
     "FIELD2":"Makara Model School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -39950,7 +39950,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2593",
+    "id":"2593",
     "FIELD2":"Makaraka School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -39997,7 +39997,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3982",
+    "id":"3982",
     "FIELD2":"Makarewa School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -40044,7 +40044,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2594",
+    "id":"2594",
     "FIELD2":"Makarika School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -40091,7 +40091,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3767",
+    "id":"3767",
     "FIELD2":"Makarora Primary School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -40138,7 +40138,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2595",
+    "id":"2595",
     "FIELD2":"Makauri School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -40185,7 +40185,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1794",
+    "id":"1794",
     "FIELD2":"Maketu School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -40232,7 +40232,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3426",
+    "id":"3426",
     "FIELD2":"Makikihi School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -40279,7 +40279,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"243",
+    "id":"243",
     "FIELD2":"Makoura College",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -40326,7 +40326,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2895",
+    "id":"2895",
     "FIELD2":"Makuri School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -40373,7 +40373,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1796",
+    "id":"1796",
     "FIELD2":"Malfroy School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -40420,7 +40420,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1797",
+    "id":"1797",
     "FIELD2":"Mamaku School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -40467,7 +40467,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"254",
+    "id":"254",
     "FIELD2":"Mana College",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -40514,7 +40514,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"465",
+    "id":"465",
     "FIELD2":"Mana Tamariki",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -40561,7 +40561,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2097",
+    "id":"2097",
     "FIELD2":"Manaia School (Taranaki)",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -40608,7 +40608,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1648",
+    "id":"1648",
     "FIELD2":"Manaia View School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -40655,7 +40655,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2896",
+    "id":"2896",
     "FIELD2":"Manakau School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -40702,7 +40702,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1800",
+    "id":"1800",
     "FIELD2":"Manawaru School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -40749,7 +40749,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"205",
+    "id":"205",
     "FIELD2":"Manawatu College",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -40796,7 +40796,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2390",
+    "id":"2390",
     "FIELD2":"Manchester Street School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -40843,7 +40843,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"18",
+    "id":"18",
     "FIELD2":"Mangakahia Area School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -40890,7 +40890,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"329",
+    "id":"329",
     "FIELD2":"Mangakino Area School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -40937,7 +40937,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2391",
+    "id":"2391",
     "FIELD2":"Mangamahu Primary School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -40984,7 +40984,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2897",
+    "id":"2897",
     "FIELD2":"Mangamaire Country School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -41031,7 +41031,7 @@ var schoolz = [
     "FIELD45":"#N/A"
   },
   {
-    "FIELD1":"1037",
+    "id":"1037",
     "FIELD2":"Mangamuka School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -41078,7 +41078,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2596",
+    "id":"2596",
     "FIELD2":"Mangaorapa School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -41125,7 +41125,7 @@ var schoolz = [
     "FIELD45":"#N/A"
   },
   {
-    "FIELD1":"2597",
+    "id":"2597",
     "FIELD2":"Mangapapa School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -41172,7 +41172,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2899",
+    "id":"2899",
     "FIELD2":"Mangaroa School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -41219,7 +41219,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2900",
+    "id":"2900",
     "FIELD2":"Mangatainoka School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -41266,7 +41266,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1344",
+    "id":"1344",
     "FIELD2":"Mangatangi School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -41313,7 +41313,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1345",
+    "id":"1345",
     "FIELD2":"Mangatawhiri School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -41360,7 +41360,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2599",
+    "id":"2599",
     "FIELD2":"Mangateretere School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -41407,7 +41407,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2392",
+    "id":"2392",
     "FIELD2":"Mangaweka School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -41454,7 +41454,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1038",
+    "id":"1038",
     "FIELD2":"Mangawhai Beach School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -41501,7 +41501,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1346",
+    "id":"1346",
     "FIELD2":"Mangere Bridge School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -41548,7 +41548,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"1347",
+    "id":"1347",
     "FIELD2":"Mangere Central School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -41595,7 +41595,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"91",
+    "id":"91",
     "FIELD2":"Mangere College",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -41642,7 +41642,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1348",
+    "id":"1348",
     "FIELD2":"Mangere East School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -41689,7 +41689,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1039",
+    "id":"1039",
     "FIELD2":"Mangonui School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -41736,7 +41736,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2189",
+    "id":"2189",
     "FIELD2":"Mangorei School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -41783,7 +41783,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"370",
+    "id":"370",
     "FIELD2":"Maniototo Area School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -41830,7 +41830,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1422",
+    "id":"1422",
     "FIELD2":"Mansell Senior School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -41877,7 +41877,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1350",
+    "id":"1350",
     "FIELD2":"Manuka Primary School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -41924,7 +41924,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2190",
+    "id":"2190",
     "FIELD2":"Manukorihi Intermediate",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -41971,7 +41971,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2393",
+    "id":"2393",
     "FIELD2":"Manunui School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -42018,7 +42018,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1354",
+    "id":"1354",
     "FIELD2":"Manurewa Central School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -42065,7 +42065,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1352",
+    "id":"1352",
     "FIELD2":"Manurewa East School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -42112,7 +42112,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"99",
+    "id":"99",
     "FIELD2":"Manurewa High School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -42159,7 +42159,7 @@ var schoolz = [
     "FIELD45":"11"
   },
   {
-    "FIELD1":"1353",
+    "id":"1353",
     "FIELD2":"Manurewa Intermediate",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -42206,7 +42206,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1355",
+    "id":"1355",
     "FIELD2":"Manurewa South School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -42253,7 +42253,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1356",
+    "id":"1356",
     "FIELD2":"Manurewa West School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -42300,7 +42300,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2602",
+    "id":"2602",
     "FIELD2":"Manutuke School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -42347,7 +42347,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3768",
+    "id":"3768",
     "FIELD2":"Maori Hill School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -42394,7 +42394,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"2902",
+    "id":"2902",
     "FIELD2":"Maoribank School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -42441,7 +42441,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1805",
+    "id":"1805",
     "FIELD2":"Mapiu School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -42488,7 +42488,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3203",
+    "id":"3203",
     "FIELD2":"Mapua School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -42535,7 +42535,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"566",
+    "id":"566",
     "FIELD2":"Maraekakaho School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -42582,7 +42582,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2604",
+    "id":"2604",
     "FIELD2":"Maraenui Bilingual School (Napier)",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -42629,7 +42629,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2903",
+    "id":"2903",
     "FIELD2":"Maraeroa School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -42676,7 +42676,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1357",
+    "id":"1357",
     "FIELD2":"Maraetai Beach School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -42723,7 +42723,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1358",
+    "id":"1358",
     "FIELD2":"Maramarua School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -42770,7 +42770,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1179",
+    "id":"1179",
     "FIELD2":"Maranatha Christian School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -42817,7 +42817,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3984",
+    "id":"3984",
     "FIELD2":"Mararoa School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -42864,7 +42864,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"63",
+    "id":"63",
     "FIELD2":"Marcellin College",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -42911,7 +42911,7 @@ var schoolz = [
     "FIELD45":"4"
   },
   {
-    "FIELD1":"2191",
+    "id":"2191",
     "FIELD2":"Marco School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -42958,7 +42958,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2606",
+    "id":"2606",
     "FIELD2":"Marewa School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -43005,7 +43005,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2192",
+    "id":"2192",
     "FIELD2":"Marfell School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -43052,7 +43052,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2094",
+    "id":"2094",
     "FIELD2":"Marian Catholic School (Hamilton)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -43099,7 +43099,7 @@ var schoolz = [
     "FIELD45":"9"
   },
   {
-    "FIELD1":"343",
+    "id":"343",
     "FIELD2":"Marian College",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -43146,7 +43146,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1592",
+    "id":"1592",
     "FIELD2":"Marina View School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -43193,7 +43193,7 @@ var schoolz = [
     "FIELD45":"16"
   },
   {
-    "FIELD1":"1360",
+    "id":"1360",
     "FIELD2":"Marist Catholic School (Herne Bay)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -43240,7 +43240,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"70",
+    "id":"70",
     "FIELD2":"Marist College",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -43287,7 +43287,7 @@ var schoolz = [
     "FIELD45":"12"
   },
   {
-    "FIELD1":"1359",
+    "id":"1359",
     "FIELD2":"Marist School (Mt Albert)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -43334,7 +43334,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"288",
+    "id":"288",
     "FIELD2":"Marlborough Boys' College",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -43381,7 +43381,7 @@ var schoolz = [
     "FIELD45":"9"
   },
   {
-    "FIELD1":"289",
+    "id":"289",
     "FIELD2":"Marlborough Girls' College",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -43428,7 +43428,7 @@ var schoolz = [
     "FIELD45":"15"
   },
   {
-    "FIELD1":"1361",
+    "id":"1361",
     "FIELD2":"Marlborough School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -43475,7 +43475,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"2102",
+    "id":"2102",
     "FIELD2":"Maromaku School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -43522,7 +43522,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1808",
+    "id":"1808",
     "FIELD2":"Marotiri School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -43569,7 +43569,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1362",
+    "id":"1362",
     "FIELD2":"Marshall Laing School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -43616,7 +43616,7 @@ var schoolz = [
     "FIELD45":"5"
   },
   {
-    "FIELD1":"3429",
+    "id":"3429",
     "FIELD2":"Marshland School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -43663,7 +43663,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2906",
+    "id":"2906",
     "FIELD2":"Martinborough School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -43710,7 +43710,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2396",
+    "id":"2396",
     "FIELD2":"Marton Junction School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -43757,7 +43757,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2397",
+    "id":"2397",
     "FIELD2":"Marton School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -43804,7 +43804,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3204",
+    "id":"3204",
     "FIELD2":"Maruia School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -43851,7 +43851,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"43",
+    "id":"43",
     "FIELD2":"Massey High School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -43898,7 +43898,7 @@ var schoolz = [
     "FIELD45":"56"
   },
   {
-    "FIELD1":"1363",
+    "id":"1363",
     "FIELD2":"Massey Primary School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -43945,7 +43945,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2909",
+    "id":"2909",
     "FIELD2":"Masterton Intermediate",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -43992,7 +43992,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1660",
+    "id":"1660",
     "FIELD2":"Masterton Primary School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -44039,7 +44039,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2609",
+    "id":"2609",
     "FIELD2":"Mata School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -44086,7 +44086,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1364",
+    "id":"1364",
     "FIELD2":"Matakana School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -44133,7 +44133,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1042",
+    "id":"1042",
     "FIELD2":"Matakohe School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -44180,7 +44180,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1186",
+    "id":"1186",
     "FIELD2":"Matamata Christian School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -44227,7 +44227,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"124",
+    "id":"124",
     "FIELD2":"Matamata College",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -44274,7 +44274,7 @@ var schoolz = [
     "FIELD45":"7"
   },
   {
-    "FIELD1":"1812",
+    "id":"1812",
     "FIELD2":"Matamata Intermediate",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -44321,7 +44321,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1813",
+    "id":"1813",
     "FIELD2":"Matamata Primary School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -44368,7 +44368,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1814",
+    "id":"1814",
     "FIELD2":"Matangi School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -44415,7 +44415,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2098",
+    "id":"2098",
     "FIELD2":"Matapu School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -44462,7 +44462,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1043",
+    "id":"1043",
     "FIELD2":"Matarau School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -44509,7 +44509,7 @@ var schoolz = [
     "FIELD45":"10"
   },
   {
-    "FIELD1":"2398",
+    "id":"2398",
     "FIELD2":"Mataroa School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -44556,7 +44556,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1818",
+    "id":"1818",
     "FIELD2":"Matata School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -44603,7 +44603,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1819",
+    "id":"1819",
     "FIELD2":"Matatoki School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -44650,7 +44650,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3986",
+    "id":"3986",
     "FIELD2":"Mataura School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -44697,7 +44697,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1044",
+    "id":"1044",
     "FIELD2":"Matauri Bay School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -44744,7 +44744,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2611",
+    "id":"2611",
     "FIELD2":"Matawai School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -44791,7 +44791,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2195",
+    "id":"2195",
     "FIELD2":"Matiere School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -44838,7 +44838,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1046",
+    "id":"1046",
     "FIELD2":"Matihetihe School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -44885,7 +44885,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1365",
+    "id":"1365",
     "FIELD2":"Matipo Road School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -44932,7 +44932,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1820",
+    "id":"1820",
     "FIELD2":"Matua School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -44979,7 +44979,7 @@ var schoolz = [
     "FIELD45":"10"
   },
   {
-    "FIELD1":"1366",
+    "id":"1366",
     "FIELD2":"Mauku School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -45026,7 +45026,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1047",
+    "id":"1047",
     "FIELD2":"Maungakaramea School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -45073,7 +45073,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2968",
+    "id":"2968",
     "FIELD2":"Maungaraki School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -45120,7 +45120,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1048",
+    "id":"1048",
     "FIELD2":"Maungatapere School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -45167,7 +45167,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1821",
+    "id":"1821",
     "FIELD2":"Maungatapu School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -45214,7 +45214,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1049",
+    "id":"1049",
     "FIELD2":"Maungaturoto School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -45261,7 +45261,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1367",
+    "id":"1367",
     "FIELD2":"Maungawhau School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -45308,7 +45308,7 @@ var schoolz = [
     "FIELD45":"8"
   },
   {
-    "FIELD1":"1050",
+    "id":"1050",
     "FIELD2":"Maunu School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -45355,7 +45355,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2911",
+    "id":"2911",
     "FIELD2":"Mauriceville School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -45402,7 +45402,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1368",
+    "id":"1368",
     "FIELD2":"May Road School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -45449,7 +45449,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2612",
+    "id":"2612",
     "FIELD2":"Mayfair School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -45496,7 +45496,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1369",
+    "id":"1369",
     "FIELD2":"Mayfield School (Auckland)",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -45543,7 +45543,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2912",
+    "id":"2912",
     "FIELD2":"Mayfield School (Blenheim)",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -45590,7 +45590,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3432",
+    "id":"3432",
     "FIELD2":"Mayfield School (Mid-Canterbury)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -45637,7 +45637,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"90",
+    "id":"90",
     "FIELD2":"McAuley High School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -45684,7 +45684,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1370",
+    "id":"1370",
     "FIELD2":"Meadowbank School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -45731,7 +45731,7 @@ var schoolz = [
     "FIELD45":"7"
   },
   {
-    "FIELD1":"2613",
+    "id":"2613",
     "FIELD2":"Meeanee School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -45778,7 +45778,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1371",
+    "id":"1371",
     "FIELD2":"Mellons Bay School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -45825,7 +45825,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"137",
+    "id":"137",
     "FIELD2":"Melville High School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -45872,7 +45872,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1823",
+    "id":"1823",
     "FIELD2":"Melville Intermediate",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -45919,7 +45919,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1824",
+    "id":"1824",
     "FIELD2":"Melville Primary School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -45966,7 +45966,7 @@ var schoolz = [
     "FIELD45":"5"
   },
   {
-    "FIELD1":"401",
+    "id":"401",
     "FIELD2":"Menzies College",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -46013,7 +46013,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1372",
+    "id":"1372",
     "FIELD2":"Mercer School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -46060,7 +46060,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"110",
+    "id":"110",
     "FIELD2":"Mercury Bay Area School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -46107,7 +46107,7 @@ var schoolz = [
     "FIELD45":"24"
   },
   {
-    "FIELD1":"1373",
+    "id":"1373",
     "FIELD2":"Meremere School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -46154,7 +46154,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1825",
+    "id":"1825",
     "FIELD2":"Merivale School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -46201,7 +46201,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2197",
+    "id":"2197",
     "FIELD2":"Merrilands School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -46248,7 +46248,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3434",
+    "id":"3434",
     "FIELD2":"Merrin School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -46295,7 +46295,7 @@ var schoolz = [
     "FIELD45":"4"
   },
   {
-    "FIELD1":"3436",
+    "id":"3436",
     "FIELD2":"Methven School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -46342,7 +46342,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"424",
+    "id":"424",
     "FIELD2":"Michael Park School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -46389,7 +46389,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"335",
+    "id":"335",
     "FIELD2":"Middleton Grange School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -46436,7 +46436,7 @@ var schoolz = [
     "FIELD45":"99"
   },
   {
-    "FIELD1":"2198",
+    "id":"2198",
     "FIELD2":"Midhirst School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -46483,7 +46483,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1826",
+    "id":"1826",
     "FIELD2":"Mihi School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -46530,7 +46530,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1375",
+    "id":"1375",
     "FIELD2":"Milford School (Auckland)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -46577,7 +46577,7 @@ var schoolz = [
     "FIELD45":"19"
   },
   {
-    "FIELD1":"1827",
+    "id":"1827",
     "FIELD2":"Miller Avenue School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -46624,7 +46624,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3771",
+    "id":"3771",
     "FIELD2":"Millers Flat School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -46671,7 +46671,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2400",
+    "id":"2400",
     "FIELD2":"Milson School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -46718,7 +46718,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3772",
+    "id":"3772",
     "FIELD2":"Milton School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -46765,7 +46765,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2199",
+    "id":"2199",
     "FIELD2":"Mimi School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -46812,7 +46812,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2915",
+    "id":"2915",
     "FIELD2":"Miramar Central School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -46859,7 +46859,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4119",
+    "id":"4119",
     "FIELD2":"Miramar Christian School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -46906,7 +46906,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2916",
+    "id":"2916",
     "FIELD2":"Miramar North School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -46953,7 +46953,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"553",
+    "id":"553",
     "FIELD2":"Mission Heights Junior College",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -47000,7 +47000,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"570",
+    "id":"570",
     "FIELD2":"Mission Heights Primary School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -47047,7 +47047,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1829",
+    "id":"1829",
     "FIELD2":"Moanataiari School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -47094,7 +47094,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2401",
+    "id":"2401",
     "FIELD2":"Moawhango School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -47141,7 +47141,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2103",
+    "id":"2103",
     "FIELD2":"Moerewa School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -47188,7 +47188,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1677",
+    "id":"1677",
     "FIELD2":"Mohaka School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -47235,7 +47235,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2200",
+    "id":"2200",
     "FIELD2":"Mokau School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -47282,7 +47282,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1832",
+    "id":"1832",
     "FIELD2":"Mokoia Intermediate",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -47329,7 +47329,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2201",
+    "id":"2201",
     "FIELD2":"Mokoia School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -47376,7 +47376,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2402",
+    "id":"2402",
     "FIELD2":"Monrad Intermediate",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -47423,7 +47423,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1376",
+    "id":"1376",
     "FIELD2":"Monte Cecilia School (Mt Roskill)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -47470,7 +47470,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"1052",
+    "id":"1052",
     "FIELD2":"Morningside School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -47517,7 +47517,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3776",
+    "id":"3776",
     "FIELD2":"Mornington School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -47564,7 +47564,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"126",
+    "id":"126",
     "FIELD2":"Morrinsville College",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -47611,7 +47611,7 @@ var schoolz = [
     "FIELD45":"9"
   },
   {
-    "FIELD1":"1833",
+    "id":"1833",
     "FIELD2":"Morrinsville Intermediate",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -47658,7 +47658,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1834",
+    "id":"1834",
     "FIELD2":"Morrinsville School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -47705,7 +47705,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3440",
+    "id":"3440",
     "FIELD2":"Morven School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -47752,7 +47752,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3990",
+    "id":"3990",
     "FIELD2":"Mossburn School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -47799,7 +47799,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2403",
+    "id":"2403",
     "FIELD2":"Mosston School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -47846,7 +47846,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1053",
+    "id":"1053",
     "FIELD2":"Motatau School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -47893,7 +47893,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2616",
+    "id":"2616",
     "FIELD2":"Motu School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -47940,7 +47940,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"298",
+    "id":"298",
     "FIELD2":"Motueka High School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -47987,7 +47987,7 @@ var schoolz = [
     "FIELD45":"30"
   },
   {
-    "FIELD1":"3206",
+    "id":"3206",
     "FIELD2":"Motueka South School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -48034,7 +48034,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1835",
+    "id":"1835",
     "FIELD2":"Motumaoho School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -48081,7 +48081,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3207",
+    "id":"3207",
     "FIELD2":"Motupipi School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -48128,7 +48128,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2203",
+    "id":"2203",
     "FIELD2":"Moturoa School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -48175,7 +48175,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2404",
+    "id":"2404",
     "FIELD2":"Mount Biggs School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -48222,7 +48222,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"348",
+    "id":"348",
     "FIELD2":"Mount Hutt College",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -48269,7 +48269,7 @@ var schoolz = [
     "FIELD45":"12"
   },
   {
-    "FIELD1":"1380",
+    "id":"1380",
     "FIELD2":"Mountain View School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -48316,7 +48316,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"359",
+    "id":"359",
     "FIELD2":"Mountainview High School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -48363,7 +48363,7 @@ var schoolz = [
     "FIELD45":"28"
   },
   {
-    "FIELD1":"1836",
+    "id":"1836",
     "FIELD2":"Mountview School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -48410,7 +48410,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"69",
+    "id":"69",
     "FIELD2":"Mt Albert Grammar School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -48457,7 +48457,7 @@ var schoolz = [
     "FIELD45":"126"
   },
   {
-    "FIELD1":"1381",
+    "id":"1381",
     "FIELD2":"Mt Albert School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -48504,7 +48504,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"533",
+    "id":"533",
     "FIELD2":"Mt Aspiring College",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -48551,7 +48551,7 @@ var schoolz = [
     "FIELD45":"36"
   },
   {
-    "FIELD1":"1382",
+    "id":"1382",
     "FIELD2":"Mt Carmel School (Meadowbank)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -48598,7 +48598,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2918",
+    "id":"2918",
     "FIELD2":"Mt Cook School (Wellington)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -48645,7 +48645,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1378",
+    "id":"1378",
     "FIELD2":"Mt Eden Normal School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -48692,7 +48692,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"118",
+    "id":"118",
     "FIELD2":"Mt Maunganui College",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -48739,7 +48739,7 @@ var schoolz = [
     "FIELD45":"56"
   },
   {
-    "FIELD1":"1837",
+    "id":"1837",
     "FIELD2":"Mt Maunganui Intermediate",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -48786,7 +48786,7 @@ var schoolz = [
     "FIELD45":"6"
   },
   {
-    "FIELD1":"1838",
+    "id":"1838",
     "FIELD2":"Mt Maunganui School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -48833,7 +48833,7 @@ var schoolz = [
     "FIELD45":"10"
   },
   {
-    "FIELD1":"3443",
+    "id":"3443",
     "FIELD2":"Mt Pleasant School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -48880,7 +48880,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1379",
+    "id":"1379",
     "FIELD2":"Mt Richmond School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -48927,7 +48927,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"74",
+    "id":"74",
     "FIELD2":"Mt Roskill Grammar",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -48974,7 +48974,7 @@ var schoolz = [
     "FIELD45":"103"
   },
   {
-    "FIELD1":"1383",
+    "id":"1383",
     "FIELD2":"Mt Roskill Intermediate",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -49021,7 +49021,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"1384",
+    "id":"1384",
     "FIELD2":"Mt Roskill Primary School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -49068,7 +49068,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"3441",
+    "id":"3441",
     "FIELD2":"Mt Somers Springburn School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -49115,7 +49115,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1385",
+    "id":"1385",
     "FIELD2":"Mulberry Grove School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -49162,7 +49162,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"299",
+    "id":"299",
     "FIELD2":"Murchison Area School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -49209,7 +49209,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2920",
+    "id":"2920",
     "FIELD2":"Muritai School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -49256,7 +49256,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2617",
+    "id":"2617",
     "FIELD2":"Muriwai School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -49303,7 +49303,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1386",
+    "id":"1386",
     "FIELD2":"Murrays Bay Intermediate",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -49350,7 +49350,7 @@ var schoolz = [
     "FIELD45":"35"
   },
   {
-    "FIELD1":"1387",
+    "id":"1387",
     "FIELD2":"Murrays Bay School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -49397,7 +49397,7 @@ var schoolz = [
     "FIELD45":"15"
   },
   {
-    "FIELD1":"658",
+    "id":"658",
     "FIELD2":"Murupara Area School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -49444,7 +49444,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3779",
+    "id":"3779",
     "FIELD2":"Musselburgh School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -49491,7 +49491,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3991",
+    "id":"3991",
     "FIELD2":"Myross Bush School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -49538,7 +49538,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"259",
+    "id":"259",
     "FIELD2":"Naenae College",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -49585,7 +49585,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2921",
+    "id":"2921",
     "FIELD2":"Naenae Intermediate",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -49632,7 +49632,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2922",
+    "id":"2922",
     "FIELD2":"Naenae School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -49679,7 +49679,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"216",
+    "id":"216",
     "FIELD2":"Napier Boys' High School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -49726,7 +49726,7 @@ var schoolz = [
     "FIELD45":"28"
   },
   {
-    "FIELD1":"2618",
+    "id":"2618",
     "FIELD2":"Napier Central School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -49773,7 +49773,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"217",
+    "id":"217",
     "FIELD2":"Napier Girls' High School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -49820,7 +49820,7 @@ var schoolz = [
     "FIELD45":"25"
   },
   {
-    "FIELD1":"2619",
+    "id":"2619",
     "FIELD2":"Napier Intermediate",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -49867,7 +49867,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2405",
+    "id":"2405",
     "FIELD2":"National Park School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -49914,7 +49914,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2923",
+    "id":"2923",
     "FIELD2":"Natone Park School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -49961,7 +49961,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1841",
+    "id":"1841",
     "FIELD2":"Nawton School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -50008,7 +50008,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"293",
+    "id":"293",
     "FIELD2":"Nayland College",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -50055,7 +50055,7 @@ var schoolz = [
     "FIELD45":"63"
   },
   {
-    "FIELD1":"3208",
+    "id":"3208",
     "FIELD2":"Nayland Primary School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -50102,7 +50102,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"3209",
+    "id":"3209",
     "FIELD2":"Nelson Central School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -50149,7 +50149,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1148",
+    "id":"1148",
     "FIELD2":"Nelson Christian Academy",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -50196,7 +50196,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"294",
+    "id":"294",
     "FIELD2":"Nelson College",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -50243,7 +50243,7 @@ var schoolz = [
     "FIELD45":"68"
   },
   {
-    "FIELD1":"295",
+    "id":"295",
     "FIELD2":"Nelson College For Girls",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -50290,7 +50290,7 @@ var schoolz = [
     "FIELD45":"50"
   },
   {
-    "FIELD1":"3210",
+    "id":"3210",
     "FIELD2":"Nelson Intermediate",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -50337,7 +50337,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"2620",
+    "id":"2620",
     "FIELD2":"Nelson Park School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -50384,7 +50384,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1842",
+    "id":"1842",
     "FIELD2":"Netherton School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -50431,7 +50431,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3445",
+    "id":"3445",
     "FIELD2":"New Brighton Catholic School (Chch)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -50478,7 +50478,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1136",
+    "id":"1136",
     "FIELD2":"New Life Christian School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -50525,7 +50525,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1389",
+    "id":"1389",
     "FIELD2":"New Lynn School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -50572,7 +50572,7 @@ var schoolz = [
     "FIELD45":"4"
   },
   {
-    "FIELD1":"171",
+    "id":"171",
     "FIELD2":"New Plymouth Boys' High School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -50619,7 +50619,7 @@ var schoolz = [
     "FIELD45":"15"
   },
   {
-    "FIELD1":"172",
+    "id":"172",
     "FIELD2":"New Plymouth Girls' High School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -50666,7 +50666,7 @@ var schoolz = [
     "FIELD45":"22"
   },
   {
-    "FIELD1":"4123",
+    "id":"4123",
     "FIELD2":"New Plymouth S D A School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -50713,7 +50713,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2116",
+    "id":"2116",
     "FIELD2":"New River Primary",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -50760,7 +50760,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1390",
+    "id":"1390",
     "FIELD2":"New Windsor School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -50807,7 +50807,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2406",
+    "id":"2406",
     "FIELD2":"Newbury School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -50854,7 +50854,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2118",
+    "id":"2118",
     "FIELD2":"Newfield Park School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -50901,7 +50901,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"268",
+    "id":"268",
     "FIELD2":"Newlands College",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -50948,7 +50948,7 @@ var schoolz = [
     "FIELD45":"50"
   },
   {
-    "FIELD1":"2924",
+    "id":"2924",
     "FIELD2":"Newlands Intermediate",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -50995,7 +50995,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2925",
+    "id":"2925",
     "FIELD2":"Newlands School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -51042,7 +51042,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"1391",
+    "id":"1391",
     "FIELD2":"Newmarket School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -51089,7 +51089,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"1843",
+    "id":"1843",
     "FIELD2":"Newstead Model School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -51136,7 +51136,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1392",
+    "id":"1392",
     "FIELD2":"Newton Central School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -51183,7 +51183,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2926",
+    "id":"2926",
     "FIELD2":"Newtown School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -51230,7 +51230,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1393",
+    "id":"1393",
     "FIELD2":"Nga Iwi School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -51277,7 +51277,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"488",
+    "id":"488",
     "FIELD2":"Nga Taiatea Wharekura",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -51324,7 +51324,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"196",
+    "id":"196",
     "FIELD2":"Nga Tawa Diocesan School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -51371,7 +51371,7 @@ var schoolz = [
     "FIELD45":"10"
   },
   {
-    "FIELD1":"2205",
+    "id":"2205",
     "FIELD2":"Ngaere School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -51418,7 +51418,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1844",
+    "id":"1844",
     "FIELD2":"Ngahinapouri School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -51465,7 +51465,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2927",
+    "id":"2927",
     "FIELD2":"Ngaio School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -51512,7 +51512,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1845",
+    "id":"1845",
     "FIELD2":"Ngakonui Valley School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -51559,7 +51559,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1846",
+    "id":"1846",
     "FIELD2":"Ngakuru School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -51606,7 +51606,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2407",
+    "id":"2407",
     "FIELD2":"Ngamatapouri School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -51653,7 +51653,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2408",
+    "id":"2408",
     "FIELD2":"Ngamatea School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -51700,7 +51700,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1847",
+    "id":"1847",
     "FIELD2":"Ngapuke School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -51747,7 +51747,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"127",
+    "id":"127",
     "FIELD2":"Ngaruawahia High School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -51794,7 +51794,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1849",
+    "id":"1849",
     "FIELD2":"Ngaruawahia School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -51841,7 +51841,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"206",
+    "id":"206",
     "FIELD2":"Ngata Memorial College",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -51888,7 +51888,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1055",
+    "id":"1055",
     "FIELD2":"Ngataki School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -51935,7 +51935,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2621",
+    "id":"2621",
     "FIELD2":"Ngatapa School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -51982,7 +51982,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1850",
+    "id":"1850",
     "FIELD2":"Ngatea School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -52029,7 +52029,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1851",
+    "id":"1851",
     "FIELD2":"Ngati Haua School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -52076,7 +52076,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2928",
+    "id":"2928",
     "FIELD2":"Ngati Toa School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -52123,7 +52123,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3212",
+    "id":"3212",
     "FIELD2":"Ngatimoti School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -52170,7 +52170,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1852",
+    "id":"1852",
     "FIELD2":"Ngongotaha School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -52217,7 +52217,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1056",
+    "id":"1056",
     "FIELD2":"Ngunguru School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -52264,7 +52264,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1853",
+    "id":"1853",
     "FIELD2":"Ngutunui School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -52311,7 +52311,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2206",
+    "id":"2206",
     "FIELD2":"Norfolk School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -52358,7 +52358,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2207",
+    "id":"2207",
     "FIELD2":"Normanby School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -52405,7 +52405,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2930",
+    "id":"2930",
     "FIELD2":"Normandale School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -52452,7 +52452,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2622",
+    "id":"2622",
     "FIELD2":"Norsewood and Districts School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -52499,7 +52499,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3783",
+    "id":"3783",
     "FIELD2":"North East Valley Normal School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -52546,7 +52546,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3447",
+    "id":"3447",
     "FIELD2":"North Loburn School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -52593,7 +52593,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2409",
+    "id":"2409",
     "FIELD2":"North Street School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -52640,7 +52640,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"32",
+    "id":"32",
     "FIELD2":"Northcote College",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -52687,7 +52687,7 @@ var schoolz = [
     "FIELD45":"88"
   },
   {
-    "FIELD1":"1394",
+    "id":"1394",
     "FIELD2":"Northcote Intermediate",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -52734,7 +52734,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"1395",
+    "id":"1395",
     "FIELD2":"Northcote School (Auckland)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -52781,7 +52781,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3449",
+    "id":"3449",
     "FIELD2":"Northcote School (Christchurch)",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -52828,7 +52828,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1396",
+    "id":"1396",
     "FIELD2":"Northcross Intermediate",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -52875,7 +52875,7 @@ var schoolz = [
     "FIELD45":"29"
   },
   {
-    "FIELD1":"395",
+    "id":"395",
     "FIELD2":"Northern Southland College",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -52922,7 +52922,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"9",
+    "id":"9",
     "FIELD2":"Northland College",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -52969,7 +52969,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2931",
+    "id":"2931",
     "FIELD2":"Northland School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -53016,7 +53016,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2624",
+    "id":"2624",
     "FIELD2":"Nuhaka School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -53063,7 +53063,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1854",
+    "id":"1854",
     "FIELD2":"Nukuhou North School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -53110,7 +53110,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3450",
+    "id":"3450",
     "FIELD2":"Oaklands School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -53157,7 +53157,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1397",
+    "id":"1397",
     "FIELD2":"Oaklynn Special School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -53204,7 +53204,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2208",
+    "id":"2208",
     "FIELD2":"Oakura School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -53251,7 +53251,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3784",
+    "id":"3784",
     "FIELD2":"Oamaru Intermediate",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -53298,7 +53298,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3785",
+    "id":"3785",
     "FIELD2":"Oamaru North School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -53345,7 +53345,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2110",
+    "id":"2110",
     "FIELD2":"Oceanview Heights School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -53392,7 +53392,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1058",
+    "id":"1058",
     "FIELD2":"Ohaeawai School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -53439,7 +53439,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2410",
+    "id":"2410",
     "FIELD2":"Ohakune School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -53486,7 +53486,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2933",
+    "id":"2933",
     "FIELD2":"Ohau School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -53533,7 +53533,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1855",
+    "id":"1855",
     "FIELD2":"Ohaupo School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -53580,7 +53580,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1856",
+    "id":"1856",
     "FIELD2":"Ohinewai School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -53627,7 +53627,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3451",
+    "id":"3451",
     "FIELD2":"Ohoka School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -53674,7 +53674,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1857",
+    "id":"1857",
     "FIELD2":"Ohope Beach School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -53721,7 +53721,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2625",
+    "id":"2625",
     "FIELD2":"Ohuka School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -53768,7 +53768,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"176",
+    "id":"176",
     "FIELD2":"Ohura Valley Primary",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -53815,7 +53815,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"7",
+    "id":"7",
     "FIELD2":"Okaihau College",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -53862,7 +53862,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1059",
+    "id":"1059",
     "FIELD2":"Okaihau School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -53909,7 +53909,7 @@ var schoolz = [
     "FIELD45":"#N/A"
   },
   {
-    "FIELD1":"3452",
+    "id":"3452",
     "FIELD2":"Okains Bay School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -53956,7 +53956,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1398",
+    "id":"1398",
     "FIELD2":"Okiwi School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -54003,7 +54003,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2412",
+    "id":"2412",
     "FIELD2":"Okoia School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -54050,7 +54050,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2626",
+    "id":"2626",
     "FIELD2":"Omahu School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -54097,7 +54097,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3788",
+    "id":"3788",
     "FIELD2":"Omakau School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -54144,7 +54144,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2627",
+    "id":"2627",
     "FIELD2":"Omakere School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -54191,7 +54191,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1060",
+    "id":"1060",
     "FIELD2":"Omanaia School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -54238,7 +54238,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1860",
+    "id":"1860",
     "FIELD2":"Omanu School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -54285,7 +54285,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3789",
+    "id":"3789",
     "FIELD2":"Omarama School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -54332,7 +54332,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1861",
+    "id":"1861",
     "FIELD2":"Omarumutu School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -54379,7 +54379,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2214",
+    "id":"2214",
     "FIELD2":"Omata School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -54426,7 +54426,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3454",
+    "id":"3454",
     "FIELD2":"Omihi School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -54473,7 +54473,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1862",
+    "id":"1862",
     "FIELD2":"Omokoroa Point School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -54520,7 +54520,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1863",
+    "id":"1863",
     "FIELD2":"Omokoroa School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -54567,7 +54567,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"85",
+    "id":"85",
     "FIELD2":"One Tree Hill College",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -54614,7 +54614,7 @@ var schoolz = [
     "FIELD45":"27"
   },
   {
-    "FIELD1":"1061",
+    "id":"1061",
     "FIELD2":"One Tree Point School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -54661,7 +54661,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"86",
+    "id":"86",
     "FIELD2":"Onehunga High School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -54708,7 +54708,7 @@ var schoolz = [
     "FIELD45":"22"
   },
   {
-    "FIELD1":"1399",
+    "id":"1399",
     "FIELD2":"Onehunga Primary School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -54755,7 +54755,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2628",
+    "id":"2628",
     "FIELD2":"Onekawa School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -54802,7 +54802,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1400",
+    "id":"1400",
     "FIELD2":"Onepoto School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -54849,7 +54849,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1062",
+    "id":"1062",
     "FIELD2":"Onerahi School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -54896,7 +54896,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"108",
+    "id":"108",
     "FIELD2":"Onewhero Area School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -54943,7 +54943,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2629",
+    "id":"2629",
     "FIELD2":"Ongaonga School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -54990,7 +54990,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2215",
+    "id":"2215",
     "FIELD2":"Ongarue School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -55037,7 +55037,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"269",
+    "id":"269",
     "FIELD2":"Onslow College",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -55084,7 +55084,7 @@ var schoolz = [
     "FIELD45":"51"
   },
   {
-    "FIELD1":"1401",
+    "id":"1401",
     "FIELD2":"Opaheke School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -55131,7 +55131,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2936",
+    "id":"2936",
     "FIELD2":"Opaki School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -55178,7 +55178,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3455",
+    "id":"3455",
     "FIELD2":"Opawa School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -55225,7 +55225,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"354",
+    "id":"354",
     "FIELD2":"Opihi College",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -55272,7 +55272,7 @@ var schoolz = [
     "FIELD45":"4"
   },
   {
-    "FIELD1":"2937",
+    "id":"2937",
     "FIELD2":"Opiki School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -55319,7 +55319,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3790",
+    "id":"3790",
     "FIELD2":"Opoho School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -55366,7 +55366,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"11",
+    "id":"11",
     "FIELD2":"Opononi Area School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -55413,7 +55413,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"148",
+    "id":"148",
     "FIELD2":"Opotiki College",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -55460,7 +55460,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1866",
+    "id":"1866",
     "FIELD2":"Opotiki School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -55507,7 +55507,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1867",
+    "id":"1867",
     "FIELD2":"Opoutere School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -55554,7 +55554,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1063",
+    "id":"1063",
     "FIELD2":"Opua School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -55601,7 +55601,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"181",
+    "id":"181",
     "FIELD2":"Opunake High School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -55648,7 +55648,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2216",
+    "id":"2216",
     "FIELD2":"Opunake School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -55695,7 +55695,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1402",
+    "id":"1402",
     "FIELD2":"Orakei School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -55742,7 +55742,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1403",
+    "id":"1403",
     "FIELD2":"Oranga School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -55789,7 +55789,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1404",
+    "id":"1404",
     "FIELD2":"Oratia School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -55836,7 +55836,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2413",
+    "id":"2413",
     "FIELD2":"Orautoha School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -55883,7 +55883,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1405",
+    "id":"1405",
     "FIELD2":"Orere School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -55930,7 +55930,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"25",
+    "id":"25",
     "FIELD2":"Orewa College",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -55977,7 +55977,7 @@ var schoolz = [
     "FIELD45":"57"
   },
   {
-    "FIELD1":"1406",
+    "id":"1406",
     "FIELD2":"Orewa North School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -56024,7 +56024,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1407",
+    "id":"1407",
     "FIELD2":"Orewa School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -56071,7 +56071,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"1869",
+    "id":"1869",
     "FIELD2":"Orini Combined School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -56118,7 +56118,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"564",
+    "id":"564",
     "FIELD2":"Ormiston Senior College",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -56165,7 +56165,7 @@ var schoolz = [
     "FIELD45":"10"
   },
   {
-    "FIELD1":"2631",
+    "id":"2631",
     "FIELD2":"Ormond School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -56212,7 +56212,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1065",
+    "id":"1065",
     "FIELD2":"Oromahoe School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -56259,7 +56259,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1870",
+    "id":"1870",
     "FIELD2":"Oropi School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -56306,7 +56306,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2414",
+    "id":"2414",
     "FIELD2":"Oroua Downs School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -56353,7 +56353,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1066",
+    "id":"1066",
     "FIELD2":"Oruaiti School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -56400,7 +56400,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"377",
+    "id":"377",
     "FIELD2":"Otago Boys' High School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -56447,7 +56447,7 @@ var schoolz = [
     "FIELD45":"35"
   },
   {
-    "FIELD1":"378",
+    "id":"378",
     "FIELD2":"Otago Girls' High School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -56494,7 +56494,7 @@ var schoolz = [
     "FIELD45":"36"
   },
   {
-    "FIELD1":"88",
+    "id":"88",
     "FIELD2":"Otahuhu College",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -56541,7 +56541,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1408",
+    "id":"1408",
     "FIELD2":"Otahuhu Intermediate",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -56588,7 +56588,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1409",
+    "id":"1409",
     "FIELD2":"Otahuhu School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -56635,7 +56635,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1068",
+    "id":"1068",
     "FIELD2":"Otaika Valley School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -56682,7 +56682,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"240",
+    "id":"240",
     "FIELD2":"Otaki College",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -56729,7 +56729,7 @@ var schoolz = [
     "FIELD45":"14"
   },
   {
-    "FIELD1":"2939",
+    "id":"2939",
     "FIELD2":"Otaki School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -56776,7 +56776,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1871",
+    "id":"1871",
     "FIELD2":"Otakiri School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -56823,7 +56823,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3997",
+    "id":"3997",
     "FIELD2":"Otama School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -56870,7 +56870,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1872",
+    "id":"1872",
     "FIELD2":"Otamarakau School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -56917,7 +56917,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"21",
+    "id":"21",
     "FIELD2":"Otamatea High School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -56964,7 +56964,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"2634",
+    "id":"2634",
     "FIELD2":"Otane School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -57011,7 +57011,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3073",
+    "id":"3073",
     "FIELD2":"Otari School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -57058,7 +57058,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4000",
+    "id":"4000",
     "FIELD2":"Otatara School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -57105,7 +57105,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1410",
+    "id":"1410",
     "FIELD2":"Otaua School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -57152,7 +57152,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4001",
+    "id":"4001",
     "FIELD2":"Otautau School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -57199,7 +57199,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"6946",
+    "id":"6946",
     "FIELD2":"Oteha Valley School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -57246,7 +57246,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1874",
+    "id":"1874",
     "FIELD2":"Otewa School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -57293,7 +57293,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1875",
+    "id":"1875",
     "FIELD2":"Otonga Road School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -57340,7 +57340,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"157",
+    "id":"157",
     "FIELD2":"Otorohanga College",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -57387,7 +57387,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1876",
+    "id":"1876",
     "FIELD2":"Otorohanga School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -57434,7 +57434,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1877",
+    "id":"1877",
     "FIELD2":"Otorohanga South School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -57481,7 +57481,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"120",
+    "id":"120",
     "FIELD2":"Otumoetai College",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -57528,7 +57528,7 @@ var schoolz = [
     "FIELD45":"77"
   },
   {
-    "FIELD1":"1878",
+    "id":"1878",
     "FIELD2":"Otumoetai Intermediate",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -57575,7 +57575,7 @@ var schoolz = [
     "FIELD45":"18"
   },
   {
-    "FIELD1":"1879",
+    "id":"1879",
     "FIELD2":"Otumoetai School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -57622,7 +57622,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1071",
+    "id":"1071",
     "FIELD2":"Oturu School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -57669,7 +57669,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3461",
+    "id":"3461",
     "FIELD2":"Our Lady of Assumption School (Chch)",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -57716,7 +57716,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3460",
+    "id":"3460",
     "FIELD2":"Our Lady of Fatima School (Chch)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -57763,7 +57763,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2416",
+    "id":"2416",
     "FIELD2":"Our Lady of Lourdes School (P North)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -57810,7 +57810,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2941",
+    "id":"2941",
     "FIELD2":"Our Lady of Rosary School (Waiwhetu)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -57857,7 +57857,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3462",
+    "id":"3462",
     "FIELD2":"Our Lady of Snows School (Methven)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -57904,7 +57904,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3463",
+    "id":"3463",
     "FIELD2":"Our Lady of Victories",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -57951,7 +57951,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1411",
+    "id":"1411",
     "FIELD2":"Our Lady Sacred Heart School (Epsom)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -57998,7 +57998,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3544",
+    "id":"3544",
     "FIELD2":"Our Lady Star of the Sea School (Christchurch)",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -58045,7 +58045,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3464",
+    "id":"3464",
     "FIELD2":"Ouruhia Model School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -58092,7 +58092,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3795",
+    "id":"3795",
     "FIELD2":"Outram School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -58139,7 +58139,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1412",
+    "id":"1412",
     "FIELD2":"Owairaka District School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -58186,7 +58186,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"1413",
+    "id":"1413",
     "FIELD2":"Owairoa School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -58233,7 +58233,7 @@ var schoolz = [
     "FIELD45":"#N/A"
   },
   {
-    "FIELD1":"2417",
+    "id":"2417",
     "FIELD2":"Owhango School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -58280,7 +58280,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1881",
+    "id":"1881",
     "FIELD2":"Owhata School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -58327,7 +58327,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2942",
+    "id":"2942",
     "FIELD2":"Owhiro Bay School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -58374,7 +58374,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"310",
+    "id":"310",
     "FIELD2":"Oxford Area School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -58421,7 +58421,7 @@ var schoolz = [
     "FIELD45":"7"
   },
   {
-    "FIELD1":"2943",
+    "id":"2943",
     "FIELD2":"Oxford Crescent School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -58468,7 +58468,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2944",
+    "id":"2944",
     "FIELD2":"Paekakariki School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -58515,7 +58515,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1882",
+    "id":"1882",
     "FIELD2":"Paengaroa School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -58562,7 +58562,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"1414",
+    "id":"1414",
     "FIELD2":"Paerata School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -58609,7 +58609,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1883",
+    "id":"1883",
     "FIELD2":"Paeroa Central School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -58656,7 +58656,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1169",
+    "id":"1169",
     "FIELD2":"Paeroa Christian School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -58703,7 +58703,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"113",
+    "id":"113",
     "FIELD2":"Paeroa College",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -58750,7 +58750,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"2945",
+    "id":"2945",
     "FIELD2":"Pahiatua School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -58797,7 +58797,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1884",
+    "id":"1884",
     "FIELD2":"Pahoia School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -58844,7 +58844,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1072",
+    "id":"1072",
     "FIELD2":"Paihia School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -58891,7 +58891,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1073",
+    "id":"1073",
     "FIELD2":"Pakaraka School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -58938,7 +58938,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1074",
+    "id":"1074",
     "FIELD2":"Pakiri School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -58985,7 +58985,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1075",
+    "id":"1075",
     "FIELD2":"Pakotai School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -59032,7 +59032,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2638",
+    "id":"2638",
     "FIELD2":"Pakowhai School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -59079,7 +59079,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"80",
+    "id":"80",
     "FIELD2":"Pakuranga College",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -59126,7 +59126,7 @@ var schoolz = [
     "FIELD45":"196"
   },
   {
-    "FIELD1":"1416",
+    "id":"1416",
     "FIELD2":"Pakuranga Heights School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -59173,7 +59173,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1417",
+    "id":"1417",
     "FIELD2":"Pakuranga Intermediate",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -59220,7 +59220,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"4126",
+    "id":"4126",
     "FIELD2":"Palmerston North Adventist Christian School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -59267,7 +59267,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"202",
+    "id":"202",
     "FIELD2":"Palmerston North Boys' High School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -59314,7 +59314,7 @@ var schoolz = [
     "FIELD45":"35"
   },
   {
-    "FIELD1":"203",
+    "id":"203",
     "FIELD2":"Palmerston North Girls' High School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -59361,7 +59361,7 @@ var schoolz = [
     "FIELD45":"18"
   },
   {
-    "FIELD1":"2419",
+    "id":"2419",
     "FIELD2":"Palmerston North Intermediate",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -59408,7 +59408,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"3797",
+    "id":"3797",
     "FIELD2":"Palmerston School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -59455,7 +59455,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1076",
+    "id":"1076",
     "FIELD2":"Pamapuria School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -59502,7 +59502,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1418",
+    "id":"1418",
     "FIELD2":"Panama Road School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -59549,7 +59549,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1419",
+    "id":"1419",
     "FIELD2":"Panmure Bridge School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -59596,7 +59596,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1420",
+    "id":"1420",
     "FIELD2":"Panmure District School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -59643,7 +59643,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"3798",
+    "id":"3798",
     "FIELD2":"Papakaio School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -59690,7 +59690,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2946",
+    "id":"2946",
     "FIELD2":"Papakowhai School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -59737,7 +59737,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1421",
+    "id":"1421",
     "FIELD2":"Papakura Central School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -59784,7 +59784,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"101",
+    "id":"101",
     "FIELD2":"Papakura High School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -59831,7 +59831,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1423",
+    "id":"1423",
     "FIELD2":"Papakura Normal School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -59878,7 +59878,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"6963",
+    "id":"6963",
     "FIELD2":"Papamoa College",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -59925,7 +59925,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1885",
+    "id":"1885",
     "FIELD2":"Papamoa Primary School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -59972,7 +59972,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"316",
+    "id":"316",
     "FIELD2":"Papanui High School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -60019,7 +60019,7 @@ var schoolz = [
     "FIELD45":"56"
   },
   {
-    "FIELD1":"2420",
+    "id":"2420",
     "FIELD2":"Papanui Junction School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -60066,7 +60066,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3466",
+    "id":"3466",
     "FIELD2":"Papanui School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -60113,7 +60113,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2947",
+    "id":"2947",
     "FIELD2":"Paparangi School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -60160,7 +60160,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1425",
+    "id":"1425",
     "FIELD2":"Paparimu School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -60207,7 +60207,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2106",
+    "id":"2106",
     "FIELD2":"Paparoa Range School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -60254,7 +60254,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1077",
+    "id":"1077",
     "FIELD2":"Paparoa School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -60301,7 +60301,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3467",
+    "id":"3467",
     "FIELD2":"Paparoa Street School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -60348,7 +60348,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"1078",
+    "id":"1078",
     "FIELD2":"Paparore School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -60395,7 +60395,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2640",
+    "id":"2640",
     "FIELD2":"Papatawa School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -60442,7 +60442,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1426",
+    "id":"1426",
     "FIELD2":"Papatoetoe Central School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -60489,7 +60489,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1427",
+    "id":"1427",
     "FIELD2":"Papatoetoe East School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -60536,7 +60536,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"95",
+    "id":"95",
     "FIELD2":"Papatoetoe High School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -60583,7 +60583,7 @@ var schoolz = [
     "FIELD45":"17"
   },
   {
-    "FIELD1":"1428",
+    "id":"1428",
     "FIELD2":"Papatoetoe Intermediate",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -60630,7 +60630,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"1429",
+    "id":"1429",
     "FIELD2":"Papatoetoe North School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -60677,7 +60677,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1430",
+    "id":"1430",
     "FIELD2":"Papatoetoe South School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -60724,7 +60724,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1431",
+    "id":"1431",
     "FIELD2":"Papatoetoe West School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -60771,7 +60771,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1432",
+    "id":"1432",
     "FIELD2":"Parakai School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -60818,7 +60818,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2948",
+    "id":"2948",
     "FIELD2":"Paraparaumu Beach School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -60865,7 +60865,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"248",
+    "id":"248",
     "FIELD2":"Paraparaumu College",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -60912,7 +60912,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2949",
+    "id":"2949",
     "FIELD2":"Paraparaumu School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -60959,7 +60959,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1886",
+    "id":"1886",
     "FIELD2":"Parawai School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -61006,7 +61006,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2950",
+    "id":"2950",
     "FIELD2":"Paremata School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -61053,7 +61053,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1434",
+    "id":"1434",
     "FIELD2":"Park Estate School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -61100,7 +61100,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2424",
+    "id":"2424",
     "FIELD2":"Parkland School (P North)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -61147,7 +61147,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3213",
+    "id":"3213",
     "FIELD2":"Parklands School (Motueka)",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -61194,7 +61194,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"4107",
+    "id":"4107",
     "FIELD2":"Parkside Christian S D A School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -61241,7 +61241,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1435",
+    "id":"1435",
     "FIELD2":"Parkside School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -61288,7 +61288,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2641",
+    "id":"2641",
     "FIELD2":"Parkvale School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -61335,7 +61335,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3470",
+    "id":"3470",
     "FIELD2":"Parkview School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -61382,7 +61382,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1436",
+    "id":"1436",
     "FIELD2":"Parnell School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -61429,7 +61429,7 @@ var schoolz = [
     "FIELD45":"8"
   },
   {
-    "FIELD1":"3472",
+    "id":"3472",
     "FIELD2":"Paroa School (Greymouth)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -61476,7 +61476,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1080",
+    "id":"1080",
     "FIELD2":"Parua Bay School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -61523,7 +61523,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1437",
+    "id":"1437",
     "FIELD2":"Pasadena Intermediate",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -61570,7 +61570,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"185",
+    "id":"185",
     "FIELD2":"Patea Area School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -61617,7 +61617,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1889",
+    "id":"1889",
     "FIELD2":"Paterangi School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -61664,7 +61664,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2642",
+    "id":"2642",
     "FIELD2":"Patoka School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -61711,7 +61711,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1891",
+    "id":"1891",
     "FIELD2":"Patricia Avenue School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -61758,7 +61758,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1438",
+    "id":"1438",
     "FIELD2":"Patumahoe Primary School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -61805,7 +61805,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2643",
+    "id":"2643",
     "FIELD2":"Patutahi School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -61852,7 +61852,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2953",
+    "id":"2953",
     "FIELD2":"Pauatahanui School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -61899,7 +61899,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1892",
+    "id":"1892",
     "FIELD2":"Peachgrove Intermediate",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -61946,7 +61946,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"3570",
+    "id":"3570",
     "FIELD2":"Pegasus Bay School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -61993,7 +61993,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1893",
+    "id":"1893",
     "FIELD2":"Pekerau School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -62040,7 +62040,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2220",
+    "id":"2220",
     "FIELD2":"Pembroke School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -62087,7 +62087,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3737",
+    "id":"3737",
     "FIELD2":"Pembroke School (Oamaru)",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -62134,7 +62134,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1531",
+    "id":"1531",
     "FIELD2":"Peninsula Primary School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -62181,7 +62181,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1081",
+    "id":"1081",
     "FIELD2":"Peria School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -62228,7 +62228,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2644",
+    "id":"2644",
     "FIELD2":"Peterhead School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -62275,7 +62275,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2955",
+    "id":"2955",
     "FIELD2":"Petone Central School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -62322,7 +62322,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2956",
+    "id":"2956",
     "FIELD2":"Picton School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -62369,7 +62369,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1439",
+    "id":"1439",
     "FIELD2":"Pigeon Mountain School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -62416,7 +62416,7 @@ var schoolz = [
     "FIELD45":"11"
   },
   {
-    "FIELD1":"1894",
+    "id":"1894",
     "FIELD2":"Pillans Point School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -62463,7 +62463,7 @@ var schoolz = [
     "FIELD45":"13"
   },
   {
-    "FIELD1":"3801",
+    "id":"3801",
     "FIELD2":"Pine Hill School (Dunedin)",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -62510,7 +62510,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2957",
+    "id":"2957",
     "FIELD2":"Pinehaven School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -62557,7 +62557,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"6932",
+    "id":"6932",
     "FIELD2":"Pinehill School (Browns Bay)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -62604,7 +62604,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"162",
+    "id":"162",
     "FIELD2":"Piopio College",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -62651,7 +62651,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1895",
+    "id":"1895",
     "FIELD2":"Piopio Primary School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -62698,7 +62698,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1896",
+    "id":"1896",
     "FIELD2":"Piri Piri School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -62745,7 +62745,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2958",
+    "id":"2958",
     "FIELD2":"Pirinoa School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -62792,7 +62792,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1897",
+    "id":"1897",
     "FIELD2":"Pirongia School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -62839,7 +62839,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3476",
+    "id":"3476",
     "FIELD2":"Pitt Island School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -62886,7 +62886,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2959",
+    "id":"2959",
     "FIELD2":"Plateau School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -62933,7 +62933,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3477",
+    "id":"3477",
     "FIELD2":"Pleasant Point Primary School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -62980,7 +62980,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2960",
+    "id":"2960",
     "FIELD2":"Plimmerton School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -63027,7 +63027,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"6921",
+    "id":"6921",
     "FIELD2":"Point View School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -63074,7 +63074,7 @@ var schoolz = [
     "FIELD45":"11"
   },
   {
-    "FIELD1":"1442",
+    "id":"1442",
     "FIELD2":"Pokeno School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -63121,7 +63121,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1898",
+    "id":"1898",
     "FIELD2":"Pokuru School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -63168,7 +63168,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2961",
+    "id":"2961",
     "FIELD2":"Pomare School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -63215,7 +63215,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1444",
+    "id":"1444",
     "FIELD2":"Pomaria Road School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -63262,7 +63262,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"17",
+    "id":"17",
     "FIELD2":"Pompallier Catholic College",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -63309,7 +63309,7 @@ var schoolz = [
     "FIELD45":"13"
   },
   {
-    "FIELD1":"1082",
+    "id":"1082",
     "FIELD2":"Pompallier Catholic School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -63356,7 +63356,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"528",
+    "id":"528",
     "FIELD2":"Ponatahi Christian School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -63403,7 +63403,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1899",
+    "id":"1899",
     "FIELD2":"Pongakawa School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -63450,7 +63450,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2962",
+    "id":"2962",
     "FIELD2":"Pongaroa School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -63497,7 +63497,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1445",
+    "id":"1445",
     "FIELD2":"Ponsonby Intermediate",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -63544,7 +63544,7 @@ var schoolz = [
     "FIELD45":"7"
   },
   {
-    "FIELD1":"1446",
+    "id":"1446",
     "FIELD2":"Ponsonby Primary School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -63591,7 +63591,7 @@ var schoolz = [
     "FIELD45":"4"
   },
   {
-    "FIELD1":"3802",
+    "id":"3802",
     "FIELD2":"Poolburn School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -63638,7 +63638,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2646",
+    "id":"2646",
     "FIELD2":"Porangahau School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -63685,7 +63685,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"255",
+    "id":"255",
     "FIELD2":"Porirua College",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -63732,7 +63732,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2963",
+    "id":"2963",
     "FIELD2":"Porirua East School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -63779,7 +63779,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2964",
+    "id":"2964",
     "FIELD2":"Porirua School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -63826,7 +63826,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1083",
+    "id":"1083",
     "FIELD2":"Poroti School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -63873,7 +63873,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2965",
+    "id":"2965",
     "FIELD2":"Poroutawhao School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -63920,7 +63920,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2647",
+    "id":"2647",
     "FIELD2":"Porritt School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -63967,7 +63967,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2648",
+    "id":"2648",
     "FIELD2":"Port Ahuriri School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -64014,7 +64014,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"3803",
+    "id":"3803",
     "FIELD2":"Port Chalmers School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -64061,7 +64061,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1084",
+    "id":"1084",
     "FIELD2":"Portland School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -64108,7 +64108,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3805",
+    "id":"3805",
     "FIELD2":"Portobello School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -64155,7 +64155,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2966",
+    "id":"2966",
     "FIELD2":"Postgate School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -64202,7 +64202,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2649",
+    "id":"2649",
     "FIELD2":"Potaka School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -64249,7 +64249,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2650",
+    "id":"2650",
     "FIELD2":"Poukawa School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -64296,7 +64296,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1085",
+    "id":"1085",
     "FIELD2":"Pouto School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -64343,7 +64343,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3478",
+    "id":"3478",
     "FIELD2":"Prebbleton School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -64390,7 +64390,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1447",
+    "id":"1447",
     "FIELD2":"Prospect School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -64437,7 +64437,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1440",
+    "id":"1440",
     "FIELD2":"Pt Chevalier School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -64484,7 +64484,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1441",
+    "id":"1441",
     "FIELD2":"Pt England School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -64531,7 +64531,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1902",
+    "id":"1902",
     "FIELD2":"Puahue School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -64578,7 +64578,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1448",
+    "id":"1448",
     "FIELD2":"Puhinui School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -64625,7 +64625,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2846",
+    "id":"2846",
     "FIELD2":"Pukeatua Primary School (Wainuiomata)",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -64672,7 +64672,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1903",
+    "id":"1903",
     "FIELD2":"Pukeatua School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -64719,7 +64719,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2651",
+    "id":"2651",
     "FIELD2":"Pukehamoamoa School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -64766,7 +64766,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1904",
+    "id":"1904",
     "FIELD2":"Pukehina School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -64813,7 +64813,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2652",
+    "id":"2652",
     "FIELD2":"Pukehou School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -64860,7 +64860,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1449",
+    "id":"1449",
     "FIELD2":"Pukekawa School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -64907,7 +64907,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1450",
+    "id":"1450",
     "FIELD2":"Pukekohe East School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -64954,7 +64954,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"103",
+    "id":"103",
     "FIELD2":"Pukekohe High School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -65001,7 +65001,7 @@ var schoolz = [
     "FIELD45":"37"
   },
   {
-    "FIELD1":"1451",
+    "id":"1451",
     "FIELD2":"Pukekohe Hill School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -65048,7 +65048,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1452",
+    "id":"1452",
     "FIELD2":"Pukekohe Intermediate",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -65095,7 +65095,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"1453",
+    "id":"1453",
     "FIELD2":"Pukekohe North School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -65142,7 +65142,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1905",
+    "id":"1905",
     "FIELD2":"Pukemiro School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -65189,7 +65189,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1086",
+    "id":"1086",
     "FIELD2":"Pukenui School (Kaitaia)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -65236,7 +65236,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1906",
+    "id":"1906",
     "FIELD2":"Pukenui School (Te Kuiti)",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -65283,7 +65283,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2428",
+    "id":"2428",
     "FIELD2":"Pukeokahu School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -65330,7 +65330,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1454",
+    "id":"1454",
     "FIELD2":"Pukeoware School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -65377,7 +65377,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1087",
+    "id":"1087",
     "FIELD2":"Pukepoto School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -65424,7 +65424,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4003",
+    "id":"4003",
     "FIELD2":"Pukerau School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -65471,7 +65471,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2967",
+    "id":"2967",
     "FIELD2":"Pukerua Bay School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -65518,7 +65518,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1907",
+    "id":"1907",
     "FIELD2":"Puketaha School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -65565,7 +65565,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2654",
+    "id":"2654",
     "FIELD2":"Puketapu School (Hawkes Bay)",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -65612,7 +65612,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"2223",
+    "id":"2223",
     "FIELD2":"Puketapu School (New Plymouth)",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -65659,7 +65659,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1908",
+    "id":"1908",
     "FIELD2":"Pukete School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -65706,7 +65706,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1455",
+    "id":"1455",
     "FIELD2":"Puni School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -65753,7 +65753,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3807",
+    "id":"3807",
     "FIELD2":"Purakaunui School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -65800,7 +65800,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1911",
+    "id":"1911",
     "FIELD2":"Puriri School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -65847,7 +65847,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1089",
+    "id":"1089",
     "FIELD2":"Purua School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -65894,7 +65894,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"494",
+    "id":"494",
     "FIELD2":"Putaruru College",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -65941,7 +65941,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1658",
+    "id":"1658",
     "FIELD2":"Putaruru Primary School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -65988,7 +65988,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2657",
+    "id":"2657",
     "FIELD2":"Putere School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -66035,7 +66035,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2658",
+    "id":"2658",
     "FIELD2":"Putorino School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -66082,7 +66082,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1916",
+    "id":"1916",
     "FIELD2":"Pyes Pa Road School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -66129,7 +66129,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"287",
+    "id":"287",
     "FIELD2":"Queen Charlotte College",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -66176,7 +66176,7 @@ var schoolz = [
     "FIELD45":"7"
   },
   {
-    "FIELD1":"201",
+    "id":"201",
     "FIELD2":"Queen Elizabeth College",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -66223,7 +66223,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"384",
+    "id":"384",
     "FIELD2":"Queens High School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -66270,7 +66270,7 @@ var schoolz = [
     "FIELD45":"6"
   },
   {
-    "FIELD1":"3479",
+    "id":"3479",
     "FIELD2":"Queenspark School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -66317,7 +66317,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4005",
+    "id":"4005",
     "FIELD2":"Queenstown School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -66364,7 +66364,7 @@ var schoolz = [
     "FIELD45":"8"
   },
   {
-    "FIELD1":"2429",
+    "id":"2429",
     "FIELD2":"Raetihi Primary School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -66411,7 +66411,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"125",
+    "id":"125",
     "FIELD2":"Raglan Area School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -66458,7 +66458,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1679",
+    "id":"1679",
     "FIELD2":"Rahotu School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -66505,7 +66505,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"291",
+    "id":"291",
     "FIELD2":"Rai Valley Area School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -66552,7 +66552,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3480",
+    "id":"3480",
     "FIELD2":"Rakaia School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -66599,7 +66599,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2226",
+    "id":"2226",
     "FIELD2":"Ramanui School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -66646,7 +66646,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1456",
+    "id":"1456",
     "FIELD2":"Ramarama School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -66693,7 +66693,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"6944",
+    "id":"6944",
     "FIELD2":"Randwick Park School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -66740,7 +66740,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2969",
+    "id":"2969",
     "FIELD2":"Randwick School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -66787,7 +66787,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"1457",
+    "id":"1457",
     "FIELD2":"Rangeview Intermediate",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -66834,7 +66834,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2970",
+    "id":"2970",
     "FIELD2":"Rangikura School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -66881,7 +66881,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3481",
+    "id":"3481",
     "FIELD2":"Rangiora Borough School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -66928,7 +66928,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"312",
+    "id":"312",
     "FIELD2":"Rangiora High School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -66975,7 +66975,7 @@ var schoolz = [
     "FIELD45":"51"
   },
   {
-    "FIELD1":"418",
+    "id":"418",
     "FIELD2":"Rangiora New Life School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -67022,7 +67022,7 @@ var schoolz = [
     "FIELD45":"10"
   },
   {
-    "FIELD1":"1919",
+    "id":"1919",
     "FIELD2":"Rangiriri School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -67069,7 +67069,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1754",
+    "id":"1754",
     "FIELD2":"Rangitaiki School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -67116,7 +67116,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"195",
+    "id":"195",
     "FIELD2":"Rangitikei College",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -67163,7 +67163,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"28",
+    "id":"28",
     "FIELD2":"Rangitoto College",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -67210,7 +67210,7 @@ var schoolz = [
     "FIELD45":"252"
   },
   {
-    "FIELD1":"1920",
+    "id":"1920",
     "FIELD2":"Rangitoto School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -67257,7 +67257,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1921",
+    "id":"1921",
     "FIELD2":"Rangiuru School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -67304,7 +67304,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2434",
+    "id":"2434",
     "FIELD2":"Rangiwaea School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -67351,7 +67351,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1458",
+    "id":"1458",
     "FIELD2":"Ranui School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -67398,7 +67398,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3214",
+    "id":"3214",
     "FIELD2":"Ranzau School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -67445,7 +67445,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2971",
+    "id":"2971",
     "FIELD2":"Rapaura School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -67492,7 +67492,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"133",
+    "id":"133",
     "FIELD2":"Raphael House Rudolf Steiner Area School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -67539,7 +67539,7 @@ var schoolz = [
     "FIELD45":"5"
   },
   {
-    "FIELD1":"2972",
+    "id":"2972",
     "FIELD2":"Raroa Normal Intermediate",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -67586,7 +67586,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2973",
+    "id":"2973",
     "FIELD2":"Rata Street School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -67633,7 +67633,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2227",
+    "id":"2227",
     "FIELD2":"Ratapiko School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -67680,7 +67680,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"245",
+    "id":"245",
     "FIELD2":"Rathkeale College",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -67727,7 +67727,7 @@ var schoolz = [
     "FIELD45":"18"
   },
   {
-    "FIELD1":"1922",
+    "id":"1922",
     "FIELD2":"Raukokore School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -67774,7 +67774,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2974",
+    "id":"2974",
     "FIELD2":"Raumati Beach School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -67821,7 +67821,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2975",
+    "id":"2975",
     "FIELD2":"Raumati South School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -67868,7 +67868,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2662",
+    "id":"2662",
     "FIELD2":"Raureka School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -67915,7 +67915,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1092",
+    "id":"1092",
     "FIELD2":"Raurimu Avenue School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -67962,7 +67962,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3808",
+    "id":"3808",
     "FIELD2":"Ravensbourne School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -68009,7 +68009,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1093",
+    "id":"1093",
     "FIELD2":"Rawene School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -68056,7 +68056,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2228",
+    "id":"2228",
     "FIELD2":"Rawhitiroa School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -68103,7 +68103,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1194",
+    "id":"1194",
     "FIELD2":"Red Beach School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -68150,7 +68150,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3483",
+    "id":"3483",
     "FIELD2":"Redcliffs School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -68197,7 +68197,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1459",
+    "id":"1459",
     "FIELD2":"Redhill School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -68244,7 +68244,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1460",
+    "id":"1460",
     "FIELD2":"Redoubt North School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -68291,7 +68291,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3484",
+    "id":"3484",
     "FIELD2":"Redwood School (Christchurch)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -68338,7 +68338,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2976",
+    "id":"2976",
     "FIELD2":"Redwood School (Tawa)",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -68385,7 +68385,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2977",
+    "id":"2977",
     "FIELD2":"Redwoodtown School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -68432,7 +68432,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"496",
+    "id":"496",
     "FIELD2":"Reefton Area School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -68479,7 +68479,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2663",
+    "id":"2663",
     "FIELD2":"Reignier Catholic School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -68526,7 +68526,7 @@ var schoolz = [
     "FIELD45":"5"
   },
   {
-    "FIELD1":"6783",
+    "id":"6783",
     "FIELD2":"Remarkables Primary School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -68573,7 +68573,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1461",
+    "id":"1461",
     "FIELD2":"Remuera Intermediate",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -68620,7 +68620,7 @@ var schoolz = [
     "FIELD45":"22"
   },
   {
-    "FIELD1":"1462",
+    "id":"1462",
     "FIELD2":"Remuera School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -68667,7 +68667,7 @@ var schoolz = [
     "FIELD45":"11"
   },
   {
-    "FIELD1":"2978",
+    "id":"2978",
     "FIELD2":"Renwick School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -68714,7 +68714,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"164",
+    "id":"164",
     "FIELD2":"Reporoa College",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -68761,7 +68761,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1923",
+    "id":"1923",
     "FIELD2":"Reporoa School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -68808,7 +68808,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2664",
+    "id":"2664",
     "FIELD2":"Rere School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -68855,7 +68855,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"6978",
+    "id":"6978",
     "FIELD2":"Reremoana Primary School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -68902,7 +68902,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2979",
+    "id":"2979",
     "FIELD2":"Rewa Rewa School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -68949,7 +68949,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1924",
+    "id":"1924",
     "FIELD2":"Rhode Street School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -68996,7 +68996,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"334",
+    "id":"334",
     "FIELD2":"Riccarton High School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -69043,7 +69043,7 @@ var schoolz = [
     "FIELD45":"56"
   },
   {
-    "FIELD1":"3485",
+    "id":"3485",
     "FIELD2":"Riccarton School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -69090,7 +69090,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"1463",
+    "id":"1463",
     "FIELD2":"Richmond Road School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -69137,7 +69137,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2665",
+    "id":"2665",
     "FIELD2":"Richmond School (Napier)",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -69184,7 +69184,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3216",
+    "id":"3216",
     "FIELD2":"Richmond School (Nelson)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -69231,7 +69231,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"421",
+    "id":"421",
     "FIELD2":"Richmond View School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -69278,7 +69278,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1433",
+    "id":"1433",
     "FIELD2":"Ridgeview School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -69325,7 +69325,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2980",
+    "id":"2980",
     "FIELD2":"Ridgway School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -69372,7 +69372,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4006",
+    "id":"4006",
     "FIELD2":"Rimu School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -69419,7 +69419,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2667",
+    "id":"2667",
     "FIELD2":"Riverdale School (Gisborne)",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -69466,7 +69466,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2437",
+    "id":"2437",
     "FIELD2":"Riverdale School (P North)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -69513,7 +69513,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1464",
+    "id":"1464",
     "FIELD2":"Riverhead School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -69560,7 +69560,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1465",
+    "id":"1465",
     "FIELD2":"Riverhills School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -69607,7 +69607,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1466",
+    "id":"1466",
     "FIELD2":"Riverina School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -69654,7 +69654,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2981",
+    "id":"2981",
     "FIELD2":"Riverlands School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -69701,7 +69701,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4007",
+    "id":"4007",
     "FIELD2":"Riversdale School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -69748,7 +69748,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2668",
+    "id":"2668",
     "FIELD2":"Riverslea School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -69795,7 +69795,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4008",
+    "id":"4008",
     "FIELD2":"Riverton School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -69842,7 +69842,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1594",
+    "id":"1594",
     "FIELD2":"Riverview School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -69889,7 +69889,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3217",
+    "id":"3217",
     "FIELD2":"Riwaka School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -69936,7 +69936,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"1467",
+    "id":"1467",
     "FIELD2":"Robertson Road School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -69983,7 +69983,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"23",
+    "id":"23",
     "FIELD2":"Rodney College",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -70030,7 +70030,7 @@ var schoolz = [
     "FIELD45":"6"
   },
   {
-    "FIELD1":"3488",
+    "id":"3488",
     "FIELD2":"Rolleston School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -70077,7 +70077,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3811",
+    "id":"3811",
     "FIELD2":"Romahapa School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -70124,7 +70124,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"358",
+    "id":"358",
     "FIELD2":"Roncalli College",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -70171,7 +70171,7 @@ var schoolz = [
     "FIELD45":"24"
   },
   {
-    "FIELD1":"1468",
+    "id":"1468",
     "FIELD2":"Rongomai School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -70218,7 +70218,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"277",
+    "id":"277",
     "FIELD2":"Rongotai College",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -70265,7 +70265,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"2438",
+    "id":"2438",
     "FIELD2":"Rongotea School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -70312,7 +70312,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1470",
+    "id":"1470",
     "FIELD2":"Roscommon School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -70359,7 +70359,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1471",
+    "id":"1471",
     "FIELD2":"Rosebank School (Auckland)",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -70406,7 +70406,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3812",
+    "id":"3812",
     "FIELD2":"Rosebank School (Balclutha)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -70453,7 +70453,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"102",
+    "id":"102",
     "FIELD2":"Rosehill College",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -70500,7 +70500,7 @@ var schoolz = [
     "FIELD45":"39"
   },
   {
-    "FIELD1":"1473",
+    "id":"1473",
     "FIELD2":"Rosehill Intermediate",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -70547,7 +70547,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1472",
+    "id":"1472",
     "FIELD2":"Rosehill School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -70594,7 +70594,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2982",
+    "id":"2982",
     "FIELD2":"Roseneath School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -70641,7 +70641,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2439",
+    "id":"2439",
     "FIELD2":"Roslyn School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -70688,7 +70688,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"39",
+    "id":"39",
     "FIELD2":"Rosmini College",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -70735,7 +70735,7 @@ var schoolz = [
     "FIELD45":"30"
   },
   {
-    "FIELD1":"2440",
+    "id":"2440",
     "FIELD2":"Ross Intermediate",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -70782,7 +70782,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3489",
+    "id":"3489",
     "FIELD2":"Ross School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -70829,7 +70829,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3490",
+    "id":"3490",
     "FIELD2":"Rotherham School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -70876,7 +70876,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1930",
+    "id":"1930",
     "FIELD2":"Rotokauri School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -70923,7 +70923,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1931",
+    "id":"1931",
     "FIELD2":"Rotokawa School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -70970,7 +70970,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1927",
+    "id":"1927",
     "FIELD2":"Roto-O-Rangi School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -71017,7 +71017,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"152",
+    "id":"152",
     "FIELD2":"Rotorua Boys' High School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -71064,7 +71064,7 @@ var schoolz = [
     "FIELD45":"77"
   },
   {
-    "FIELD1":"153",
+    "id":"153",
     "FIELD2":"Rotorua Girls' High School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -71111,7 +71111,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"1933",
+    "id":"1933",
     "FIELD2":"Rotorua Intermediate",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -71158,7 +71158,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"154",
+    "id":"154",
     "FIELD2":"Rotorua Lakes High School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -71205,7 +71205,7 @@ var schoolz = [
     "FIELD45":"9"
   },
   {
-    "FIELD1":"4129",
+    "id":"4129",
     "FIELD2":"Rotorua S D A School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -71252,7 +71252,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1934",
+    "id":"1934",
     "FIELD2":"Rotorua School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -71299,7 +71299,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"6976",
+    "id":"6976",
     "FIELD2":"Rototuna Primary School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -71346,7 +71346,7 @@ var schoolz = [
     "FIELD45":"11"
   },
   {
-    "FIELD1":"1474",
+    "id":"1474",
     "FIELD2":"Rowandale School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -71393,7 +71393,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3492",
+    "id":"3492",
     "FIELD2":"Rowley Avenue School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -71440,7 +71440,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"375",
+    "id":"375",
     "FIELD2":"Roxburgh Area School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -71487,7 +71487,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1351",
+    "id":"1351",
     "FIELD2":"Royal Oak Intermediate School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -71534,7 +71534,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1475",
+    "id":"1475",
     "FIELD2":"Royal Oak School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -71581,7 +71581,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"1476",
+    "id":"1476",
     "FIELD2":"Royal Road School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -71628,7 +71628,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3493",
+    "id":"3493",
     "FIELD2":"Roydvale School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -71675,7 +71675,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2669",
+    "id":"2669",
     "FIELD2":"Ruahine School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -71722,7 +71722,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1094",
+    "id":"1094",
     "FIELD2":"Ruakaka School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -71769,7 +71769,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1675",
+    "id":"1675",
     "FIELD2":"Ruakituri School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -71816,7 +71816,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"183",
+    "id":"183",
     "FIELD2":"Ruapehu College",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -71863,7 +71863,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1477",
+    "id":"1477",
     "FIELD2":"Ruapotaka School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -71910,7 +71910,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"22",
+    "id":"22",
     "FIELD2":"Ruawai College",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -71957,7 +71957,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1095",
+    "id":"1095",
     "FIELD2":"Ruawai Primary School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -72004,7 +72004,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1937",
+    "id":"1937",
     "FIELD2":"Ruawaro Combined School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -72051,7 +72051,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"419",
+    "id":"419",
     "FIELD2":"Rudolf Steiner School (Chch)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -72098,7 +72098,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"1938",
+    "id":"1938",
     "FIELD2":"Rukuhia School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -72145,7 +72145,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3495",
+    "id":"3495",
     "FIELD2":"Runanga School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -72192,7 +72192,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4011",
+    "id":"4011",
     "FIELD2":"Ruru Special School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -72239,7 +72239,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1096",
+    "id":"1096",
     "FIELD2":"Russell School (Bay Of Islands)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -72286,7 +72286,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2983",
+    "id":"2983",
     "FIELD2":"Russell School (Porirua East)",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -72333,7 +72333,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2441",
+    "id":"2441",
     "FIELD2":"Russell Street School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -72380,7 +72380,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3496",
+    "id":"3496",
     "FIELD2":"Russley School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -72427,7 +72427,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"40",
+    "id":"40",
     "FIELD2":"Rutherford College",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -72474,7 +72474,7 @@ var schoolz = [
     "FIELD45":"41"
   },
   {
-    "FIELD1":"2442",
+    "id":"2442",
     "FIELD2":"Rutherford Junior High School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -72521,7 +72521,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1478",
+    "id":"1478",
     "FIELD2":"Rutherford School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -72568,7 +72568,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"2985",
+    "id":"2985",
     "FIELD2":"Sacred Heart Cathedral School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -72615,7 +72615,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"59",
+    "id":"59",
     "FIELD2":"Sacred Heart College (Auckland)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -72662,7 +72662,7 @@ var schoolz = [
     "FIELD45":"74"
   },
   {
-    "FIELD1":"262",
+    "id":"262",
     "FIELD2":"Sacred Heart College (Lower Hutt)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -72709,7 +72709,7 @@ var schoolz = [
     "FIELD45":"11"
   },
   {
-    "FIELD1":"219",
+    "id":"219",
     "FIELD2":"Sacred Heart College (Napier)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -72756,7 +72756,7 @@ var schoolz = [
     "FIELD45":"4"
   },
   {
-    "FIELD1":"139",
+    "id":"139",
     "FIELD2":"Sacred Heart Girls' College (Ham)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -72803,7 +72803,7 @@ var schoolz = [
     "FIELD45":"30"
   },
   {
-    "FIELD1":"174",
+    "id":"174",
     "FIELD2":"Sacred Heart Girls' College (N Plymouth)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -72850,7 +72850,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3270",
+    "id":"3270",
     "FIELD2":"Sacred Heart School (Christchurch)",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -72897,7 +72897,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3815",
+    "id":"3815",
     "FIELD2":"Sacred Heart School (Dunedin)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -72944,7 +72944,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2984",
+    "id":"2984",
     "FIELD2":"Sacred Heart School (Petone)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -72991,7 +72991,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3219",
+    "id":"3219",
     "FIELD2":"Sacred Heart School (Reefton)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -73038,7 +73038,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3498",
+    "id":"3498",
     "FIELD2":"Sacred Heart School (Timaru)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -73085,7 +73085,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4013",
+    "id":"4013",
     "FIELD2":"Sacred Heart School (Waikiwi)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -73132,7 +73132,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4014",
+    "id":"4014",
     "FIELD2":"Salford School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -73179,7 +73179,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"525",
+    "id":"525",
     "FIELD2":"Salisbury School (Nelson)",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -73226,7 +73226,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2986",
+    "id":"2986",
     "FIELD2":"San Antonio School (Eastbourne)",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -73273,7 +73273,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"618",
+    "id":"618",
     "FIELD2":"Sancta Maria Catholic Primary School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -73320,7 +73320,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"491",
+    "id":"491",
     "FIELD2":"Sancta Maria College",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -73367,7 +73367,7 @@ var schoolz = [
     "FIELD45":"32"
   },
   {
-    "FIELD1":"1479",
+    "id":"1479",
     "FIELD2":"Sandspit Road School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -73414,7 +73414,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2443",
+    "id":"2443",
     "FIELD2":"Sanson School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -73461,7 +73461,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3816",
+    "id":"3816",
     "FIELD2":"Sara Cohen School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -73508,7 +73508,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3817",
+    "id":"3817",
     "FIELD2":"Sawyers Bay School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -73555,7 +73555,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2987",
+    "id":"2987",
     "FIELD2":"Seatoun School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -73602,7 +73602,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2988",
+    "id":"2988",
     "FIELD2":"Seddon School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -73649,7 +73649,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3501",
+    "id":"3501",
     "FIELD2":"Sefton School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -73696,7 +73696,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"49",
+    "id":"49",
     "FIELD2":"Selwyn College",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -73743,7 +73743,7 @@ var schoolz = [
     "FIELD45":"39"
   },
   {
-    "FIELD1":"1097",
+    "id":"1097",
     "FIELD2":"Selwyn Park School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -73790,7 +73790,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"6945",
+    "id":"6945",
     "FIELD2":"Selwyn Ridge School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -73837,7 +73837,7 @@ var schoolz = [
     "FIELD45":"8"
   },
   {
-    "FIELD1":"1939",
+    "id":"1939",
     "FIELD2":"Selwyn School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -73884,7 +73884,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2989",
+    "id":"2989",
     "FIELD2":"Shannon School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -73931,7 +73931,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3502",
+    "id":"3502",
     "FIELD2":"Sheffield Contributing School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -73978,7 +73978,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1480",
+    "id":"1480",
     "FIELD2":"Shelly Park School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -74025,7 +74025,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2672",
+    "id":"2672",
     "FIELD2":"Sherenden and Districts School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -74072,7 +74072,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1481",
+    "id":"1481",
     "FIELD2":"Sherwood School (Auckland)",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -74119,7 +74119,7 @@ var schoolz = [
     "FIELD45":"6"
   },
   {
-    "FIELD1":"2673",
+    "id":"2673",
     "FIELD2":"Sherwood School (Hawkes Bay)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -74166,7 +74166,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"321",
+    "id":"321",
     "FIELD2":"Shirley Boys' High School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -74213,7 +74213,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"3503",
+    "id":"3503",
     "FIELD2":"Shirley Intermediate",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -74260,7 +74260,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3504",
+    "id":"3504",
     "FIELD2":"Shirley School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -74307,7 +74307,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1940",
+    "id":"1940",
     "FIELD2":"Silverdale Normal School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -74354,7 +74354,7 @@ var schoolz = [
     "FIELD45":"4"
   },
   {
-    "FIELD1":"1482",
+    "id":"1482",
     "FIELD2":"Silverdale School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -74401,7 +74401,7 @@ var schoolz = [
     "FIELD45":"5"
   },
   {
-    "FIELD1":"1657",
+    "id":"1657",
     "FIELD2":"Silverstream (South) Primary School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -74448,7 +74448,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2990",
+    "id":"2990",
     "FIELD2":"Silverstream School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -74495,7 +74495,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1215",
+    "id":"1215",
     "FIELD2":"Sir Douglas Bader Intermediate School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -74542,7 +74542,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1251",
+    "id":"1251",
     "FIELD2":"Sir Edmund Hillary Collegiate Junior School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -74589,7 +74589,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1217",
+    "id":"1217",
     "FIELD2":"Sir Edmund Hillary Collegiate Middle School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -74636,7 +74636,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"97",
+    "id":"97",
     "FIELD2":"Sir Edmund Hillary Collegiate Senior School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -74683,7 +74683,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1483",
+    "id":"1483",
     "FIELD2":"Sir Keith Park School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -74730,7 +74730,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"6759",
+    "id":"6759",
     "FIELD2":"Snells Beach Primary School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -74777,7 +74777,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3505",
+    "id":"3505",
     "FIELD2":"Sockburn School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -74824,7 +74824,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"242",
+    "id":"242",
     "FIELD2":"Solway College",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -74871,7 +74871,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"2991",
+    "id":"2991",
     "FIELD2":"Solway School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -74918,7 +74918,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3506",
+    "id":"3506",
     "FIELD2":"Somerfield School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -74965,7 +74965,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2363",
+    "id":"2363",
     "FIELD2":"Somerset Crescent School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -75012,7 +75012,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"6760",
+    "id":"6760",
     "FIELD2":"Somerville Intermediate School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -75059,7 +75059,7 @@ var schoolz = [
     "FIELD45":"9"
   },
   {
-    "FIELD1":"1484",
+    "id":"1484",
     "FIELD2":"Sommerville School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -75106,7 +75106,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1149",
+    "id":"1149",
     "FIELD2":"Sonrise Christian School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -75153,7 +75153,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4140",
+    "id":"4140",
     "FIELD2":"South Auckland S D A School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -75200,7 +75200,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4125",
+    "id":"4125",
     "FIELD2":"South City Christian School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -75247,7 +75247,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2992",
+    "id":"2992",
     "FIELD2":"South End School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -75294,7 +75294,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2993",
+    "id":"2993",
     "FIELD2":"South Featherston School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -75341,7 +75341,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3507",
+    "id":"3507",
     "FIELD2":"South Hornby School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -75388,7 +75388,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2446",
+    "id":"2446",
     "FIELD2":"South Makirikiri School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -75435,7 +75435,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3508",
+    "id":"3508",
     "FIELD2":"South New Brighton School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -75482,7 +75482,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"393",
+    "id":"393",
     "FIELD2":"South Otago High School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -75529,7 +75529,7 @@ var schoolz = [
     "FIELD45":"5"
   },
   {
-    "FIELD1":"2994",
+    "id":"2994",
     "FIELD2":"South Wellington Intermediate",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -75576,7 +75576,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"306",
+    "id":"306",
     "FIELD2":"South Westland Area School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -75623,7 +75623,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3509",
+    "id":"3509",
     "FIELD2":"Southbridge School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -75670,7 +75670,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3510",
+    "id":"3510",
     "FIELD2":"Southbrook School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -75717,7 +75717,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"452",
+    "id":"452",
     "FIELD2":"Southern Cross Campus",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -75764,7 +75764,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4112",
+    "id":"4112",
     "FIELD2":"Southland Adventist Christian School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -75811,7 +75811,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"404",
+    "id":"404",
     "FIELD2":"Southland Boys' High School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -75858,7 +75858,7 @@ var schoolz = [
     "FIELD45":"10"
   },
   {
-    "FIELD1":"405",
+    "id":"405",
     "FIELD2":"Southland Girls' High School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -75905,7 +75905,7 @@ var schoolz = [
     "FIELD45":"24"
   },
   {
-    "FIELD1":"173",
+    "id":"173",
     "FIELD2":"Spotswood College",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -75952,7 +75952,7 @@ var schoolz = [
     "FIELD45":"11"
   },
   {
-    "FIELD1":"2232",
+    "id":"2232",
     "FIELD2":"Spotswood Primary School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -75999,7 +75999,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"3512",
+    "id":"3512",
     "FIELD2":"Spreydon School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -76046,7 +76046,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2995",
+    "id":"2995",
     "FIELD2":"Spring Creek School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -76093,7 +76093,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1941",
+    "id":"1941",
     "FIELD2":"Springdale School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -76140,7 +76140,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3515",
+    "id":"3515",
     "FIELD2":"Springfield School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -76187,7 +76187,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2996",
+    "id":"2996",
     "FIELD2":"Springlands School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -76234,7 +76234,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3516",
+    "id":"3516",
     "FIELD2":"Springston School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -76281,7 +76281,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3517",
+    "id":"3517",
     "FIELD2":"St Albans Catholic School (Christchurch)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -76328,7 +76328,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3518",
+    "id":"3518",
     "FIELD2":"St Albans School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -76375,7 +76375,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3519",
+    "id":"3519",
     "FIELD2":"St Andrew's School (Timaru)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -76422,7 +76422,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1486",
+    "id":"1486",
     "FIELD2":"St Anne's Catholic School (Manurewa)",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -76469,7 +76469,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2997",
+    "id":"2997",
     "FIELD2":"St Annes School (Newtown)",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -76516,7 +76516,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2447",
+    "id":"2447",
     "FIELD2":"St Anne's School (Wanganui)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -76563,7 +76563,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3520",
+    "id":"3520",
     "FIELD2":"St Anne's School (Woolston)",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -76610,7 +76610,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1943",
+    "id":"1943",
     "FIELD2":"St Anthony's Catholic School (Huntly)",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -76657,7 +76657,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2998",
+    "id":"2998",
     "FIELD2":"St Anthony's School (Pahiatua)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -76704,7 +76704,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2999",
+    "id":"2999",
     "FIELD2":"St Anthony's School (Seatoun)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -76751,7 +76751,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"315",
+    "id":"315",
     "FIELD2":"St Bedes College",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -76798,7 +76798,7 @@ var schoolz = [
     "FIELD45":"24"
   },
   {
-    "FIELD1":"3000",
+    "id":"3000",
     "FIELD2":"St Benedict's School (Khandallah)",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -76845,7 +76845,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3819",
+    "id":"3819",
     "FIELD2":"St Bernadette's School (Forbury)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -76892,7 +76892,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3521",
+    "id":"3521",
     "FIELD2":"St Bernadette's School (Hornby)",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -76939,7 +76939,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3001",
+    "id":"3001",
     "FIELD2":"St Bernadette's School (Naenae)",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -76986,7 +76986,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"260",
+    "id":"260",
     "FIELD2":"St Bernard's College",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -77033,7 +77033,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3002",
+    "id":"3002",
     "FIELD2":"St Bernard's School (Brooklyn)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -77080,7 +77080,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3004",
+    "id":"3004",
     "FIELD2":"St Brendan's School (Heretaunga)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -77127,7 +77127,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3005",
+    "id":"3005",
     "FIELD2":"St Brigids School (Johnsonville)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -77174,7 +77174,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3820",
+    "id":"3820",
     "FIELD2":"St Brigids School (Tainui)",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -77221,7 +77221,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3220",
+    "id":"3220",
     "FIELD2":"St Canice's School (Westport)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -77268,7 +77268,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"284",
+    "id":"284",
     "FIELD2":"St Catherines College (Kilbirnie)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -77315,7 +77315,7 @@ var schoolz = [
     "FIELD45":"6"
   },
   {
-    "FIELD1":"3835",
+    "id":"3835",
     "FIELD2":"St Clair School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -77362,7 +77362,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3018",
+    "id":"3018",
     "FIELD2":"St Claudine Thevenet School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -77409,7 +77409,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1944",
+    "id":"1944",
     "FIELD2":"St Columba's Catholic School (Frankton)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -77456,7 +77456,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"47",
+    "id":"47",
     "FIELD2":"St Dominic's Catholic College (Henderson)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -77503,7 +77503,7 @@ var schoolz = [
     "FIELD45":"41"
   },
   {
-    "FIELD1":"1487",
+    "id":"1487",
     "FIELD2":"St Dominic's Catholic School (Blockhouse Bay)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -77550,7 +77550,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1488",
+    "id":"1488",
     "FIELD2":"St Francis Catholic School (Pt Chevalier)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -77597,7 +77597,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3006",
+    "id":"3006",
     "FIELD2":"St Francis De Sales School (Is.Bay)",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -77644,7 +77644,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1945",
+    "id":"1945",
     "FIELD2":"St Francis School (Thames)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -77691,7 +77691,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1588",
+    "id":"1588",
     "FIELD2":"St Francis Xavier Catholic School (Whangarei)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -77738,7 +77738,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3822",
+    "id":"3822",
     "FIELD2":"St Francis Xavier School (Mornington)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -77785,7 +77785,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3007",
+    "id":"3007",
     "FIELD2":"St Francis Xavier School (Tawa)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -77832,7 +77832,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3823",
+    "id":"3823",
     "FIELD2":"St Gerard's School (Alexandra)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -77879,7 +77879,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1489",
+    "id":"1489",
     "FIELD2":"St Heliers School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -77926,7 +77926,7 @@ var schoolz = [
     "FIELD45":"12"
   },
   {
-    "FIELD1":"380",
+    "id":"380",
     "FIELD2":"St Hildas Collegiate",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -77973,7 +77973,7 @@ var schoolz = [
     "FIELD45":"24"
   },
   {
-    "FIELD1":"1490",
+    "id":"1490",
     "FIELD2":"St Ignatius Catholic School (St Heliers)",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -78020,7 +78020,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3523",
+    "id":"3523",
     "FIELD2":"St James School (Aranui)",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -78067,7 +78067,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2449",
+    "id":"2449",
     "FIELD2":"St James School (P North)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -78114,7 +78114,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2233",
+    "id":"2233",
     "FIELD2":"St John Bosco School (New Plymouth)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -78161,7 +78161,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1491",
+    "id":"1491",
     "FIELD2":"St John the Evangelist Catholic School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -78208,7 +78208,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"226",
+    "id":"226",
     "FIELD2":"St John's College (Hastings)",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -78255,7 +78255,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"136",
+    "id":"136",
     "FIELD2":"St John's College (Hillcrest)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -78302,7 +78302,7 @@ var schoolz = [
     "FIELD45":"23"
   },
   {
-    "FIELD1":"4131",
+    "id":"4131",
     "FIELD2":"St John's Girls' School (Invercargill)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -78349,7 +78349,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2450",
+    "id":"2450",
     "FIELD2":"St John's Hill School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -78396,7 +78396,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1492",
+    "id":"1492",
     "FIELD2":"St John's School (Mairangi Bay)",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -78443,7 +78443,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3824",
+    "id":"3824",
     "FIELD2":"St John's School (Ranfurly)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -78490,7 +78490,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3827",
+    "id":"3827",
     "FIELD2":"St Joseph's Cathedral School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -78537,7 +78537,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1949",
+    "id":"1949",
     "FIELD2":"St Joseph's Catholic Sch (Morrinsville)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -78584,7 +78584,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1098",
+    "id":"1098",
     "FIELD2":"St Joseph's Catholic School (Dargaville)",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -78631,7 +78631,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1946",
+    "id":"1946",
     "FIELD2":"St Joseph's Catholic School (Fairfield)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -78678,7 +78678,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"1947",
+    "id":"1947",
     "FIELD2":"St Joseph's Catholic School (Matamata)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -78725,7 +78725,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1948",
+    "id":"1948",
     "FIELD2":"St Joseph's Catholic School (Matata)",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -78772,7 +78772,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1950",
+    "id":"1950",
     "FIELD2":"St Joseph's Catholic School (Opotiki)",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -78819,7 +78819,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1951",
+    "id":"1951",
     "FIELD2":"St Joseph's Catholic School (Paeroa)",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -78866,7 +78866,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1498",
+    "id":"1498",
     "FIELD2":"St Joseph's Catholic School (Takapuna)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -78913,7 +78913,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1952",
+    "id":"1952",
     "FIELD2":"St Joseph's Catholic School (Te Aroha)",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -78960,7 +78960,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1953",
+    "id":"1953",
     "FIELD2":"St Joseph's Catholic School (Te Kuiti)",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -79007,7 +79007,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1954",
+    "id":"1954",
     "FIELD2":"St Joseph's Catholic School (Waihi)",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -79054,7 +79054,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1955",
+    "id":"1955",
     "FIELD2":"St Joseph's Catholic School (Whakatane)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -79101,7 +79101,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"222",
+    "id":"222",
     "FIELD2":"St Joseph's Maori Girls' College",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -79148,7 +79148,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3527",
+    "id":"3527",
     "FIELD2":"St Joseph's School (Ashburton)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -79195,7 +79195,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3826",
+    "id":"3826",
     "FIELD2":"St Joseph's School (Balclutha)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -79242,7 +79242,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2676",
+    "id":"2676",
     "FIELD2":"St Joseph's School (Dannevirke)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -79289,7 +79289,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3529",
+    "id":"3529",
     "FIELD2":"St Joseph's School (Fairlie)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -79336,7 +79336,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2451",
+    "id":"2451",
     "FIELD2":"St Joseph's School (Feilding)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -79383,7 +79383,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1493",
+    "id":"1493",
     "FIELD2":"St Joseph's School (Grey Lynn)",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -79430,7 +79430,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2677",
+    "id":"2677",
     "FIELD2":"St Joseph's School (Hastings)",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -79477,7 +79477,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2235",
+    "id":"2235",
     "FIELD2":"St Joseph's School (Hawera)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -79524,7 +79524,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4017",
+    "id":"4017",
     "FIELD2":"St Joseph's School (Invercargill)",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -79571,7 +79571,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3530",
+    "id":"3530",
     "FIELD2":"St Joseph's School (Kaikoura)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -79618,7 +79618,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3008",
+    "id":"3008",
     "FIELD2":"St Joseph's School (Levin)",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -79665,7 +79665,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3221",
+    "id":"3221",
     "FIELD2":"St Joseph's School (Nelson)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -79712,7 +79712,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2236",
+    "id":"2236",
     "FIELD2":"St Joseph's School (New Plymouth)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -79759,7 +79759,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3825",
+    "id":"3825",
     "FIELD2":"St Joseph's School (Oamaru)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -79806,7 +79806,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1494",
+    "id":"1494",
     "FIELD2":"St Joseph's School (Onehunga)",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -79853,7 +79853,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2237",
+    "id":"2237",
     "FIELD2":"St Joseph's School (Opunake)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -79900,7 +79900,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1495",
+    "id":"1495",
     "FIELD2":"St Joseph's School (Orakei)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -79947,7 +79947,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1496",
+    "id":"1496",
     "FIELD2":"St Joseph's School (Otahuhu)",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -79994,7 +79994,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3531",
+    "id":"3531",
     "FIELD2":"St Joseph's School (Papanui)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -80041,7 +80041,7 @@ var schoolz = [
     "FIELD45":"4"
   },
   {
-    "FIELD1":"2452",
+    "id":"2452",
     "FIELD2":"St Joseph's School (Patea)",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -80088,7 +80088,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3009",
+    "id":"3009",
     "FIELD2":"St Joseph's School (Picton)",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -80135,7 +80135,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3528",
+    "id":"3528",
     "FIELD2":"St Joseph's School (Pleasant Point)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -80182,7 +80182,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3828",
+    "id":"3828",
     "FIELD2":"St Joseph's School (Port Chalmers)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -80229,7 +80229,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1497",
+    "id":"1497",
     "FIELD2":"St Joseph's School (Pukekohe)",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -80276,7 +80276,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4016",
+    "id":"4016",
     "FIELD2":"St Joseph's School (Queenstown)",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -80323,7 +80323,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4132",
+    "id":"4132",
     "FIELD2":"St Joseph's School (Rangiora)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -80370,7 +80370,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2238",
+    "id":"2238",
     "FIELD2":"St Joseph's School (Stratford)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -80417,7 +80417,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2453",
+    "id":"2453",
     "FIELD2":"St Joseph's School (Taihape)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -80464,7 +80464,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3532",
+    "id":"3532",
     "FIELD2":"St Joseph's School (Temuka)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -80511,7 +80511,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3533",
+    "id":"3533",
     "FIELD2":"St Joseph's School (Timaru)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -80558,7 +80558,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3011",
+    "id":"3011",
     "FIELD2":"St Joseph's School (Upper Hutt)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -80605,7 +80605,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2678",
+    "id":"2678",
     "FIELD2":"St Joseph's School (Waipukurau)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -80652,7 +80652,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2679",
+    "id":"2679",
     "FIELD2":"St Joseph's School (Wairoa)",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -80699,7 +80699,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2239",
+    "id":"2239",
     "FIELD2":"St Joseph's School (Waitara)",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -80746,7 +80746,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"369",
+    "id":"369",
     "FIELD2":"St Kevins College (Oamaru)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -80793,7 +80793,7 @@ var schoolz = [
     "FIELD45":"7"
   },
   {
-    "FIELD1":"1499",
+    "id":"1499",
     "FIELD2":"St Leonards Road School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -80840,7 +80840,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3829",
+    "id":"3829",
     "FIELD2":"St Leonard's School (Dunedin)",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -80887,7 +80887,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1500",
+    "id":"1500",
     "FIELD2":"St Leo's Catholic School (Devonport)",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -80934,7 +80934,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2395",
+    "id":"2395",
     "FIELD2":"St Marcellin School (Wanganui)",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -80981,7 +80981,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4135",
+    "id":"4135",
     "FIELD2":"St Mark's School (Christchurch)",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -81028,7 +81028,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1501",
+    "id":"1501",
     "FIELD2":"St Mark's School (Pakuranga)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -81075,7 +81075,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3534",
+    "id":"3534",
     "FIELD2":"St Martin's School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -81122,7 +81122,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1633",
+    "id":"1633",
     "FIELD2":"St Mary MacKillop Catholic School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -81169,7 +81169,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2680",
+    "id":"2680",
     "FIELD2":"St Mary's Catholic School (Gisborne)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -81216,7 +81216,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1880",
+    "id":"1880",
     "FIELD2":"St Mary's Catholic School (Otorohanga)",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -81263,7 +81263,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1502",
+    "id":"1502",
     "FIELD2":"St Mary's Catholic School (Papakura)",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -81310,7 +81310,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"1957",
+    "id":"1957",
     "FIELD2":"St Mary's Catholic School (Putaruru)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -81357,7 +81357,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1958",
+    "id":"1958",
     "FIELD2":"St Mary's Catholic School (Rotorua)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -81404,7 +81404,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1959",
+    "id":"1959",
     "FIELD2":"St Mary's Catholic School (Tauranga)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -81451,7 +81451,7 @@ var schoolz = [
     "FIELD45":"11"
   },
   {
-    "FIELD1":"50",
+    "id":"50",
     "FIELD2":"St Mary's College (Ponsonby)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -81498,7 +81498,7 @@ var schoolz = [
     "FIELD45":"33"
   },
   {
-    "FIELD1":"286",
+    "id":"286",
     "FIELD2":"St Mary's College (Wellington)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -81545,7 +81545,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"180",
+    "id":"180",
     "FIELD2":"St Mary's Diocesan School (Stratford)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -81592,7 +81592,7 @@ var schoolz = [
     "FIELD45":"4"
   },
   {
-    "FIELD1":"1503",
+    "id":"1503",
     "FIELD2":"St Mary's School (Avondale)",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -81639,7 +81639,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3012",
+    "id":"3012",
     "FIELD2":"St Mary's School (Blenheim)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -81686,7 +81686,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3013",
+    "id":"3013",
     "FIELD2":"St Mary's School (Carterton)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -81733,7 +81733,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3535",
+    "id":"3535",
     "FIELD2":"St Mary's School (Christchurch)",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -81780,7 +81780,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3830",
+    "id":"3830",
     "FIELD2":"St Mary's School (Dunedin)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -81827,7 +81827,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1504",
+    "id":"1504",
     "FIELD2":"St Mary's School (Ellerslie)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -81874,7 +81874,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2455",
+    "id":"2455",
     "FIELD2":"St Mary's School (Foxton)",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -81921,7 +81921,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4018",
+    "id":"4018",
     "FIELD2":"St Mary's School (Gore)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -81968,7 +81968,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2681",
+    "id":"2681",
     "FIELD2":"St Mary's School (Hastings)",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -82015,7 +82015,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3536",
+    "id":"3536",
     "FIELD2":"St Mary's School (Hokitika)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -82062,7 +82062,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3831",
+    "id":"3831",
     "FIELD2":"St Mary's School (Milton)",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -82109,7 +82109,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3832",
+    "id":"3832",
     "FIELD2":"St Mary's School (Mosgiel)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -82156,7 +82156,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1505",
+    "id":"1505",
     "FIELD2":"St Mary's School (Northcote)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -82203,7 +82203,7 @@ var schoolz = [
     "FIELD45":"5"
   },
   {
-    "FIELD1":"2457",
+    "id":"2457",
     "FIELD2":"St Mary's School (P North)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -82250,7 +82250,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2454",
+    "id":"2454",
     "FIELD2":"St Mary's School (Wanganui)",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -82297,7 +82297,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"246",
+    "id":"246",
     "FIELD2":"St Matthew's Collegiate (Masterton)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -82344,7 +82344,7 @@ var schoolz = [
     "FIELD45":"8"
   },
   {
-    "FIELD1":"1608",
+    "id":"1608",
     "FIELD2":"St Matthew's Primary School (Hastings)",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -82391,7 +82391,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2456",
+    "id":"2456",
     "FIELD2":"St Matthew's School (Marton)",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -82438,7 +82438,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1506",
+    "id":"1506",
     "FIELD2":"St Michael's Catholic School (Remuera)",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -82485,7 +82485,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1960",
+    "id":"1960",
     "FIELD2":"St Michael's Catholic School (Rotorua)",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -82532,7 +82532,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3015",
+    "id":"3015",
     "FIELD2":"St Michael's School (Taita)",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -82579,7 +82579,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"265",
+    "id":"265",
     "FIELD2":"St Oran's College",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -82626,7 +82626,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"1961",
+    "id":"1961",
     "FIELD2":"St Patrick's Catholic Sch (Taumarunui)",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -82673,7 +82673,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1962",
+    "id":"1962",
     "FIELD2":"St Patrick's Catholic Sch (Te Awamutu)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -82720,7 +82720,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1750",
+    "id":"1750",
     "FIELD2":"St Patrick's Catholic School (Taupo)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -82767,7 +82767,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"276",
+    "id":"276",
     "FIELD2":"St Patrick's College (Kilbirnie)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -82814,7 +82814,7 @@ var schoolz = [
     "FIELD45":"13"
   },
   {
-    "FIELD1":"252",
+    "id":"252",
     "FIELD2":"St Patrick's College (Silverstream)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -82861,7 +82861,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3537",
+    "id":"3537",
     "FIELD2":"St Patrick's School (Bryndwr)",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -82908,7 +82908,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"3538",
+    "id":"3538",
     "FIELD2":"St Patrick's School (Greymouth)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -82955,7 +82955,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2241",
+    "id":"2241",
     "FIELD2":"St Patrick's School (Inglewood)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -83002,7 +83002,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4020",
+    "id":"4020",
     "FIELD2":"St Patrick's School (Invercargill)",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -83049,7 +83049,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3540",
+    "id":"3540",
     "FIELD2":"St Patrick's School (Kaiapoi)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -83096,7 +83096,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"2240",
+    "id":"2240",
     "FIELD2":"St Patrick's School (Kaponga)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -83143,7 +83143,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3019",
+    "id":"3019",
     "FIELD2":"St Patrick's School (Kilbirnie)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -83190,7 +83190,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"3016",
+    "id":"3016",
     "FIELD2":"St Patrick's School (Masterton)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -83237,7 +83237,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2745",
+    "id":"2745",
     "FIELD2":"St Patrick's School (Napier)",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -83284,7 +83284,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4019",
+    "id":"4019",
     "FIELD2":"St Patrick's School (Nightcaps)",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -83331,7 +83331,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1507",
+    "id":"1507",
     "FIELD2":"St Patrick's School (Panmure)",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -83378,7 +83378,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3017",
+    "id":"3017",
     "FIELD2":"St Patrick's School (Paraparaumu)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -83425,7 +83425,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3539",
+    "id":"3539",
     "FIELD2":"St Patrick's School (Waimate)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -83472,7 +83472,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1963",
+    "id":"1963",
     "FIELD2":"St Paul's Catholic School (Ngaruawahia)",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -83519,7 +83519,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"51",
+    "id":"51",
     "FIELD2":"St Paul's College (Ponsonby)",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -83566,7 +83566,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3541",
+    "id":"3541",
     "FIELD2":"St Paul's School (Dallington)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -83613,7 +83613,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1643",
+    "id":"1643",
     "FIELD2":"St Paul's School (Massey)",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -83660,7 +83660,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1627",
+    "id":"1627",
     "FIELD2":"St Paul's School (Richmond)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -83707,7 +83707,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1964",
+    "id":"1964",
     "FIELD2":"St Peter Chanel Catholic Sch (Te Rapa)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -83754,7 +83754,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3834",
+    "id":"3834",
     "FIELD2":"St Peter Chanel School (Green Island)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -83801,7 +83801,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3222",
+    "id":"3222",
     "FIELD2":"St Peter Chanel School (Motueka)",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -83848,7 +83848,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3020",
+    "id":"3020",
     "FIELD2":"St Peter Chanel School (Otaki)",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -83895,7 +83895,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1965",
+    "id":"1965",
     "FIELD2":"St Peter's Catholic School (Cambridge)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -83942,7 +83942,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"62",
+    "id":"62",
     "FIELD2":"St Peter's College (Epsom)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -83989,7 +83989,7 @@ var schoolz = [
     "FIELD45":"45"
   },
   {
-    "FIELD1":"397",
+    "id":"397",
     "FIELD2":"St Peter's College (Gore)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -84036,7 +84036,7 @@ var schoolz = [
     "FIELD45":"21"
   },
   {
-    "FIELD1":"204",
+    "id":"204",
     "FIELD2":"St Peter's College (Palmerston North)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -84083,7 +84083,7 @@ var schoolz = [
     "FIELD45":"12"
   },
   {
-    "FIELD1":"3542",
+    "id":"3542",
     "FIELD2":"St Peter's School (Beckenham)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -84130,7 +84130,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1508",
+    "id":"1508",
     "FIELD2":"St Pius X Catholic School (Glen Innes)",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -84177,7 +84177,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1966",
+    "id":"1966",
     "FIELD2":"St Pius X Catholic School (Melville)",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -84224,7 +84224,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"2242",
+    "id":"2242",
     "FIELD2":"St Pius X School (New Plymouth)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -84271,7 +84271,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3022",
+    "id":"3022",
     "FIELD2":"St Pius X School (Titahi Bay)",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -84318,7 +84318,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4021",
+    "id":"4021",
     "FIELD2":"St Teresa's School (Bluff)",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -84365,7 +84365,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3023",
+    "id":"3023",
     "FIELD2":"St Teresa's School (Featherston)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -84412,7 +84412,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3024",
+    "id":"3024",
     "FIELD2":"St Teresa's School (Karori)",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -84459,7 +84459,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3543",
+    "id":"3543",
     "FIELD2":"St Teresa's School (Riccarton)",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -84506,7 +84506,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4022",
+    "id":"4022",
     "FIELD2":"St Theresa's School (Invercargill)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -84553,7 +84553,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3025",
+    "id":"3025",
     "FIELD2":"St Theresa's School (Plimmerton)",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -84600,7 +84600,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1509",
+    "id":"1509",
     "FIELD2":"St Therese School (Three Kings)",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -84647,7 +84647,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1636",
+    "id":"1636",
     "FIELD2":"St Thomas More Catholic School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -84694,7 +84694,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"331",
+    "id":"331",
     "FIELD2":"St Thomas of Canterbury College",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -84741,7 +84741,7 @@ var schoolz = [
     "FIELD45":"25"
   },
   {
-    "FIELD1":"1510",
+    "id":"1510",
     "FIELD2":"St Thomas School (Auckland)",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -84788,7 +84788,7 @@ var schoolz = [
     "FIELD45":"12"
   },
   {
-    "FIELD1":"4023",
+    "id":"4023",
     "FIELD2":"St Thomas School (Winton)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -84835,7 +84835,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1511",
+    "id":"1511",
     "FIELD2":"Stanhope Road School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -84882,7 +84882,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1967",
+    "id":"1967",
     "FIELD2":"Stanley Avenue School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -84929,7 +84929,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1512",
+    "id":"1512",
     "FIELD2":"Stanley Bay School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -84976,7 +84976,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1513",
+    "id":"1513",
     "FIELD2":"Stanmore Bay School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -85023,7 +85023,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1514",
+    "id":"1514",
     "FIELD2":"Star of the Sea School (Howick)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -85070,7 +85070,7 @@ var schoolz = [
     "FIELD45":"9"
   },
   {
-    "FIELD1":"1663",
+    "id":"1663",
     "FIELD2":"Stella Maris Primary School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -85117,7 +85117,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3836",
+    "id":"3836",
     "FIELD2":"Stirling School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -85164,7 +85164,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3223",
+    "id":"3223",
     "FIELD2":"Stoke School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -85211,7 +85211,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"565",
+    "id":"565",
     "FIELD2":"Stonefields School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -85258,7 +85258,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"179",
+    "id":"179",
     "FIELD2":"Stratford High School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -85305,7 +85305,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2244",
+    "id":"2244",
     "FIELD2":"Stratford School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -85352,7 +85352,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3837",
+    "id":"3837",
     "FIELD2":"Strath Taieri School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -85399,7 +85399,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1968",
+    "id":"1968",
     "FIELD2":"Strathmore School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -85446,7 +85446,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3021",
+    "id":"3021",
     "FIELD2":"Sts Peter and Paul School (L.Hutt)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -85493,7 +85493,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"6937",
+    "id":"6937",
     "FIELD2":"Summerland Primary",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -85540,7 +85540,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"3546",
+    "id":"3546",
     "FIELD2":"Sumner School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -85587,7 +85587,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1516",
+    "id":"1516",
     "FIELD2":"Sunnybrae Normal School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -85634,7 +85634,7 @@ var schoolz = [
     "FIELD45":"5"
   },
   {
-    "FIELD1":"1517",
+    "id":"1517",
     "FIELD2":"Sunnydene Special School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -85681,7 +85681,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1515",
+    "id":"1515",
     "FIELD2":"Sunnyhills School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -85728,7 +85728,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"1518",
+    "id":"1518",
     "FIELD2":"Sunnynook School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -85775,7 +85775,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1519",
+    "id":"1519",
     "FIELD2":"Sunnyvale School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -85822,7 +85822,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1970",
+    "id":"1970",
     "FIELD2":"Sunset Primary School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -85869,7 +85869,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1520",
+    "id":"1520",
     "FIELD2":"Sutton Park School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -85916,7 +85916,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3547",
+    "id":"3547",
     "FIELD2":"Swannanoa School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -85963,7 +85963,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1521",
+    "id":"1521",
     "FIELD2":"Swanson School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -86010,7 +86010,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1522",
+    "id":"1522",
     "FIELD2":"Sylvia Park School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -86057,7 +86057,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3838",
+    "id":"3838",
     "FIELD2":"Tahakopa School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -86104,7 +86104,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"6742",
+    "id":"6742",
     "FIELD2":"Tahatai Coast School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -86151,7 +86151,7 @@ var schoolz = [
     "FIELD45":"15"
   },
   {
-    "FIELD1":"3839",
+    "id":"3839",
     "FIELD2":"Tahuna Normal Intermediate",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -86198,7 +86198,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1972",
+    "id":"1972",
     "FIELD2":"Tahuna School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -86245,7 +86245,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3224",
+    "id":"3224",
     "FIELD2":"Tahunanui School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -86292,7 +86292,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3549",
+    "id":"3549",
     "FIELD2":"Tai Tapu School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -86339,7 +86339,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"632",
+    "id":"632",
     "FIELD2":"Tai Wananga",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -86386,7 +86386,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3840",
+    "id":"3840",
     "FIELD2":"Taieri Beach School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -86433,7 +86433,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"495",
+    "id":"495",
     "FIELD2":"Taieri College",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -86480,7 +86480,7 @@ var schoolz = [
     "FIELD45":"22"
   },
   {
-    "FIELD1":"549",
+    "id":"549",
     "FIELD2":"Taihape Area School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -86527,7 +86527,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"231",
+    "id":"231",
     "FIELD2":"Taikura Rudolf Steiner School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -86574,7 +86574,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"1974",
+    "id":"1974",
     "FIELD2":"Tainui Full Primary School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -86621,7 +86621,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3841",
+    "id":"3841",
     "FIELD2":"Tainui School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -86668,7 +86668,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2",
+    "id":"2",
     "FIELD2":"Taipa Area School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -86715,7 +86715,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3029",
+    "id":"3029",
     "FIELD2":"Tairangi School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -86762,7 +86762,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1975",
+    "id":"1975",
     "FIELD2":"Tairua School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -86809,7 +86809,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3030",
+    "id":"3030",
     "FIELD2":"Taita Central School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -86856,7 +86856,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"258",
+    "id":"258",
     "FIELD2":"Taita College",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -86903,7 +86903,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3032",
+    "id":"3032",
     "FIELD2":"Taitoko School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -86950,7 +86950,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3226",
+    "id":"3226",
     "FIELD2":"Takaka Primary School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -86997,7 +86997,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1523",
+    "id":"1523",
     "FIELD2":"Takanini School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -87044,7 +87044,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2684",
+    "id":"2684",
     "FIELD2":"Takapau School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -87091,7 +87091,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"36",
+    "id":"36",
     "FIELD2":"Takapuna Grammar School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -87138,7 +87138,7 @@ var schoolz = [
     "FIELD45":"237"
   },
   {
-    "FIELD1":"1524",
+    "id":"1524",
     "FIELD2":"Takapuna Normal Intermediate",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -87185,7 +87185,7 @@ var schoolz = [
     "FIELD45":"21"
   },
   {
-    "FIELD1":"1525",
+    "id":"1525",
     "FIELD2":"Takapuna School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -87232,7 +87232,7 @@ var schoolz = [
     "FIELD45":"15"
   },
   {
-    "FIELD1":"2460",
+    "id":"2460",
     "FIELD2":"Takaro School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -87279,7 +87279,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"398",
+    "id":"398",
     "FIELD2":"Takitimu Primary School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -87326,7 +87326,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1976",
+    "id":"1976",
     "FIELD2":"Tamahere Model Country School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -87373,7 +87373,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"57",
+    "id":"57",
     "FIELD2":"Tamaki College",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -87420,7 +87420,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1526",
+    "id":"1526",
     "FIELD2":"Tamaki School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -87467,7 +87467,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4143",
+    "id":"4143",
     "FIELD2":"Tamariki School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -87514,7 +87514,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"218",
+    "id":"218",
     "FIELD2":"Tamatea High School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -87561,7 +87561,7 @@ var schoolz = [
     "FIELD45":"7"
   },
   {
-    "FIELD1":"2685",
+    "id":"2685",
     "FIELD2":"Tamatea Intermediate",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -87608,7 +87608,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"2686",
+    "id":"2686",
     "FIELD2":"Tamatea School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -87655,7 +87655,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1978",
+    "id":"1978",
     "FIELD2":"Taneatua School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -87702,7 +87702,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"58",
+    "id":"58",
     "FIELD2":"Tangaroa College",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -87749,7 +87749,7 @@ var schoolz = [
     "FIELD45":"10"
   },
   {
-    "FIELD1":"2461",
+    "id":"2461",
     "FIELD2":"Tangimoana School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -87796,7 +87796,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1104",
+    "id":"1104",
     "FIELD2":"Tangiteroria School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -87843,7 +87843,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1105",
+    "id":"1105",
     "FIELD2":"Tangowahine School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -87890,7 +87890,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2462",
+    "id":"2462",
     "FIELD2":"Taonui School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -87937,7 +87937,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2463",
+    "id":"2463",
     "FIELD2":"Taoroa School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -87984,7 +87984,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3842",
+    "id":"3842",
     "FIELD2":"Tapanui School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -88031,7 +88031,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"297",
+    "id":"297",
     "FIELD2":"Tapawera Area School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -88078,7 +88078,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1106",
+    "id":"1106",
     "FIELD2":"Tapora School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -88125,7 +88125,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1980",
+    "id":"1980",
     "FIELD2":"Tapu School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -88172,7 +88172,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"215",
+    "id":"215",
     "FIELD2":"Taradale High School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -88219,7 +88219,7 @@ var schoolz = [
     "FIELD45":"34"
   },
   {
-    "FIELD1":"2687",
+    "id":"2687",
     "FIELD2":"Taradale Intermediate",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -88266,7 +88266,7 @@ var schoolz = [
     "FIELD45":"4"
   },
   {
-    "FIELD1":"2688",
+    "id":"2688",
     "FIELD2":"Taradale School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -88313,7 +88313,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"235",
+    "id":"235",
     "FIELD2":"Tararua College",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -88360,7 +88360,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"661",
+    "id":"661",
     "FIELD2":"Tarawera High School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -88407,7 +88407,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1528",
+    "id":"1528",
     "FIELD2":"Target Road School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -88454,7 +88454,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1982",
+    "id":"1982",
     "FIELD2":"Tarrangower School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -88501,7 +88501,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3843",
+    "id":"3843",
     "FIELD2":"Tarras School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -88548,7 +88548,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1178",
+    "id":"1178",
     "FIELD2":"Tasman Bay Christian School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -88595,7 +88595,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3228",
+    "id":"3228",
     "FIELD2":"Tasman School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -88642,7 +88642,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1983",
+    "id":"1983",
     "FIELD2":"Tatuanui School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -88689,7 +88689,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"166",
+    "id":"166",
     "FIELD2":"Tauhara College",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -88736,7 +88736,7 @@ var schoolz = [
     "FIELD45":"15"
   },
   {
-    "FIELD1":"1984",
+    "id":"1984",
     "FIELD2":"Tauhara School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -88783,7 +88783,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1985",
+    "id":"1985",
     "FIELD2":"Tauhei Combined School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -88830,7 +88830,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1107",
+    "id":"1107",
     "FIELD2":"Tauhoa School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -88877,7 +88877,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"169",
+    "id":"169",
     "FIELD2":"Taumarunui High School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -88924,7 +88924,7 @@ var schoolz = [
     "FIELD45":"4"
   },
   {
-    "FIELD1":"1986",
+    "id":"1986",
     "FIELD2":"Taumarunui Primary School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -88971,7 +88971,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1529",
+    "id":"1529",
     "FIELD2":"Taupaki School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -89018,7 +89018,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1987",
+    "id":"1987",
     "FIELD2":"Taupiri School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -89065,7 +89065,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1988",
+    "id":"1988",
     "FIELD2":"Taupo Intermediate",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -89112,7 +89112,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1989",
+    "id":"1989",
     "FIELD2":"Taupo School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -89159,7 +89159,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"167",
+    "id":"167",
     "FIELD2":"Taupo-nui-a-Tia College",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -89206,7 +89206,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4144",
+    "id":"4144",
     "FIELD2":"Tauranga Adventist School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -89253,7 +89253,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"121",
+    "id":"121",
     "FIELD2":"Tauranga Boys' College",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -89300,7 +89300,7 @@ var schoolz = [
     "FIELD45":"37"
   },
   {
-    "FIELD1":"122",
+    "id":"122",
     "FIELD2":"Tauranga Girls' College",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -89347,7 +89347,7 @@ var schoolz = [
     "FIELD45":"37"
   },
   {
-    "FIELD1":"1990",
+    "id":"1990",
     "FIELD2":"Tauranga Intermediate",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -89394,7 +89394,7 @@ var schoolz = [
     "FIELD45":"19"
   },
   {
-    "FIELD1":"1991",
+    "id":"1991",
     "FIELD2":"Tauranga Primary School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -89441,7 +89441,7 @@ var schoolz = [
     "FIELD45":"13"
   },
   {
-    "FIELD1":"1187",
+    "id":"1187",
     "FIELD2":"Tauranga Waldorf School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -89488,7 +89488,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"12",
+    "id":"12",
     "FIELD2":"Tauraroa Area School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -89535,7 +89535,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1994",
+    "id":"1994",
     "FIELD2":"Tauriko School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -89582,7 +89582,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2101",
+    "id":"2101",
     "FIELD2":"Tautoro School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -89629,7 +89629,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1995",
+    "id":"1995",
     "FIELD2":"Tauwhare School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -89676,7 +89676,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"257",
+    "id":"257",
     "FIELD2":"Tawa College",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -89723,7 +89723,7 @@ var schoolz = [
     "FIELD45":"16"
   },
   {
-    "FIELD1":"3034",
+    "id":"3034",
     "FIELD2":"Tawa Intermediate",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -89770,7 +89770,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3035",
+    "id":"3035",
     "FIELD2":"Tawa School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -89817,7 +89817,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1996",
+    "id":"1996",
     "FIELD2":"Tawera Bilingual School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -89864,7 +89864,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3036",
+    "id":"3036",
     "FIELD2":"Tawhai School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -89911,7 +89911,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2465",
+    "id":"2465",
     "FIELD2":"Tawhero School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -89958,7 +89958,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2248",
+    "id":"2248",
     "FIELD2":"Tawhiti School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -90005,7 +90005,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"6940",
+    "id":"6940",
     "FIELD2":"Te Akau ki Papamoa Primary School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -90052,7 +90052,7 @@ var schoolz = [
     "FIELD45":"4"
   },
   {
-    "FIELD1":"1998",
+    "id":"1998",
     "FIELD2":"Te Akau School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -90099,7 +90099,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4026",
+    "id":"4026",
     "FIELD2":"Te Anau School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -90146,7 +90146,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3037",
+    "id":"3037",
     "FIELD2":"Te Aro School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -90193,7 +90193,7 @@ var schoolz = [
     "FIELD45":"5"
   },
   {
-    "FIELD1":"116",
+    "id":"116",
     "FIELD2":"Te Aroha College",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -90240,7 +90240,7 @@ var schoolz = [
     "FIELD45":"8"
   },
   {
-    "FIELD1":"1999",
+    "id":"1999",
     "FIELD2":"Te Aroha Primary School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -90287,7 +90287,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1530",
+    "id":"1530",
     "FIELD2":"Te Atatu Intermediate",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -90334,7 +90334,7 @@ var schoolz = [
     "FIELD45":"5"
   },
   {
-    "FIELD1":"232",
+    "id":"232",
     "FIELD2":"Te Aute College",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -90381,7 +90381,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2691",
+    "id":"2691",
     "FIELD2":"Te Awa School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -90428,7 +90428,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"146",
+    "id":"146",
     "FIELD2":"Te Awamutu College",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -90475,7 +90475,7 @@ var schoolz = [
     "FIELD45":"6"
   },
   {
-    "FIELD1":"2001",
+    "id":"2001",
     "FIELD2":"Te Awamutu Intermediate",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -90522,7 +90522,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"2002",
+    "id":"2002",
     "FIELD2":"Te Awamutu Primary School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -90569,7 +90569,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2692",
+    "id":"2692",
     "FIELD2":"Te Hapara School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -90616,7 +90616,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1109",
+    "id":"1109",
     "FIELD2":"Te Hapua School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -90663,7 +90663,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1532",
+    "id":"1532",
     "FIELD2":"Te Hihi School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -90710,7 +90710,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3038",
+    "id":"3038",
     "FIELD2":"Te Horo School (Otaki)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -90757,7 +90757,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1110",
+    "id":"1110",
     "FIELD2":"Te Horo School (Whangarei)",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -90804,7 +90804,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1177",
+    "id":"1177",
     "FIELD2":"Te Huruhi School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -90851,7 +90851,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1",
+    "id":"1",
     "FIELD2":"Te Kao School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -90898,7 +90898,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"624",
+    "id":"624",
     "FIELD2":"Te Karaka Area School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -90945,7 +90945,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"115",
+    "id":"115",
     "FIELD2":"Te Kauwhata College",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -90992,7 +90992,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2005",
+    "id":"2005",
     "FIELD2":"Te Kauwhata Primary School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -91039,7 +91039,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4228",
+    "id":"4228",
     "FIELD2":"Te KKM o Puau Te Moananui-a-Kiwa",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -91086,7 +91086,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1533",
+    "id":"1533",
     "FIELD2":"Te Kohanga School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -91133,7 +91133,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1111",
+    "id":"1111",
     "FIELD2":"Te Kopuru School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -91180,7 +91180,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2007",
+    "id":"2007",
     "FIELD2":"Te Kowhai School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -91227,7 +91227,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"160",
+    "id":"160",
     "FIELD2":"Te Kuiti High School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -91274,7 +91274,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"2008",
+    "id":"2008",
     "FIELD2":"Te Kuiti Primary School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -91321,7 +91321,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1619",
+    "id":"1619",
     "FIELD2":"Te Kura Akonga O Manurewa",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -91368,7 +91368,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3118",
+    "id":"3118",
     "FIELD2":"Te Kura Kaupapa Maori o Taumarunui",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -91415,7 +91415,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2739",
+    "id":"2739",
     "FIELD2":"Te Kura Kaupapa Maori o Whatatutu",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -91462,7 +91462,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1806",
+    "id":"1806",
     "FIELD2":"Te Kura Mana Maori Maraenui",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -91509,7 +91509,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1809",
+    "id":"1809",
     "FIELD2":"Te Kura Mana Maori o Matahi",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -91556,7 +91556,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2084",
+    "id":"2084",
     "FIELD2":"Te Kura Mana Maori o Whangaparaoa",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -91603,7 +91603,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"630",
+    "id":"630",
     "FIELD2":"Te Kura Maori o Nga Tapuwae",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -91650,7 +91650,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1634",
+    "id":"1634",
     "FIELD2":"Te Kura Maori o Porirua",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -91697,7 +91697,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2062",
+    "id":"2062",
     "FIELD2":"Te Kura Maori-a-Rohe o Waiohau",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -91744,7 +91744,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1102",
+    "id":"1102",
     "FIELD2":"Te Kura o Hata Maria (Pawarenga)",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -91791,7 +91791,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1100",
+    "id":"1100",
     "FIELD2":"Te Kura o Hato Hohepa Te Kamura",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -91838,7 +91838,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"497",
+    "id":"497",
     "FIELD2":"Te Kura o Hirangi",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -91885,7 +91885,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2384",
+    "id":"2384",
     "FIELD2":"Te Kura o Kokohuia",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -91932,7 +91932,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1815",
+    "id":"1815",
     "FIELD2":"Te Kura o Matapihi",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -91979,7 +91979,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"589",
+    "id":"589",
     "FIELD2":"Te Kura o Nga Ruahine Rangi",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -92026,7 +92026,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1859",
+    "id":"1859",
     "FIELD2":"Te Kura o Omaio",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -92073,7 +92073,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1069",
+    "id":"1069",
     "FIELD2":"Te Kura o Otangarei",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -92120,7 +92120,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2637",
+    "id":"2637",
     "FIELD2":"Te Kura o Pakipaki",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -92167,7 +92167,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2436",
+    "id":"2436",
     "FIELD2":"Te Kura o Ratana",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -92214,7 +92214,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1971",
+    "id":"1971",
     "FIELD2":"Te Kura o Tahaaroa",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -92261,7 +92261,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1811",
+    "id":"1811",
     "FIELD2":"Te Kura o Te Moutere O Matakana",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -92308,7 +92308,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1888",
+    "id":"1888",
     "FIELD2":"Te Kura o Te Paroa",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -92355,7 +92355,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2023",
+    "id":"2023",
     "FIELD2":"Te Kura o Te Teko",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -92402,7 +92402,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2081",
+    "id":"2081",
     "FIELD2":"Te Kura o Te Whakarewarewa",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -92449,7 +92449,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1645",
+    "id":"1645",
     "FIELD2":"Te Kura o Torere",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -92496,7 +92496,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2047",
+    "id":"2047",
     "FIELD2":"Te Kura o Waharoa",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -92543,7 +92543,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1666",
+    "id":"1666",
     "FIELD2":"Te Kura o Waikare",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -92590,7 +92590,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1678",
+    "id":"1678",
     "FIELD2":"Te Kura o Waikaremoana",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -92637,7 +92637,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2068",
+    "id":"2068",
     "FIELD2":"Te Kura o Waitahanui",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -92684,7 +92684,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"10",
+    "id":"10",
     "FIELD2":"Te Kura Taumata o Panguru",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -92731,7 +92731,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"545",
+    "id":"545",
     "FIELD2":"Te Kura Toitu o Te Whaiti-nui-a-Toi",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -92778,7 +92778,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3101",
+    "id":"3101",
     "FIELD2":"Te Kura-a-iwi o Whakatupuranga Rua Mano",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -92825,7 +92825,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1676",
+    "id":"1676",
     "FIELD2":"Te Mahia School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -92872,7 +92872,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2009",
+    "id":"2009",
     "FIELD2":"Te Mahoe School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -92919,7 +92919,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2697",
+    "id":"2697",
     "FIELD2":"Te Mata School (Havelock North)",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -92966,7 +92966,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2010",
+    "id":"2010",
     "FIELD2":"Te Mata School (Raglan)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -93013,7 +93013,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"6741",
+    "id":"6741",
     "FIELD2":"Te Matauranga",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -93060,7 +93060,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2012",
+    "id":"2012",
     "FIELD2":"Te Miro School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -93107,7 +93107,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3553",
+    "id":"3553",
     "FIELD2":"Te One School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -93154,7 +93154,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2013",
+    "id":"2013",
     "FIELD2":"Te Pahu School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -93201,7 +93201,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1534",
+    "id":"1534",
     "FIELD2":"Te Papapa School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -93248,7 +93248,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4145",
+    "id":"4145",
     "FIELD2":"Te Pi'ipi'inga Kakano Mai Rangiatea",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -93295,7 +93295,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2698",
+    "id":"2698",
     "FIELD2":"Te Pohue School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -93342,7 +93342,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2014",
+    "id":"2014",
     "FIELD2":"Te Poi School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -93389,7 +93389,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"123",
+    "id":"123",
     "FIELD2":"Te Puke High School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -93436,7 +93436,7 @@ var schoolz = [
     "FIELD45":"34"
   },
   {
-    "FIELD1":"2015",
+    "id":"2015",
     "FIELD2":"Te Puke Intermediate",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -93483,7 +93483,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2016",
+    "id":"2016",
     "FIELD2":"Te Puke Primary School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -93530,7 +93530,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2017",
+    "id":"2017",
     "FIELD2":"Te Puna School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -93577,7 +93577,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1912",
+    "id":"1912",
     "FIELD2":"Te Puru School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -93624,7 +93624,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1613",
+    "id":"1613",
     "FIELD2":"Te Ra School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -93671,7 +93671,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2019",
+    "id":"2019",
     "FIELD2":"Te Ranga School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -93718,7 +93718,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1147",
+    "id":"1147",
     "FIELD2":"Te Rangi Aniwaniwa",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -93765,7 +93765,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2020",
+    "id":"2020",
     "FIELD2":"Te Rapa School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -93812,7 +93812,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2021",
+    "id":"2021",
     "FIELD2":"Te Rerenga School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -93859,7 +93859,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4027",
+    "id":"4027",
     "FIELD2":"Te Tipua School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -93906,7 +93906,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"577",
+    "id":"577",
     "FIELD2":"Te Totara Primary School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -93953,7 +93953,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2024",
+    "id":"2024",
     "FIELD2":"Te Uku School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -94000,7 +94000,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"550",
+    "id":"550",
     "FIELD2":"Te Waha O Rerekohu Area School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -94047,7 +94047,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"559",
+    "id":"559",
     "FIELD2":"Te Wainui a Rua",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -94094,7 +94094,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2025",
+    "id":"2025",
     "FIELD2":"Te Waotu School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -94141,7 +94141,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"147",
+    "id":"147",
     "FIELD2":"Te Whanau-A-Apanui Area School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -94188,7 +94188,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2701",
+    "id":"2701",
     "FIELD2":"Te Wharau School (Gisborne)",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -94235,7 +94235,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4217",
+    "id":"4217",
     "FIELD2":"Te Wharekura o Arowhenua",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -94282,7 +94282,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1798",
+    "id":"1798",
     "FIELD2":"Te Wharekura o Manaia",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -94329,7 +94329,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1865",
+    "id":"1865",
     "FIELD2":"Te Wharekura o Maniapoto",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -94376,7 +94376,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3113",
+    "id":"3113",
     "FIELD2":"Te Wharekura o Manurewa",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -94423,7 +94423,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"6962",
+    "id":"6962",
     "FIELD2":"Te Wharekura o Mauao",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -94470,7 +94470,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"641",
+    "id":"641",
     "FIELD2":"Te Wharekura o Nga Purapura o Te Aroha",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -94517,7 +94517,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1917",
+    "id":"1917",
     "FIELD2":"Te Wharekura o Rakaumangamanga",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -94564,7 +94564,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"221",
+    "id":"221",
     "FIELD2":"Te Wharekura o Ruatoki",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -94611,7 +94611,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"567",
+    "id":"567",
     "FIELD2":"Te Wharekura o Te Kaokaoroa o Patetere",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -94658,7 +94658,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3115",
+    "id":"3115",
     "FIELD2":"Te Wharekura o Te Rau Aroha",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -94705,7 +94705,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"651",
+    "id":"651",
     "FIELD2":"Te Whata Tau o Putauaki",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -94752,7 +94752,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3555",
+    "id":"3555",
     "FIELD2":"Templeton School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -94799,7 +94799,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2109",
+    "id":"2109",
     "FIELD2":"Temuka Primary School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -94846,7 +94846,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2466",
+    "id":"2466",
     "FIELD2":"Terrace End School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -94893,7 +94893,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"111",
+    "id":"111",
     "FIELD2":"Thames High School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -94940,7 +94940,7 @@ var schoolz = [
     "FIELD45":"15"
   },
   {
-    "FIELD1":"2027",
+    "id":"2027",
     "FIELD2":"Thames South School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -94987,7 +94987,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"394",
+    "id":"394",
     "FIELD2":"The Catlins Area School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -95034,7 +95034,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"6947",
+    "id":"6947",
     "FIELD2":"The Gardens School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -95081,7 +95081,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3844",
+    "id":"3844",
     "FIELD2":"The Terrace School (Alexandra)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -95128,7 +95128,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2702",
+    "id":"2702",
     "FIELD2":"The Terrace School (Waipukurau)",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -95175,7 +95175,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4028",
+    "id":"4028",
     "FIELD2":"Thornbury School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -95222,7 +95222,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3040",
+    "id":"3040",
     "FIELD2":"Thorndon School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -95269,7 +95269,7 @@ var schoolz = [
     "FIELD45":"5"
   },
   {
-    "FIELD1":"2028",
+    "id":"2028",
     "FIELD2":"Thornton School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -95316,7 +95316,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3557",
+    "id":"3557",
     "FIELD2":"Thorrington School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -95363,7 +95363,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1535",
+    "id":"1535",
     "FIELD2":"Three Kings School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -95410,7 +95410,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"1669",
+    "id":"1669",
     "FIELD2":"Tiaho Primary School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -95457,7 +95457,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"14",
+    "id":"14",
     "FIELD2":"Tikipunga High School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -95504,7 +95504,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1113",
+    "id":"1113",
     "FIELD2":"Tikipunga Primary School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -95551,7 +95551,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2703",
+    "id":"2703",
     "FIELD2":"Tikitiki School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -95598,7 +95598,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2704",
+    "id":"2704",
     "FIELD2":"Tikokino School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -95645,7 +95645,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2251",
+    "id":"2251",
     "FIELD2":"Tikorangi School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -95692,7 +95692,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"360",
+    "id":"360",
     "FIELD2":"Timaru Boys' High School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -95739,7 +95739,7 @@ var schoolz = [
     "FIELD45":"20"
   },
   {
-    "FIELD1":"1611",
+    "id":"1611",
     "FIELD2":"Timaru Christian School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -95786,7 +95786,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"361",
+    "id":"361",
     "FIELD2":"Timaru Girls' High School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -95833,7 +95833,7 @@ var schoolz = [
     "FIELD45":"15"
   },
   {
-    "FIELD1":"2115",
+    "id":"2115",
     "FIELD2":"Timaru South School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -95880,7 +95880,7 @@ var schoolz = [
     "FIELD45":"4"
   },
   {
-    "FIELD1":"4146",
+    "id":"4146",
     "FIELD2":"Timatanga Community School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -95927,7 +95927,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2705",
+    "id":"2705",
     "FIELD2":"Tiniroto School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -95974,7 +95974,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1114",
+    "id":"1114",
     "FIELD2":"Tinopai School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -96021,7 +96021,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3041",
+    "id":"3041",
     "FIELD2":"Tinui School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -96068,7 +96068,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3561",
+    "id":"3561",
     "FIELD2":"Tinwald School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -96115,7 +96115,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2031",
+    "id":"2031",
     "FIELD2":"Tirau Primary School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -96162,7 +96162,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1536",
+    "id":"1536",
     "FIELD2":"Tirimoana School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -96209,7 +96209,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2467",
+    "id":"2467",
     "FIELD2":"Tiritea School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -96256,7 +96256,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2032",
+    "id":"2032",
     "FIELD2":"Tirohanga School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -96303,7 +96303,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2033",
+    "id":"2033",
     "FIELD2":"Tirohia School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -96350,7 +96350,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4029",
+    "id":"4029",
     "FIELD2":"Tisbury School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -96397,7 +96397,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3043",
+    "id":"3043",
     "FIELD2":"Titahi Bay Intermediate",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -96444,7 +96444,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3044",
+    "id":"3044",
     "FIELD2":"Titahi Bay North School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -96491,7 +96491,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3045",
+    "id":"3045",
     "FIELD2":"Titahi Bay School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -96538,7 +96538,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1537",
+    "id":"1537",
     "FIELD2":"Titirangi School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -96585,7 +96585,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"463",
+    "id":"463",
     "FIELD2":"TKK Motuhake o Tawhiuau",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -96632,7 +96632,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1151",
+    "id":"1151",
     "FIELD2":"TKK o Te Puaha o Waikato",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -96679,7 +96679,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1674",
+    "id":"1674",
     "FIELD2":"TKK o Te Wananga Whare Tapere o Takitimu",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -96726,7 +96726,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1696",
+    "id":"1696",
     "FIELD2":"TKKM o Bernard Fergusson",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -96773,7 +96773,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1773",
+    "id":"1773",
     "FIELD2":"TKKM o Harataunga",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -96820,7 +96820,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"279",
+    "id":"279",
     "FIELD2":"TKKM o Hoani Waititi",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -96867,7 +96867,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1748",
+    "id":"1748",
     "FIELD2":"TKKM o Huiarau",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -96914,7 +96914,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3103",
+    "id":"3103",
     "FIELD2":"TKKM o Hurungaterangi",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -96961,7 +96961,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4227",
+    "id":"4227",
     "FIELD2":"TKKM o Kaikohe",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -97008,7 +97008,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3119",
+    "id":"3119",
     "FIELD2":"TKKM o Kawakawa mai Tawhiti",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -97055,7 +97055,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4209",
+    "id":"4209",
     "FIELD2":"TKKM o Manawatu",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -97102,7 +97102,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2600",
+    "id":"2600",
     "FIELD2":"TKKM o Mangatuna",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -97149,7 +97149,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4208",
+    "id":"4208",
     "FIELD2":"TKKM o Mangere",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -97196,7 +97196,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4229",
+    "id":"4229",
     "FIELD2":"TKKM o Manurewa",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -97243,7 +97243,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4207",
+    "id":"4207",
     "FIELD2":"TKKM o Nga Maungarongo",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -97290,7 +97290,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1143",
+    "id":"1143",
     "FIELD2":"TKKM o Nga Mokopuna",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -97337,7 +97337,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1672",
+    "id":"1672",
     "FIELD2":"TKKM o Nga Uri A Maui",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -97384,7 +97384,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"600",
+    "id":"600",
     "FIELD2":"TKKM o Ngaringaomatariki",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -97431,7 +97431,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2445",
+    "id":"2445",
     "FIELD2":"TKKM o Ngati Kahungunu Ki Heretaunga",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -97478,7 +97478,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1616",
+    "id":"1616",
     "FIELD2":"TKKM o Ngati Kahungunu o Te Wairoa",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -97525,7 +97525,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1617",
+    "id":"1617",
     "FIELD2":"TKKM o Ngati Rangi",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -97572,7 +97572,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2383",
+    "id":"2383",
     "FIELD2":"TKKM o Ngati Ruanui",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -97619,7 +97619,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4205",
+    "id":"4205",
     "FIELD2":"TKKM o Otara",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -97666,7 +97666,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2351",
+    "id":"2351",
     "FIELD2":"TKKM o Otepoti",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -97713,7 +97713,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1873",
+    "id":"1873",
     "FIELD2":"TKKM o Otepou",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -97760,7 +97760,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3114",
+    "id":"3114",
     "FIELD2":"TKKM o Pukemiro",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -97807,7 +97807,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1141",
+    "id":"1141",
     "FIELD2":"TKKM o Rangiawhia",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -97854,7 +97854,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1929",
+    "id":"1929",
     "FIELD2":"TKKM o Rotoiti",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -97901,7 +97901,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1165",
+    "id":"1165",
     "FIELD2":"TKKM o Ruamata",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -97948,7 +97948,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1142",
+    "id":"1142",
     "FIELD2":"TKKM o Takapau",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -97995,7 +97995,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4226",
+    "id":"4226",
     "FIELD2":"TKKM o Tamaki Nui A Rua",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -98042,7 +98042,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4223",
+    "id":"4223",
     "FIELD2":"TKKM o Tamarongo",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -98089,7 +98089,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2659",
+    "id":"2659",
     "FIELD2":"TKKM o Tapere-Nui-A-Whatonga",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -98136,7 +98136,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2104",
+    "id":"2104",
     "FIELD2":"TKKM o Taumarere",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -98183,7 +98183,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3107",
+    "id":"3107",
     "FIELD2":"TKKM o Te Ara Hou",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -98230,7 +98230,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1718",
+    "id":"1718",
     "FIELD2":"TKKM o Te Ara Rima",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -98277,7 +98277,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1670",
+    "id":"1670",
     "FIELD2":"TKKM o Te Ara Whanui",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -98324,7 +98324,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4160",
+    "id":"4160",
     "FIELD2":"TKKM o Te Atihaunui-A-Paparangi",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -98371,7 +98371,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3100",
+    "id":"3100",
     "FIELD2":"TKKM o Te Hiringa",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -98418,7 +98418,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3104",
+    "id":"3104",
     "FIELD2":"TKKM o Te Kotuku",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -98465,7 +98465,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1153",
+    "id":"1153",
     "FIELD2":"TKKM o Te Koutu",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -98512,7 +98512,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"558",
+    "id":"558",
     "FIELD2":"TKKM o Te Kura Kokiri",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -98559,7 +98559,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2011",
+    "id":"2011",
     "FIELD2":"TKKM o Te Matai",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -98606,7 +98606,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1584",
+    "id":"1584",
     "FIELD2":"TKKM o Te Raki Paewhenua",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -98653,7 +98653,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1154",
+    "id":"1154",
     "FIELD2":"TKKM o Te Rawhiti Roa",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -98700,7 +98700,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4211",
+    "id":"4211",
     "FIELD2":"TKKM o Te Rito",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -98747,7 +98747,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3117",
+    "id":"3117",
     "FIELD2":"TKKM o Te Tonga o Hokianga",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -98794,7 +98794,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1673",
+    "id":"1673",
     "FIELD2":"TKKM o Te Waiu o Ngati Porou",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -98841,7 +98841,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1618",
+    "id":"1618",
     "FIELD2":"TKKM o Te Whanau Tahi",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -98888,7 +98888,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4218",
+    "id":"4218",
     "FIELD2":"TKKM o Tokomaru",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -98935,7 +98935,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1589",
+    "id":"1589",
     "FIELD2":"TKKM o Toku Mapihi Maurea",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -98982,7 +98982,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"628",
+    "id":"628",
     "FIELD2":"TKKM o Tuia te Matangi",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -99029,7 +99029,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2377",
+    "id":"2377",
     "FIELD2":"TKKM o Tupoho",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -99076,7 +99076,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2061",
+    "id":"2061",
     "FIELD2":"TKKM o Waioweka",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -99123,7 +99123,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1651",
+    "id":"1651",
     "FIELD2":"TKKM o Wairarapa",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -99170,7 +99170,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4212",
+    "id":"4212",
     "FIELD2":"TKKM o Waitaha",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -99217,7 +99217,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3102",
+    "id":"3102",
     "FIELD2":"TKKM o Waiuku",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -99264,7 +99264,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4230",
+    "id":"4230",
     "FIELD2":"TKKM o Whakarewa I Te Reo Ki Tuwharetoa",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -99311,7 +99311,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"282",
+    "id":"282",
     "FIELD2":"TKKM o Whakawatea",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -99358,7 +99358,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3106",
+    "id":"3106",
     "FIELD2":"TKKM o Whangaroa",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -99405,7 +99405,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4030",
+    "id":"4030",
     "FIELD2":"Tokanui School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -99452,7 +99452,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2253",
+    "id":"2253",
     "FIELD2":"Tokirima School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -99499,7 +99499,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2254",
+    "id":"2254",
     "FIELD2":"Toko School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -99546,7 +99546,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3845",
+    "id":"3845",
     "FIELD2":"Tokoiti School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -99593,7 +99593,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"392",
+    "id":"392",
     "FIELD2":"Tokomairiro High School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -99640,7 +99640,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"3046",
+    "id":"3046",
     "FIELD2":"Tokomaru School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -99687,7 +99687,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2035",
+    "id":"2035",
     "FIELD2":"Tokoroa Central School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -99734,7 +99734,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"158",
+    "id":"158",
     "FIELD2":"Tokoroa High School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -99781,7 +99781,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2037",
+    "id":"2037",
     "FIELD2":"Tokoroa Intermediate",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -99828,7 +99828,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2038",
+    "id":"2038",
     "FIELD2":"Tokoroa North School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -99875,7 +99875,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"212",
+    "id":"212",
     "FIELD2":"Tolaga Bay Area School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -99922,7 +99922,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1115",
+    "id":"1115",
     "FIELD2":"Tomarata School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -99969,7 +99969,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"476",
+    "id":"476",
     "FIELD2":"Tongariro School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -100016,7 +100016,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1538",
+    "id":"1538",
     "FIELD2":"Torbay School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -100063,7 +100063,7 @@ var schoolz = [
     "FIELD45":"4"
   },
   {
-    "FIELD1":"439",
+    "id":"439",
     "FIELD2":"Totara College of Accelerated Learning",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -100110,7 +100110,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1028",
+    "id":"1028",
     "FIELD2":"Totara Grove School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -100157,7 +100157,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1116",
+    "id":"1116",
     "FIELD2":"Totara North School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -100204,7 +100204,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3048",
+    "id":"3048",
     "FIELD2":"Totara Park School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -100251,7 +100251,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3847",
+    "id":"3847",
     "FIELD2":"Totara School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -100298,7 +100298,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2099",
+    "id":"2099",
     "FIELD2":"Trentham School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -100345,7 +100345,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"143",
+    "id":"143",
     "FIELD2":"Trident High School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -100392,7 +100392,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"3050",
+    "id":"3050",
     "FIELD2":"Tua Marina School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -100439,7 +100439,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3563",
+    "id":"3563",
     "FIELD2":"Tuahiwi School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -100486,7 +100486,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"106",
+    "id":"106",
     "FIELD2":"Tuakau College",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -100533,7 +100533,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1539",
+    "id":"1539",
     "FIELD2":"Tuakau School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -100580,7 +100580,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3051",
+    "id":"3051",
     "FIELD2":"Tui Glen School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -100627,7 +100627,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2040",
+    "id":"2040",
     "FIELD2":"Turaki School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -100674,7 +100674,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"194",
+    "id":"194",
     "FIELD2":"Turakina Maori Girls' College",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -100721,7 +100721,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2468",
+    "id":"2468",
     "FIELD2":"Turakina School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -100768,7 +100768,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2043",
+    "id":"2043",
     "FIELD2":"Turua Primary School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -100815,7 +100815,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2255",
+    "id":"2255",
     "FIELD2":"Turuturu School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -100862,7 +100862,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2710",
+    "id":"2710",
     "FIELD2":"Tutira School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -100909,7 +100909,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4032",
+    "id":"4032",
     "FIELD2":"Tuturau Primary School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -100956,7 +100956,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3052",
+    "id":"3052",
     "FIELD2":"Tuturumuri School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -101003,7 +101003,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"527",
+    "id":"527",
     "FIELD2":"Twizel Area School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -101050,7 +101050,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2711",
+    "id":"2711",
     "FIELD2":"Twyford School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -101097,7 +101097,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1119",
+    "id":"1119",
     "FIELD2":"Umawera School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -101144,7 +101144,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2469",
+    "id":"2469",
     "FIELD2":"Upokongaro School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -101191,7 +101191,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2044",
+    "id":"2044",
     "FIELD2":"Upper Atiamuri School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -101238,7 +101238,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"6955",
+    "id":"6955",
     "FIELD2":"Upper Harbour Primary School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -101285,7 +101285,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"250",
+    "id":"250",
     "FIELD2":"Upper Hutt College",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -101332,7 +101332,7 @@ var schoolz = [
     "FIELD45":"14"
   },
   {
-    "FIELD1":"3053",
+    "id":"3053",
     "FIELD2":"Upper Hutt School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -101379,7 +101379,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"3229",
+    "id":"3229",
     "FIELD2":"Upper Moutere School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -101426,7 +101426,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2256",
+    "id":"2256",
     "FIELD2":"Urenui School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -101473,7 +101473,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2257",
+    "id":"2257",
     "FIELD2":"Uruti School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -101520,7 +101520,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1540",
+    "id":"1540",
     "FIELD2":"Valley School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -101567,7 +101567,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"519",
+    "id":"519",
     "FIELD2":"Van Asch Deaf Education Centre",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -101614,7 +101614,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2045",
+    "id":"2045",
     "FIELD2":"Vardon School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -101661,7 +101661,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1541",
+    "id":"1541",
     "FIELD2":"Vauxhall School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -101708,7 +101708,7 @@ var schoolz = [
     "FIELD45":"5"
   },
   {
-    "FIELD1":"408",
+    "id":"408",
     "FIELD2":"Verdon College",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -101755,7 +101755,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1543",
+    "id":"1543",
     "FIELD2":"Verran Primary School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -101802,7 +101802,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1544",
+    "id":"1544",
     "FIELD2":"Victoria Avenue School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -101849,7 +101849,7 @@ var schoolz = [
     "FIELD45":"11"
   },
   {
-    "FIELD1":"3231",
+    "id":"3231",
     "FIELD2":"Victory Primary School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -101896,7 +101896,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3565",
+    "id":"3565",
     "FIELD2":"View Hill School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -101943,7 +101943,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1545",
+    "id":"1545",
     "FIELD2":"View Road School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -101990,7 +101990,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"326",
+    "id":"326",
     "FIELD2":"Villa Maria College",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -102037,7 +102037,7 @@ var schoolz = [
     "FIELD45":"28"
   },
   {
-    "FIELD1":"1546",
+    "id":"1546",
     "FIELD2":"Viscount School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -102084,7 +102084,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2258",
+    "id":"2258",
     "FIELD2":"Vogeltown School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -102131,7 +102131,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1189",
+    "id":"1189",
     "FIELD2":"Wa Ora Montessori School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -102178,7 +102178,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3055",
+    "id":"3055",
     "FIELD2":"Wadestown School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -102225,7 +102225,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2046",
+    "id":"2046",
     "FIELD2":"Waerenga School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -102272,7 +102272,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2712",
+    "id":"2712",
     "FIELD2":"Waerenga-O-Kuri School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -102319,7 +102319,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4034",
+    "id":"4034",
     "FIELD2":"Waianiwa School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -102366,7 +102366,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"402",
+    "id":"402",
     "FIELD2":"Waiau Area School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -102413,7 +102413,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1547",
+    "id":"1547",
     "FIELD2":"Waiau Pa School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -102460,7 +102460,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3566",
+    "id":"3566",
     "FIELD2":"Waiau School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -102507,7 +102507,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3567",
+    "id":"3567",
     "FIELD2":"Waihao Downs School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -102554,7 +102554,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1120",
+    "id":"1120",
     "FIELD2":"Waiharara School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -102601,7 +102601,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"530",
+    "id":"530",
     "FIELD2":"Waiheke High School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -102648,7 +102648,7 @@ var schoolz = [
     "FIELD45":"27"
   },
   {
-    "FIELD1":"6922",
+    "id":"6922",
     "FIELD2":"Waiheke Primary School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -102695,7 +102695,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2048",
+    "id":"2048",
     "FIELD2":"Waihi Beach School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -102742,7 +102742,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"2050",
+    "id":"2050",
     "FIELD2":"Waihi Central School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -102789,7 +102789,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"114",
+    "id":"114",
     "FIELD2":"Waihi College",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -102836,7 +102836,7 @@ var schoolz = [
     "FIELD45":"16"
   },
   {
-    "FIELD1":"2049",
+    "id":"2049",
     "FIELD2":"Waihi East School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -102883,7 +102883,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3850",
+    "id":"3850",
     "FIELD2":"Waihola District School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -102930,7 +102930,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4035",
+    "id":"4035",
     "FIELD2":"Waihopai School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -102977,7 +102977,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"4036",
+    "id":"4036",
     "FIELD2":"Waikaia School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -103024,7 +103024,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4037",
+    "id":"4037",
     "FIELD2":"Waikaka School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -103071,7 +103071,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3056",
+    "id":"3056",
     "FIELD2":"Waikanae School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -103118,7 +103118,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2052",
+    "id":"2052",
     "FIELD2":"Waikaretu School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -103165,7 +103165,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3569",
+    "id":"3569",
     "FIELD2":"Waikari School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -103212,7 +103212,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"140",
+    "id":"140",
     "FIELD2":"Waikato Diocesan School For Girls",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -103259,7 +103259,7 @@ var schoolz = [
     "FIELD45":"31"
   },
   {
-    "FIELD1":"539",
+    "id":"539",
     "FIELD2":"Waikato Waldorf School ( Rudolf Steiner)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -103306,7 +103306,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3057",
+    "id":"3057",
     "FIELD2":"Waikawa Bay School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -103353,7 +103353,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2054",
+    "id":"2054",
     "FIELD2":"Waikino School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -103400,7 +103400,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2715",
+    "id":"2715",
     "FIELD2":"Waikirikiri School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -103447,7 +103447,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2055",
+    "id":"2055",
     "FIELD2":"Waikite Valley School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -103494,7 +103494,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3851",
+    "id":"3851",
     "FIELD2":"Waikoikoi School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -103541,7 +103541,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3852",
+    "id":"3852",
     "FIELD2":"Waikouaiti School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -103588,7 +103588,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1548",
+    "id":"1548",
     "FIELD2":"Waikowhai Intermediate",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -103635,7 +103635,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1549",
+    "id":"1549",
     "FIELD2":"Waikowhai School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -103682,7 +103682,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1122",
+    "id":"1122",
     "FIELD2":"Waima School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -103729,7 +103729,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1569",
+    "id":"1569",
     "FIELD2":"Waimahia Intermediate School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -103776,7 +103776,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3571",
+    "id":"3571",
     "FIELD2":"Waimairi School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -103823,7 +103823,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2057",
+    "id":"2057",
     "FIELD2":"Waimana School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -103870,7 +103870,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2718",
+    "id":"2718",
     "FIELD2":"Waimarama School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -103917,7 +103917,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2058",
+    "id":"2058",
     "FIELD2":"Waimata School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -103964,7 +103964,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3572",
+    "id":"3572",
     "FIELD2":"Waimataitai School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -104011,7 +104011,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3573",
+    "id":"3573",
     "FIELD2":"Waimate Centennial School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -104058,7 +104058,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"362",
+    "id":"362",
     "FIELD2":"Waimate High School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -104105,7 +104105,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3574",
+    "id":"3574",
     "FIELD2":"Waimate Main School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -104152,7 +104152,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1550",
+    "id":"1550",
     "FIELD2":"Waimauku School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -104199,7 +104199,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"296",
+    "id":"296",
     "FIELD2":"Waimea College",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -104246,7 +104246,7 @@ var schoolz = [
     "FIELD45":"47"
   },
   {
-    "FIELD1":"3233",
+    "id":"3233",
     "FIELD2":"Waimea Intermediate",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -104293,7 +104293,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"2060",
+    "id":"2060",
     "FIELD2":"Waingaro School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -104340,7 +104340,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3575",
+    "id":"3575",
     "FIELD2":"Wainoni School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -104387,7 +104387,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2721",
+    "id":"2721",
     "FIELD2":"Wainui Beach School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -104434,7 +104434,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1552",
+    "id":"1552",
     "FIELD2":"Wainui School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -104481,7 +104481,7 @@ var schoolz = [
     "FIELD45":"5"
   },
   {
-    "FIELD1":"478",
+    "id":"478",
     "FIELD2":"Wainuiomata High School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -104528,7 +104528,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"1646",
+    "id":"1646",
     "FIELD2":"Wainuiomata Intermediate",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -104575,7 +104575,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3059",
+    "id":"3059",
     "FIELD2":"Wainuiomata Primary School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -104622,7 +104622,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3060",
+    "id":"3060",
     "FIELD2":"Wainuioru School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -104669,7 +104669,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1553",
+    "id":"1553",
     "FIELD2":"Waioneke School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -104716,7 +104716,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"237",
+    "id":"237",
     "FIELD2":"Waiopehu College",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -104763,7 +104763,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"2063",
+    "id":"2063",
     "FIELD2":"Waiotahe Valley School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -104810,7 +104810,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1124",
+    "id":"1124",
     "FIELD2":"Waiotira School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -104857,7 +104857,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2472",
+    "id":"2472",
     "FIELD2":"Waiouru School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -104904,7 +104904,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"266",
+    "id":"266",
     "FIELD2":"Waipa Christian School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -104951,7 +104951,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"2064",
+    "id":"2064",
     "FIELD2":"Waipa School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -104998,7 +104998,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2065",
+    "id":"2065",
     "FIELD2":"Waipahihi School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -105045,7 +105045,7 @@ var schoolz = [
     "FIELD45":"5"
   },
   {
-    "FIELD1":"3576",
+    "id":"3576",
     "FIELD2":"Waipara School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -105092,7 +105092,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2723",
+    "id":"2723",
     "FIELD2":"Waipawa School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -105139,7 +105139,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1554",
+    "id":"1554",
     "FIELD2":"Waipipi School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -105186,7 +105186,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1125",
+    "id":"1125",
     "FIELD2":"Waipu School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -105233,7 +105233,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2725",
+    "id":"2725",
     "FIELD2":"Waipukurau School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -105280,7 +105280,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2066",
+    "id":"2066",
     "FIELD2":"Wairakei School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -105327,7 +105327,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3577",
+    "id":"3577",
     "FIELD2":"Wairakei School (Christchurch)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -105374,7 +105374,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"241",
+    "id":"241",
     "FIELD2":"Wairarapa College",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -105421,7 +105421,7 @@ var schoolz = [
     "FIELD45":"4"
   },
   {
-    "FIELD1":"1555",
+    "id":"1555",
     "FIELD2":"Wairau Intermediate",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -105468,7 +105468,7 @@ var schoolz = [
     "FIELD45":"3"
   },
   {
-    "FIELD1":"1556",
+    "id":"1556",
     "FIELD2":"Wairau Valley School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -105515,7 +105515,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3062",
+    "id":"3062",
     "FIELD2":"Wairau Valley School (Blenheim)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -105562,7 +105562,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2075",
+    "id":"2075",
     "FIELD2":"Wairere School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -105609,7 +105609,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"214",
+    "id":"214",
     "FIELD2":"Wairoa College",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -105656,7 +105656,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1668",
+    "id":"1668",
     "FIELD2":"Wairoa Primary School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -105703,7 +105703,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3554",
+    "id":"3554",
     "FIELD2":"Waitaha School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -105750,7 +105750,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3855",
+    "id":"3855",
     "FIELD2":"Waitahuna School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -105797,7 +105797,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2069",
+    "id":"2069",
     "FIELD2":"Waitakaruru School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -105844,7 +105844,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"44",
+    "id":"44",
     "FIELD2":"Waitakere College",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -105891,7 +105891,7 @@ var schoolz = [
     "FIELD45":"15"
   },
   {
-    "FIELD1":"4151",
+    "id":"4151",
     "FIELD2":"Waitakere S D A School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -105938,7 +105938,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1557",
+    "id":"1557",
     "FIELD2":"Waitakere School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -105985,7 +105985,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"365",
+    "id":"365",
     "FIELD2":"Waitaki Boys' High School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -106032,7 +106032,7 @@ var schoolz = [
     "FIELD45":"14"
   },
   {
-    "FIELD1":"366",
+    "id":"366",
     "FIELD2":"Waitaki Girls' High School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -106079,7 +106079,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"363",
+    "id":"363",
     "FIELD2":"Waitaki Valley School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -106126,7 +106126,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"685",
+    "id":"685",
     "FIELD2":"Waitakiri Primary School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -106173,7 +106173,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2260",
+    "id":"2260",
     "FIELD2":"Waitara Central School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -106220,7 +106220,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2261",
+    "id":"2261",
     "FIELD2":"Waitara East School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -106267,7 +106267,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"170",
+    "id":"170",
     "FIELD2":"Waitara High School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -106314,7 +106314,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3064",
+    "id":"3064",
     "FIELD2":"Waitaria Bay School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -106361,7 +106361,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3857",
+    "id":"3857",
     "FIELD2":"Waitati School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -106408,7 +106408,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2070",
+    "id":"2070",
     "FIELD2":"Waiterimu School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -106455,7 +106455,7 @@ var schoolz = [
     "FIELD45":"#N/A"
   },
   {
-    "FIELD1":"2071",
+    "id":"2071",
     "FIELD2":"Waitetuna School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -106502,7 +106502,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2072",
+    "id":"2072",
     "FIELD2":"Waitoa School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -106549,7 +106549,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3065",
+    "id":"3065",
     "FIELD2":"Waitohu School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -106596,7 +106596,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1558",
+    "id":"1558",
     "FIELD2":"Waitoki School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -106643,7 +106643,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2073",
+    "id":"2073",
     "FIELD2":"Waitomo Caves School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -106690,7 +106690,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2262",
+    "id":"2262",
     "FIELD2":"Waitoriki School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -106737,7 +106737,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2474",
+    "id":"2474",
     "FIELD2":"Waitotara School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -106784,7 +106784,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3579",
+    "id":"3579",
     "FIELD2":"Waituna Creek School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -106831,7 +106831,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2475",
+    "id":"2475",
     "FIELD2":"Waituna West School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -106878,7 +106878,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"105",
+    "id":"105",
     "FIELD2":"Waiuku College",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -106925,7 +106925,7 @@ var schoolz = [
     "FIELD45":"26"
   },
   {
-    "FIELD1":"1559",
+    "id":"1559",
     "FIELD2":"Waiuku Primary School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -106972,7 +106972,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3858",
+    "id":"3858",
     "FIELD2":"Waiwera South School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -107019,7 +107019,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1560",
+    "id":"1560",
     "FIELD2":"Wakaaranga School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -107066,7 +107066,7 @@ var schoolz = [
     "FIELD45":"4"
   },
   {
-    "FIELD1":"3580",
+    "id":"3580",
     "FIELD2":"Wakanui School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -107113,7 +107113,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3859",
+    "id":"3859",
     "FIELD2":"Wakari School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -107160,7 +107160,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"374",
+    "id":"374",
     "FIELD2":"Wakatipu High School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -107207,7 +107207,7 @@ var schoolz = [
     "FIELD45":"51"
   },
   {
-    "FIELD1":"3234",
+    "id":"3234",
     "FIELD2":"Wakefield School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -107254,7 +107254,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4046",
+    "id":"4046",
     "FIELD2":"Wallacetown School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -107301,7 +107301,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3581",
+    "id":"3581",
     "FIELD2":"Waltham School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -107348,7 +107348,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2074",
+    "id":"2074",
     "FIELD2":"Walton School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -107395,7 +107395,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1167",
+    "id":"1167",
     "FIELD2":"Wanaka Primary School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -107442,7 +107442,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"187",
+    "id":"187",
     "FIELD2":"Wanganui City College",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -107489,7 +107489,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"192",
+    "id":"192",
     "FIELD2":"Wanganui Collegiate School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -107536,7 +107536,7 @@ var schoolz = [
     "FIELD45":"57"
   },
   {
-    "FIELD1":"2476",
+    "id":"2476",
     "FIELD2":"Wanganui East School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -107583,7 +107583,7 @@ var schoolz = [
     "FIELD45":"#N/A"
   },
   {
-    "FIELD1":"188",
+    "id":"188",
     "FIELD2":"Wanganui Girls' College",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -107630,7 +107630,7 @@ var schoolz = [
     "FIELD45":"6"
   },
   {
-    "FIELD1":"189",
+    "id":"189",
     "FIELD2":"Wanganui High School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -107677,7 +107677,7 @@ var schoolz = [
     "FIELD45":"72"
   },
   {
-    "FIELD1":"2477",
+    "id":"2477",
     "FIELD2":"Wanganui Intermediate",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -107724,7 +107724,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3067",
+    "id":"3067",
     "FIELD2":"Ward School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -107771,7 +107771,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3861",
+    "id":"3861",
     "FIELD2":"Warepa School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -107818,7 +107818,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1561",
+    "id":"1561",
     "FIELD2":"Warkworth School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -107865,7 +107865,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3862",
+    "id":"3862",
     "FIELD2":"Warrington School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -107912,7 +107912,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1562",
+    "id":"1562",
     "FIELD2":"Waterlea Public School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -107959,7 +107959,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3068",
+    "id":"3068",
     "FIELD2":"Waterloo School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -108006,7 +108006,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1563",
+    "id":"1563",
     "FIELD2":"Waterview School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -108053,7 +108053,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4047",
+    "id":"4047",
     "FIELD2":"Waverley Park School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -108100,7 +108100,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2478",
+    "id":"2478",
     "FIELD2":"Waverley Primary School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -108147,7 +108147,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2732",
+    "id":"2732",
     "FIELD2":"Weber School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -108194,7 +108194,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3585",
+    "id":"3585",
     "FIELD2":"Weedons School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -108241,7 +108241,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2264",
+    "id":"2264",
     "FIELD2":"Welbourn School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -108288,7 +108288,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2076",
+    "id":"2076",
     "FIELD2":"Welcome Bay School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -108335,7 +108335,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"275",
+    "id":"275",
     "FIELD2":"Wellington College",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -108382,7 +108382,7 @@ var schoolz = [
     "FIELD45":"81"
   },
   {
-    "FIELD1":"274",
+    "id":"274",
     "FIELD2":"Wellington East Girls' College",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -108429,7 +108429,7 @@ var schoolz = [
     "FIELD45":"17"
   },
   {
-    "FIELD1":"272",
+    "id":"272",
     "FIELD2":"Wellington Girls' College",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -108476,7 +108476,7 @@ var schoolz = [
     "FIELD45":"59"
   },
   {
-    "FIELD1":"273",
+    "id":"273",
     "FIELD2":"Wellington High School and Com Ed Centre",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -108523,7 +108523,7 @@ var schoolz = [
     "FIELD45":"54"
   },
   {
-    "FIELD1":"4150",
+    "id":"4150",
     "FIELD2":"Wellington S D A School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -108570,7 +108570,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1126",
+    "id":"1126",
     "FIELD2":"Wellsford School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -108617,7 +108617,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"104",
+    "id":"104",
     "FIELD2":"Wesley College",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -108664,7 +108664,7 @@ var schoolz = [
     "FIELD45":"8"
   },
   {
-    "FIELD1":"1564",
+    "id":"1564",
     "FIELD2":"Wesley Intermediate",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -108711,7 +108711,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1565",
+    "id":"1565",
     "FIELD2":"Wesley School",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -108758,7 +108758,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2265",
+    "id":"2265",
     "FIELD2":"West End School (New Plymouth)",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -108805,7 +108805,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2479",
+    "id":"2479",
     "FIELD2":"West End School (P North)",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -108852,7 +108852,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3586",
+    "id":"3586",
     "FIELD2":"West Eyreton School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -108899,7 +108899,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4050",
+    "id":"4050",
     "FIELD2":"West Gore School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -108946,7 +108946,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1566",
+    "id":"1566",
     "FIELD2":"West Harbour School",
     "FIELD3":"2",
     "FIELD4":"F",
@@ -108993,7 +108993,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3587",
+    "id":"3587",
     "FIELD2":"West Melton School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -109040,7 +109040,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2867",
+    "id":"2867",
     "FIELD2":"West Park School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -109087,7 +109087,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3588",
+    "id":"3588",
     "FIELD2":"West Spreydon School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -109134,7 +109134,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4157",
+    "id":"4157",
     "FIELD2":"Westbridge Residential School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -109181,7 +109181,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2077",
+    "id":"2077",
     "FIELD2":"Westbrook School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -109228,7 +109228,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3589",
+    "id":"3589",
     "FIELD2":"Westburn School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -109275,7 +109275,7 @@ var schoolz = [
     "FIELD45":"6"
   },
   {
-    "FIELD1":"151",
+    "id":"151",
     "FIELD2":"Western Heights High School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -109322,7 +109322,7 @@ var schoolz = [
     "FIELD45":"11"
   },
   {
-    "FIELD1":"2078",
+    "id":"2078",
     "FIELD2":"Western Heights Primary School (Rotorua)",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -109369,7 +109369,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1567",
+    "id":"1567",
     "FIELD2":"Western Heights School (Auckland)",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -109416,7 +109416,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"48",
+    "id":"48",
     "FIELD2":"Western Springs College",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -109463,7 +109463,7 @@ var schoolz = [
     "FIELD45":"105"
   },
   {
-    "FIELD1":"37",
+    "id":"37",
     "FIELD2":"Westlake Boys' High School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -109510,7 +109510,7 @@ var schoolz = [
     "FIELD45":"190"
   },
   {
-    "FIELD1":"38",
+    "id":"38",
     "FIELD2":"Westlake Girls' High School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -109557,7 +109557,7 @@ var schoolz = [
     "FIELD45":"197"
   },
   {
-    "FIELD1":"305",
+    "id":"305",
     "FIELD2":"Westland High School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -109604,7 +109604,7 @@ var schoolz = [
     "FIELD45":"4"
   },
   {
-    "FIELD1":"1568",
+    "id":"1568",
     "FIELD2":"Westmere School (Auckland)",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -109651,7 +109651,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2480",
+    "id":"2480",
     "FIELD2":"Westmere School (Wanganui)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -109698,7 +109698,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"344",
+    "id":"344",
     "FIELD2":"Westminster Christian School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -109745,7 +109745,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"3864",
+    "id":"3864",
     "FIELD2":"Weston School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -109792,7 +109792,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2266",
+    "id":"2266",
     "FIELD2":"Westown School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -109839,7 +109839,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3235",
+    "id":"3235",
     "FIELD2":"Westport North School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -109886,7 +109886,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3236",
+    "id":"3236",
     "FIELD2":"Westport South School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -109933,7 +109933,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2733",
+    "id":"2733",
     "FIELD2":"Westshore School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -109980,7 +109980,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1570",
+    "id":"1570",
     "FIELD2":"Weymouth School",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -110027,7 +110027,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2079",
+    "id":"2079",
     "FIELD2":"Whakamarama School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -110074,7 +110074,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2080",
+    "id":"2080",
     "FIELD2":"Whakamaru School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -110121,7 +110121,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2481",
+    "id":"2481",
     "FIELD2":"Whakarongo School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -110168,7 +110168,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"144",
+    "id":"144",
     "FIELD2":"Whakatane High School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -110215,7 +110215,7 @@ var schoolz = [
     "FIELD45":"20"
   },
   {
-    "FIELD1":"2082",
+    "id":"2082",
     "FIELD2":"Whakatane Intermediate",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -110262,7 +110262,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1170",
+    "id":"1170",
     "FIELD2":"Whakatane S D A School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -110309,7 +110309,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1127",
+    "id":"1127",
     "FIELD2":"Whananaki School",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -110356,7 +110356,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2482",
+    "id":"2482",
     "FIELD2":"Whangaehu School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -110403,7 +110403,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2083",
+    "id":"2083",
     "FIELD2":"Whangamarino School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -110450,7 +110450,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"428",
+    "id":"428",
     "FIELD2":"Whangamata Area School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -110497,7 +110497,7 @@ var schoolz = [
     "FIELD45":"9"
   },
   {
-    "FIELD1":"6763",
+    "id":"6763",
     "FIELD2":"Whangaparaoa College",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -110544,7 +110544,7 @@ var schoolz = [
     "FIELD45":"45"
   },
   {
-    "FIELD1":"1571",
+    "id":"1571",
     "FIELD2":"Whangaparaoa School (Auckland)",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -110591,7 +110591,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"2736",
+    "id":"2736",
     "FIELD2":"Whangara School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -110638,7 +110638,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4154",
+    "id":"4154",
     "FIELD2":"Whangarei Adventist Christian School",
     "FIELD3":"3",
     "FIELD4":"H",
@@ -110685,7 +110685,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"15",
+    "id":"15",
     "FIELD2":"Whangarei Boys' High School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -110732,7 +110732,7 @@ var schoolz = [
     "FIELD45":"9"
   },
   {
-    "FIELD1":"16",
+    "id":"16",
     "FIELD2":"Whangarei Girls' High School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -110779,7 +110779,7 @@ var schoolz = [
     "FIELD45":"21"
   },
   {
-    "FIELD1":"1128",
+    "id":"1128",
     "FIELD2":"Whangarei Heads School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -110826,7 +110826,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1129",
+    "id":"1129",
     "FIELD2":"Whangarei Intermediate",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -110873,7 +110873,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1130",
+    "id":"1130",
     "FIELD2":"Whangarei School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -110920,7 +110920,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"4",
+    "id":"4",
     "FIELD2":"Whangaroa College",
     "FIELD3":"1",
     "FIELD4":"C",
@@ -110967,7 +110967,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1667",
+    "id":"1667",
     "FIELD2":"Whangaruru School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -111014,7 +111014,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3070",
+    "id":"3070",
     "FIELD2":"Whareama School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -111061,7 +111061,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3591",
+    "id":"3591",
     "FIELD2":"Wharenui School",
     "FIELD3":"3",
     "FIELD4":"G",
@@ -111108,7 +111108,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2267",
+    "id":"2267",
     "FIELD2":"Whareorino School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -111155,7 +111155,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2086",
+    "id":"2086",
     "FIELD2":"Wharepapa South School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -111202,7 +111202,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3592",
+    "id":"3592",
     "FIELD2":"Whataroa School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -111249,7 +111249,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2087",
+    "id":"2087",
     "FIELD2":"Whatawhata School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -111296,7 +111296,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1131",
+    "id":"1131",
     "FIELD2":"Whau Valley School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -111343,7 +111343,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2088",
+    "id":"2088",
     "FIELD2":"Whenuakite School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -111390,7 +111390,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2483",
+    "id":"2483",
     "FIELD2":"Whenuakura School",
     "FIELD3":"4",
     "FIELD4":"L",
@@ -111437,7 +111437,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1572",
+    "id":"1572",
     "FIELD2":"Whenuapai School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -111484,7 +111484,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2090",
+    "id":"2090",
     "FIELD2":"Whitikahu School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -111531,7 +111531,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2091",
+    "id":"2091",
     "FIELD2":"Whitiora School",
     "FIELD3":"3",
     "FIELD4":"I",
@@ -111578,7 +111578,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3071",
+    "id":"3071",
     "FIELD2":"Whitney Street School",
     "FIELD3":"4",
     "FIELD4":"K",
@@ -111625,7 +111625,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3072",
+    "id":"3072",
     "FIELD2":"Wilford School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -111672,7 +111672,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"220",
+    "id":"220",
     "FIELD2":"William Colenso College",
     "FIELD3":"2",
     "FIELD4":"D",
@@ -111719,7 +111719,7 @@ var schoolz = [
     "FIELD45":"26"
   },
   {
-    "FIELD1":"1573",
+    "id":"1573",
     "FIELD2":"Willow Park School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -111766,7 +111766,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"3981",
+    "id":"3981",
     "FIELD2":"Willowbank School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -111813,7 +111813,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"6959",
+    "id":"6959",
     "FIELD2":"Willowbank School (Howick)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -111860,7 +111860,7 @@ var schoolz = [
     "FIELD45":"2"
   },
   {
-    "FIELD1":"1574",
+    "id":"1574",
     "FIELD2":"Wilson School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -111907,7 +111907,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2108",
+    "id":"2108",
     "FIELD2":"Winchester Rural School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -111954,7 +111954,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2484",
+    "id":"2484",
     "FIELD2":"Winchester School (P North)",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -112001,7 +112001,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"3074",
+    "id":"3074",
     "FIELD2":"Windley School",
     "FIELD3":"1",
     "FIELD4":"B",
@@ -112048,7 +112048,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3967",
+    "id":"3967",
     "FIELD2":"Windsor North School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -112095,7 +112095,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3597",
+    "id":"3597",
     "FIELD2":"Windwhistle School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -112142,7 +112142,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1575",
+    "id":"1575",
     "FIELD2":"Windy Ridge School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -112189,7 +112189,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"4052",
+    "id":"4052",
     "FIELD2":"Winton School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -112236,7 +112236,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1576",
+    "id":"1576",
     "FIELD2":"Wiri Central School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -112283,7 +112283,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3075",
+    "id":"3075",
     "FIELD2":"Witherlea School",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -112330,7 +112330,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3599",
+    "id":"3599",
     "FIELD2":"Woodbury School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -112377,7 +112377,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3600",
+    "id":"3600",
     "FIELD2":"Woodend School",
     "FIELD3":"8",
     "FIELD4":"P",
@@ -112424,7 +112424,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"225",
+    "id":"225",
     "FIELD2":"Woodford House",
     "FIELD3":"9",
     "FIELD4":"Q",
@@ -112471,7 +112471,7 @@ var schoolz = [
     "FIELD45":"11"
   },
   {
-    "FIELD1":"1577",
+    "id":"1577",
     "FIELD2":"Woodhill School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -112518,7 +112518,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4053",
+    "id":"4053",
     "FIELD2":"Woodlands Full Primary School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -112565,7 +112565,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1578",
+    "id":"1578",
     "FIELD2":"Woodlands Park School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -112612,7 +112612,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2092",
+    "id":"2092",
     "FIELD2":"Woodlands School (Opotiki)",
     "FIELD3":"4",
     "FIELD4":"J",
@@ -112659,7 +112659,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2268",
+    "id":"2268",
     "FIELD2":"Woodleigh School",
     "FIELD3":"7",
     "FIELD4":"O",
@@ -112706,7 +112706,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"2093",
+    "id":"2093",
     "FIELD2":"Woodstock School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -112753,7 +112753,7 @@ var schoolz = [
     "FIELD45":"1"
   },
   {
-    "FIELD1":"2742",
+    "id":"2742",
     "FIELD2":"Woodville School",
     "FIELD3":"2",
     "FIELD4":"E",
@@ -112800,7 +112800,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3077",
+    "id":"3077",
     "FIELD2":"Worser Bay School",
     "FIELD3":"10",
     "FIELD4":"Z",
@@ -112847,7 +112847,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1579",
+    "id":"1579",
     "FIELD2":"Wymondley Road School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -112894,7 +112894,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"4054",
+    "id":"4054",
     "FIELD2":"Wyndham School",
     "FIELD3":"6",
     "FIELD4":"N",
@@ -112941,7 +112941,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"3602",
+    "id":"3602",
     "FIELD2":"Yaldhurst Model School",
     "FIELD3":"5",
     "FIELD4":"M",
@@ -112988,7 +112988,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"1580",
+    "id":"1580",
     "FIELD2":"Yendarra School",
     "FIELD3":"1",
     "FIELD4":"A",
@@ -113035,7 +113035,7 @@ var schoolz = [
     "FIELD45":"0"
   },
   {
-    "FIELD1":"471",
+    "id":"471",
     "FIELD2":"Zayed College for Girls",
     "FIELD3":"3",
     "FIELD4":"H",
