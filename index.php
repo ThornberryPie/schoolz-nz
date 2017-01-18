@@ -47,7 +47,11 @@
 
       <div id="map_legend" open="open">
         <p><span class="red line">------</span><small>Power&nbsp;Grid</small></p>
-        <p><span class="blue line">------</span><small>Bus&nbsp;Routz</small></p>
+        <!--<p><span class="blue line">------</span><small>Bus&nbsp;Routes</small></p>-->
+				<label for="toggleSubstations">
+					<input id="toggleSubstations" type="checkbox" ng-model="checkedSubstations" ng-change="toggleMarkerType('substations')">
+					Substations
+				</label>
       </div>
     </header>
 
@@ -69,15 +73,20 @@
     <script src="dist/main.min.js"></script>
 
     <script src="data/schoolz.js"></script>
-    <script src="data/pylonz.js"></script>
-    <script src="data/busz.js"></script>
-    <script src="data/substationz.js"></script>
-    <script src="data/playcentrez.js"></script>
+		<script src="scripts/gt_school.js"></script>
 
-    <script src="scripts/gt_school.js"></script>
-    <script src="scripts/gt_substation.js"></script>
-    <script src="scripts/gt_playcentre.js"></script>
+    <script src="data/pylonz.js"></script>
+
+    <!--<script src="data/busz.js"></script>-->
+
+    <script src="data/substationz.js"></script>
+		<script src="scripts/gt_substation.js"></script>
+
+    <script src="data/playcentrez.js"></script>
+		<script src="scripts/gt_playcentre.js"></script>
+
     <script src="scripts/gt_mapControl.js"></script>
+
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

@@ -71,7 +71,7 @@ var School = function(i){
 	};
 
 	this.setHTML = function(){
-		var html = '<article class="decile'+this.rawdecile+'">';
+		var html = '<article class="window window--school decile'+this.rawdecile+'">';
 		html += '<header><h2 class="name">'+this.schoolname+'</h2>';
 		if(this.website != '0'){
 			html += '<div class="block website"><a href="'+this.website+'" target="_blank">'+this.website+'</a></div>';
@@ -135,9 +135,8 @@ var School = function(i){
 	this.website = (this.website != "0") ? "\n"+this.website : '';
 
 	//Set content of marker and infowindow
-	this.markerTitle = this.setMarkerTitle();   
+	this.markerTitle = this.setMarkerTitle();
 	this.schoolhtml = this.setHTML();
 
 	this.schoolID = schoolz[i].FIELD2+', '+schoolz[i].FIELD23;
 }
-
