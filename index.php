@@ -44,24 +44,39 @@
         <label id="search-label">Search:&nbsp;</label>
         <input id="map_search" ng-model="address" placeholder="Find a School in NZ" list="schoolList" ng-keyup="searchKeyUp($event)" ng-change="searchChange()">
       </div>
-
-      <div id="map_legend" open="open">
-        <!--<p><span class="red line">------</span><small>Power&nbsp;Grid</small></p>
-        <p><span class="blue line">------</span><small>Bus&nbsp;Routes</small></p>-->
-				<label for="toggleSchools" class="togglebox">
-					<input id="toggleSchools" type="checkbox" ng-model="checkedSchools" ng-change="toggleMarkerType('schools')">
-					<img src="images/school.png" alt="schools">&nbsp;Schools
-				</label>
-				<label for="toggleSubstations" class="togglebox">
-					<input id="toggleSubstations" type="checkbox" ng-model="checkedSubstations" ng-change="toggleMarkerType('substations')">
-					<img src="images/substation.png" alt="substations">&nbsp;Substations
-				</label>
-				<?php /*<label for="togglePylons" class="togglebox">
-					<input id="togglePylons" type="checkbox" ng-model="checkedPylons" ng-change="toggleMarkerType('pylons')">
-					<span class="line red">---</span>Power Lines
-				</label>*/ ?>
-      </div>
     </header>
+		<aside class="map-legend">
+			<!--<p><span class="red line">------</span><small>Power&nbsp;Grid</small></p>
+			<p><span class="blue line">------</span><small>Bus&nbsp;Routes</small></p>-->
+			<section class="legend-section">
+				<label for="toggleSchools" class="togglerow clearfix">
+					<input id="toggleSchools" class="togglebox" type="checkbox" ng-model="checkedSchools" ng-change="toggleMarkerType('schools')">
+					<img src="images/school.png" alt="schools">
+					<span class="text">Schools</span>
+				</label>
+				<label for="togglePlaycentres" class="togglerow clearfix">
+					<input id="togglePlaycentres" class="togglebox" type="checkbox" ng-model="checkedPlaycentres" ng-change="toggleMarkerType('playcentres')">
+					<img src="images/playcentre.png" alt="schools">
+					<span class="text">Playcentres</span>
+				</label>
+				<label for="toggleSubstations" class="togglerow clearfix">
+					<input id="toggleSubstations" class="togglebox" type="checkbox" ng-model="checkedSubstations" ng-change="toggleMarkerType('substations')">
+					<img src="images/substation.png" alt="substations">
+					<span class="text">Substations</span>
+				</label>
+			</section>
+			<section class="legend-section">
+				<label for="toggleClustering" class="togglerow clearfix">
+					<input id="toggleClustering" class="togglebox" type="checkbox" ng-model="clusterActive" ng-change="reloadPage()">
+					<img src="images/cluster.png" alt="cluster">
+					<span class="text">Clustering</span>
+				</label>
+			</section>
+			<?php /*<label for="togglePylons" class="togglebox">
+				<input id="togglePylons" type="checkbox" ng-model="checkedPylons" ng-change="toggleMarkerType('pylons')">
+				<span class="line red">---</span>Power Lines
+			</label>*/ ?>
+		</aside>
 
     <datalist id="schoolList">
       <option ng-repeat="school in schoolz">{{school.FIELD2}}, {{school.FIELD23}}</option>

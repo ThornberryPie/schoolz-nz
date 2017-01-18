@@ -10,7 +10,7 @@ app.controller('mapControl', function($scope, $http, $interval) {
   //$scope.busz = busz;
   $scope.playcentrez = playcentrez;
 
-  $scope.defaultAddress = 'Auckland, New Zealand';
+  $scope.defaultAddress = 'Whangarei, New Zealand';
   $scope.address = $scope.defaultAddress;
 
   //$scope.zoomDefault = 5;
@@ -20,6 +20,7 @@ app.controller('mapControl', function($scope, $http, $interval) {
   $scope.clusterIcon = 'images/cluster.png';
   $scope.clusterIconTextColor = 'white';
   $scope.clusterIconSize = 50;
+	$scope.clusterActive = true;
 
   $scope.dynMarkers = [];
   $scope.windows = [];
@@ -30,9 +31,9 @@ app.controller('mapControl', function($scope, $http, $interval) {
   $scope.playcentrehtml = [];
 
 	$scope.checkedSchools = true;
-	$scope.checkedSubstations = true;
+	$scope.checkedPlaycentres = false;
+	$scope.checkedSubstations = false;
 	$scope.checkedPylons = true;
-	$scope.checkedPlaycentres = true;
 
   //Init function
   $scope.$on('mapInitialized', function(event, evtMap) {
@@ -78,30 +79,6 @@ app.controller('mapControl', function($scope, $http, $interval) {
         });
     }*/
 
-    //Add substations
-
-		for (var i=0; i < $scope.substationz.length; i++) {
-
-      var s = new Substation(i);
-
-      var latLng = new google.maps.LatLng(s.lat, s.lng);
-
-      //Add markers
-      var marker = new google.maps.Marker({
-        position: latLng,
-        title: s.address+', '+s.suburb,
-        icon: 'images/substation.png'
-      });
-
-      $scope.dynMarkers[s.id] = marker;
-
-			//Hide markers if they should be hidden on page load
-			if(!$scope.checkedSubstations){
-				$scope.dynMarkers[s.id].setVisible(false);
-			}
-
-    }
-
 
     //Add schools
     for (var i=0; i < $scope.schoolz.length; i++) {
@@ -114,7 +91,8 @@ app.controller('mapControl', function($scope, $http, $interval) {
       var marker = new google.maps.Marker({
         position: latLng,
         title: s.markerTitle,
-        icon: 'images/school.png'
+        icon: 'images/school.png',
+				map: map
       });
 
       $scope.dynMarkers[s.id] = marker;
@@ -139,50 +117,76 @@ app.controller('mapControl', function($scope, $http, $interval) {
       var marker = new google.maps.Marker({
         position: latLng,
         title: p.markerTitle,
-        icon: 'images/playcentre.png'
+        icon: 'images/playcentre.png',
+				map: map
       });
 
-      $scope.dynMarkers[p.name] = marker;
+      $scope.dynMarkers[p.id] = marker;
 
       //Set infowindow in a function or it won't work properly
-      s.setInfowindow(marker, p.playcentrehtml, p.name, map);
+      s.setInfowindow(marker, p.playcentrehtml, p.id, map);
 
 			if(!$scope.checkedPlaycentres){
-				$scope.dynMarkers[p.name].setVisible(false);
+				$scope.dynMarkers[p.id].setVisible(false);
 			}
 
     }
 
+		//Add substations
+		for (var i=0; i < $scope.substationz.length; i++) {
+
+      var s = new Substation(i);
+
+      var latLng = new google.maps.LatLng(s.lat, s.lng);
+
+      //Add markers
+      var marker = new google.maps.Marker({
+        position: latLng,
+        title: s.address+', '+s.suburb,
+        icon: 'images/substation.png',
+				map: map
+      });
+
+      $scope.dynMarkers[s.id] = marker;
+
+			//Hide markers if they should be hidden on page load
+			if(!$scope.checkedSubstations){
+				$scope.dynMarkers[s.id].setVisible(false);
+			}
+
+    }
 
     //Style clusterers
-    var clusterStyles = [
-      {
-        textColor: $scope.clusterIconTextColor,
-        url: $scope.clusterIcon,
-        height: $scope.clusterIconSize,
-        width: $scope.clusterIconSize
-      },
-      {
-        textColor: $scope.clusterIconTextColor,
-        url: $scope.clusterIcon,
-        height: $scope.clusterIconSize,
-        width: $scope.clusterIconSize
-      },
-      {
-        textColor: $scope.clusterIconTextColor,
-        url: $scope.clusterIcon,
-        height: $scope.clusterIconSize,
-        width: $scope.clusterIconSize
-      }
-    ];
+		if($scope.clusterActive){
+			var clusterStyles = [
+	      {
+	        textColor: $scope.clusterIconTextColor,
+	        url: $scope.clusterIcon,
+	        height: $scope.clusterIconSize,
+	        width: $scope.clusterIconSize
+	      },
+	      {
+	        textColor: $scope.clusterIconTextColor,
+	        url: $scope.clusterIcon,
+	        height: $scope.clusterIconSize,
+	        width: $scope.clusterIconSize
+	      },
+	      {
+	        textColor: $scope.clusterIconTextColor,
+	        url: $scope.clusterIcon,
+	        height: $scope.clusterIconSize,
+	        width: $scope.clusterIconSize
+	      }
+	    ];
 
-    var mcOptions = {
-        gridSize: $scope.clusterIconSize,
-        styles: clusterStyles
-    };
+	    var mcOptions = {
+	        gridSize: $scope.clusterIconSize,
+	        styles: clusterStyles
+	    };
 
-    //Add Markers
-    $scope.markerClusterer = new MarkerClusterer(map, $scope.dynMarkers, mcOptions);
+	    //Add Markers
+	    $scope.markerClusterer = new MarkerClusterer(map, $scope.dynMarkers, mcOptions);
+		}
 
     //Datalist event listeners
     $scope.searchChange = function(){
@@ -261,7 +265,7 @@ app.controller('mapControl', function($scope, $http, $interval) {
 			$scope.dynMarkers[id].setVisible(showMarkers);
 		}
 
-		google.maps.event.trigger(map,'resize');
+		//google.maps.event.trigger(map,'resize');
 
 	};
 

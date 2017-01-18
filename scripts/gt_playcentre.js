@@ -46,6 +46,7 @@ var Playcentre = function(i){
 		return html;
 	};
 
+	this.id = p.id;
 	this.name = p.name;
 	this.address = p.address;
 	this.phone = p.phone;
