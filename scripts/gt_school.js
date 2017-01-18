@@ -102,7 +102,7 @@ var School = function(i){
 	};
 
 	//Gather this school's properties from schoolz obj and format data
-	this.id = schoolz[i].FIELD1;
+	this.id = schoolz[i].id;
 	this.schoolname = schoolz[i].FIELD2;
 	this.rawdecile = schoolz[i].FIELD3;
 	this.type = schoolz[i].FIELD9;

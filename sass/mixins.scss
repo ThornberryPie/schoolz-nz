@@ -9,10 +9,11 @@
 	-moz-box-shadow: $bs;
 	box-shadow: $bs;
 }
-@mixin panel() {   
+@mixin panel(){
 	@include border-radius(2px);
 	@include box-shadow($box-shadow);
-	//border: 1px solid $border-color;
+	background: white;
 	border: 0;
 	box-sizing: border-box;
+	opacity: 0.9;
 }

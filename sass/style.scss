@@ -72,7 +72,19 @@
 	line-height: 18px;
 	font-size: 0.9em;
 	@include panel;
-	p{
+	.togglebox{
+		display: block;
+		img{
+			width: 15px;
+			height: 15px;
+			position: relative;
+			top: 3px;
+		}
+		.line{
+			padding-right: 5px;
+		}
+	}
+	/*p{
 		background: $white;
 		border-right: 1px solid $border-color;
 		padding: 3px 6px;
@@ -96,22 +108,13 @@
 		small{
 			line-height: 22px;
 		}
-	}
-	#map_legend{
-		border: 1px solid $border-color;
-		p{
-			right: 0;
-			top: 0;
-		}
-	}
-
+	}*/
 }
 #map_footer{
 	position: absolute;
 	width: 333px;
 	left: 0;
 	bottom: 39px;
-	background: white;
 	display: block;
 	z-index: 12;
 	font-size: $font-small;

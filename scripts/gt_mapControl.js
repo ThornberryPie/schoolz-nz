@@ -10,7 +10,7 @@ app.controller('mapControl', function($scope, $http, $interval) {
   //$scope.busz = busz;
   $scope.playcentrez = playcentrez;
 
-  $scope.defaultAddress = 'Whangarei, New Zealand';
+  $scope.defaultAddress = 'Auckland, New Zealand';
   $scope.address = $scope.defaultAddress;
 
   //$scope.zoomDefault = 5;
@@ -29,7 +29,10 @@ app.controller('mapControl', function($scope, $http, $interval) {
   $scope.routz = [];
   $scope.playcentrehtml = [];
 
+	$scope.checkedSchools = true;
 	$scope.checkedSubstations = true;
+	$scope.checkedPylons = true;
+	$scope.checkedPlaycentres = true;
 
   //Init function
   $scope.$on('mapInitialized', function(event, evtMap) {
@@ -56,6 +59,9 @@ app.controller('mapControl', function($scope, $http, $interval) {
               strokeWeight: 2
           });
         }
+				if(!$scope.checkedPylons){
+					$scope.lines[j].setVisible(false);
+				}
     }
 
     //Add bus routz
@@ -73,7 +79,8 @@ app.controller('mapControl', function($scope, $http, $interval) {
     }*/
 
     //Add substations
-    for (var i=0; i < $scope.substationz.length; i++) {
+
+		for (var i=0; i < $scope.substationz.length; i++) {
 
       var s = new Substation(i);
 
@@ -88,7 +95,13 @@ app.controller('mapControl', function($scope, $http, $interval) {
 
       $scope.dynMarkers[s.id] = marker;
 
+			//Hide markers if they should be hidden on page load
+			if(!$scope.checkedSubstations){
+				$scope.dynMarkers[s.id].setVisible(false);
+			}
+
     }
+
 
     //Add schools
     for (var i=0; i < $scope.schoolz.length; i++) {
@@ -104,10 +117,14 @@ app.controller('mapControl', function($scope, $http, $interval) {
         icon: 'images/school.png'
       });
 
-      $scope.dynMarkers[s.schoolID] = marker;
+      $scope.dynMarkers[s.id] = marker;
 
       //Set infowindow in a function or it won't work properly
       s.setInfowindow(marker, s.schoolhtml, s.id, map);
+
+			if(!$scope.checkedSchools){
+				$scope.dynMarkers[s.id].setVisible(false);
+			}
 
     }
 
@@ -129,6 +146,10 @@ app.controller('mapControl', function($scope, $http, $interval) {
 
       //Set infowindow in a function or it won't work properly
       s.setInfowindow(marker, p.playcentrehtml, p.name, map);
+
+			if(!$scope.checkedPlaycentres){
+				$scope.dynMarkers[p.name].setVisible(false);
+			}
 
     }
 
@@ -214,10 +235,23 @@ app.controller('mapControl', function($scope, $http, $interval) {
   });//end $scope.$on('mapInitialized'
 
 	$scope.toggleMarkerType = function(type){
+
 		switch(type){
+			case 'schools':
+				var markerArray = $scope.schoolz;
+				var boxModel = $scope.checkedSchools;
+			break;
 			case 'substations':
 				var markerArray = $scope.substationz;
 				var boxModel = $scope.checkedSubstations;
+			break;
+			case 'pylons':
+				var markerArray = $scope.pylonz;
+				var boxModel = $scope.checkedPylons;
+			break;
+			case 'playcentres':
+				var markerArray = $scope.playcentrez;
+				var boxModel = $scope.checkedPlaycentres;
 			break;
 		}
 		var showMarkers = (boxModel) ? true : false;
@@ -226,6 +260,9 @@ app.controller('mapControl', function($scope, $http, $interval) {
 			var id = markerArray[i].id;
 			$scope.dynMarkers[id].setVisible(showMarkers);
 		}
+
+		google.maps.event.trigger(map,'resize');
+
 	};
 
 });//end app.controller
