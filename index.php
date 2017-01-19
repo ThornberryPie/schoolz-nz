@@ -79,7 +79,7 @@
 		</aside>
 
     <datalist id="schoolList">
-      <option ng-repeat="school in schoolz">{{school.FIELD2}}, {{school.FIELD23}}</option>
+      <option ng-repeat="school in schoolz">{{school.Name}}, {{school.City}}</option>
     </datalist>
     <div id="map_footer">
         <div class="copyright">

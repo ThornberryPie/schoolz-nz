@@ -1,7 +1,7 @@
 var School = function(i){
 
-	this.change = function(i){
-		var c = schoolz[i].FIELD5;
+	/*this.change = function(i){
+		var c = schoolz[i].DecileChange;
 		//Add '+' to decile change if it's not minus or zero
 		if(c.charAt(0) != '-' && c != '0'){
 			c = 'up '+c;
@@ -10,7 +10,7 @@ var School = function(i){
 		//Return null if decile has not changed
 		c = (c == '0') ? '' : c;
 		return c;
-	};
+	};*/
 
 	this.formatType = function(type){
 		type = (type == 'Contributing') ? type+' Primary (Year 1-6)' : type;
@@ -71,7 +71,7 @@ var School = function(i){
 	};
 
 	this.setHTML = function(){
-		var html = '<article class="window window--school decile'+this.rawdecile+'">';
+		var html = '<article class="window window--school decile'+this.decile+'">';
 		html += '<header><h2 class="name">'+this.schoolname+'</h2>';
 		if(this.website != '0'){
 			html += '<div class="block website"><a href="'+this.website+'" target="_blank">'+this.website+'</a></div>';
@@ -103,33 +103,35 @@ var School = function(i){
 
 	//Gather this school's properties from schoolz obj and format data
 	this.id = schoolz[i].id;
-	this.schoolname = schoolz[i].FIELD2;
-	this.rawdecile = schoolz[i].FIELD3;
-	this.type = schoolz[i].FIELD9;
-	this.authority = schoolz[i].FIELD10;
-	this.territory = schoolz[i].FIELD11;
-	this.phone = schoolz[i].FIELD16;
-	this.email = schoolz[i].FIELD18;
-	this.principal = schoolz[i].FIELD19;
-	this.website = schoolz[i].FIELD20;
-	this.address1 = schoolz[i].FIELD21;
-	this.address2 = schoolz[i].FIELD22;
-	this.address3 = schoolz[i].FIELD23;
-	this.postcode = schoolz[i].FIELD27;
-	this.gender = schoolz[i].FIELD32;
-	this.lat = this.tidyLatLng(schoolz[i].FIELD36);
-	this.lng = this.tidyLatLng(schoolz[i].FIELD37);
-	this.students = schoolz[i].FIELD38;
-	this.pakeha = schoolz[i].FIELD39;
-	this.maori = schoolz[i].FIELD40;
-	this.pasifika = schoolz[i].FIELD41;
-	this.asian = schoolz[i].FIELD42;
-	this.melaa = schoolz[i].FIELD43;
-	this.other = schoolz[i].FIELD44;
-	this.international = schoolz[i].FIELD45;
+	this.schoolname = schoolz[i].Name;
+	//this.rawdecile = schoolz[i].Decile;
+	this.decile = schoolz[i].Decile
+	this.type = schoolz[i].SchoolType;
+	this.authority = schoolz[i].Authority;
+	this.territory = schoolz[i].Territory;
+	this.phone = schoolz[i].Phone;
+	this.email = schoolz[i].Email;
+	this.principal = schoolz[i].Principal;
+	this.website = schoolz[i].Website;
+	this.address1 = schoolz[i].Street;
+	this.address2 = schoolz[i].Suburb;
+	this.address3 = schoolz[i].City;
+	this.postcode = schoolz[i].Postcode;
+	this.gender = schoolz[i].Gender;
+	this.lat = this.tidyLatLng(schoolz[i].Latitude);
+	this.lng = this.tidyLatLng(schoolz[i].Longitude);
+	this.students = schoolz[i].TotalStudents;
+	this.pakeha = schoolz[i].Pakeha;
+	this.maori = schoolz[i].Maori;
+	this.pasifika = schoolz[i].Pasifika;
+	this.asian = schoolz[i].Asian;
+	this.melaa = schoolz[i].MELAA;
+	this.other = schoolz[i].Other;
+	this.international = schoolz[i].International;
 
 	//Add extra text if decile has changed
-	this.decile = (this.change(i) !== '') ? this.rawdecile+" ("+this.change(i)+" since 2014)" : this.rawdecile;
+	//this.decile = (this.change(i) !== '') ? this.rawdecile+" ("+this.change(i)+" since 2014)" : this.rawdecile;
+	
 	//Add a line break before some elements if they're not null
 	this.suburb = (this.address2 != "0") ? "\n"+this.address2 : '';
 	this.website = (this.website != "0") ? "\n"+this.website : '';
@@ -138,5 +140,5 @@ var School = function(i){
 	this.markerTitle = this.setMarkerTitle();
 	this.schoolhtml = this.setHTML();
 
-	this.schoolID = schoolz[i].FIELD2+', '+schoolz[i].FIELD23;
+	this.schoolID = schoolz[i].Name+', '+schoolz[i].City;
 }

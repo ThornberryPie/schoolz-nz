@@ -301,7 +301,7 @@ app.controller('mapControl', function($scope, $http, $interval) {
 
         var s = $scope.schoolz[i];
 
-        var fieldVal = s.FIELD2+', '+s.FIELD23;
+        var fieldVal = s.Name+', '+s.City;
 
         if(fieldVal == $scope.address){
           isSchool = true;
