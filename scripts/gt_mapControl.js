@@ -26,7 +26,72 @@ app.controller('mapControl', function($scope, $http, $interval) {
     return "";
 	};
 
-  //Get the database from schoolz.js
+	$scope.setInfowindow = function(marker, html, id, map){
+		var infowindow = new google.maps.InfoWindow({
+			//position: latLng,
+			content: html
+		});
+
+		this.infowindow = infowindow;
+
+		//this.windows.push(infowindow);
+
+		//Pan to marker and show infowindow when marker is clicked
+		google.maps.event.addListener(marker, 'click', function() {
+			infowindow.open(map, this);
+			map.panTo(this.position);
+		});
+	};
+
+	$scope.toggleMarkerType = function(type){
+
+		switch(type){
+			case 'schools':
+				var markerArray = $scope.schoolz;
+				var boxModel = $scope.checkedSchools;
+			break;
+			case 'substations':
+				var markerArray = $scope.substationz;
+				var boxModel = $scope.checkedSubstations;
+			break;
+			case 'pylons':
+				var markerArray = $scope.pylonz;
+				var boxModel = $scope.checkedPylons;
+			break;
+			case 'playcentres':
+				var markerArray = $scope.playcentrez;
+				var boxModel = $scope.checkedPlaycentres;
+			break;
+		}
+		var showMarkers = (boxModel) ? true : false;
+		var cookieVal = (showMarkers) ? 'on' : 'off';
+
+		//Update cookie
+		$scope.setCookie(type, cookieVal, $scope.cookeExpiryDays);
+
+		//Reload page if clustering is turned on
+		if($scope.clusterActive){
+			location.reload();
+		}else{
+			//Loop through all items in selected array and show/hide markers
+			for (var i=0; i < markerArray.length; i++) {
+				var id = markerArray[i].id;
+				$scope.dynMarkers[id].setVisible(showMarkers);
+			}
+		}
+
+	};
+
+	$scope.toggleClustering = function(){
+		var cookieVal = 'off';
+		if($scope.clusterActive){
+			cookieVal = 'on';
+		}
+		$scope.setCookie('clustering', cookieVal, $scope.cookeExpiryDays);
+		location.reload();
+	};
+
+  //Load data
   $scope.schoolz = schoolz;
   $scope.substationz = substationz;
   $scope.pylonz = pylonz;
@@ -36,39 +101,26 @@ app.controller('mapControl', function($scope, $http, $interval) {
   $scope.defaultAddress = 'Whangarei, New Zealand';
   $scope.address = $scope.defaultAddress;
 
-  //$scope.zoomDefault = 5;
   $scope.zoomDefault = 12;
   $scope.zoom = $scope.zoomDefault;
 
   $scope.clusterIcon = 'images/cluster.png';
   $scope.clusterIconTextColor = 'white';
   $scope.clusterIconSize = 50;
-
-
-	if($scope.getCookie('clustering')){
-		//Set clustering based on user's cookie
-		if($scope.getCookie('clustering') == 'on'){
-			$scope.clusterActive = true;
-		}else{
-			$scope.clusterActive = false;
-		}
-	}else{
-		//Set default clustering when no cookie is present
-		$scope.clusterActive = true;
-	}
+	$scope.clusterActive = ($scope.getCookie('clustering') == 'off') ? false : true;
 
   $scope.dynMarkers = [];
   $scope.windows = [];
   $scope.schoolhtml = [];
   $scope.substationhtml = [];
   $scope.lines = [];
-  $scope.routz = [];
+  $scope.busroutz = [];
   $scope.playcentrehtml = [];
 
-	$scope.checkedSchools = true;
-	$scope.checkedPlaycentres = false;
-	$scope.checkedSubstations = false;
-	$scope.checkedPylons = true;
+	$scope.checkedSchools = ($scope.getCookie('schools') == 'off') ? false : true;
+	$scope.checkedPlaycentres = ($scope.getCookie('playcentres') == 'off') ? false : true;
+	$scope.checkedSubstations = ($scope.getCookie('substations') == 'off') ? false : true;
+	$scope.checkedPylons = ($scope.getCookie('pylons') == 'off') ? false : true;
 
 	$scope.cookeExpiryDays = 30;
 
@@ -106,7 +158,7 @@ app.controller('mapControl', function($scope, $http, $interval) {
     /*for(var i=0; i < $scope.busz.length; i++){
         var bus = $scope.busz[i];
         //console.log(bus.name);
-        $scope.routz[i] = new google.maps.Polyline({
+        $scope.busroutz[i] = new google.maps.Polyline({
           map: map,
           path: bus.coords,
           geodesic: true,
@@ -117,37 +169,50 @@ app.controller('mapControl', function($scope, $http, $interval) {
     }*/
 
 
-    //Add schools
-    for (var i=0; i < $scope.schoolz.length; i++) {
+    //--------------Schools-------------------
+		//Only add markers if both clustering and this marker type are turned on
 
-      var s = new School(i);
+		var addSchoolsMarker = false;
 
-      var latLng = new google.maps.LatLng(s.lat, s.lng);
-
-      //Add markers
-      var marker = new google.maps.Marker({
-        position: latLng,
-        title: s.markerTitle,
-        icon: 'images/school.png',
-				map: map
-      });
-
-      $scope.dynMarkers[s.id] = marker;
-
-      //Set infowindow in a function or it won't work properly
-      s.setInfowindow(marker, s.schoolhtml, s.id, map);
-
-			if(!$scope.checkedSchools){
-				$scope.dynMarkers[s.id].setVisible(false);
+		if($scope.clusterActive){
+			if($scope.checkedSchools){
+				addSchoolsMarker = true;
 			}
+		}else{
+			addSchoolsMarker = true;
+		}
 
-    }
+		if(addSchoolsMarker){
+			for (var i=0; i < $scope.schoolz.length; i++) {
+
+	      var s = new School(i);
+
+	      var latLng = new google.maps.LatLng(s.lat, s.lng);
+
+	      //Add markers
+	      var marker = new google.maps.Marker({
+	        position: latLng,
+	        title: s.markerTitle,
+	        icon: 'images/school.png',
+					map: map,
+					opacity: 0.8
+	      });
+
+				$scope.dynMarkers[s.id] = marker;
+				//Set infowindow in a function or it won't work properly
+	      $scope.setInfowindow(marker, s.schoolhtml, s.id, map);
+				//Hide marker if unckecked
+				if(!$scope.checkedSchools){
+					$scope.dynMarkers[s.id].setVisible(false);
+				}
+
+	    }
+		}
 
     //Add playcentres
     for (var i=0; i < $scope.playcentrez.length; i++) {
 
       var p = new Playcentre(i);
-
       var latLng = new google.maps.LatLng(p.lat, p.lng);
 
       //Add markers
@@ -155,13 +220,14 @@ app.controller('mapControl', function($scope, $http, $interval) {
         position: latLng,
         title: p.markerTitle,
         icon: 'images/playcentre.png',
-				map: map
+				map: map,
+				opacity: 0.9
       });
 
       $scope.dynMarkers[p.id] = marker;
 
       //Set infowindow in a function or it won't work properly
-      s.setInfowindow(marker, p.playcentrehtml, p.id, map);
+      $scope.setInfowindow(marker, p.playcentrehtml, p.id, map);
 
 			if(!$scope.checkedPlaycentres){
 				$scope.dynMarkers[p.id].setVisible(false);
@@ -173,7 +239,6 @@ app.controller('mapControl', function($scope, $http, $interval) {
 		for (var i=0; i < $scope.substationz.length; i++) {
 
       var s = new Substation(i);
-
       var latLng = new google.maps.LatLng(s.lat, s.lng);
 
       //Add markers
@@ -181,7 +246,8 @@ app.controller('mapControl', function($scope, $http, $interval) {
         position: latLng,
         title: s.address+', '+s.suburb,
         icon: 'images/substation.png',
-				map: map
+				map: map,
+				opacity: 0.7
       });
 
       $scope.dynMarkers[s.id] = marker;
@@ -274,48 +340,5 @@ app.controller('mapControl', function($scope, $http, $interval) {
     }
 
   });//end $scope.$on('mapInitialized'
-
-	$scope.toggleMarkerType = function(type){
-
-		switch(type){
-			case 'schools':
-				var markerArray = $scope.schoolz;
-				var boxModel = $scope.checkedSchools;
-			break;
-			case 'substations':
-				var markerArray = $scope.substationz;
-				var boxModel = $scope.checkedSubstations;
-			break;
-			case 'pylons':
-				var markerArray = $scope.pylonz;
-				var boxModel = $scope.checkedPylons;
-			break;
-			case 'playcentres':
-				var markerArray = $scope.playcentrez;
-				var boxModel = $scope.checkedPlaycentres;
-			break;
-		}
-		var showMarkers = (boxModel) ? true : false;
-		//Loop through all items in selected array and show/hide markers
-		for (var i=0; i < markerArray.length; i++) {
-			var id = markerArray[i].id;
-			$scope.dynMarkers[id].setVisible(showMarkers);
-		}
-
-		//google.maps.event.trigger(map,'resize');
-
-	};
-
-	$scope.toggleClustering = function(){
-		var cookieVal = 'off';
-		if($scope.clusterActive){
-			cookieVal = 'on';
-		}
-		$scope.setCookie('clustering', cookieVal, $scope.cookeExpiryDays);
-	};
-
-	$scope.reloadPage = function(){
-
-	};
 
 });//end app.controller

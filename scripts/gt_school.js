@@ -29,7 +29,7 @@ var School = function(i){
 		return parseFloat(l);
 	};
 
-	this.setInfowindow = function(marker, html, id, map){
+	/*this.setInfowindow = function(marker, html, id, map){
 		var infowindow = new google.maps.InfoWindow({
 			//position: latLng,
 			content: html
@@ -44,7 +44,7 @@ var School = function(i){
 			infowindow.open(map, this);
 			map.panTo(this.position);
 		});
-	};
+	};*/
 
 	this.setMarkerTitle = function(){
 		return this.schoolname+
