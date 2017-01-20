@@ -58,9 +58,15 @@
 					<span class="text">Playcentres</span>
 				</label>
 				<label for="toggleSubstations" class="togglerow clearfix">
-					<input id="toggleSubstations" class="togglebox" type="checkbox" ng-model="checkedSubstations" ng-change="toggleMarkerType('substations')">
-					<img src="images/substation.png" alt="substations">
+					<input id="toggleSubstations" class="togglebox" type="checkbox" ng-model="checkedPylons" ng-change="toggleMarkerType('substations')">
+					<img src="images/substation.png" alt="pylons">
 					<span class="text">Substations</span>
+				</label>
+			</section>
+			<section class="legend-section">
+				<label for="togglePylons" class="togglerow clearfix">
+					<input id="togglePylons" class="togglebox" type="checkbox" ng-model="checkedPylons" ng-change="toggleMarkerType('pylons')">
+					<span class="line red">---</span>Power Lines
 				</label>
 			</section>
 			<section class="legend-section">
@@ -70,10 +76,6 @@
 					<span class="text">Clustering</span>
 				</label>
 			</section>
-			<?php /*<label for="togglePylons" class="togglebox">
-				<input id="togglePylons" type="checkbox" ng-model="checkedPylons" ng-change="toggleMarkerType('pylons')">
-				<span class="line red">---</span>Power Lines
-			</label>*/ ?>
 		</aside>
 
     <datalist id="schoolList">

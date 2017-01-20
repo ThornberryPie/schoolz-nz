@@ -75,8 +75,15 @@ app.controller('mapControl', function($scope, $http, $interval) {
 		}else{
 			//Loop through all items in selected array and show/hide markers
 			for (var i=0; i < markerArray.length; i++) {
-				var id = markerArray[i].id;
-				$scope.dynMarkers[id].setVisible(showMarkers);
+				if(type == 'pylons'){
+					var showLines = (showMarkers) ? map : null;
+					for(var j in $scope.pylonz[i]){
+						 $scope.lines[j].setMap(showLines);
+					}
+				}else{
+					var id = markerArray[i].id;
+					$scope.dynMarkers[id].setVisible(showMarkers);
+				}
 			}
 		}
 
@@ -98,7 +105,7 @@ app.controller('mapControl', function($scope, $http, $interval) {
   //$scope.busz = busz;
   $scope.playcentrez = playcentrez;
 
-  $scope.defaultAddress = 'Whangarei, New Zealand';
+  $scope.defaultAddress = 'Auckland, New Zealand';
   $scope.address = $scope.defaultAddress;
 
   $scope.zoomDefault = 12;
@@ -139,7 +146,6 @@ app.controller('mapControl', function($scope, $http, $interval) {
         //var name =  line.getAttribute("label");
         //console.log(name);
         for(var j in line){
-            //console.log(line[j]);
             $scope.lines[j] = new google.maps.Polyline({
               map: map,
               path: line[j],
@@ -148,10 +154,12 @@ app.controller('mapControl', function($scope, $http, $interval) {
               strokeOpacity: 1.0,
               strokeWeight: 2
           });
+
+					if(!$scope.checkedPylons){
+						$scope.lines[j].setMap(null);
+					}
         }
-				if(!$scope.checkedPylons){
-					$scope.lines[j].setVisible(false);
-				}
+
     }
 
     //Add bus routz
