@@ -58,7 +58,7 @@
 					<span class="text">Playcentres</span>
 				</label>
 				<label for="toggleSubstations" class="togglerow clearfix">
-					<input id="toggleSubstations" class="togglebox" type="checkbox" ng-model="checkedPylons" ng-change="toggleMarkerType('substations')">
+					<input id="toggleSubstations" class="togglebox" type="checkbox" ng-model="checkedSubstations" ng-change="toggleMarkerType('substations')">
 					<img src="images/substation.png" alt="pylons">
 					<span class="text">Substations</span>
 				</label>
