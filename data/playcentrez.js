@@ -3230,8 +3230,8 @@ var playcentrez = [
     "wed":"",
     "thu":"9.30am - 12.00pm",
     "fri":"",
-    "lat":"",
-    "lng":""
+    "lat":"-37.241464",
+    "lng":"175.568643"
   },
   {
 		"id":"playcentre232",

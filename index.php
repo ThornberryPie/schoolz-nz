@@ -95,7 +95,7 @@
     </div>
     <script src="dist/main.min.js"></script>
 
-    <script src="data/schoolz.js"></script>
+    <script src="data/schoolz-2016.js"></script>
 		<script src="scripts/gt_school.js"></script>
 
     <script src="data/pylonz.js"></script>

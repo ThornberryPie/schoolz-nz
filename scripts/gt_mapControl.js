@@ -305,14 +305,15 @@ app.controller('mapControl', function($scope, $http, $interval) {
 
         if(fieldVal == $scope.address){
           isSchool = true;
-          sid = fieldVal;
+          sid = s.id;
         }
+
       }
       if(isSchool){
         //Set zoom if school is found
-        $scope.zoom = 18;
+        $scope.zoom = 16;
         //Open school's infowindow
-        google.maps.event.trigger($scope.dynMarkers[$scope.address], 'click');
+        google.maps.event.trigger($scope.dynMarkers[sid], 'click');
       }
     };
 
