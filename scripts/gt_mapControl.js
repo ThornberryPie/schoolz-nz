@@ -105,7 +105,7 @@ app.controller('mapControl', function($scope, $http, $interval) {
   //$scope.busz = busz;
   $scope.playcentrez = playcentrez;
 
-  $scope.defaultAddress = 'Auckland, New Zealand';
+  $scope.defaultAddress = 'Whangarei, New Zealand';
   $scope.address = $scope.defaultAddress;
 
   $scope.zoomDefault = 12;
