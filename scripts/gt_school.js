@@ -80,7 +80,7 @@ var School = function(i){
         html += this.authority+', '+this.gender+'</br>';
         html += '<strong>Decile '+this.decile+'</strong></div>';
         html += '<div class="block address"><strong>Address:</strong><br>';
-        if(this.address1 != '0') html += this.address1+'<br>';
+        if(this.address1 !== '') html += this.address1+'<br>';
         if(this.suburb !== '') html += this.suburb+'<br>';
         html += this.address3+' '+this.postcode+'</div>';
         html += '<div class="block demog"><strong>Student Demographics:</strong><br>';
@@ -131,10 +131,10 @@ var School = function(i){
 
 	//Add extra text if decile has changed
 	//this.decile = (this.change(i) !== '') ? this.rawdecile+" ("+this.change(i)+" since 2014)" : this.rawdecile;
-	
+
 	//Add a line break before some elements if they're not null
-	this.suburb = (this.address2 != "0") ? "\n"+this.address2 : '';
-	this.website = (this.website != "0") ? "\n"+this.website : '';
+	this.suburb = (this.address2 !== "") ? "\n"+this.address2 : '';
+	this.website = (this.website !== "") ? "\n"+this.website : '';
 
 	//Set content of marker and infowindow
 	this.markerTitle = this.setMarkerTitle();
