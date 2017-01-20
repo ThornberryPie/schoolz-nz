@@ -106513,7 +106513,7 @@ var schoolz = [
   },
   {
     "id": "6967",
-    "Name": "Lemonwood Grove School (Proposed open date: 30 Jan 2017 )",
+    "Name": "Lemonwood Grove School",
     "Phone": "",
     "Fax": "",
     "Email": "principal@lemonwoodgrove.school.nz",
