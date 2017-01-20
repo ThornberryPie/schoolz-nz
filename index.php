@@ -46,8 +46,6 @@
       </div>
     </header>
 		<aside class="map-legend">
-			<!--<p><span class="red line">------</span><small>Power&nbsp;Grid</small></p>
-			<p><span class="blue line">------</span><small>Bus&nbsp;Routes</small></p>-->
 			<section class="legend-section">
 				<label for="toggleSchools" class="togglerow clearfix">
 					<input id="toggleSchools" class="togglebox" type="checkbox" ng-model="checkedSchools" ng-change="toggleMarkerType('schools')">
@@ -79,11 +77,7 @@
 		</aside>
 
     <datalist id="schoolList">
-<<<<<<< HEAD
       <option ng-repeat="school in schoolz">{{school.Name}}, {{school.City}}</option>
-=======
-      <option ng-repeat="school in schoolz">{{school.FIELD2}}, {{school.FIELD23}}</option>
->>>>>>> 62a893a86f58454d5af3770973a0703b70e73aab
     </datalist>
     <div id="map_footer">
         <div class="copyright">
@@ -99,11 +93,7 @@
     </div>
     <script src="dist/main.min.js"></script>
 
-<<<<<<< HEAD
     <script src="data/schoolz-2016.js"></script>
-=======
-    <script src="data/schoolz.js"></script>
->>>>>>> 62a893a86f58454d5af3770973a0703b70e73aab
 		<script src="scripts/gt_school.js"></script>
 
     <script src="data/pylonz.js"></script>
