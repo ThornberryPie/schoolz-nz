@@ -45,7 +45,7 @@
         <input id="map_search" ng-model="address" placeholder="Find a School in NZ" list="schoolList" ng-keyup="searchKeyUp($event)" ng-change="searchChange()">
       </div>
     </header>
-		<aside class="map-legend">
+		<aside class="map-legend open">
 			<section class="legend-section">
 				<label for="toggleSchools" class="togglerow clearfix">
 					<input id="toggleSchools" class="togglebox" type="checkbox" ng-model="checkedSchools" ng-change="toggleMarkerType('schools')">
@@ -76,6 +76,10 @@
 					<span class="text">Clustering</span>
 				</label>
 			</section>
+			<button class="toggle-legend-view">
+				<span class="icon icon-open">&lt;</span>
+				<span class="icon icon-close">&gt;</span>
+			</button>
 		</aside>
 
     <datalist id="schoolList">

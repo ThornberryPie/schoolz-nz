@@ -9,7 +9,8 @@ var sass = require('gulp-ruby-sass');
 // Concatenate & Minify JS
 gulp.task('scripts', function() {
     return gulp.src([
-        'scripts/angular-1.2.5.min.js',
+				'scripts/jquery-3.1.1.min.js',
+        'scripts/angular-1.6.1.min.js',
         //'../build/scripts/ng-map.min.js',
         'app.js',
         'directives/map_controller.js',

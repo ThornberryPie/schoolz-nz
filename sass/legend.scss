@@ -1,0 +1,89 @@
+.map-legend{
+	position: absolute;
+	display: block;
+	width: 0;
+	right: 0;
+	top: 52px;
+	z-index: 9;
+	padding: 0;
+	//transition: 0.4s;
+	@include panel;
+	.legend-section{
+		border-top: 1px dashed $dark;
+		margin-top: $padding;
+		padding-top: $padding;
+		display: none;
+		&:first-child{
+			border: 0;
+			margin: 0;
+		}
+	}
+	.togglerow{
+		display: block;
+		clear: both;
+		padding: $padding;
+		line-height: 17px;
+		.togglebox, img, .text{
+			float: left;
+			display: block;
+		}
+		.togglebox{
+			margin: 0;
+			width: $legend-icon-size;
+			height: $legend-icon-size;
+		}
+		img{
+			width: $legend-icon-size;
+			height: $legend-icon-size;
+			margin: 0 0 0 $padding;
+		}
+		.text{
+			padding: 0 0 0 $padding;
+		}
+		.line{
+			padding: 0 $padding 0 7px;
+		}
+	}
+	.toggle-legend-view{
+		width: $vertical-button-width;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: -$vertical-button-width;
+		background: #666;
+		color: $white;
+		font-size: 18px;
+		border: 0;
+		cursor: pointer;
+		margin: 0;
+		padding: 0;
+		opacity: 0.8;
+		@include border-radius(4px 0 0 4px);
+		.icon{
+			&.icon-open{
+				display: block;
+			}
+			&.icon-close{
+				display: none;
+			}
+		}
+	}
+	&.open{
+		width: $legend-width;
+		right: 0;
+		padding: 0 $padding $padding;
+		.legend-section{
+			display: block;
+		}
+		.toggle-legend-view{
+			.icon{
+				&.icon-open{
+					display: none;
+				}
+				&.icon-close{
+					display: block;
+				}
+			}
+		}
+	}
+}

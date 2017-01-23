@@ -351,3 +351,18 @@ app.controller('mapControl', function($scope, $http, $interval) {
   });//end $scope.$on('mapInitialized'
 
 });//end app.controller
+
+//Start jQuery
+$(document).ready(function(){
+
+	var legend = $('.map-legend');
+
+	//Add min height to legend so button still shows when legend is hidden
+	legend.css('min-height', legend.outerHeight());
+
+	//Toggle map legend
+	$('.toggle-legend-view').on('click', function(){
+		$('.map-legend').toggleClass('open');
+	});
+
+});
