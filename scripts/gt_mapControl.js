@@ -2,6 +2,15 @@ var app = angular.module('schoolzApp', ['ngMap']);
 
 app.controller('mapControl', function($scope, $http, $interval) {
   var map;
+  $scope.defaultAddress = 'Whangarei, New Zealand';
+  $scope.address = $scope.defaultAddress;
+  $scope.zoomDefault = 12;
+  $scope.zoom = $scope.zoomDefault;
+  $scope.clusterIcon = 'images/markers/cluster.png';
+  $scope.clusterIconTextColor = 'white';
+  $scope.clusterIconSize = 32;
+  $scope.cookeExpiryDays = 30;
+
 
 	$scope.setCookie = function(cname, cvalue, exdays) {
     var d = new Date();
@@ -102,6 +111,9 @@ app.controller('mapControl', function($scope, $http, $interval) {
 		location.reload();
 	};
 
+	$scope.dynMarkers = [];
+	$scope.lines = [];
+	$scope.busroutz = [];
   //Load data
   $scope.schoolz = schoolz;
   $scope.substationz = substationz;
@@ -110,28 +122,14 @@ app.controller('mapControl', function($scope, $http, $interval) {
   $scope.playcentrez = playcentrez;
 	$scope.kindyz = kindyz;
 
-  $scope.defaultAddress = 'Whangarei, New Zealand';
-  $scope.address = $scope.defaultAddress;
 
-  $scope.zoomDefault = 12;
-  $scope.zoom = $scope.zoomDefault;
-
-  $scope.clusterIcon = 'images/cluster.png';
-  $scope.clusterIconTextColor = 'white';
-  $scope.clusterIconSize = 50;
 	$scope.clusterActive = ($scope.getCookie('clustering') == 'off') ? false : true;
-
-  $scope.dynMarkers = [];
-  $scope.lines = [];
-  $scope.busroutz = [];
 
 	$scope.checkedSchools = ($scope.getCookie('schools') == 'off') ? false : true;
 	$scope.checkedPlaycentres = ($scope.getCookie('playcentres') == 'off') ? false : true;
 	$scope.checkedSubstations = ($scope.getCookie('substations') == 'off') ? false : true;
 	$scope.checkedPylons = ($scope.getCookie('pylons') == 'off') ? false : true;
 	$scope.checkedKindys = ($scope.getCookie('kindys') == 'off') ? false : true;
-
-	$scope.cookeExpiryDays = 30;
 
   //Init function
   $scope.$on('mapInitialized', function(event, evtMap) {
@@ -182,27 +180,26 @@ app.controller('mapControl', function($scope, $http, $interval) {
 		//Add markers to map
 		$scope.addMarkers = function(type, count, show){
 			for (var i=0; i < count; i++) {
-
 				switch(type){
 					case 'schools':
 						var obj = new School(i);
 						var markerTitle = obj.markerTitle;
-						var markerIcon = 'images/school.png';
+						var markerIcon = 'images/markers/school.png';
 					break;
 					case 'substations':
 						var obj = new Substation(i);
 						var markerTitle = obj.address+', '+obj.suburb;
-						var markerIcon = 'images/substation.png';
+						var markerIcon = 'images/markers/substation.png';
 					break;
 					case 'kindys':
 						var obj = new Kindy(i);
 						var markerTitle = obj.name;
-						var markerIcon = 'images/kindy.png';
+						var markerIcon = 'images/markers/kindy.png';
 					break;
 					case 'playcentres':
 						var obj = new Playcentre(i);
 						var markerTitle = obj.markerTitle;
-						var markerIcon = 'images/playcentre.png';
+						var markerIcon = 'images/markers/playcentre.png';
 					break;
 				}
 
@@ -213,22 +210,22 @@ app.controller('mapControl', function($scope, $http, $interval) {
 	        position: latLng,
 	        title: markerTitle,
 	        icon: markerIcon,
-					map: map,
-					opacity: (type == 'playcentres') ? 0.9 : 0.7
+				map: map,
+				opacity: (type == 'playcentres') ? 0.9 : 0.7
 	      });
 
 	      $scope.dynMarkers[obj.id] = marker;
 
-				//Set infowindows for all marker types except substations
-				if(type != 'substations'){
-					//Set infowindow in a function or it won't work properly
+			//Set infowindows for all marker types except substations
+			if(type != 'substations'){
+			             //Set infowindow in a function or it won't work properly
 		      $scope.setInfowindow(marker, obj.infowindowhtml, obj.id, map);
-				}
+			}
 
-				//Hide markers if they should be hidden on page load
-				if(!show){
-					$scope.dynMarkers[obj.id].setVisible(false);
-				}
+			//Hide markers if they should be hidden on page load
+			if(!show){
+				$scope.dynMarkers[obj.id].setVisible(false);
+			}
 
 	    }
 		};

@@ -49,35 +49,36 @@
 			<section class="legend-section">
 				<label for="toggleSchools" class="togglerow clearfix">
 					<input id="toggleSchools" class="togglebox" type="checkbox" ng-model="checkedSchools" ng-change="toggleMarkerType('schools')">
-					<img src="images/school.png" alt="schools">
+					<img src="images/markers/school.png" alt="schools">
 					<span class="text">Schools</span>
 				</label>
 				<label for="togglePlaycentres" class="togglerow clearfix">
 					<input id="togglePlaycentres" class="togglebox" type="checkbox" ng-model="checkedPlaycentres" ng-change="toggleMarkerType('playcentres')">
-					<img src="images/playcentre.png" alt="playcentres">
+					<img src="images/markers/playcentre.png" alt="playcentres">
 					<span class="text">Playcentres</span>
 				</label>
 				<label for="toggleKindys" class="togglerow clearfix">
 					<input id="toggleKindys" class="togglebox" type="checkbox" ng-model="checkedKindys" ng-change="toggleMarkerType('kindys')">
-					<img src="images/kindy.png" alt="kindergartens">
-					<span class="text">Kindys</span>
-				</label>
-				<label for="toggleSubstations" class="togglerow clearfix">
-					<input id="toggleSubstations" class="togglebox" type="checkbox" ng-model="checkedSubstations" ng-change="toggleMarkerType('substations')">
-					<img src="images/substation.png" alt="pylons">
-					<span class="text">Substations</span>
+					<img src="images/markers/kindy.png" alt="kindergartens">
+					<span class="text">Kindergartens</span>
 				</label>
 			</section>
 			<section class="legend-section">
+				<label for="toggleSubstations" class="togglerow clearfix">
+					<input id="toggleSubstations" class="togglebox" type="checkbox" ng-model="checkedSubstations" ng-change="toggleMarkerType('substations')">
+					<img src="images/markers/substation.png" alt="pylons">
+					<span class="text">Substations</span>
+				</label>
 				<label for="togglePylons" class="togglerow clearfix">
 					<input id="togglePylons" class="togglebox" type="checkbox" ng-model="checkedPylons" ng-change="toggleMarkerType('pylons')">
-					<span class="line red">---</span>Power Lines
+					<span class="line red">---</span>
+					<span class="text">Power Lines</span>
 				</label>
 			</section>
 			<section class="legend-section">
 				<label for="toggleClustering" class="togglerow clearfix">
 					<input id="toggleClustering" class="togglebox" type="checkbox" ng-model="clusterActive" ng-change="toggleClustering()">
-					<img src="images/cluster.png" alt="cluster">
+					<img src="images/markers/cluster.png" alt="cluster">
 					<span class="text">Clustering</span>
 				</label>
 			</section>
@@ -105,20 +106,20 @@
     <script src="dist/main.min.js"></script>
 
     <script src="data/schoolz-2016.js"></script>
-		<script src="scripts/gt_school.js"></script>
+	<script src="scripts/gt_school.js"></script>
 
     <script src="data/pylonz.js"></script>
 
     <!--<script src="data/busz.js"></script>-->
 
     <script src="data/substationz.js"></script>
-		<script src="scripts/gt_substation.js"></script>
+	<script src="scripts/gt_substation.js"></script>
 
     <script src="data/playcentrez.js"></script>
-		<script src="scripts/gt_playcentre.js"></script>
+	<script src="scripts/gt_playcentre.js"></script>
 
-		<script src="data/kindyz.js"></script>
-		<script src="scripts/gt_kindy.js"></script>
+	<script src="data/kindyz.js"></script>
+	<script src="scripts/gt_kindy.js"></script>
 
     <script src="scripts/gt_mapControl.js"></script>
 

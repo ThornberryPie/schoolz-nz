@@ -23,7 +23,7 @@
 		clear: both;
 		padding: $padding;
 		line-height: 17px;
-		.togglebox, img, .text{
+		.togglebox, img, .text, .line{
 			float: left;
 			display: block;
 		}
@@ -39,9 +39,11 @@
 		}
 		.text{
 			padding: 0 0 0 $padding;
+			font-size: 13px;
 		}
 		.line{
-			padding: 0 $padding 0 7px;
+			padding: 0 3px 0 7px;
+			font-size: 13px;
 		}
 	}
 	.toggle-legend-view{
