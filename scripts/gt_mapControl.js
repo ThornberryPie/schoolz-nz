@@ -179,9 +179,67 @@ app.controller('mapControl', function($scope, $http, $interval) {
     }*/
 
 
-    //--------------Schools-------------------
-		//Only add markers if both clustering and this marker type are turned on
+		//Add markers to map
+		$scope.addMarkers = function(type, count, show){
+			for (var i=0; i < count; i++) {
 
+				switch(type){
+					case 'schools':
+						var obj = new School(i);
+						var markerTitle = obj.markerTitle;
+						var markerIcon = 'images/school.png';
+					break;
+					case 'substations':
+						var obj = new Substation(i);
+						var markerTitle = obj.address+', '+obj.suburb;
+						var markerIcon = 'images/substation.png';
+					break;
+					case 'kindys':
+						var obj = new Kindy(i);
+						var markerTitle = obj.name;
+						var markerIcon = 'images/kindy.png';
+					break;
+					case 'playcentres':
+						var obj = new Playcentre(i);
+						var markerTitle = obj.markerTitle;
+						var markerIcon = 'images/playcentre.png';
+					break;
+				}
+
+	      var latLng = new google.maps.LatLng(obj.lat, obj.lng);
+
+	      //Add markers
+	      var marker = new google.maps.Marker({
+	        position: latLng,
+	        title: markerTitle,
+	        icon: markerIcon,
+					map: map,
+					opacity: (type == 'playcentres') ? 0.9 : 0.7
+	      });
+
+	      $scope.dynMarkers[obj.id] = marker;
+
+				//Set infowindows for all marker types except substations
+				if(type != 'substations'){
+					//Set infowindow in a function or it won't work properly
+		      $scope.setInfowindow(marker, obj.infowindowhtml, obj.id, map);
+				}
+
+				//Hide markers if they should be hidden on page load
+				if(!show){
+					$scope.dynMarkers[obj.id].setVisible(false);
+				}
+
+	    }
+		};
+
+		/*
+		---------------------TODO------------------------
+		DRY up the below code for all other marker types so cluster numbers are always correct
+		-------------------------------------------------
+		*/
+
+		//Only add markers if both clustering and this marker type are turned on
 		var addSchoolsMarker = false;
 
 		if($scope.clusterActive){
@@ -193,108 +251,14 @@ app.controller('mapControl', function($scope, $http, $interval) {
 		}
 
 		if(addSchoolsMarker){
-			for (var i=0; i < $scope.schoolz.length; i++) {
-
-	      var s = new School(i);
-
-	      var latLng = new google.maps.LatLng(s.lat, s.lng);
-
-	      //Add markers
-	      var marker = new google.maps.Marker({
-	        position: latLng,
-	        title: s.markerTitle,
-	        icon: 'images/school.png',
-					map: map,
-					opacity: 0.8
-	      });
-
-				$scope.dynMarkers[s.id] = marker;
-				//Set infowindow in a function or it won't work properly
-	      $scope.setInfowindow(marker, s.infowindowhtml, s.id, map);
-				//Hide marker if unckecked
-				if(!$scope.checkedSchools){
-					$scope.dynMarkers[s.id].setVisible(false);
-				}
-
-	    }
+			$scope.addMarkers('schools', $scope.schoolz.length, $scope.checkedSchools);
 		}
 
-    //Add playcentres
-    for (var i=0; i < $scope.playcentrez.length; i++) {
+		//Add other markers
+		$scope.addMarkers('substations', $scope.substationz.length, $scope.checkedSubstations);
+		$scope.addMarkers('kindys', $scope.kindyz.length, $scope.checkedKindys);
+		$scope.addMarkers('playcentres', $scope.playcentrez.length, $scope.checkedPlaycentres);
 
-      var p = new Playcentre(i);
-      var latLng = new google.maps.LatLng(p.lat, p.lng);
-
-      //Add markers
-      var marker = new google.maps.Marker({
-        position: latLng,
-        title: p.markerTitle,
-        icon: 'images/playcentre.png',
-				map: map,
-				opacity: 0.9
-      });
-
-      $scope.dynMarkers[p.id] = marker;
-
-      //Set infowindow in a function or it won't work properly
-      $scope.setInfowindow(marker, p.infowindowhtml, p.id, map);
-
-			if(!$scope.checkedPlaycentres){
-				$scope.dynMarkers[p.id].setVisible(false);
-			}
-
-    }
-
-		//Add kindergartens
-		for (var i=0; i < $scope.kindyz.length; i++) {
-
-      var obj = new Kindy(i);
-      var latLng = new google.maps.LatLng(obj.lat, obj.lng);
-
-      //Add markers
-      var marker = new google.maps.Marker({
-        position: latLng,
-        title: obj.name,
-        icon: 'images/kindy.png',
-				map: map,
-				opacity: 0.7
-      });
-
-      $scope.dynMarkers[obj.id] = marker;
-
-			//Set infowindow in a function or it won't work properly
-      $scope.setInfowindow(marker, obj.infowindowhtml, p.id, map);
-
-			//Hide markers if they should be hidden on page load
-			if(!$scope.checkedKindys){
-				$scope.dynMarkers[obj.id].setVisible(false);
-			}
-
-    }
-
-		//Add substations
-		for (var i=0; i < $scope.substationz.length; i++) {
-
-      var s = new Substation(i);
-      var latLng = new google.maps.LatLng(s.lat, s.lng);
-
-      //Add markers
-      var marker = new google.maps.Marker({
-        position: latLng,
-        title: s.address+', '+s.suburb,
-        icon: 'images/substation.png',
-				map: map,
-				opacity: 0.7
-      });
-
-      $scope.dynMarkers[s.id] = marker;
-
-			//Hide markers if they should be hidden on page load
-			if(!$scope.checkedSubstations){
-				$scope.dynMarkers[s.id].setVisible(false);
-			}
-
-    }
 
     //Style clusterers
 		if($scope.clusterActive){
