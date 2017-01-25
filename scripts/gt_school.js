@@ -138,7 +138,7 @@ var School = function(i){
 
 	//Set content of marker and infowindow
 	this.markerTitle = this.setMarkerTitle();
-	this.schoolhtml = this.setHTML();
+	this.infowindowhtml = this.setHTML();
 
 	this.schoolID = schoolz[i].Name+', '+schoolz[i].City;
 }

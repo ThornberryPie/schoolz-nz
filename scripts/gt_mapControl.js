@@ -62,6 +62,10 @@ app.controller('mapControl', function($scope, $http, $interval) {
 				var markerArray = $scope.playcentrez;
 				var boxModel = $scope.checkedPlaycentres;
 			break;
+			case 'kindys':
+				var markerArray = $scope.kindyz;
+				var boxModel = $scope.checkedKindys;
+			break;
 		}
 		var showMarkers = (boxModel) ? true : false;
 		var cookieVal = (showMarkers) ? 'on' : 'off';
@@ -104,6 +108,7 @@ app.controller('mapControl', function($scope, $http, $interval) {
   $scope.pylonz = pylonz;
   //$scope.busz = busz;
   $scope.playcentrez = playcentrez;
+	$scope.kindyz = kindyz;
 
   $scope.defaultAddress = 'Whangarei, New Zealand';
   $scope.address = $scope.defaultAddress;
@@ -117,17 +122,14 @@ app.controller('mapControl', function($scope, $http, $interval) {
 	$scope.clusterActive = ($scope.getCookie('clustering') == 'off') ? false : true;
 
   $scope.dynMarkers = [];
-  $scope.windows = [];
-  $scope.schoolhtml = [];
-  $scope.substationhtml = [];
   $scope.lines = [];
   $scope.busroutz = [];
-  $scope.playcentrehtml = [];
 
 	$scope.checkedSchools = ($scope.getCookie('schools') == 'off') ? false : true;
 	$scope.checkedPlaycentres = ($scope.getCookie('playcentres') == 'off') ? false : true;
 	$scope.checkedSubstations = ($scope.getCookie('substations') == 'off') ? false : true;
 	$scope.checkedPylons = ($scope.getCookie('pylons') == 'off') ? false : true;
+	$scope.checkedKindys = ($scope.getCookie('kindys') == 'off') ? false : true;
 
 	$scope.cookeExpiryDays = 30;
 
@@ -208,7 +210,7 @@ app.controller('mapControl', function($scope, $http, $interval) {
 
 				$scope.dynMarkers[s.id] = marker;
 				//Set infowindow in a function or it won't work properly
-	      $scope.setInfowindow(marker, s.schoolhtml, s.id, map);
+	      $scope.setInfowindow(marker, s.infowindowhtml, s.id, map);
 				//Hide marker if unckecked
 				if(!$scope.checkedSchools){
 					$scope.dynMarkers[s.id].setVisible(false);
@@ -235,10 +237,37 @@ app.controller('mapControl', function($scope, $http, $interval) {
       $scope.dynMarkers[p.id] = marker;
 
       //Set infowindow in a function or it won't work properly
-      $scope.setInfowindow(marker, p.playcentrehtml, p.id, map);
+      $scope.setInfowindow(marker, p.infowindowhtml, p.id, map);
 
 			if(!$scope.checkedPlaycentres){
 				$scope.dynMarkers[p.id].setVisible(false);
+			}
+
+    }
+
+		//Add kindergartens
+		for (var i=0; i < $scope.kindyz.length; i++) {
+
+      var obj = new Kindy(i);
+      var latLng = new google.maps.LatLng(obj.lat, obj.lng);
+
+      //Add markers
+      var marker = new google.maps.Marker({
+        position: latLng,
+        title: obj.name,
+        icon: 'images/kindy.png',
+				map: map,
+				opacity: 0.7
+      });
+
+      $scope.dynMarkers[obj.id] = marker;
+
+			//Set infowindow in a function or it won't work properly
+      $scope.setInfowindow(marker, obj.infowindowhtml, p.id, map);
+
+			//Hide markers if they should be hidden on page load
+			if(!$scope.checkedKindys){
+				$scope.dynMarkers[obj.id].setVisible(false);
 			}
 
     }

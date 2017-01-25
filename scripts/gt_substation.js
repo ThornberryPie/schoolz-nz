@@ -1,10 +1,10 @@
 var Substation = function(i){
 
-	var s = substationz[i];
+	var obj = substationz[i];
 
-	this.id = s.id;
-	this.address = s.address;
-	this.suburb = s.suburb;
-	this.lat = s.lat;
-	this.lng = s.lng;
+	this.id = obj.id;
+	this.address = obj.address;
+	this.suburb = obj.suburb;
+	this.lat = obj.lat;
+	this.lng = obj.lng;
 }

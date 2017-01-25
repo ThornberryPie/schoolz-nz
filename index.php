@@ -54,8 +54,13 @@
 				</label>
 				<label for="togglePlaycentres" class="togglerow clearfix">
 					<input id="togglePlaycentres" class="togglebox" type="checkbox" ng-model="checkedPlaycentres" ng-change="toggleMarkerType('playcentres')">
-					<img src="images/playcentre.png" alt="schools">
+					<img src="images/playcentre.png" alt="playcentres">
 					<span class="text">Playcentres</span>
+				</label>
+				<label for="toggleKindys" class="togglerow clearfix">
+					<input id="toggleKindys" class="togglebox" type="checkbox" ng-model="checkedKindys" ng-change="toggleMarkerType('kindys')">
+					<img src="images/kindy.png" alt="kindergartens">
+					<span class="text">Kindys</span>
 				</label>
 				<label for="toggleSubstations" class="togglerow clearfix">
 					<input id="toggleSubstations" class="togglebox" type="checkbox" ng-model="checkedSubstations" ng-change="toggleMarkerType('substations')">
@@ -111,6 +116,9 @@
 
     <script src="data/playcentrez.js"></script>
 		<script src="scripts/gt_playcentre.js"></script>
+
+		<script src="data/kindyz.js"></script>
+		<script src="scripts/gt_kindy.js"></script>
 
     <script src="scripts/gt_mapControl.js"></script>
 

@@ -1,6 +1,6 @@
 var Playcentre = function(i){
 
-	var p = playcentrez[i];
+	var obj = playcentrez[i];
 
 	this.setMarkerTitle = function(){
 		return this.name+
@@ -46,18 +46,18 @@ var Playcentre = function(i){
 		return html;
 	};
 
-	this.id = p.id;
-	this.name = p.name;
-	this.address = p.address;
-	this.phone = p.phone;
-  this.email = p.email;
-  this.mon = p.mon;
-  this.tue = p.tue;
-  this.wed = p.wed;
-  this.thu = p.thu;
-  this.fri = p.fri;
-	this.lat = p.lat;
-	this.lng = p.lng;
+	this.id = obj.id;
+	this.name = obj.name;
+	this.address = obj.address;
+	this.phone = obj.phone;
+  this.email = obj.email;
+  this.mon = obj.mon;
+  this.tue = obj.tue;
+  this.wed = obj.wed;
+  this.thu = obj.thu;
+  this.fri = obj.fri;
+	this.lat = obj.lat;
+	this.lng = obj.lng;
 	this.markerTitle = this.setMarkerTitle();
-	this.playcentrehtml = this.setHTML();
+	this.infowindowhtml = this.setHTML();
 }
