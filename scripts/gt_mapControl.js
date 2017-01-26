@@ -179,6 +179,22 @@ app.controller('mapControl', function($scope, $http, $interval) {
 
 		//Add markers to map
 		$scope.addMarkers = function(type, count, show){
+
+			var addMarker = false;
+			//Don't add markers if clustering is on and this market type is not checked
+			if($scope.clusterActive){
+				if(show){
+					addMarker = true;
+				}
+			}else{
+				addMarker = true;
+			}
+
+			//Exit function if this marker type shouldn't be shown
+			if(!addMarker){
+				return;
+			}
+
 			for (var i=0; i < count; i++) {
 				switch(type){
 					case 'schools':
@@ -216,42 +232,22 @@ app.controller('mapControl', function($scope, $http, $interval) {
 
 	      $scope.dynMarkers[obj.id] = marker;
 
-			//Set infowindows for all marker types except substations
-			if(type != 'substations'){
-			             //Set infowindow in a function or it won't work properly
-		      $scope.setInfowindow(marker, obj.infowindowhtml, obj.id, map);
-			}
+				//Set infowindows for all marker types except substations
+				if(type != 'substations'){
+				             //Set infowindow in a function or it won't work properly
+			      $scope.setInfowindow(marker, obj.infowindowhtml, obj.id, map);
+				}
 
-			//Hide markers if they should be hidden on page load
-			if(!show){
-				$scope.dynMarkers[obj.id].setVisible(false);
-			}
+				//Hide markers if they should be hidden on page load
+				if(!show){
+					$scope.dynMarkers[obj.id].setVisible(false);
+				}
 
 	    }
 		};
 
-		/*
-		---------------------TODO------------------------
-		DRY up the below code for all other marker types so cluster numbers are always correct
-		-------------------------------------------------
-		*/
-
-		//Only add markers if both clustering and this marker type are turned on
-		var addSchoolsMarker = false;
-
-		if($scope.clusterActive){
-			if($scope.checkedSchools){
-				addSchoolsMarker = true;
-			}
-		}else{
-			addSchoolsMarker = true;
-		}
-
-		if(addSchoolsMarker){
-			$scope.addMarkers('schools', $scope.schoolz.length, $scope.checkedSchools);
-		}
-
-		//Add other markers
+		//Add markers
+		$scope.addMarkers('schools', $scope.schoolz.length, $scope.checkedSchools);
 		$scope.addMarkers('substations', $scope.substationz.length, $scope.checkedSubstations);
 		$scope.addMarkers('kindys', $scope.kindyz.length, $scope.checkedKindys);
 		$scope.addMarkers('playcentres', $scope.playcentrez.length, $scope.checkedPlaycentres);
