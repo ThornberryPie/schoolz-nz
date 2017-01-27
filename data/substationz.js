@@ -739,6 +739,13 @@ var substationz = [
         'lng':'174.739235'
     },
     {
+        'id':'AK8904',
+        'address':'School Road',
+        'suburb':'Wellsford',
+        'lat':'-36.284857',
+        'lng':'174.513174'
+    },
+    {
         'id':'DNP1',
         'address':'28 Mount Pleasant Road',
         'suburb':'Raumanga',
