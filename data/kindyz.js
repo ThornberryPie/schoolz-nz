@@ -461,47 +461,49 @@ var kindyz = [
 		"group":"",
     "lat":"-36.123667",
     "lng":"174.573772"
+  },
+  {
+		"id":"kindy47",
+		"name":"Big Steps Valley, Whangarei",
+    "address":"1 Paranui Crescent, Tikipunga, Whangarei 0112",
+    "phone":"09 459 1023",
+		"email":"",
+		"group":"",
+    "lat":"-35.699190",
+    "lng":"174.327366"
+  },
+  {
+		"id":"kindy48",
+		"name":"BJ's Childcare",
+    "address":"15 Moody Avenue, Whau Valley, Whangarei 0112",
+    "phone":"09 459 1778",
+		"email":"",
+		"group":"",
+		"website":"bjschildcare.co.nz",
+    "lat":"-35.701258",
+    "lng":"174.316458"
+  },
+  {
+		"id":"kindy49",
+		"name":"Blessings for Life",
+    "address":"56 Waterfront Rd, Pukenui 0484",
+    "phone":" 09 409 8878",
+		"email":"",
+		"group":"",
+    "lat":"-34.824239",
+    "lng":"173.130453"
+  },
+  {
+		"id":"kindy50",
+		"name":"Bright Stars",
+    "address":"25 Moody Avenue, Whau Valley, Whangarei 0112",
+    "phone":"09 459 4255",
+		"email":"info@brightstars.co.nz",
+		"group":"",
+		"website":"brightstars.co.nz",
+    "lat":"-35.699832",
+    "lng":"174.316675"
   }/*,
-  {
-		"id":"kindy",
-		"name":"",
-    "address":"",
-    "phone":"",
-		"email":"",
-		"group":"",
-    "lat":"",
-    "lng":""
-  },
-  {
-		"id":"kindy",
-		"name":"",
-    "address":"",
-    "phone":"",
-		"email":"",
-		"group":"",
-    "lat":"",
-    "lng":""
-  },
-  {
-		"id":"kindy",
-		"name":"",
-    "address":"",
-    "phone":"",
-		"email":"",
-		"group":"",
-    "lat":"",
-    "lng":""
-  },
-  {
-		"id":"kindy",
-		"name":"",
-    "address":"",
-    "phone":"",
-		"email":"",
-		"group":"",
-    "lat":"",
-    "lng":""
-  },
   {
 		"id":"kindy",
 		"name":"",
