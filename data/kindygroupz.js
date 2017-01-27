@@ -37,7 +37,7 @@ var kindygroupz = [
     "website":"giggleslearningcentre.co.nz",
     "phone":"",
 		"email":"",
-		"image":""
+		"image":"kg-giggles.png"
   },
   {
 		"id":"kg6",
@@ -45,7 +45,7 @@ var kindygroupz = [
     "website":"montessori.org.nz",
     "phone":"0274 485 525",
 		"email":"eo@montessori.org.nz",
-		"image":"kg-montessori.jpeg"
+		"image":"kg-montessori.png"
   }/*,
   {
 		"id":"kg",

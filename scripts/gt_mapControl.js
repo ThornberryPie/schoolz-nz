@@ -121,6 +121,7 @@ app.controller('mapControl', function($scope, $http, $interval) {
   //$scope.busz = busz;
   $scope.playcentrez = playcentrez;
 	$scope.kindyz = kindyz;
+	$scope.kindygroupz = kindygroupz;
 
 
 	$scope.clusterActive = ($scope.getCookie('clustering') == 'off') ? false : true;
@@ -211,6 +212,14 @@ app.controller('mapControl', function($scope, $http, $interval) {
 						var obj = new Kindy(i);
 						var markerTitle = obj.name;
 						var markerIcon = 'images/markers/kindy.png';
+						//Use group icon if kindy group is defined
+						if(obj.group !== ''){
+							for (var j=0; j < $scope.kindygroupz.length; j++) {
+								if($scope.kindygroupz[j].name == obj.group){
+									markerIcon = 'images/markers/kg/'+$scope.kindygroupz[j].image;
+								}
+							}
+						}
 					break;
 					case 'playcentres':
 						var obj = new Playcentre(i);

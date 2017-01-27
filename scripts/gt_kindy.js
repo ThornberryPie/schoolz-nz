@@ -10,6 +10,22 @@ var Kindy = function(i){
 				"\n"+this.group;
 	};
 
+	this.getGroupInfo = function(){
+		var grouprow = '';
+		if(this.group !== ''){
+			for(var i=0; i < kindygroupz.length; i++){
+				if(this.group == kindygroupz[i].name){
+					var groupLink = this.group;
+					if(kindygroupz[i].website !== ''){
+						groupLink = '<a href="//'+kindygroupz[i].website+'" target="_blank">'+this.group+'</a>';
+					}
+					grouprow = '<div class="block"><strong>Group:</strong><br>'+groupLink+'</div>';
+				}
+			}
+		}
+		return grouprow;
+	};
+
 	this.setHTML = function(){
 		var html = '<article class="window window--kindy">';
 		html += '<header><h2 class="name">'+this.name+'</h2></header>';
@@ -17,8 +33,10 @@ var Kindy = function(i){
 		if(this.phone !== ''){
 			html += '<div class="block"><strong>Phone:</strong><br>'+this.phone+'</div>';
 		}
-		html += '<div class="block"><strong>Email:</strong><br>'+this.email+'</div>';
-		html += '<div class="block"><strong>Group:</strong><br>'+this.group+'</div>';
+		if(this.email !== ''){
+			html += '<div class="block"><strong>Email:</strong><br>'+this.email+'</div>';
+		}
+		html += this.getGroupInfo();
 		html += '</article>';
 		return html;
 	};
