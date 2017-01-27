@@ -10,7 +10,7 @@ app.controller('mapControl', function($scope, $http, $interval) {
   $scope.clusterIconTextColor = 'white';
   $scope.clusterIconSize = 32;
   $scope.cookeExpiryDays = 30;
-
+	$scope.opacity = 0.666;
 
 	$scope.setCookie = function(cname, cvalue, exdays) {
     var d = new Date();
@@ -152,7 +152,7 @@ app.controller('mapControl', function($scope, $http, $interval) {
               path: line[j],
               geodesic: true,
               strokeColor: red,
-              strokeOpacity: 1.0,
+              strokeOpacity: $scope.opacity,
               strokeWeight: 2
           });
 
@@ -235,8 +235,8 @@ app.controller('mapControl', function($scope, $http, $interval) {
 	        position: latLng,
 	        title: markerTitle,
 	        icon: markerIcon,
-				map: map,
-				opacity: (type == 'playcentres') ? 0.9 : 0.7
+					map: map,
+					opacity: (type == 'schools') ? 1 : $scope.opacity
 	      });
 
 	      $scope.dynMarkers[obj.id] = marker;
