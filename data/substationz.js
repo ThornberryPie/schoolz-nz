@@ -951,6 +951,13 @@ var substationz = [
         'lng':'173.109381'
     },
     {
+        'id':'NorthlandSub12',
+        'address':'3 Reservoir Road',
+        'suburb':'Kaikohe',
+        'lat':'-35.396079',
+        'lng':'173.810440'
+    },
+    {
         'id':'WaikatoSub1',
         'address':'401 Burke Street',
         'suburb':'Thames',
