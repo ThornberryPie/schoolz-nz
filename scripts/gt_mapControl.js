@@ -11,6 +11,7 @@ app.controller('mapControl', function($scope, $http, $interval) {
   $scope.clusterIconSize = 32;
   $scope.cookeExpiryDays = 30;
 	$scope.opacity = 0.666;
+	$scope.openWindow = '';
 
 	$scope.setCookie = function(cname, cvalue, exdays) {
     var d = new Date();
@@ -41,14 +42,15 @@ app.controller('mapControl', function($scope, $http, $interval) {
 			content: html
 		});
 
-		this.infowindow = infowindow;
-
-		//this.windows.push(infowindow);
-
 		//Pan to marker and show infowindow when marker is clicked
 		google.maps.event.addListener(marker, 'click', function() {
+			if($scope.openWindow !== ''){
+				$scope.openWindow.close();
+			}
 			infowindow.open(map, this);
 			map.panTo(this.position);
+
+			$scope.openWindow = infowindow;
 		});
 	};
 
