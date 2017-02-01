@@ -503,6 +503,27 @@ var kindyz = [
 		"website":"brightstars.co.nz",
     "lat":"-35.699832",
     "lng":"174.316675"
+  },
+  {
+		"id":"kindy51",
+		"name":"Christopher and Robin",
+    "address":"12 Gumdigger Place, Raumanga, Whangarei 0110",
+    "phone":"09 430 1020",
+		"email":"",
+		"group":"",
+    "lat":"-35.751000",
+    "lng":"174.311851"
+  },
+  {
+		"id":"kindy52",
+		"name":"Footprints Educare",
+    "address":"13 North Rd, Kaitaia 0410",
+    "phone":"09 408 2489",
+		"email":"",
+		"group":"",
+		"website":"facebook.com/footprintseducare",
+    "lat":"-35.107357",
+    "lng":"173.258413"
   }/*,
   {
 		"id":"kindy",
