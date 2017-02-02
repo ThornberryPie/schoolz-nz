@@ -107,6 +107,16 @@
 .clearfix:after {
     clear: both;
 }
+.table{
+	margin-top: 5px;
+	.thead{
+		font-weight: bold;
+	}
+	td{
+		border: 1px solid $off-white;
+		padding: 5px;
+	}
+}
 
 @media screen and (max-width:768px){
 	#search-label{

@@ -1,4 +1,4 @@
-var schoolz = [
+var schoolz2015 = [
   {
     "id":"3700",
     "Name":"Abbotsford School",

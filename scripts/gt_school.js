@@ -12,6 +12,23 @@ var School = function(i){
 		return c;
 	};*/
 
+	this.decileTable = function(s){
+		//console.log(kindygroupz);
+		var decile2016 = s.Decile;
+		var decile2015 = '';
+		for(j=0; j < schoolz2015.length; j++){
+			if(schoolz2015[j].Name == s.Name){
+				decile2015 = schoolz2015[j].Decile;
+			}
+			//console.log(schoolz2015[i].Name);
+		}
+		var dt = '<table class=\"table\" cellspacing=\"0\" cellpadding=\"0\">';
+		dt += '<tr class=\"thead\"><td rowspan=\"2\">Decile</td><td>2014</td><td>2015</td><td>2016</td></tr>';
+		dt += '<tr><td></td><td>'+decile2015+'</td><td>'+decile2016+'</td></tr>';
+		dt += '</table>';
+		return dt;
+	};
+
 	this.formatType = function(type){
 		type = (type == 'Contributing') ? type+' Primary (Year 1-6)' : type;
 		type = (type == 'Full Primary') ? type+' (Year 1-8)' : type;
@@ -51,7 +68,7 @@ var School = function(i){
         "\n"+this.formatType(this.type)+
         "\n"+this.authority+
         ", "+this.gender+
-        "\nDecile "+this.decile+
+        "\nDecile "+this.rawdecile+
         "\n\n"+this.address1+
         this.suburb+
         "\n"+this.address3+
@@ -71,14 +88,15 @@ var School = function(i){
 	};
 
 	this.setHTML = function(){
-		var html = '<article class="window window--school decile'+this.decile+'">';
+		var html = '<article class="window window--school decile'+this.rawdecile+'">';
 		html += '<header><h2 class="name">'+this.schoolname+'</h2>';
 		if(this.website != '0'){
 			html += '<div class="block website"><a href="'+this.website+'" target="_blank">'+this.website+'</a></div>';
 		}
 		html += '</header><div class="block type">'+this.formatType(this.type)+'</br>';
         html += this.authority+', '+this.gender+'</br>';
-        html += '<strong>Decile '+this.decile+'</strong></div>';
+        //html += '<strong>Decile '+this.decile+'</strong></div>';
+				html += this.decile;
         html += '<div class="block address"><strong>Address:</strong><br>';
         if(this.address1 !== '') html += this.address1+'<br>';
         if(this.suburb !== '') html += this.suburb+'<br>';
@@ -102,32 +120,32 @@ var School = function(i){
 	};
 
 	//Gather this school's properties from schoolz obj and format data
-	this.id = schoolz[i].id;
-	this.schoolname = schoolz[i].Name;
-	//this.rawdecile = schoolz[i].Decile;
-	this.decile = schoolz[i].Decile
-	this.type = schoolz[i].SchoolType;
-	this.authority = schoolz[i].Authority;
-	this.territory = schoolz[i].Territory;
-	this.phone = schoolz[i].Phone;
-	this.email = schoolz[i].Email;
-	this.principal = schoolz[i].Principal;
-	this.website = schoolz[i].Website;
-	this.address1 = schoolz[i].Street;
-	this.address2 = schoolz[i].Suburb;
-	this.address3 = schoolz[i].City;
-	this.postcode = schoolz[i].Postcode;
-	this.gender = schoolz[i].Gender;
-	this.lat = this.tidyLatLng(schoolz[i].Latitude);
-	this.lng = this.tidyLatLng(schoolz[i].Longitude);
-	this.students = schoolz[i].TotalStudents;
-	this.pakeha = schoolz[i].Pakeha;
-	this.maori = schoolz[i].Maori;
-	this.pasifika = schoolz[i].Pasifika;
-	this.asian = schoolz[i].Asian;
-	this.melaa = schoolz[i].MELAA;
-	this.other = schoolz[i].Other;
-	this.international = schoolz[i].International;
+	this.id = schoolz2016[i].id;
+	this.schoolname = schoolz2016[i].Name;
+	this.rawdecile = schoolz2016[i].Decile;
+	this.decile = this.decileTable(schoolz2016[i]);
+	this.type = schoolz2016[i].SchoolType;
+	this.authority = schoolz2016[i].Authority;
+	this.territory = schoolz2016[i].Territory;
+	this.phone = schoolz2016[i].Phone;
+	this.email = schoolz2016[i].Email;
+	this.principal = schoolz2016[i].Principal;
+	this.website = schoolz2016[i].Website;
+	this.address1 = schoolz2016[i].Street;
+	this.address2 = schoolz2016[i].Suburb;
+	this.address3 = schoolz2016[i].City;
+	this.postcode = schoolz2016[i].Postcode;
+	this.gender = schoolz2016[i].Gender;
+	this.lat = this.tidyLatLng(schoolz2016[i].Latitude);
+	this.lng = this.tidyLatLng(schoolz2016[i].Longitude);
+	this.students = schoolz2016[i].TotalStudents;
+	this.pakeha = schoolz2016[i].Pakeha;
+	this.maori = schoolz2016[i].Maori;
+	this.pasifika = schoolz2016[i].Pasifika;
+	this.asian = schoolz2016[i].Asian;
+	this.melaa = schoolz2016[i].MELAA;
+	this.other = schoolz2016[i].Other;
+	this.international = schoolz2016[i].International;
 
 	//Add extra text if decile has changed
 	//this.decile = (this.change(i) !== '') ? this.rawdecile+" ("+this.change(i)+" since 2014)" : this.rawdecile;
@@ -140,5 +158,5 @@ var School = function(i){
 	this.markerTitle = this.setMarkerTitle();
 	this.infowindowhtml = this.setHTML();
 
-	this.schoolID = schoolz[i].Name+', '+schoolz[i].City;
+	this.schoolID = schoolz2016[i].Name+', '+schoolz2016[i].City;
 }

@@ -117,7 +117,7 @@ app.controller('mapControl', function($scope, $http, $interval) {
 	$scope.lines = [];
 	$scope.busroutz = [];
   //Load data
-  $scope.schoolz = schoolz;
+  $scope.schoolz = schoolz2016;
   $scope.substationz = substationz;
   $scope.pylonz = pylonz;
   //$scope.busz = busz;
