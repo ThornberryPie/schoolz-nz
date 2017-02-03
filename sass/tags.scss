@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6, p{
 	margin: 0;
 	padding: 0;
 }
-h2, strong{
+h2{
 	text-shadow: 1px 1px 1px #efefef;
 	color: black;
 	font-weight: normal;
@@ -25,4 +25,7 @@ div{
 a{
 	color: $green;
 	text-decoration: none;
+}
+strong{
+	font-weight: bold;
 }

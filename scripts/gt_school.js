@@ -43,6 +43,26 @@ var School = function(i){
 		}
 	};
 
+	this.demographicsTable = function(s){
+		var dt = '';
+		for(j=0; j < schoolz2015.length; j++){
+			if(schoolz2015[j].Name == s.Name){
+				dt += '<table class=\"table table-demographics\" cellspacing=\"0\" cellpadding=\"0\">';
+				dt += '<tr class=\"thead\"><td>Demographics</td><td>2015</td><td>2016</td></tr>';
+				dt += '<tr><td>Pakeha</td><td>'+schoolz2015[j].Pakeha+'</td><td>'+s.Pakeha+'</td></tr>';
+				dt += '<tr><td>Maori</td><td>'+schoolz2015[j].Maori+'</td><td>'+s.Maori+'</td></tr>';
+				dt += '<tr><td>Pasifika</td><td>'+schoolz2015[j].Pasifika+'</td><td>'+s.Pasifika+'</td></tr>';
+				dt += '<tr><td>Asian</td><td>'+schoolz2015[j].Asian+'</td><td>'+s.Asian+'</td></tr>';
+				dt += '<tr><td>MELAA</td><td>'+schoolz2015[j].MELAA+'</td><td>'+s.MELAA+'</td></tr>';
+				dt += '<tr><td>Other</td><td>'+schoolz2015[j].Other+'</td><td>'+s.Other+'</td></tr>';
+				dt += '<tr><td>International</td><td>'+schoolz2015[j].International+'</td><td>'+s.International+'</td></tr>';
+				dt += '<tr class=\"tfoot\"><td>Total Students</td><td>'+schoolz2015[j].TotalStudents+'</td><td>'+s.TotalStudents+'</td></tr>';
+				dt += '</table>';
+			}
+		}
+		return dt;
+	};
+
 	this.formatType = function(type){
 		type = (type == 'Contributing') ? type+' Primary (Year 1-6)' : type;
 		type = (type == 'Full Primary') ? type+' (Year 1-8)' : type;
@@ -111,19 +131,25 @@ var School = function(i){
         html += this.authority+', '+this.gender+'</br>';
         //html += '<strong>Decile '+this.decile+'</strong></div>';
 				html += this.decile;
-        html += '<div class="block address"><strong>Address:</strong><br>';
-        if(this.address1 !== '') html += this.address1+'<br>';
-        if(this.suburb !== '') html += this.suburb+'<br>';
-        html += this.address3+' '+this.postcode+'</div>';
-        html += '<div class="block demog"><strong>Student Demographics:</strong><br>';
-        html += '<span>European/ Pakeha: </span>'+this.pakeha+'<br>';
-        html += '<span>Maori: </span>'+this.maori+'<br>';
-        html += '<span>Pasifika: </span>'+this.pasifika+'<br>';
-        html += '<span>Asian: </span>'+this.asian+'<br>';
-        html += '<span>MELAA: </span>'+this.melaa+'<br>';
-        html += '<span>Other: </span>'+this.other+'<br>';
-        html += '<span>International: </span>'+this.international+'<br>';
-        html += '<strong>Total Students: '+this.students+'</strong></div>';
+        html += '<div class="block address"><strong>Address: </strong>';
+        if(this.address1 !== '') html += this.address1;
+        if(this.suburb !== '') html += ', '+this.suburb;
+        html += ', '+this.address3+' '+this.postcode+'</div>';
+
+				if(this.demographics !== ''){
+					html += '<div class="block demog">'+this.demographics+'</div>';
+				}else{
+					html += '<div class="block demog"><strong>Student Demographics:</strong><br>';
+	        html += '<span>European/ Pakeha: </span>'+this.pakeha+'<br>';
+	        html += '<span>Maori: </span>'+this.maori+'<br>';
+	        html += '<span>Pasifika: </span>'+this.pasifika+'<br>';
+	        html += '<span>Asian: </span>'+this.asian+'<br>';
+	        html += '<span>MELAA: </span>'+this.melaa+'<br>';
+	        html += '<span>Other: </span>'+this.other+'<br>';
+	        html += '<span>International: </span>'+this.international+'<br>';
+	        html += '<strong>Total Students: '+this.students+'</strong></div>';
+				}
+
         html += '<div class="block contact"><span>Principal: </span>'+this.principal+'<br>';
         html += '<span>Phone: </span>'+this.phone+'</div>';
         if(this.email != '0'){
@@ -152,6 +178,7 @@ var School = function(i){
 	this.gender = schoolz2016[i].Gender;
 	this.lat = this.tidyLatLng(schoolz2016[i].Latitude);
 	this.lng = this.tidyLatLng(schoolz2016[i].Longitude);
+	this.demographics = this.demographicsTable(schoolz2016[i]);
 	this.students = schoolz2016[i].TotalStudents;
 	this.pakeha = schoolz2016[i].Pakeha;
 	this.maori = schoolz2016[i].Maori;
