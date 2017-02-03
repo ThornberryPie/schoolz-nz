@@ -2,9 +2,9 @@ var app = angular.module('schoolzApp', ['ngMap']);
 
 app.controller('mapControl', function($scope, $http, $interval) {
   var map;
-  $scope.defaultAddress = 'Otara, New Zealand';
+  $scope.defaultAddress = 'Coromandel, New Zealand';
   $scope.address = $scope.defaultAddress;
-  $scope.zoomDefault = 16;
+  $scope.zoomDefault = 12;
   $scope.zoom = $scope.zoomDefault;
   $scope.clusterIcon = 'images/markers/cluster.png';
   $scope.clusterIconTextColor = 'white';

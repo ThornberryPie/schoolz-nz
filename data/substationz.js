@@ -760,6 +760,27 @@ var substationz = [
         'lng':'174.933669'
     },
     {
+        'id':'AKGT3',
+        'address':'37 Harrison Rd',
+        'suburb':'Drury',
+        'lat':'-37.125061',
+        'lng':'174.961441'
+    },
+    {
+        'id':'AKGT4',
+        'address':'Whitham Road',
+        'suburb':'Glenbrook',
+        'lat':'-37.203242',
+        'lng':'174.731775'
+    },
+    {
+        'id':'AKGT5',
+        'address':'Golfland Drive',
+        'suburb':'Golflands',
+        'lat':'-36.926840',
+        'lng':'174.906244'
+    },
+    {
         'id':'DNP1',
         'address':'28 Mount Pleasant Road',
         'suburb':'Raumanga',
