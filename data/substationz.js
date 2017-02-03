@@ -24,8 +24,8 @@ var substationz = [
         'id':'AK8803',
         'address':'1 Laxon Avenue',
         'suburb':'Otara',
-        'lat':'-36.955533',
-        'lng':'174.859686'
+        'lat':'-36.954640',
+        'lng':'174.862886'
     },
     {
         'id':'AK8804',
@@ -744,6 +744,20 @@ var substationz = [
         'suburb':'Wellsford',
         'lat':'-36.284857',
         'lng':'174.513174'
+    },
+    {
+        'id':'AKGT1',
+        'address':'Business Parade N',
+        'suburb':'East Tamaki',
+        'lat':'-36.928631',
+        'lng':'174.874316'
+    },
+    {
+        'id':'AKGT2',
+        'address':'65 Airfield Road',
+        'suburb':'Takanini',
+        'lat':'-37.038818',
+        'lng':'174.933669'
     },
     {
         'id':'DNP1',
