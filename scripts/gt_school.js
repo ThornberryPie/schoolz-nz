@@ -14,19 +14,33 @@ var School = function(i){
 
 	this.decileTable = function(s){
 		//console.log(kindygroupz);
-		var decile2016 = s.Decile;
+		var decile2016 = (s.Decile != '99') ? s.Decile : '';
 		var decile2015 = '';
+		var decile2014 = '';
 		for(j=0; j < schoolz2015.length; j++){
 			if(schoolz2015[j].Name == s.Name){
 				decile2015 = schoolz2015[j].Decile;
+				//Calculate 2014 decile if 2015 decile exists
+				if(decile2015 !== ''){
+					var decileChange = parseInt(schoolz2015[j].DecileChange);
+					if(decileChange < 0){
+						decile2014 = parseInt(decile2015) + (decileChange * -1);
+					}else{
+						decile2014 = parseInt(decile2015) - decileChange;
+					}
+				}
 			}
 			//console.log(schoolz2015[i].Name);
 		}
-		var dt = '<table class=\"table\" cellspacing=\"0\" cellpadding=\"0\">';
-		dt += '<tr class=\"thead\"><td rowspan=\"2\">Decile</td><td>2014</td><td>2015</td><td>2016</td></tr>';
-		dt += '<tr><td></td><td>'+decile2015+'</td><td>'+decile2016+'</td></tr>';
-		dt += '</table>';
-		return dt;
+		if(decile2016 === '' && decile2015 === ''){
+			return '';
+		}else{
+			var dt = '<table class=\"table table-decile\" cellspacing=\"0\" cellpadding=\"0\">';
+			dt += '<tr class=\"thead\"><td rowspan=\"2\">Decile</td><td>2014</td><td>2015</td><td>2016</td></tr>';
+			dt += '<tr><td>'+decile2014+'</td><td>'+decile2015+'</td><td>'+decile2016+'</td></tr>';
+			dt += '</table>';
+			return dt;
+		}
 	};
 
 	this.formatType = function(type){
