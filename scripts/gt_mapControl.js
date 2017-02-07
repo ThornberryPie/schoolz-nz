@@ -2,7 +2,7 @@ var app = angular.module('schoolzApp', ['ngMap']);
 
 app.controller('mapControl', function($scope, $http, $interval) {
   var map;
-  $scope.defaultAddress = 'Coromandel, New Zealand';
+  $scope.defaultAddress = 'Whangarei, New Zealand';
   $scope.address = $scope.defaultAddress;
   $scope.zoomDefault = 12;
   $scope.zoom = $scope.zoomDefault;
