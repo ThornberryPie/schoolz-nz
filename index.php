@@ -97,7 +97,7 @@
         <span class="bigtext">Graeme&nbsp;Thornber</span>
         <span class="smalltext">GT</span>
     </a>
-    <span class="copy">&copy;&nbsp;2016</span>
+    <span class="copy">&copy;&nbsp;<?php echo date('Y') ?></span>
     </div>
     <div id="map_social">
         <div class="fb-share-button" data-href="http://<?php echo SITE_URL ?>/" data-layout="button_count"></div>
