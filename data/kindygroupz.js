@@ -46,6 +46,14 @@ var kindygroupz = [
     "phone":"0274 485 525",
 		"email":"eo@montessori.org.nz",
 		"image":"kg-montessori.png"
+  },
+  {
+		"id":"kg7",
+		"name":"Geckos",
+    "website":"geckos.net.nz",
+    "phone":"438 6810",
+		"email":"geckos@hotmail.co.nz",
+		"image":"kg-geckos.png"
   }/*,
   {
 		"id":"kg",

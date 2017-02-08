@@ -394,8 +394,6 @@ var kindyz = [
 		"name":"Ahipara Sandhoppers Early Childhood Centre",
     "address":"Ahipara Road, Ahipara 0481",
     "phone":"09 409 4662",
-		"email":"",
-		"group":"",
 		"website":"facebook.com/AhiparaSandhoppersEarlyChildhoodCentre",
     "lat":"-35.172237",
     "lng":"173.154178"
@@ -425,7 +423,6 @@ var kindyz = [
 		"name":"Noah's Ark",
     "address":"152 Bank St, Regent, Whangarei 0112",
     "phone":"09 430 8804",
-		"email":"",
 		"group":"Montessori",
     "lat":"-35.718984",
     "lng":"174.321835"
@@ -435,8 +432,6 @@ var kindyz = [
 		"name":"Arohanui / Harinui Early Childhood Learning Centre",
     "address":"140 Waipapa Rd, Kerikeri 0295",
     "phone":"09 407 5955",
-		"email":"",
-		"group":"",
 		"website":"arohanuichildcare.co.nz",
     "lat":"-35.207977",
     "lng":"173.947153"
@@ -447,7 +442,6 @@ var kindyz = [
     "address":"179 Newton Road, Maungatapere 0179",
     "phone":"09 434 6797",
 		"email":"Back2basicsmaungatapere@gmail.com",
-		"group":"",
 		"website":"back2basics.co.nz",
     "lat":"-35.748323",
     "lng":"174.212918"
@@ -458,7 +452,6 @@ var kindyz = [
     "address":"2 Pearson St, Mangawhai 0505",
     "phone":"09 431 4012",
 		"email":"beforesix@xtra.co.nz",
-		"group":"",
     "lat":"-36.123667",
     "lng":"174.573772"
   },
@@ -467,8 +460,6 @@ var kindyz = [
 		"name":"Big Steps Valley, Whangarei",
     "address":"1 Paranui Crescent, Tikipunga, Whangarei 0112",
     "phone":"09 459 1023",
-		"email":"",
-		"group":"",
     "lat":"-35.699190",
     "lng":"174.327366"
   },
@@ -477,8 +468,6 @@ var kindyz = [
 		"name":"BJ's Childcare",
     "address":"15 Moody Avenue, Whau Valley, Whangarei 0112",
     "phone":"09 459 1778",
-		"email":"",
-		"group":"",
 		"website":"bjschildcare.co.nz",
     "lat":"-35.701258",
     "lng":"174.316458"
@@ -488,8 +477,6 @@ var kindyz = [
 		"name":"Blessings for Life",
     "address":"56 Waterfront Rd, Pukenui 0484",
     "phone":" 09 409 8878",
-		"email":"",
-		"group":"",
     "lat":"-34.824239",
     "lng":"173.130453"
   },
@@ -499,7 +486,6 @@ var kindyz = [
     "address":"25 Moody Avenue, Whau Valley, Whangarei 0112",
     "phone":"09 459 4255",
 		"email":"info@brightstars.co.nz",
-		"group":"",
 		"website":"brightstars.co.nz",
     "lat":"-35.699832",
     "lng":"174.316675"
@@ -509,8 +495,6 @@ var kindyz = [
 		"name":"Christopher and Robin",
     "address":"12 Gumdigger Place, Raumanga, Whangarei 0110",
     "phone":"09 430 1020",
-		"email":"",
-		"group":"",
     "lat":"-35.751000",
     "lng":"174.311851"
   },
@@ -519,11 +503,59 @@ var kindyz = [
 		"name":"Footprints Educare",
     "address":"13 North Rd, Kaitaia 0410",
     "phone":"09 408 2489",
-		"email":"",
-		"group":"",
 		"website":"facebook.com/footprintseducare",
     "lat":"-35.107357",
     "lng":"173.258413"
+  },
+  {
+		"id":"kindy53",
+		"name":"Geckos Early Learning Centre",
+    "address":"11 Cross St, Regent, Whangarei 0112",
+    "phone":"09 438 6810",
+		"email":"geckos@hotmail.co.nz",
+		"group":"Geckos",
+    "lat":"-35.716622",
+    "lng":"174.320670"
+  },
+  {
+		"id":"kindy54",
+		"name":"Geckos Early Learning Centre (The Nest)",
+    "address":"2 Shortland Street, Regent, Whangarei 0112",
+    "phone":"09 437 0641",
+		"email":"geckos@hotmail.co.nz",
+		"group":"Geckos",
+    "lat":"-35.714949",
+    "lng":"174.323834"
+  },
+  {
+		"id":"kindy55",
+		"name":"Inspiring Minds",
+    "address":"21a Purerua Rd, Kerikeri 0294",
+    "phone":"09 407 1133",
+		"email":"admin@inspiringminds.net.nz",
+		"website":"inspiringminds.net.nz",
+    "lat":"-35.191367",
+    "lng":"173.938746"
+  },
+  {
+		"id":"kindy56",
+		"name":"Kaipara Kids Club",
+    "address":"182 Hurndall St, Maungaturoto 0520",
+    "phone":"09 431 8765",
+		"email":"office@kaiparakidsclub.co.nz",
+		"website":"kaiparakidsclub.co.nz",
+    "lat":"-36.111519",
+    "lng":"174.352768"
+  },
+  {
+		"id":"kindy57",
+		"name":"Kamo Childcare Centre",
+    "address":"7-9 Clark Rd, Kamo, Whangarei 0112",
+    "phone":"09 435 3855",
+		"email":"info@kamochildcentre.co.nz",
+		"website":"kamochildcare.co.nz",
+    "lat":"-35.683824",
+    "lng":"174.299478"
   }/*,
   {
 		"id":"kindy",
@@ -532,6 +564,7 @@ var kindyz = [
     "phone":"",
 		"email":"",
 		"group":"",
+		"website":"",
     "lat":"",
     "lng":""
   }*/
