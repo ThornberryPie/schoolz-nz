@@ -578,7 +578,6 @@ var playcentrez = [
     "name":"Herekino Playcentre",
     "address":"2525 Kaitaia-Awaroa Road, Herekino, Northland, 0481, New Zealand",
     "phone":"09 409 5550",
-    "email":"",
     "mon":"",
     "tue":"",
     "wed":"",

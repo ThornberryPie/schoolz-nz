@@ -35,8 +35,6 @@ var kindygroupz = [
 		"id":"kg5",
 		"name":"Giggles",
     "website":"giggleslearningcentre.co.nz",
-    "phone":"",
-		"email":"",
 		"image":"kg-giggles.png"
   },
   {

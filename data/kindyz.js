@@ -556,6 +556,60 @@ var kindyz = [
 		"website":"kamochildcare.co.nz",
     "lat":"-35.683824",
     "lng":"174.299478"
+  },
+  {
+		"id":"kindy58",
+		"name":"Ol-Wens Little School (3yrs to 6yrs)",
+    "address":"35 Hobson Avenue, Kerikeri 0230",
+    "phone":"09 407 1200",
+    "lat":"-35.229387",
+    "lng":"173.949338"
+  },
+  {
+		"id":"kindy59",
+		"name":"Kiwicare Preschool",
+    "address":"40 Yorke Rd, Haruru 0271",
+    "phone":"09 402 7324",
+    "lat":"-35.277648",
+    "lng":"174.058324"
+  },
+  {
+		"id":"kindy60",
+		"name":"Lanark House",
+    "address":"9 Lanark Road, Kerikeri 0230",
+    "phone":"09 407 7700",
+    "lat":"-35.229968",
+    "lng":"173.956567"
+  },
+  {
+		"id":"kindy61",
+		"name":"Ol-Wens Little School (3mths to 3yrs)",
+    "address":"51 Hobson Avenue, Kerikeri 0230",
+    "phone":"09 407 1200",
+    "lat":"-35.229375",
+    "lng":"173.949866"
+  }/*,
+  {
+		"id":"kindy",
+		"name":"",
+    "address":"",
+    "phone":"",
+		"email":"",
+		"group":"",
+		"website":"",
+    "lat":"",
+    "lng":""
+  },
+  {
+		"id":"kindy",
+		"name":"",
+    "address":"",
+    "phone":"",
+		"email":"",
+		"group":"",
+		"website":"",
+    "lat":"",
+    "lng":""
   }/*,
   {
 		"id":"kindy",

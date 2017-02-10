@@ -35,10 +35,12 @@ var Playcentre = function(i){
 		var html = '<article class="window window--playcentre">';
 		html += '<header><h2 class="name">'+this.name+'</h2></header>';
 		html += '<div class="block"><strong>Address:</strong><br>'+this.address+'</div>';
-		if(this.phone !== ''){
+		if(this.phone){
 			html += '<div class="block"><strong>Phone:</strong><br>'+this.phone+'</div>';
 		}
-		html += '<div class="block"><strong>Email:</strong><br>'+this.email+'</div>';
+		if(this.email){
+			html += '<div class="block"><strong>Email:</strong><br>'+this.email+'</div>';
+		}
 		if(hours !== ''){
 			html += '<div class="block"><strong>Hours:</strong>'+hours+'</div>';
 		}
