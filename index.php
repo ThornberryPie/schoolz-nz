@@ -9,12 +9,15 @@
 	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 	<meta name="description" content="<?php echo SITE_DESC ?>" />
-	<meta property="og:title" content="<?php echo SITE_TITLE ?>" />
-	<meta property="og:site_name" content="<?php echo SITE_NAME ?>"/>
-	<meta property="og:url" content="<?php echo SITE_URL ?>" />
-	<meta property="og:description" content="<?php echo SITE_DESC ?>" />
+  <meta property="fb:app_id" content="<?php echo FB_APP_ID ?>" />
+  <meta property="og:description" content="<?php echo SITE_DESC ?>" />
 	<meta property="og:image" content="<?php echo SITE_IMG ?>" />
-	<meta property="fb:app_id" content="<?php echo FB_APP_ID ?>" />
+  <meta property="og:site_name" content="<?php echo SITE_NAME ?>"/>
+	<meta property="og:title" content="<?php echo SITE_TITLE ?>" />
+	<meta property="og:type" content="website"/>
+	<meta property="og:url" content="<?php echo SITE_ADDRESS ?>" />
+
+
 	<script defer src="https://maps.googleapis.com/maps/api/js?key=<?php echo GMAPS_API_KEY ?>&callback=angular.noop" type="text/javascript"></script>
 	<link rel="stylesheet" type="text/css" href="dist/style.min.css">
 </head>
@@ -93,14 +96,14 @@
   </datalist>
   <div id="map_footer">
     <div class="copyright">
-    <a href="//<?php echo GT_SITE ?>">
+    <a href="<?php echo GT_SITE ?>">
         <span class="bigtext">Graeme&nbsp;Thornber</span>
         <span class="smalltext">GT</span>
     </a>
     <span class="copy">&copy;&nbsp;<?php echo date('Y') ?></span>
     </div>
     <div id="map_social">
-        <div class="fb-share-button" data-href="http://<?php echo SITE_URL ?>/" data-layout="button_count"></div>
+        <div class="fb-share-button" data-href="<?php echo SITE_ADDRESS ?>" data-layout="button_count"></div>
     </div>
   </div>
   <script src="dist/main.min.js"></script>
